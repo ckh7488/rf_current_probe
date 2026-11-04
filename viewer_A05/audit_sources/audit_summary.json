@@ -1,0 +1,140 @@
+{
+  "status": "DRAFT — NOT FOR FABRICATION",
+  "classification": "AUDIT_SUMMARY_NOT_MEASURED",
+  "current": {
+    "assembly": "A10",
+    "clamp": "C04",
+    "head_pcb": "A03",
+    "fixture_pcb": "A02"
+  },
+  "native_sha256": "3f254113395618d6be3ddb2d02d18dd34eb9d7531fa5f476660bad3192017b9a",
+  "source_sha256": "0bcbae4869f61ac5165b680e32943cf4bc337950a3f3aec940a259e37c4da641",
+  "printed_unique": 10,
+  "printed_total": 15,
+  "static_objects": 73,
+  "existing_paths": 11,
+  "existing_positions": 233,
+  "additional_paths": 18,
+  "additional_positions": 423,
+  "core_ADC_cases": 24,
+  "stl_samples": 40000,
+  "sampled_min_mm": 1.9999999999999967,
+  "fem": {
+    "classification": "SIMULATED",
+    "models": [
+      {
+        "classification": "SIMULATED_LINEAR_STATIC_ISOTROPIC",
+        "step_sha256": "0fc40ccf7a37c3e048f442747e211fa8bd39e84d0da43dc80c2cd158231c73c6",
+        "source_step": "E:\\Current_Probe\\mechanical\\assembly_A10_DRAFT\\parts\\UpperLid_FREE_DRAFT.step",
+        "mesh_parameter_mm": 1.6,
+        "gmsh_version": "4.15.2",
+        "node_count": 169470,
+        "foot_nodes": 766,
+        "core_seat_nodes": 102,
+        "E_MPa": 1500,
+        "poisson": 0.4,
+        "seat_displacement_mm": 1.8,
+        "foot_constraint": "All translations fixed on two outer pillar bottom faces Y=0",
+        "core_constraint": "Prescribed Y displacement on two bare-ferrite support lands; X/Z free",
+        "limits": [
+          "No creep, fatigue, material nonlinearity, temperature/humidity or print anisotropy.",
+          "Ideal fixed feet and uniform contact displacement; real ferrite seating/contact not solved.",
+          "No prediction of production acceptance or allowable hand torque."
+        ],
+        "reaction_N": [
+          -1.18044e-11,
+          5.287471,
+          -4.769975e-12
+        ],
+        "integration_points": 418204,
+        "max_von_mises_MPa": 5.242977602773255,
+        "max_stress_element_ip": [
+          99215,
+          3
+        ],
+        "von_mises_percentiles_MPa": [
+          2.869964407931456,
+          3.6450561117746374,
+          4.179161928831179
+        ],
+        "straight_sided_quadratic_tets": true
+      },
+      {
+        "classification": "SIMULATED_LINEAR_STATIC_ISOTROPIC",
+        "step_sha256": "0fc40ccf7a37c3e048f442747e211fa8bd39e84d0da43dc80c2cd158231c73c6",
+        "source_step": "E:\\Current_Probe\\mechanical\\assembly_A10_DRAFT\\parts\\UpperLid_FREE_DRAFT.step",
+        "mesh_parameter_mm": 2.4,
+        "gmsh_version": "4.15.2",
+        "node_count": 61343,
+        "foot_nodes": 498,
+        "core_seat_nodes": 66,
+        "E_MPa": 1500,
+        "poisson": 0.4,
+        "seat_displacement_mm": 1.8,
+        "foot_constraint": "All translations fixed on two outer pillar bottom faces Y=0",
+        "core_constraint": "Prescribed Y displacement on two bare-ferrite support lands; X/Z free",
+        "limits": [
+          "No creep, fatigue, material nonlinearity, temperature/humidity or print anisotropy.",
+          "Ideal fixed feet and uniform contact displacement; real ferrite seating/contact not solved.",
+          "No prediction of production acceptance or allowable hand torque."
+        ],
+        "reaction_N": [
+          -3.121914e-12,
+          5.344357,
+          -1.157179e-11
+        ],
+        "integration_points": 140008,
+        "max_von_mises_MPa": 4.540349164721567,
+        "max_stress_element_ip": [
+          33184,
+          3
+        ],
+        "von_mises_percentiles_MPa": [
+          2.868784856769507,
+          3.522764518935907,
+          3.9858708185175913
+        ],
+        "straight_sided_quadratic_tets": true
+      }
+    ],
+    "two_mesh_relative_change_percent": {
+      "reaction": 1.0758640567484823,
+      "peak_stress": 13.401324424503267
+    },
+    "limits": [
+      "No measured material, contact, creep, fatigue, humidity or strength allowable.",
+      "Two meshes compare one boundary condition only; sharp-edge peak stress may not converge."
+    ]
+  },
+  "pcb_checks": {
+    "head_drc": {
+      "violations": 0,
+      "ignored_checks": 0,
+      "sha256": "07855d1864784d624c86c138d2210abbf083a058e8eb60c637f85256791ca88c"
+    },
+    "fixture_drc": {
+      "violations": 0,
+      "ignored_checks": 0,
+      "sha256": "5129674504f2e0487b444f203a1b3f11748c2165cb0acee76ee29c033c0caf7f"
+    },
+    "head_strict_erc": {
+      "violations": 0,
+      "ignored_checks": 0,
+      "sha256": "b3b1c282c7f95d60179392d72b96d9492ac14c74b6010d9ac285d005c4accf7d"
+    },
+    "fixture_erc": {
+      "violations": 0,
+      "ignored_checks": 0,
+      "sha256": "056b7794a8a5d39739ae069fa28612c01e42b05bcd06715a00dc8c46b34a690b"
+    }
+  },
+  "software_tests": 110,
+  "physical_tests": 0,
+  "remaining": [
+    "Exact commodity hardware selection and real tool assembly",
+    "Print tolerance/warpage, core contact, creep and repeated opening",
+    "Cable pressure and real centering",
+    "RF fixture local-current validation, calibrated bandwidth and insertion effect",
+    "BNC/receiver response, broadband waveform conversion and input protection"
+  ]
+}

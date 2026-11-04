@@ -1,0 +1,132 @@
+{
+  "date": "2026-09-21",
+  "checked_kst": "2026-09-21T17:10",
+  "status": "files_approved_unpaid",
+  "new_batch": "W2026091819397543",
+  "head_usd": 6.25,
+  "prints_usd": 383.77,
+  "goods_usd": 390.02,
+  "shipping_usd": 10.33,
+  "total_usd": 400.35,
+  "fx": 1400,
+  "total_krw": 560490,
+  "old_batch": "W2026091110267631",
+  "balun_goods_usd": 210.8,
+  "balun_shipping_usd": 9.74,
+  "balun_total_usd": 220.54,
+  "combined_separate_shipping_usd": 620.89,
+  "combined_krw": 869246,
+  "material": "SLS 3201PA-F Nylon / Grayish Black / No finish / No thread",
+  "old_rf_cancelled": true,
+  "payment_made": false,
+  "thin_wall_risk_accepted": false,
+  "pending_files": [],
+  "parts": [
+    {
+      "file": "LowerKeeper_FREE_DRAFT.stl",
+      "qty": 1,
+      "line_usd": 1.54,
+      "sha256": "178cc4b861b3578b68d134eaaa5b24c906b6e820e7283d3c8997f598a31f200c",
+      "state": "승인 완료"
+    },
+    {
+      "file": "UpperKeeper_FREE_DRAFT.stl",
+      "qty": 1,
+      "line_usd": 1.54,
+      "sha256": "7a9238360fef5088b8bcc252fb72cfc2d20c59e782aa1c06b27c3cec39f95cad",
+      "state": "승인 완료"
+    },
+    {
+      "file": "C07_Jaw1_DRAFT.stl",
+      "qty": 2,
+      "line_usd": 2.1,
+      "sha256": "49cc91a2fdbb6efb1b4a3368edf535df3927171beb0e7b3c939a4f2408cd0fe6",
+      "state": "승인 완료"
+    },
+    {
+      "file": "C07_Jaw2_DRAFT.stl",
+      "qty": 2,
+      "line_usd": 2.1,
+      "sha256": "35cd0f5320cec7596fcd31e1c385168b7d82897c6d302644b3c9afa8f23cf8b0",
+      "state": "승인 완료"
+    },
+    {
+      "file": "C07_TopBridgeJaw_DRAFT.stl",
+      "qty": 2,
+      "line_usd": 7.98,
+      "sha256": "46a284515d61f4bf7b3134a6dcedd5d5f0af36cbed1698a831445530edf38b36",
+      "state": "승인 완료"
+    },
+    {
+      "file": "C07_Frame_DRAFT.stl",
+      "qty": 2,
+      "line_usd": 75.32,
+      "sha256": "6f730a2b568c0932b97b59962a2d069c0cc998b54824a1ce908383c132ce1807",
+      "state": "승인 완료"
+    },
+    {
+      "file": "C07_DriveYoke_DRAFT.stl",
+      "qty": 2,
+      "line_usd": 27.24,
+      "sha256": "8bed8235b55fcb8f6ffa9182ad031c43cec80a77c70bc72ccfb1fa1110a93868",
+      "state": "승인 완료"
+    },
+    {
+      "file": "UpperRight_A14_DRAFT.stl",
+      "qty": 1,
+      "line_usd": 9.87,
+      "sha256": "a0ba5e16168e59a429124aa15f7c61df35ed67524cfe18e1442b5ab760229caa",
+      "state": "승인 완료"
+    },
+    {
+      "file": "LowerArmRight_A14_DRAFT.stl",
+      "qty": 1,
+      "line_usd": 9.4,
+      "sha256": "290adebcb95725a36c461ac2f1a94c1880c141a50409dec644721598aeedb670",
+      "state": "승인 완료"
+    },
+    {
+      "file": "UpperLeft_A14_DRAFT.stl",
+      "qty": 1,
+      "line_usd": 10.44,
+      "sha256": "33c6917d76ab4290d491c76cbf92f39b1b000e456917197b16d9abc9e8956211",
+      "state": "승인 완료"
+    },
+    {
+      "file": "BaseRear_A14_DRAFT.stl",
+      "qty": 1,
+      "line_usd": 48.62,
+      "sha256": "23f75b1e7a23afabf4bbab48e9bff02eaeef738607dff42c64a005520737975a",
+      "state": "승인 완료"
+    },
+    {
+      "file": "LowerArmLeft_A14_DRAFT.stl",
+      "qty": 1,
+      "line_usd": 10.31,
+      "sha256": "33c5f3c9a00b302090f6a2cd49e394cc2c4503219de38c150ce064c4c9af4449",
+      "state": "승인 완료"
+    },
+    {
+      "file": "LowerCenter_A14_DRAFT.stl",
+      "qty": 1,
+      "line_usd": 42.87,
+      "sha256": "bfc6b32c6e7be167b0908f91b0d0fa07581f472301412f922693d503b7777353",
+      "state": "승인 완료"
+    },
+    {
+      "file": "BaseFront_A14_DRAFT.stl",
+      "qty": 1,
+      "line_usd": 50.24,
+      "sha256": "ab6883e4dba091b75cbe60001c81845e1dc16a36cb3b110b348287f42e21f098",
+      "state": "승인 완료"
+    },
+    {
+      "file": "BaseCenter_A14_DRAFT.stl",
+      "qty": 1,
+      "line_usd": 84.2,
+      "sha256": "843d6d6254fb4379ffdb953ad6def59e675fb25ade7b1e89542e8e1f04617f0a",
+      "state": "승인 완료"
+    }
+  ],
+  "check_evidence": "Fresh Chrome JLC order page, 2026-09-21 17:10 KST: all 15 active print types / 20 pieces and Head A03 show approved. RF total USD400.35; balun total USD220.54. Three cancelled A13 rows remain historical failures. No payment, risk acceptance or order mutation."
+}

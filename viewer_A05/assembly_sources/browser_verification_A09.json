@@ -1,0 +1,23 @@
+{
+  "classification": "OBSERVED_LOCAL_BROWSER",
+  "date": "2026-09-18",
+  "main": [
+    "A09/C03 labels",
+    "probe focus screenshot",
+    "opening slider 55 percent screenshot",
+    "calibration mode connection labels",
+    "detach 100 percent screenshot",
+    "centering 100 percent shows ideal 0.00 mm",
+    "warning and error log empty"
+  ],
+  "clamp": [
+    "C03 label",
+    "front screenshot at centering 50 percent: rounded closed cam ends",
+    "centering 100 percent shows ideal 0.00 mm",
+    "warning and error log empty"
+  ],
+  "limitations": [
+    "Browser checks do not verify real mechanical or electrical performance.",
+    "No fresh visual test of every intermediate slider position."
+  ]
+}

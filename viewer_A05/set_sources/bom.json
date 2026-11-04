@@ -1,0 +1,1123 @@
+[
+  {
+    "id": "P01",
+    "group": "3D 출력",
+    "name": "프로브 아래 중앙 몸체",
+    "qty": 1,
+    "unit": "개",
+    "spec": "LowerCenter_A14_DRAFT.stl",
+    "status": "제작",
+    "note": "A14 자유 형상 STL. 조립 STEP에서 출력 형상을 추출하지 않음.",
+    "links": [],
+    "cad": [
+      "LowerCenter"
+    ],
+    "file": "parts/LowerCenter_A14_DRAFT.stl"
+  },
+  {
+    "id": "P02",
+    "group": "3D 출력",
+    "name": "프로브 왼쪽 뚜껑",
+    "qty": 1,
+    "unit": "개",
+    "spec": "UpperLeft_A14_DRAFT.stl",
+    "status": "제작",
+    "note": "A14 자유 형상 STL. 조립 STEP에서 출력 형상을 추출하지 않음.",
+    "links": [],
+    "cad": [
+      "UpperLeft"
+    ],
+    "file": "parts/UpperLeft_A14_DRAFT.stl"
+  },
+  {
+    "id": "P03",
+    "group": "3D 출력",
+    "name": "아래 코어 고정바",
+    "qty": 1,
+    "unit": "개",
+    "spec": "LowerKeeper_FREE_DRAFT.stl",
+    "status": "제작",
+    "note": "A13과 동일한 형상. A14 패키지의 해당 STL 사용.",
+    "links": [],
+    "cad": [
+      "LowerKeeper"
+    ],
+    "file": "parts/LowerKeeper_FREE_DRAFT.stl"
+  },
+  {
+    "id": "P04",
+    "group": "3D 출력",
+    "name": "위 코어 고정바",
+    "qty": 1,
+    "unit": "개",
+    "spec": "UpperKeeper_FREE_DRAFT.stl",
+    "status": "제작",
+    "note": "A13과 동일한 형상. A14 패키지의 해당 STL 사용.",
+    "links": [],
+    "cad": [
+      "UpperKeeper"
+    ],
+    "file": "parts/UpperKeeper_FREE_DRAFT.stl"
+  },
+  {
+    "id": "P05",
+    "group": "3D 출력",
+    "name": "공통 바닥 가운데",
+    "qty": 1,
+    "unit": "개",
+    "spec": "BaseCenter_A14_DRAFT.stl",
+    "status": "제작",
+    "note": "A14 자유 형상 STL. 조립 STEP에서 출력 형상을 추출하지 않음.",
+    "links": [],
+    "cad": [
+      "BaseCenter"
+    ],
+    "file": "parts/BaseCenter_A14_DRAFT.stl"
+  },
+  {
+    "id": "P06",
+    "group": "3D 출력",
+    "name": "클램프 고정틀",
+    "qty": 2,
+    "unit": "개",
+    "spec": "C07_Frame_DRAFT.stl",
+    "status": "제작",
+    "note": "앞·뒤 클램프에 각 1개.",
+    "links": [],
+    "cad": [
+      "Cable1_Frame",
+      "Cable2_Frame"
+    ],
+    "file": "parts/C07_Frame_DRAFT.stl"
+  },
+  {
+    "id": "P07",
+    "group": "3D 출력",
+    "name": "클램프 연결틀",
+    "qty": 2,
+    "unit": "개",
+    "spec": "C07_DriveYoke_DRAFT.stl",
+    "status": "제작",
+    "note": "앞·뒤 클램프에 각 1개.",
+    "links": [],
+    "cad": [
+      "Cable1_DriveYoke",
+      "Cable2_DriveYoke"
+    ],
+    "file": "parts/C07_DriveYoke_DRAFT.stl"
+  },
+  {
+    "id": "P08",
+    "group": "3D 출력",
+    "name": "클램프 가로대·위 턱",
+    "qty": 2,
+    "unit": "개",
+    "spec": "C07_TopBridgeJaw_DRAFT.stl",
+    "status": "제작",
+    "note": "앞·뒤 클램프에 각 1개.",
+    "links": [],
+    "cad": [
+      "Cable1_TopBridgeJaw",
+      "Cable2_TopBridgeJaw"
+    ],
+    "file": "parts/C07_TopBridgeJaw_DRAFT.stl"
+  },
+  {
+    "id": "P09",
+    "group": "3D 출력",
+    "name": "아래 왼쪽 턱",
+    "qty": 2,
+    "unit": "개",
+    "spec": "C07_Jaw1_DRAFT.stl",
+    "status": "제작",
+    "note": "앞·뒤 클램프에 각 1개.",
+    "links": [],
+    "cad": [
+      "Cable1_Jaw1",
+      "Cable2_Jaw1"
+    ],
+    "file": "parts/C07_Jaw1_DRAFT.stl"
+  },
+  {
+    "id": "P10",
+    "group": "3D 출력",
+    "name": "아래 오른쪽 턱",
+    "qty": 2,
+    "unit": "개",
+    "spec": "C07_Jaw2_DRAFT.stl",
+    "status": "제작",
+    "note": "앞·뒤 클램프에 각 1개.",
+    "links": [],
+    "cad": [
+      "Cable1_Jaw2",
+      "Cable2_Jaw2"
+    ],
+    "file": "parts/C07_Jaw2_DRAFT.stl"
+  },
+  {
+    "id": "P11",
+    "group": "3D 출력",
+    "name": "프로브 아래 왼팔",
+    "qty": 1,
+    "unit": "개",
+    "spec": "LowerArmLeft_A14_DRAFT.stl",
+    "status": "제작",
+    "note": "A14 자유 형상 STL · 9/21 17:10 업체 파일 승인 완료 · 미결제.",
+    "links": [],
+    "cad": [
+      "LowerArmLeft"
+    ],
+    "file": "parts/LowerArmLeft_A14_DRAFT.stl"
+  },
+  {
+    "id": "P12",
+    "group": "3D 출력",
+    "name": "프로브 아래 오른팔",
+    "qty": 1,
+    "unit": "개",
+    "spec": "LowerArmRight_A14_DRAFT.stl",
+    "status": "제작",
+    "note": "A14 자유 형상 STL · 9/21 17:10 업체 파일 승인 완료 · 미결제.",
+    "links": [],
+    "cad": [
+      "LowerArmRight"
+    ],
+    "file": "parts/LowerArmRight_A14_DRAFT.stl"
+  },
+  {
+    "id": "P13",
+    "group": "3D 출력",
+    "name": "프로브 오른쪽 뚜껑",
+    "qty": 1,
+    "unit": "개",
+    "spec": "UpperRight_A14_DRAFT.stl",
+    "status": "제작",
+    "note": "A14 자유 형상 STL · 9/21 17:10 업체 파일 승인 완료 · 미결제.",
+    "links": [],
+    "cad": [
+      "UpperRight"
+    ],
+    "file": "parts/UpperRight_A14_DRAFT.stl"
+  },
+  {
+    "id": "P14",
+    "group": "3D 출력",
+    "name": "공통 바닥 앞쪽",
+    "qty": 1,
+    "unit": "개",
+    "spec": "BaseFront_A14_DRAFT.stl",
+    "status": "제작",
+    "note": "A14 자유 형상 STL · 9/21 17:10 업체 파일 승인 완료 · 미결제.",
+    "links": [],
+    "cad": [
+      "BaseFront"
+    ],
+    "file": "parts/BaseFront_A14_DRAFT.stl"
+  },
+  {
+    "id": "P15",
+    "group": "3D 출력",
+    "name": "공통 바닥 뒤쪽",
+    "qty": 1,
+    "unit": "개",
+    "spec": "BaseRear_A14_DRAFT.stl",
+    "status": "제작",
+    "note": "A14 자유 형상 STL · 9/21 17:10 업체 파일 승인 완료 · 미결제.",
+    "links": [],
+    "cad": [
+      "BaseRear"
+    ],
+    "file": "parts/BaseRear_A14_DRAFT.stl"
+  },
+  {
+    "id": "E01",
+    "group": "전자·권선",
+    "name": "분할 페라이트 코어",
+    "qty": 2,
+    "unit": "반쪽",
+    "spec": "Fair-Rite 2644181281 · 44 재료",
+    "status": "선정",
+    "note": "물리적 반쪽 2개로 한 코어. 판매 단위가 반쪽인지 한 쌍인지 확인한 뒤 주문 수량 결정.",
+    "links": [
+      [
+        "제조사",
+        "https://fair-rite.com/product/round-cable-snap-its-2644181281/"
+      ],
+      [
+        "DigiKey 품번 검색",
+        "https://www.digikey.kr/ko/products?keywords=2644181281"
+      ]
+    ],
+    "cad": [
+      "FixedCore",
+      "MovingCore"
+    ],
+    "file": null
+  },
+  {
+    "id": "E02",
+    "group": "전자·권선",
+    "name": "헤드 PCB",
+    "qty": 1,
+    "unit": "장",
+    "spec": "Head A04 DRAFT · 36×28×1.6 mm · FR4 2층",
+    "status": "제작",
+    "note": "권선 출력과 SMA 연결. 수신기 단일 50 Ω 종단 사용. GCT/JLC 공차 검토 후 중심 홀1.70 / 접지 홀1.90 mm. 2026-09-22 18:49 KST JLC Y21-9961994A Approved 확인. 생산 파일 수동 승인·결제·첫 실물 삽입/납땜 전.",
+    "links": [],
+    "cad": [
+      "PCB"
+    ],
+    "file": null
+  },
+  {
+    "id": "E03",
+    "group": "전자·권선",
+    "name": "평판 교정 PCB",
+    "qty": 1,
+    "unit": "장",
+    "spec": "Fixture A03 DRAFT · 144×92.7×1.6 mm · FR4 2층 · JLC Y22-9961994A 5장",
+    "status": "선정",
+    "note": "현행 교정지그. SIG만 코어 안, 리턴은 코어 밖으로 흐른다. 2026-09-23 사용자 결정(DEC-053): 이 A03으로1–500 MHz 보정을 수행한다. 판정 기준은 빈 지그 S11이 아니라 출력 포트 기준 코어 전류다. 저장 openEMS 빈 지그(SIMULATED) K는100/300/500 MHz에서 약0.05–0.10/0.41–0.78/0.87–1.65 dB다. 9/22 18:49 KST Approved·결제 대기이며 JLC 결제에서 빼지 않는다. 수동 생산파일 확인·실물 S2P·재장착·정/역방향 검증 전.",
+    "links": [],
+    "cad": [
+      "FlatPCB"
+    ],
+    "file": null
+  },
+  {
+    "id": "E04",
+    "group": "전자·권선",
+    "name": "수직 SMA 암 커넥터",
+    "qty": 3,
+    "unit": "개",
+    "spec": "GCT RFPC-SMA28-F · 표준 SMA, THT",
+    "status": "선정",
+    "note": "Head A04 1개 + Fixture A03 IN/OUT 2개 = 3개 모두 현행 필요량. RP-SMA 대체 금지. GCT Rev1.2 도면 및 JLC 공차의5핀 동시 삽입 계산 완료. 실물 핀 휨·평면 안착·납땜은 입고 확인.",
+    "links": [
+      [
+        "제조사",
+        "https://gct.co/connector/rfpc-sma28-f"
+      ],
+      [
+        "DigiKey 품번 검색",
+        "https://www.digikey.kr/ko/products?keywords=RFPC-SMA28-F"
+      ]
+    ],
+    "cad": [
+      "SMAEnvelope",
+      "SMAInput",
+      "SMAOutput"
+    ],
+    "file": null
+  },
+  {
+    "id": "E05",
+    "group": "전자·권선",
+    "name": "에나멜선",
+    "qty": null,
+    "unit": "필요 길이",
+    "spec": "UEW Ø0.3 mm 후보",
+    "status": "선정",
+    "note": "권선용 한 종류. 5턴 기본. 권선 직후 지그 없이 헤드 출력 S11로 자기공진을 기록한다. 필요한 대역이 신뢰 등급에 못 미칠 때만 3턴을 선택하며 턴수마다 교정 ID를 따로 둔다. 1롤은 구매 포장 단위로 잉여 발생.",
+    "links": [
+      [
+        "판매 페이지",
+        "https://www.devicemart.co.kr/goods/view?no=24937"
+      ]
+    ],
+    "cad": [
+      "Winding"
+    ],
+    "file": null
+  },
+  {
+    "id": "E06",
+    "group": "전자·권선",
+    "name": "폴리이미드 절연 테이프",
+    "qty": null,
+    "unit": "필요 길이",
+    "spec": "폭 5 mm 후보 · 얇은 한 겹",
+    "status": "선정",
+    "note": "권선과 코어 사이 절연. 맞댐면 제외. 감은 뒤 실제 외경·간극 확인.",
+    "links": [
+      [
+        "판매 페이지",
+        "https://www.devicemart.co.kr/goods/view?no=34614"
+      ]
+    ],
+    "cad": [],
+    "file": null
+  },
+  {
+    "id": "F01",
+    "group": "체결·구동",
+    "name": "헤드 PCB 나사",
+    "qty": 2,
+    "unit": "개",
+    "spec": "Essentra 50M020040P012 · PA66 M2×0.4×12 · 머리 최대 Ø4.0×H1.6",
+    "status": "선정",
+    "note": "M2×12로 채택·CAD 반영 완료. 최대 너트 기준 공칭 끝 여유2.19 mm, 12.3 mm 길이의 지정61자세 무간섭. 출력물은 그대로. 입고 허용조건: 머리 아래11.7–12.3 mm / 조립 그립7.85–8.85 mm / 너트 높이1.46 mm 이하. 이는 설계 수입검사 기준이며 공급자 보증공차가 아님. H05에서 완전 나사산과 끝 간섭 확인.",
+    "links": [
+      [
+        "제조사 카탈로그 PDF35쪽",
+        "https://essentracomponents.bynder.com/m/6e2e9b888468b393/original/2685970-pdf.pdf"
+      ],
+      [
+        "M2×12 제품",
+        "https://www.digikey.kr/ko/products/detail/essentra-components/50M020040P012/11638163"
+      ]
+    ],
+    "cad": [
+      "PCBScrews"
+    ],
+    "file": null
+  },
+  {
+    "id": "F02",
+    "group": "체결·구동",
+    "name": "헤드 PCB 너트",
+    "qty": 2,
+    "unit": "개",
+    "spec": "Essentra 04M020040HN · PA66 M2 · AF3.9 / H1.2",
+    "status": "선정",
+    "note": "제조사 개별도면 AF3.90±0.26 / H1.20±0.26 mm. 최대 외형 뒤 삽입 58자세 무간섭. F01은 M2×12로 채택. 완전 나사산이 너트 밖으로 나오는지는 첫 조립에서 확인. 실제 부품 공차를 공칭 CAD 치수와 혼동하지 않음.",
+    "links": [
+      [
+        "Essentra 제조사 카탈로그 PDF71쪽",
+        "https://essentracomponents.bynder.com/m/6e2e9b888468b393/original/2685970-pdf.pdf"
+      ]
+    ],
+    "cad": [
+      "PCBNuts"
+    ],
+    "file": null
+  },
+  {
+    "id": "F03",
+    "group": "체결·구동",
+    "name": "코어 고정바 나사",
+    "qty": 4,
+    "unit": "개",
+    "spec": "Essentra 50M030050P035 · PA66 M3×0.5×35",
+    "status": "선정",
+    "note": "실제 머리 D5.3~5.6 / H2.2~2.4. 기존 CAD 보수 포락 Ø6.5×H3.3 안에 들어간다.",
+    "links": [
+      [
+        "Essentra 제조사 카탈로그 PDF35쪽",
+        "https://essentracomponents.bynder.com/m/6e2e9b888468b393/original/2685970-pdf.pdf"
+      ]
+    ],
+    "cad": [
+      "LowerKeeperScrews",
+      "UpperKeeperScrews"
+    ],
+    "file": null
+  },
+  {
+    "id": "F04",
+    "group": "체결·구동",
+    "name": "코어 고정바 너트",
+    "qty": 4,
+    "unit": "개",
+    "spec": "Essentra 04M030050HNDIN34814 · PA66 M3 · AF5.3~5.5 / H2.2~2.4",
+    "status": "선정",
+    "note": "제조사 최대치가 현재 CAD AF5.5/H2.4와 일치.",
+    "links": [
+      [
+        "Essentra 제조사 카탈로그 PDF72쪽",
+        "https://essentracomponents.bynder.com/m/6e2e9b888468b393/original/2685970-pdf.pdf"
+      ]
+    ],
+    "cad": [
+      "LowerKeeperNuts",
+      "UpperKeeperNuts"
+    ],
+    "file": null
+  },
+  {
+    "id": "F05",
+    "group": "체결·구동",
+    "name": "개폐 손나사용 기성 스터드",
+    "qty": 2,
+    "unit": "개",
+    "spec": "Fabory 20106.040.070 · DIN976-1A M4×0.7×70 전산 스터드 · 아연도금강 4.8",
+    "status": "선정",
+    "note": "절단하지 않는 70 mm 완제품. F22 관통노브 상면과 스터드 끝을 평평하게 맞추고 F23 잼너트를 노브 아래에 고정. 설치2개; 제조사 직접판매 PDF는 포장200개/전포장 구매를 명시하므로 소량 유통 여부·최종 가격/납기는 별도 확인.",
+    "links": [
+      [
+        "Fabory 제품",
+        "https://www.fabory.com/nl/draadstang-diverse-lengtes-din-976-1a-staal-elektrolytisch-verzinkt-4-8-diverse-lengtes-m4x70/p/20106040070"
+      ],
+      [
+        "Fabory 치수·포장 PDF",
+        "https://www.fabory.com/nl/p/20106040070/generatePdf"
+      ]
+    ],
+    "cad": [
+      "HeadHandScrews"
+    ],
+    "file": null
+  },
+  {
+    "id": "F06",
+    "group": "체결·구동",
+    "name": "모듈·가로대 손나사",
+    "qty": 10,
+    "unit": "개",
+    "spec": "NBK KNMS-12-M4-20 · SUS303 · M4×20 · 노브 Ø12×H7.5",
+    "status": "선정",
+    "note": "바닥 6 + 케이블 가로대 4. 제조사 외형과 명목 일치. 바닥 왼쪽 2곳은 25 mm 올린 뒤 바깥쪽으로 빼는 지정 경로 사용.",
+    "links": [
+      [
+        "NBK 제조사 제품표",
+        "https://www.nbk1560.com/en-US/products/machine_element/knob/KNMS/?SelectedLanguage=en-US"
+      ],
+      [
+        "NBK 제조사 도면",
+        "https://www.nbk1560.com/images/en-US/product/knob/KNM/KNM_1.pdf"
+      ]
+    ],
+    "cad": [
+      "MountScrew0",
+      "MountScrew1",
+      "MountScrew2",
+      "MountScrew3",
+      "MountScrew4",
+      "MountScrew5",
+      "Cable1_BridgeScrew1",
+      "Cable1_BridgeScrew2",
+      "Cable2_BridgeScrew1",
+      "Cable2_BridgeScrew2"
+    ],
+    "file": null
+  },
+  {
+    "id": "F07",
+    "group": "체결·구동",
+    "name": "M4 사각너트",
+    "qty": 16,
+    "unit": "개",
+    "spec": "Bossard BN147 / 8236739 · M4 · 7×7×3.2 · 아연도금강",
+    "status": "선정",
+    "note": "머리 개폐 2 + 바닥 모듈 6 + 케이블 가로대 4 + follower 4. 제조사 표상 명목 일치. 개별 로트 치수 및 삽입은 입고 후 확인. 제조사 표는 M4가 DIN557 표준치수 범위 밖임을 명시하므로 BN147 정확한 품번으로 구매한다.",
+    "links": [
+      [
+        "Bossard 제조사 도면",
+        "https://www.tme.eu/Document/07a25fe393aaf643196ea01e7ec8ef58/BN_147.pdf"
+      ],
+      [
+        "Bossard 제품군",
+        "https://www.bossard.com/us-en/eshop/square-nuts/square-nuts/p/147/"
+      ]
+    ],
+    "cad": [
+      "HeadSquareNuts",
+      "MountNut0",
+      "MountNut1",
+      "MountNut2",
+      "MountNut3",
+      "MountNut4",
+      "MountNut5",
+      "Cable1_BridgeNut1",
+      "Cable1_BridgeNut2",
+      "Cable1_FollowerNut1",
+      "Cable1_FollowerNut2",
+      "Cable2_BridgeNut1",
+      "Cable2_BridgeNut2",
+      "Cable2_FollowerNut1",
+      "Cable2_FollowerNut2"
+    ],
+    "file": null
+  },
+  {
+    "id": "F08",
+    "group": "체결·구동",
+    "name": "큰 노브 · M6 암나사",
+    "qty": 2,
+    "unit": "개",
+    "spec": "Ganter GN 6336.2-32-M6-E · Ø32 · 돌출 금속 부싱",
+    "status": "선정",
+    "note": "F15 스터드를 10 mm 넣고 F16 잼너트를 금속 부싱에 조임. 프레임 밖에서 먼저 조립.",
+    "links": [
+      [
+        "제조사 도면",
+        "https://live-katalog.ganternorm.com/pdf/ganter/en/6336_1.pdf?dispositiontype=attachment"
+      ]
+    ],
+    "cad": [
+      "Cable1_HandKnob",
+      "Cable2_HandKnob"
+    ],
+    "file": null
+  },
+  {
+    "id": "F09",
+    "group": "체결·구동",
+    "name": "M6 사각 구동너트",
+    "qty": 2,
+    "unit": "개",
+    "spec": "Bossard BN147 / 1092642 · DIN557 M6×1 · 10×10×5 · 아연도금강",
+    "status": "선정",
+    "note": "CAD 구동너트 명목과 일치. 높이6 mm 포켓의 1 mm는 공칭 축방향 여유. 제조사 표에 개별 치수 공차는 없어 로트 보증값으로 쓰지 않는다. 유통 판매단위100 표시; 설치2개와 구매포장을 구별.",
+    "links": [
+      [
+        "Bossard 제조사 도면",
+        "https://www.tme.eu/Document/07a25fe393aaf643196ea01e7ec8ef58/BN_147.pdf"
+      ],
+      [
+        "동일 품번 유통 구매",
+        "https://www.tme.eu/en/details/b6_bn147/nuts/bossard/1092642/"
+      ]
+    ],
+    "cad": [
+      "Cable1_DriveNut",
+      "Cable2_DriveNut"
+    ],
+    "file": null
+  },
+  {
+    "id": "F10",
+    "group": "체결·구동",
+    "name": "M6 축 위치 조절 너트",
+    "qty": 2,
+    "unit": "개",
+    "spec": "Bossard BN33024 / 5813950 · M6×1 · AF10 / H6",
+    "status": "선정",
+    "note": "나일론 삽입형 풀림방지 너트 후보. 조절 후 축과 함께 회전. 프레임에 꽉 죄지 않음.",
+    "links": [
+      [
+        "제조사",
+        "https://www.bossard.com/kr-ko/eshop/locking-nuts-with-polyamide-insert/prevailing-torque-type-hex-lock-nuts-thin-type-with-polyamide-insert/p/33024/"
+      ]
+    ],
+    "cad": [
+      "Cable1_LeadLockNut",
+      "Cable2_LeadLockNut"
+    ],
+    "file": null
+  },
+  {
+    "id": "F11",
+    "group": "체결·구동",
+    "name": "M6 축 받침 와셔",
+    "qty": 2,
+    "unit": "개",
+    "spec": "Fabory 50060.060.001 · 황동 DIN125-1A · ID6.4 / OD12 / t1.6",
+    "status": "선정",
+    "note": "F17 상부 와셔와 같은 품번. 전체 구매 필요수량은 F11 2+F17 2=4개. 하부 와셔 윗면은 유지하고 하부 nyloc를 기존보다0.8 mm 아래로 재설정. 그대로 끼워서 프레임을 압착하지 않는다. 독립 후보 검사197자세 간섭0; 실제 유격·마찰은 조립 후 확인. 현행 A14 CAD에 반영되어 있다.",
+    "links": [
+      [
+        "Fabory 제조사 제품",
+        "https://www.fabory.com/nl_BE/vlakke-sluitring-din-125-1a-messing-m6/p/50060060001"
+      ]
+    ],
+    "cad": [
+      "Cable1_ThrustWasher",
+      "Cable2_ThrustWasher"
+    ],
+    "file": null
+  },
+  {
+    "id": "F12",
+    "group": "체결·구동",
+    "name": "팔로워 어깨나사",
+    "qty": 4,
+    "unit": "개",
+    "spec": "NBK SBSMS-M4-5-20 · SUS304 상당 · 어깨 Ø5f9×20 / M4×0.7 나사8 / 머리Ø9×4 / 육각2.5",
+    "status": "선정",
+    "note": "제조사 명목 외형과 CAD 일치. 어깨길이20~20.25 mm 최대치도 독립 후보 검사146 자세 간섭0. 나사끝 형상·필렛·실제 마찰은 입고/조립 확인. 일반 M4 볼트로 대체하지 않는다.",
+    "links": [
+      [
+        "NBK 제조사 도면",
+        "https://static.nbk1560.com/images/ja-JP/product/adjustbolt/SBSMS/SBSMS_1.pdf"
+      ],
+      [
+        "NBK 제품·구매표",
+        "https://www.nbk1560.com/products/machine_element/adjustbolt/SBSMS/"
+      ]
+    ],
+    "cad": [
+      "Cable1_Follower1",
+      "Cable1_Follower2",
+      "Cable2_Follower1",
+      "Cable2_Follower2"
+    ],
+    "file": null
+  },
+  {
+    "id": "F13",
+    "group": "체결·구동",
+    "name": "교정 PCB 고정 나사",
+    "qty": 4,
+    "unit": "개",
+    "spec": "Essentra 50M030050P012 · PA66 M3×0.5×12",
+    "status": "선정",
+    "note": "Fixture A03를 BaseCenter 받침4곳에 고정하는 현행 구매 대상4개. 실물 나사물림·높이는 첫 조립에서 확인.",
+    "links": [
+      [
+        "Essentra 제조사 카탈로그 PDF35쪽",
+        "https://essentracomponents.bynder.com/m/6e2e9b888468b393/original/2685970-pdf.pdf"
+      ]
+    ],
+    "cad": [
+      "CalibrationScrews"
+    ],
+    "file": null
+  },
+  {
+    "id": "F14",
+    "group": "체결·구동",
+    "name": "교정 PCB 날개너트",
+    "qty": 4,
+    "unit": "개",
+    "spec": "Kang Yang SMO-3(N) · M3 · PA66",
+    "status": "선정",
+    "note": "Fixture A03 고정용 PA66 M3 날개너트4개, 현행 구매 대상. Kang Yang SMO-3(N), PA66 M3×0.5. 제조사 도면 폭15.96±0.3/높이8±0.3 mm와 보수적 CAD 외형을 대조함. 정확 품번의 소량판매·한국배송은 확인 전. 외형이 다른 유사품 자동 대체 금지.",
+    "links": [
+      [
+        "제조사 도면",
+        "https://www.kangyang-europe.com/wp-content/uploads/product_files/pdf/SMO-3.pdf"
+      ]
+    ],
+    "cad": [
+      "CalibrationNuts"
+    ],
+    "file": null
+  },
+  {
+    "id": "F15",
+    "group": "체결·구동",
+    "name": "큰 노브용 기성 전나사 스터드",
+    "qty": 2,
+    "unit": "개",
+    "spec": "Würth 095496120 · DIN 976 M6×120 · A2-70",
+    "status": "선정",
+    "note": "절단 가공 없이 기성 120 mm. 노브 삽입 깊이 10 mm 표시.",
+    "links": [
+      [
+        "제조사",
+        "https://eshop.wuerth.de/Threaded-rod-DIN-976-A2-70-stainless-steel-shape-A-THRPCE-DIN976-A-A2-70-M6X120/095496%20120.sku/en/US/EUR/"
+      ]
+    ],
+    "cad": [
+      "Cable1_LeadStud",
+      "Cable2_LeadStud"
+    ],
+    "file": null
+  },
+  {
+    "id": "F16",
+    "group": "체결·구동",
+    "name": "노브 고정 잼너트",
+    "qty": 2,
+    "unit": "개",
+    "spec": "Fabory 51080.060.001 · DIN 934 M6 · AF10 / H5",
+    "status": "선정",
+    "note": "노브와 축을 고정하는 너트. 아래 F10 회전 여유 조절 너트와 다름.",
+    "links": [
+      [
+        "제조사",
+        "https://www.fabory.com/nl_BE/zeskantmoer-din-934-roestvaststaal-%28rvs%29-a2-70-m6/p/51080060001"
+      ]
+    ],
+    "cad": [
+      "Cable1_TopJamNut",
+      "Cable2_TopJamNut"
+    ],
+    "file": null
+  },
+  {
+    "id": "F17",
+    "group": "체결·구동",
+    "name": "축 위쪽 받침 와셔",
+    "qty": 2,
+    "unit": "개",
+    "spec": "Fabory 50060.060.001 · 황동 · ID6.4 / OD12 / t1.6",
+    "status": "선정",
+    "note": "프레임 위쪽 와셔. F11 하부 와셔와 같은 Fabory50060.060.001 사용. 합계4개이며 위치별 BOM 행은 유지.",
+    "links": [
+      [
+        "제조사",
+        "https://www.fabory.com/nl_BE/vlakke-sluitring-din-125-1a-messing-m6/p/50060060001"
+      ]
+    ],
+    "cad": [
+      "Cable1_TopWasher",
+      "Cable2_TopWasher"
+    ],
+    "file": null
+  },
+  {
+    "id": "F18",
+    "group": "체결·구동",
+    "name": "분할 바닥 연결 나사",
+    "qty": 4,
+    "unit": "개",
+    "spec": "Essentra 50M040070P020 · PA66 M4×20",
+    "status": "선정",
+    "note": "아래에서 위로 삽입. 아래/위 와셔 각 1개. 위에 육각너트.",
+    "links": [
+      [
+        "DigiKey 품번 검색",
+        "https://www.digikey.kr/ko/products?keywords=50M040070P020"
+      ]
+    ],
+    "cad": [
+      "BaseJointFLScrew",
+      "BaseJointFRScrew",
+      "BaseJointRLScrew",
+      "BaseJointRRScrew"
+    ],
+    "file": null
+  },
+  {
+    "id": "F19",
+    "group": "체결·구동",
+    "name": "분할 몸체·뚜껑 연결 나사",
+    "qty": 6,
+    "unit": "개",
+    "spec": "Essentra 50M040070P030 · PA66 M4×30",
+    "status": "선정",
+    "note": "아래 몸체 4 + 위 뚜껑 2. 뒤에서 앞으로 삽입. 뚜껑에 M4×25 사용 금지.",
+    "links": [
+      [
+        "DigiKey 품번 검색",
+        "https://www.digikey.kr/ko/products?keywords=50M040070P030"
+      ]
+    ],
+    "cad": [
+      "LowerJointL66Screw",
+      "LowerJointL78Screw",
+      "LowerJointR66Screw",
+      "LowerJointR78Screw",
+      "UpperJoint6LScrew",
+      "UpperJoint6RScrew"
+    ],
+    "file": null
+  },
+  {
+    "id": "F20",
+    "group": "체결·구동",
+    "name": "분할 연결 육각너트",
+    "qty": 10,
+    "unit": "개",
+    "spec": "Essentra 04M040070HNDIN34814 · PA66 M4",
+    "status": "선정",
+    "note": "AF6.8–7 / H2.9–3.2. 7 mm 공구. 기존 M4 사각너트 F07과 다름.",
+    "links": [
+      [
+        "DigiKey 품번 검색",
+        "https://www.digikey.kr/ko/products?keywords=04M040070HNDIN34814"
+      ]
+    ],
+    "cad": [
+      "BaseJointFLNut",
+      "BaseJointFRNut",
+      "BaseJointRLNut",
+      "BaseJointRRNut",
+      "LowerJointL66Nut",
+      "LowerJointL78Nut",
+      "LowerJointR66Nut",
+      "LowerJointR78Nut",
+      "UpperJoint6LNut",
+      "UpperJoint6RNut"
+    ],
+    "file": null
+  },
+  {
+    "id": "F21",
+    "group": "체결·구동",
+    "name": "분할 연결 평와셔",
+    "qty": 20,
+    "unit": "개",
+    "spec": "Essentra 17M04DIN34815 · PA66 · ID4.3 / OD9 / t0.8",
+    "status": "선정",
+    "note": "나사 하나마다 머리 아래 1 + 너트 아래 1. 금속으로 일괄 대체하지 않음.",
+    "links": [
+      [
+        "DigiKey 품번 검색",
+        "https://www.digikey.kr/ko/products?keywords=17M04DIN34815"
+      ]
+    ],
+    "cad": [
+      "BaseJointFLRearWasher",
+      "BaseJointFLFrontWasher",
+      "BaseJointFRRearWasher",
+      "BaseJointFRFrontWasher",
+      "BaseJointRLRearWasher",
+      "BaseJointRLFrontWasher",
+      "BaseJointRRRearWasher",
+      "BaseJointRRFrontWasher",
+      "LowerJointL66RearWasher",
+      "LowerJointL66FrontWasher",
+      "LowerJointL78RearWasher",
+      "LowerJointL78FrontWasher",
+      "LowerJointR66RearWasher",
+      "LowerJointR66FrontWasher",
+      "LowerJointR78RearWasher",
+      "LowerJointR78FrontWasher",
+      "UpperJoint6LRearWasher",
+      "UpperJoint6LFrontWasher",
+      "UpperJoint6RRearWasher",
+      "UpperJoint6RFrontWasher"
+    ],
+    "file": null
+  },
+  {
+    "id": "F22",
+    "group": "체결·구동",
+    "name": "개폐용 관통 노브",
+    "qty": 2,
+    "unit": "개",
+    "spec": "NBK KNFS-16-M4 · SUS303 관통 암나사 노브 M4×0.7 · Ø16×H9.5 / 허브Ø8×6",
+    "status": "선정",
+    "note": "스레드 관통 깊이Lf9.5. 스터드 끝이 윗면과 평평하도록 조립하여 절단·압입·길이표시 없이 위치 결정. 실제 조임력과 반복 풀림은 초도 조립 시험.",
+    "links": [
+      [
+        "NBK 정확 품번",
+        "https://www.nbk1560.com/en-US/products/machine_element/knob/KNFS/KNFS-16-M4/"
+      ],
+      [
+        "NBK 도면",
+        "https://www.nbk1560.com/images/ja-JP/product/knob/KNFS/KNFS_1.pdf"
+      ]
+    ],
+    "cad": [
+      "HeadClosureKnobs"
+    ],
+    "file": null
+  },
+  {
+    "id": "F23",
+    "group": "체결·구동",
+    "name": "개폐 노브 고정 잼너트",
+    "qty": 2,
+    "unit": "개",
+    "spec": "Fabory 51080.040.001 · DIN934 M4×0.7 · AF7 / H3.2 · A2-70",
+    "status": "선정",
+    "note": "프레임 밖에서 노브와 스터드를 고정하는 잼너트. 7 mm 스패너로 노브 밑면에 조임. 프레임을 눌러 잼너트를 고정하지 않는다. 노브를 풀 때 잼너트가 따라 풀리지 않는지 실물 반복 확인. 제조사 직접판매 PDF는 500개 포장/전포장 구매; 설치2개와 구별하고 소량 유통은 구매 시 확인.",
+    "links": [
+      [
+        "Fabory 제품·도면",
+        "https://www.fabory.com/en_NL/hexagon-nut-din-934-stainless-steel-a2-70-m4/p/51080040001"
+      ],
+      [
+        "Fabory 치수·포장 PDF",
+        "https://www.fabory.com/en_NL/p/51080040001/generatePdf"
+      ]
+    ],
+    "cad": [
+      "HeadClosureJamNuts"
+    ],
+    "file": null
+  },
+  {
+    "id": "F24",
+    "group": "체결·구동",
+    "name": "개폐 노브 받침 와셔",
+    "qty": 2,
+    "unit": "개",
+    "spec": "Essentra 17M04DIN34815 · PA 와셔 ID4.3 / OD9 / t0.8",
+    "status": "선정",
+    "note": "F21의20개와 동일품번 추가2개: 이 품번 설치총량22개. 노브+스터드+잼너트 선조립 후 밑에서 와셔를 끼우고 헤드에 장착. 와셔를 잼너트와 노브 사이에 넣지 않는다.",
+    "links": [
+      [
+        "Essentra 제조사 카탈로그",
+        "https://essentracomponents.bynder.com/m/6e2e9b888468b393/original/2685970-pdf.pdf"
+      ]
+    ],
+    "cad": [
+      "HeadClosureWashers"
+    ],
+    "file": null
+  },
+  {
+    "id": "R01",
+    "group": "측정 체인",
+    "name": "SMA 수–수 50 Ω 케이블",
+    "qty": 2,
+    "unit": "개 사용",
+    "spec": "표준 SMA male–male",
+    "status": "보유+추가",
+    "note": "보유 1개 + 부족한 1개만 추가. CSE-SGAM-305-SGAM은 기존 후보; 305 mm 길이의 실제 배치 확인.",
+    "links": [
+      [
+        "DigiKey 품번 검색",
+        "https://www.digikey.kr/ko/products?keywords=CSE-SGAM-305-SGAM"
+      ]
+    ],
+    "cad": [],
+    "file": null
+  },
+  {
+    "id": "R02",
+    "group": "측정 체인",
+    "name": "SMA 수 50 Ω 로드",
+    "qty": 1,
+    "unit": "개 사용",
+    "spec": "TE 2467938-1 작업용 로드 · 50 Ω / SMA 수",
+    "status": "선정",
+    "note": "RF에서 1개 사용. 통합 구매는 발룬 6개 + 공유·예비 1개 = 7개 유지. 보유 SOL 교정 표준과 별개이며 구매 완료로 간주하지 않음. RF OFF에서 지그 출력 ↔ 헤드 출력으로 옮겨 사용. 교정 전에 이 로드의 S11을 VNA로 1회 측정해 Transfer 단계의 지그 출구 종단 보정에 사용.",
+    "links": [
+      [
+        "통합 구매 7개",
+        "purchase.html#SHARED-LOAD"
+      ]
+    ],
+    "cad": [],
+    "file": null
+  },
+  {
+    "id": "R03",
+    "group": "측정 체인",
+    "name": "SMA OPEN / SHORT / LOAD",
+    "qty": 1,
+    "unit": "세트",
+    "spec": "보유 교정 표준",
+    "status": "보유",
+    "note": "VNA 케이블 끝 기준면과 성별·모델값·유효 대역 확인.",
+    "links": [],
+    "cad": [],
+    "file": null
+  },
+  {
+    "id": "R04",
+    "group": "측정 체인",
+    "name": "SMA 암–암 THRU",
+    "qty": 1,
+    "unit": "개 필요",
+    "spec": "2포트 교정용 연결 기준",
+    "status": "보유 확인",
+    "note": "보유 키트에 포함되어 있는지, through 정의가 맞는지 확인 후 부족할 때만 구매.",
+    "links": [],
+    "cad": [],
+    "file": null
+  },
+  {
+    "id": "R05",
+    "group": "측정 체인",
+    "name": "10 dB 감쇠기",
+    "qty": 1,
+    "unit": "개",
+    "spec": "Mini-Circuits VAT-10A+ 후보",
+    "status": "선정",
+    "note": "설치1개. 기본 운용은 감쇠기 없이 맨 프로브를 쓴다(MSO4054 50 Ω 입력 5 V RMS·피크±20 V, 정상 CM은 mA 이하). 강력 권고: 새 현장·새 케이블의 첫 측정은 반드시 이 10 dB를 넣고 최대값을 확인한 뒤 뺀다. 케이블 착탈·전원 투입 때도 넣는다. 감쇠기를 넣은 체인은 S21을 따로 측정해 보정한다. 상용전원·VFD·고전압·서지 현장은 Rev.A 범위 밖(DEC-055).",
+    "links": [
+      [
+        "제조사",
+        "https://www.minicircuits.com/pdfs/VAT-10A+.pdf"
+      ],
+      [
+        "DigiKey 품번 검색",
+        "https://www.digikey.kr/ko/products?keywords=VAT-10A%2B"
+      ]
+    ],
+    "cad": [],
+    "file": null
+  },
+  {
+    "id": "R06",
+    "group": "측정 체인",
+    "name": "SMA–BNC 50 Ω 케이블",
+    "qty": 1,
+    "unit": "개",
+    "spec": "SparkFun 27480 · 1 m 기존 후보",
+    "status": "선정",
+    "note": "50 Ω BNC 입력 오실로스코프 연결용. 실제 플러그 외형·감쇠·기준면 검증 필요.",
+    "links": [
+      [
+        "DigiKey 품번 검색",
+        "https://www.digikey.kr/ko/products?keywords=1568-27480-ND"
+      ]
+    ],
+    "cad": [],
+    "file": null
+  },
+  {
+    "id": "R08",
+    "group": "측정 체인",
+    "name": "현장 입력 보호",
+    "qty": null,
+    "unit": "—",
+    "spec": "대상 하네스(24 V·100BASE-TX)에서는 별도 보호 체인 없음",
+    "status": "해당 없음",
+    "note": "DEC-055로 종결. 이 하네스는 맨 프로브 + R05 첫 확인으로 운용한다. 상용전원·VFD 출력선·노출 고전압·서지 현장에 적용하려면 새로 선정·검증한다.",
+    "links": [],
+    "cad": [],
+    "file": null
+  },
+  {
+    "id": "T01",
+    "group": "장비·공구",
+    "name": "VNA (보유 LibreVNA 2포트)",
+    "qty": 1,
+    "unit": "대",
+    "spec": "50 Ω · 복소 S11/S21 · 1–300 MHz 포함, 500 MHz까지 확장 권장",
+    "status": "보유",
+    "note": "LibreVNA 2포트 보유. 필요 조건: 복소 S11/S21/S12/S22, 케이블 끝2포트 교정, 출력 레벨·IF BW 조절, Touchstone 저장, 하한100 kHz 이하, 500 MHz 포함. HW/FW/GUI 버전은 첫 벤치에서 기록.",
+    "links": [],
+    "cad": [],
+    "file": null
+  },
+  {
+    "id": "T02",
+    "group": "장비·공구",
+    "name": "오실로스코프 (보유 MSO4054)",
+    "qty": 1,
+    "unit": "대",
+    "spec": "아날로그 대역폭 500 MHz 이상 권장 · 정의된 50 Ω 입력",
+    "status": "보유",
+    "note": "Tektronix MSO4054 보유(명판 확인 전 잠정 모델). 필요 조건: 500 MHz·50 Ω 입력·2.5 GS/s, 원시 파형 저장. FFT는 표시 샘플레이트1 GS/s 이상에서 보고, 저역을 길게 잡을 때는 대역 제한(20 MHz) 또는 Hi-Res를 켜 접힘을 막는다. 케이블+스코프 응답은 LibreVNA CW 출력을 R06으로 넣어 주파수별로 확인한다.",
+    "links": [],
+    "cad": [],
+    "file": null
+  },
+  {
+    "id": "T03",
+    "group": "장비·공구",
+    "name": "스패너·드라이버",
+    "qty": 1,
+    "unit": "세트",
+    "spec": "7 mm / 10 mm / 5.5 mm / M2용 소형 공구 + 십자 드라이버 + follower용 2.5 mm 육각렌치",
+    "status": "보유 확인",
+    "note": "PCB 뒤 M2 너트에는 가는 대향 평팁 공구. 각 끝단0.6×1.5 mm/가는 구간25 mm, 이후 Ø14×80 mm 손잡이 포락을 CAD로 검사했으며 실제 파지력·나사물림은 미검증. Ø6.5 mm 관형 소켓은 PCB 홀더에 간섭. M3 뒤 너트는 Ø8×25 mm 관형 포락 접근 확인. 10 mm 스패너는 머리폭18·두께4 mm 이내 기준. 실제 공구를 대조한다.",
+    "links": [],
+    "cad": [],
+    "file": null
+  },
+  {
+    "id": "T04",
+    "group": "장비·공구",
+    "name": "인두·납·플럭스·인두팁·테스터",
+    "qty": 1,
+    "unit": "세트",
+    "spec": "권선·납땜·도통 확인",
+    "status": "보유+추가",
+    "note": "인두 보유. 구매팀용 목록에는 SMD291-10M 플럭스 2개와 900M-T-1.6D·2.4D 팁 각 1개 유지. 납·테스터는 보유 확인 필요. 이 1세트는 작업공구 묶음이며 구매 수량은 링크 기준.",
+    "links": [
+      [
+        "플럭스 2개",
+        "purchase.html#SHARED-FLUX"
+      ],
+      [
+        "인두팁 2종",
+        "purchase.html#domestic"
+      ]
+    ],
+    "cad": [],
+    "file": null
+  },
+  {
+    "id": "T05",
+    "group": "장비·공구",
+    "name": "치수·축 여유 확인 도구",
+    "qty": 1,
+    "unit": "세트",
+    "spec": "캘리퍼 / 필러 게이지 등",
+    "status": "보유 확인",
+    "note": "코어 실제 치수, 출력 맞춤, 약 0.2 mm 축 여유 확인용.",
+    "links": [],
+    "cad": [],
+    "file": null
+  }
+]

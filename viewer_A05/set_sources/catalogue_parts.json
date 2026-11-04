@@ -1,0 +1,248 @@
+{
+  "date": "2026-09-21",
+  "purpose": "Root review only; no CAD/Site/purchase file changed by this audit",
+  "prices": "All prices, available stock, MOQ and Korea delivery require order-time confirmation. Quantities are installed counts, not package quantities.",
+  "changes": [
+    {
+      "id": "F01",
+      "qty": 2,
+      "status": "선정",
+      "spec": "Essentra 50M020040P012 · PA66 M2×0.4×12 · 머리 최대 Ø4.0×H1.6",
+      "note": "M2×10에서 12 mm로 길이만 변경. 설치 2개. 출력물 변경 없음. 최대 길이12.3 mm의 61자세 무간섭. 입고 치수와 완전 나사산 돌출은 H05에서 확인.",
+      "links": [
+        [
+          "제조사 카탈로그 PDF35쪽",
+          "https://essentracomponents.bynder.com/m/6e2e9b888468b393/original/2685970-pdf.pdf"
+        ],
+        [
+          "M2×12 제품",
+          "https://www.digikey.kr/ko/products/detail/essentra-components/50M020040P012/11638163"
+        ]
+      ]
+    },
+    {
+      "id": "F02",
+      "qty": 2,
+      "status": "선정",
+      "spec": "Essentra 04M020040HN · PA66 M2 · AF3.9 / H1.2",
+      "note": "제조사 PDF71쪽 명목 외형이 현재 CAD와 일치. 실물 나사산·조립은 입고 후 확인.",
+      "links": [
+        [
+          "Essentra 제조사 카탈로그 PDF71쪽",
+          "https://essentracomponents.bynder.com/m/6e2e9b888468b393/original/2685970-pdf.pdf"
+        ]
+      ]
+    },
+    {
+      "id": "F03",
+      "qty": 4,
+      "status": "선정",
+      "spec": "Essentra 50M030050P035 · PA66 M3×0.5×35",
+      "note": "실제 머리 D5.3~5.6 / H2.2~2.4. 기존 CAD 보수 포락 Ø6.5×H3.3 안에 들어간다.",
+      "links": [
+        [
+          "Essentra 제조사 카탈로그 PDF35쪽",
+          "https://essentracomponents.bynder.com/m/6e2e9b888468b393/original/2685970-pdf.pdf"
+        ]
+      ]
+    },
+    {
+      "id": "F04",
+      "qty": 4,
+      "status": "선정",
+      "spec": "Essentra 04M030050HNDIN34814 · PA66 M3 · AF5.3~5.5 / H2.2~2.4",
+      "note": "제조사 최대치가 현재 CAD AF5.5/H2.4와 일치.",
+      "links": [
+        [
+          "Essentra 제조사 카탈로그 PDF72쪽",
+          "https://essentracomponents.bynder.com/m/6e2e9b888468b393/original/2685970-pdf.pdf"
+        ]
+      ]
+    },
+    {
+      "id": "F06",
+      "qty": 10,
+      "status": "선정",
+      "spec": "NBK KNMS-12-M4-20 · SUS303 · M4×20 · 노브 Ø12×H7.5",
+      "note": "바닥 6 + 케이블 가로대 4. 제조사 외형과 명목 일치. 바닥 왼쪽 2곳은 25 mm 올린 뒤 바깥쪽으로 빼는 지정 경로 사용.",
+      "links": [
+        [
+          "NBK 제조사 제품표",
+          "https://www.nbk1560.com/en-US/products/machine_element/knob/KNMS/?SelectedLanguage=en-US"
+        ],
+        [
+          "NBK 제조사 도면",
+          "https://www.nbk1560.com/images/en-US/product/knob/KNM/KNM_1.pdf"
+        ]
+      ]
+    },
+    {
+      "id": "F07",
+      "qty": 16,
+      "status": "선정",
+      "spec": "Bossard BN147 / 8236739 · M4 · 7×7×3.2 · 아연도금강",
+      "note": "머리 개폐 2 + 바닥 모듈 6 + 케이블 가로대 4 + follower 4. 제조사 표상 명목 일치. 개별 로트 치수 및 삽입은 입고 후 확인. 제조사 표는 M4가 DIN557 표준치수 범위 밖임을 명시하므로 BN147 정확한 품번으로 구매한다.",
+      "links": [
+        [
+          "Bossard 제조사 도면",
+          "https://www.tme.eu/Document/07a25fe393aaf643196ea01e7ec8ef58/BN_147.pdf"
+        ],
+        [
+          "Bossard 제품군",
+          "https://www.bossard.com/us-en/eshop/square-nuts/square-nuts/p/147/"
+        ]
+      ]
+    },
+    {
+      "id": "F09",
+      "qty": 2,
+      "status": "선정",
+      "spec": "Bossard BN147 / 1092642 · DIN557 M6×1 · 10×10×5 · 아연도금강",
+      "note": "CAD 구동너트 명목과 일치. 높이6 mm 포켓의 1 mm는 공칭 축방향 여유. 제조사 표에 개별 치수 공차는 없어 로트 보증값으로 쓰지 않는다. 유통 판매단위100 표시; 설치2개와 구매포장을 구별.",
+      "links": [
+        [
+          "Bossard 제조사 도면",
+          "https://www.tme.eu/Document/07a25fe393aaf643196ea01e7ec8ef58/BN_147.pdf"
+        ],
+        [
+          "동일 품번 유통 구매",
+          "https://www.tme.eu/en/details/b6_bn147/nuts/bossard/1092642/"
+        ]
+      ]
+    },
+    {
+      "id": "F11",
+      "qty": 2,
+      "status": "선정",
+      "spec": "Fabory 50060.060.001 · 황동 DIN125-1A · ID6.4 / OD12 / t1.6",
+      "note": "F17 상부 와셔와 같은 품번. 전체 구매 필요수량은 F11 2+F17 2=4개. 하부 와셔 윗면은 유지하고 하부 nyloc를 기존보다0.8 mm 아래로 재설정. 그대로 끼워서 프레임을 압착하지 않는다. 독립 후보 검사197자세 간섭0; 실제 유격·마찰은 조립 후 확인. 현행 A14 CAD에 반영되어 있다.",
+      "links": [
+        [
+          "Fabory 제조사 제품",
+          "https://www.fabory.com/nl_BE/vlakke-sluitring-din-125-1a-messing-m6/p/50060060001"
+        ]
+      ]
+    },
+    {
+      "id": "F12",
+      "qty": 4,
+      "status": "선정",
+      "spec": "NBK SBSMS-M4-5-20 · SUS304 상당 · 어깨 Ø5f9×20 / M4×0.7 나사8 / 머리Ø9×4 / 육각2.5",
+      "note": "제조사 명목 외형과 CAD 일치. 어깨길이20~20.25 mm 최대치도 독립 후보 검사146 자세 간섭0. 나사끝 형상·필렛·실제 마찰은 입고/조립 확인. 일반 M4 볼트로 대체하지 않는다.",
+      "links": [
+        [
+          "NBK 제조사 도면",
+          "https://static.nbk1560.com/images/ja-JP/product/adjustbolt/SBSMS/SBSMS_1.pdf"
+        ],
+        [
+          "NBK 제품·구매표",
+          "https://www.nbk1560.com/products/machine_element/adjustbolt/SBSMS/"
+        ]
+      ]
+    },
+    {
+      "id": "F13",
+      "qty": 4,
+      "status": "선정",
+      "spec": "Essentra 50M030050P012 · PA66 M3×0.5×12",
+      "note": "제조사 머리 D5.3~5.6 / H2.2~2.4는 CAD Ø6×H3 안에 들어간다.",
+      "links": [
+        [
+          "Essentra 제조사 카탈로그 PDF35쪽",
+          "https://essentracomponents.bynder.com/m/6e2e9b888468b393/original/2685970-pdf.pdf"
+        ]
+      ]
+    },
+    {
+      "id": "F17",
+      "qty": 2,
+      "status": "선정",
+      "note": "프레임 위쪽 와셔. F11 하부 와셔와 같은 Fabory50060.060.001 사용. 합계4개이며 위치별 BOM 행은 유지."
+    },
+    {
+      "id": "T03",
+      "spec": "7 mm / 10 mm / 5.5 mm / M2용 소형 공구 + 십자 드라이버 + follower용 2.5 mm 육각렌치"
+    },
+    {
+      "id": "F05",
+      "qty": 2,
+      "status": "선정",
+      "spec": "Fabory 20106.040.070 · DIN976-1A M4×0.7×70 전산 스터드 · 아연도금강 4.8",
+      "note": "절단하지 않는 70 mm 완제품. F22 관통노브 상면과 스터드 끝을 평평하게 맞추고 F23 잼너트를 노브 아래에 고정. 설치2개; 제조사 직접판매 PDF는 포장200개/전포장 구매를 명시하므로 소량 유통 여부·최종 가격/납기는 별도 확인.",
+      "cad": [
+        "HeadHandScrews"
+      ],
+      "links": [
+        [
+          "Fabory 제품",
+          "https://www.fabory.com/nl/draadstang-diverse-lengtes-din-976-1a-staal-elektrolytisch-verzinkt-4-8-diverse-lengtes-m4x70/p/20106040070"
+        ],
+        [
+          "Fabory 치수·포장 PDF",
+          "https://www.fabory.com/nl/p/20106040070/generatePdf"
+        ]
+      ]
+    },
+    {
+      "id": "F22",
+      "qty": 2,
+      "status": "선정",
+      "spec": "NBK KNFS-16-M4 · SUS303 관통 암나사 노브 M4×0.7 · Ø16×H9.5 / 허브Ø8×6",
+      "note": "스레드 관통 깊이Lf9.5. 스터드 끝이 윗면과 평평하도록 조립하여 절단·압입·길이표시 없이 위치 결정. 실제 조임력과 반복 풀림은 초도 조립 시험.",
+      "cad": [
+        "HeadClosureKnobs"
+      ],
+      "links": [
+        [
+          "NBK 정확 품번",
+          "https://www.nbk1560.com/en-US/products/machine_element/knob/KNFS/KNFS-16-M4/"
+        ],
+        [
+          "NBK 도면",
+          "https://www.nbk1560.com/images/ja-JP/product/knob/KNFS/KNFS_1.pdf"
+        ]
+      ]
+    },
+    {
+      "id": "F23",
+      "qty": 2,
+      "status": "선정",
+      "spec": "Fabory 51080.040.001 · DIN934 M4×0.7 · AF7 / H3.2 · A2-70",
+      "note": "프레임 밖에서 노브와 스터드를 고정하는 잼너트. 7 mm 스패너로 노브 밑면에 조임. 프레임을 눌러 잼너트를 고정하지 않는다. 노브를 풀 때 잼너트가 따라 풀리지 않는지 실물 반복 확인. 제조사 직접판매 PDF는 500개 포장/전포장 구매; 설치2개와 구별하고 소량 유통은 구매 시 확인.",
+      "cad": [
+        "HeadClosureJamNuts"
+      ],
+      "links": [
+        [
+          "Fabory 제품·도면",
+          "https://www.fabory.com/en_NL/hexagon-nut-din-934-stainless-steel-a2-70-m4/p/51080040001"
+        ],
+        [
+          "Fabory 치수·포장 PDF",
+          "https://www.fabory.com/en_NL/p/51080040001/generatePdf"
+        ]
+      ]
+    },
+    {
+      "id": "F24",
+      "qty": 2,
+      "status": "선정",
+      "spec": "Essentra 17M04DIN34815 · PA 와셔 ID4.3 / OD9 / t0.8",
+      "note": "F21의20개와 동일품번 추가2개: 이 품번 설치총량22개. 노브+스터드+잼너트 선조립 후 밑에서 와셔를 끼우고 헤드에 장착. 와셔를 잼너트와 노브 사이에 넣지 않는다.",
+      "cad": [
+        "HeadClosureWashers"
+      ],
+      "links": [
+        [
+          "Essentra 제조사 카탈로그",
+          "https://essentracomponents.bynder.com/m/6e2e9b888468b393/original/2685970-pdf.pdf"
+        ]
+      ]
+    }
+  ],
+  "remaining": [
+    "F05 기성4부품 조합의 최종 CAD/독립 검증 해시 확인",
+    "F05 스터드 제조사200개포장 대 소량유통 구매 확인",
+    "모든 부품 납품 로트 치수·손조작·반복풀림·RF 영향은 실물 전 미검증"
+  ]
+}

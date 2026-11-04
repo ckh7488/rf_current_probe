@@ -1,0 +1,544 @@
+{
+  "classification": "SIMULATED",
+  "model": "Empty A03 fixture; PEC/lossless; no physical SMA, core, winding or housing",
+  "case_count": 9,
+  "source": {
+    "file": "reviews/fixture_a03_output_reference_20260923/k_factor_results.json",
+    "sha256": "eec6f7b4d71891591a79e369086fbc82bffd14930368565f869596e41f867c05"
+  },
+  "points": [
+    {
+      "frequency_mhz": 100,
+      "S11_dB": {
+        "min": -18.317,
+        "max": -16.23
+      },
+      "S21_dB": {
+        "min": -0.11,
+        "max": -0.069
+      },
+      "K_dB": {
+        "min": 0.052,
+        "max": 0.1
+      }
+    },
+    {
+      "frequency_mhz": 300,
+      "S11_dB": {
+        "min": -6.074,
+        "max": -5.759
+      },
+      "S21_dB": {
+        "min": -1.35,
+        "max": -1.242
+      },
+      "K_dB": {
+        "min": 0.412,
+        "max": 0.777
+      }
+    },
+    {
+      "frequency_mhz": 500,
+      "S11_dB": {
+        "min": -1.686,
+        "max": -1.368
+      },
+      "S21_dB": {
+        "min": -5.77,
+        "max": -5.001
+      },
+      "K_dB": {
+        "min": 0.873,
+        "max": 1.65
+      }
+    }
+  ],
+  "cases": {
+    "A03_solid_baseline": {
+      "fixture": "A03",
+      "note": "empty fixture, saved 216-point run; anchors are nearest saved points",
+      "anchors": [
+        {
+          "f_MHz": 100.0,
+          "S11_dB": -17.936,
+          "S21_dB": -0.075,
+          "Icore_over_Iincident_dB": 0.012,
+          "K_dB": 0.087,
+          "K_phase_deg": 11.48
+        },
+        {
+          "f_MHz": 148.6,
+          "S11_dB": -13.974,
+          "S21_dB": -0.179,
+          "Icore_over_Iincident_dB": 0.009,
+          "K_dB": 0.189,
+          "K_phase_deg": 16.92
+        },
+        {
+          "f_MHz": 200.0,
+          "S11_dB": -10.724,
+          "S21_dB": -0.385,
+          "Icore_over_Iincident_dB": -0.054,
+          "K_dB": 0.33,
+          "K_phase_deg": 22.48
+        },
+        {
+          "f_MHz": 300.0,
+          "S11_dB": -6.046,
+          "S21_dB": -1.252,
+          "Icore_over_Iincident_dB": -0.572,
+          "K_dB": 0.679,
+          "K_phase_deg": 32.67
+        },
+        {
+          "f_MHz": 394.6,
+          "S11_dB": -3.172,
+          "S21_dB": -2.873,
+          "Icore_over_Iincident_dB": -1.823,
+          "K_dB": 1.05,
+          "K_phase_deg": 41.4
+        },
+        {
+          "f_MHz": 500.0,
+          "S11_dB": -1.431,
+          "S21_dB": -5.603,
+          "Icore_over_Iincident_dB": -4.164,
+          "K_dB": 1.438,
+          "K_phase_deg": 50.11
+        }
+      ]
+    },
+    "A03_solid_xy": {
+      "fixture": "A03",
+      "note": "empty fixture, saved 216-point run; anchors are nearest saved points",
+      "anchors": [
+        {
+          "f_MHz": 100.0,
+          "S11_dB": -17.938,
+          "S21_dB": -0.075,
+          "Icore_over_Iincident_dB": 0.011,
+          "K_dB": 0.086,
+          "K_phase_deg": 11.45
+        },
+        {
+          "f_MHz": 148.6,
+          "S11_dB": -13.976,
+          "S21_dB": -0.179,
+          "Icore_over_Iincident_dB": 0.007,
+          "K_dB": 0.187,
+          "K_phase_deg": 16.86
+        },
+        {
+          "f_MHz": 200.0,
+          "S11_dB": -10.725,
+          "S21_dB": -0.385,
+          "Icore_over_Iincident_dB": -0.058,
+          "K_dB": 0.327,
+          "K_phase_deg": 22.42
+        },
+        {
+          "f_MHz": 300.0,
+          "S11_dB": -6.048,
+          "S21_dB": -1.251,
+          "Icore_over_Iincident_dB": -0.579,
+          "K_dB": 0.672,
+          "K_phase_deg": 32.58
+        },
+        {
+          "f_MHz": 394.6,
+          "S11_dB": -3.175,
+          "S21_dB": -2.87,
+          "Icore_over_Iincident_dB": -1.832,
+          "K_dB": 1.038,
+          "K_phase_deg": 41.3
+        },
+        {
+          "f_MHz": 500.0,
+          "S11_dB": -1.434,
+          "S21_dB": -5.592,
+          "Icore_over_Iincident_dB": -4.17,
+          "K_dB": 1.422,
+          "K_phase_deg": 50.0
+        }
+      ]
+    },
+    "A03_solid_z": {
+      "fixture": "A03",
+      "note": "empty fixture, saved 216-point run; anchors are nearest saved points",
+      "anchors": [
+        {
+          "f_MHz": 100.0,
+          "S11_dB": -16.662,
+          "S21_dB": -0.1,
+          "Icore_over_Iincident_dB": -0.039,
+          "K_dB": 0.061,
+          "K_phase_deg": 10.42
+        },
+        {
+          "f_MHz": 148.6,
+          "S11_dB": -12.934,
+          "S21_dB": -0.229,
+          "Icore_over_Iincident_dB": -0.097,
+          "K_dB": 0.132,
+          "K_phase_deg": 15.38
+        },
+        {
+          "f_MHz": 200.0,
+          "S11_dB": -9.979,
+          "S21_dB": -0.46,
+          "Icore_over_Iincident_dB": -0.229,
+          "K_dB": 0.232,
+          "K_phase_deg": 20.51
+        },
+        {
+          "f_MHz": 300.0,
+          "S11_dB": -5.849,
+          "S21_dB": -1.318,
+          "Icore_over_Iincident_dB": -0.838,
+          "K_dB": 0.48,
+          "K_phase_deg": 30.02
+        },
+        {
+          "f_MHz": 394.6,
+          "S11_dB": -3.286,
+          "S21_dB": -2.769,
+          "Icore_over_Iincident_dB": -2.023,
+          "K_dB": 0.746,
+          "K_phase_deg": 38.36
+        },
+        {
+          "f_MHz": 500.0,
+          "S11_dB": -1.621,
+          "S21_dB": -5.143,
+          "Icore_over_Iincident_dB": -4.122,
+          "K_dB": 1.022,
+          "K_phase_deg": 46.86
+        }
+      ]
+    },
+    "A03_solid_domain_extended": {
+      "fixture": "A03",
+      "note": "empty fixture, saved 216-point run; anchors are nearest saved points",
+      "anchors": [
+        {
+          "f_MHz": 100.0,
+          "S11_dB": -17.93,
+          "S21_dB": -0.071,
+          "Icore_over_Iincident_dB": 0.016,
+          "K_dB": 0.088,
+          "K_phase_deg": 11.48
+        },
+        {
+          "f_MHz": 148.6,
+          "S11_dB": -13.966,
+          "S21_dB": -0.178,
+          "Icore_over_Iincident_dB": 0.01,
+          "K_dB": 0.189,
+          "K_phase_deg": 16.92
+        },
+        {
+          "f_MHz": 200.0,
+          "S11_dB": -10.732,
+          "S21_dB": -0.384,
+          "Icore_over_Iincident_dB": -0.053,
+          "K_dB": 0.33,
+          "K_phase_deg": 22.49
+        },
+        {
+          "f_MHz": 300.0,
+          "S11_dB": -6.041,
+          "S21_dB": -1.245,
+          "Icore_over_Iincident_dB": -0.566,
+          "K_dB": 0.68,
+          "K_phase_deg": 32.67
+        },
+        {
+          "f_MHz": 394.6,
+          "S11_dB": -3.168,
+          "S21_dB": -2.874,
+          "Icore_over_Iincident_dB": -1.824,
+          "K_dB": 1.05,
+          "K_phase_deg": 41.4
+        },
+        {
+          "f_MHz": 500.0,
+          "S11_dB": -1.432,
+          "S21_dB": -5.604,
+          "Icore_over_Iincident_dB": -4.166,
+          "K_dB": 1.438,
+          "K_phase_deg": 50.11
+        }
+      ]
+    },
+    "A03_solid_reverse": {
+      "fixture": "A03",
+      "note": "empty fixture, saved 216-point run; anchors are nearest saved points",
+      "anchors": [
+        {
+          "f_MHz": 100.0,
+          "S11_dB": -17.936,
+          "S21_dB": -0.075,
+          "Icore_over_Iincident_dB": 0.025,
+          "K_dB": 0.1,
+          "K_phase_deg": 12.01
+        },
+        {
+          "f_MHz": 148.6,
+          "S11_dB": -13.973,
+          "S21_dB": -0.179,
+          "Icore_over_Iincident_dB": 0.037,
+          "K_dB": 0.216,
+          "K_phase_deg": 17.67
+        },
+        {
+          "f_MHz": 200.0,
+          "S11_dB": -10.721,
+          "S21_dB": -0.385,
+          "Icore_over_Iincident_dB": -0.006,
+          "K_dB": 0.379,
+          "K_phase_deg": 23.46
+        },
+        {
+          "f_MHz": 300.0,
+          "S11_dB": -6.043,
+          "S21_dB": -1.252,
+          "Icore_over_Iincident_dB": -0.475,
+          "K_dB": 0.777,
+          "K_phase_deg": 33.99
+        },
+        {
+          "f_MHz": 394.6,
+          "S11_dB": -3.171,
+          "S21_dB": -2.874,
+          "Icore_over_Iincident_dB": -1.674,
+          "K_dB": 1.2,
+          "K_phase_deg": 42.95
+        },
+        {
+          "f_MHz": 500.0,
+          "S11_dB": -1.431,
+          "S21_dB": -5.604,
+          "Icore_over_Iincident_dB": -3.954,
+          "K_dB": 1.65,
+          "K_phase_deg": 51.82
+        }
+      ]
+    },
+    "A03_solid_epsilon": {
+      "fixture": "A03",
+      "note": "empty fixture, saved 216-point run; anchors are nearest saved points",
+      "anchors": [
+        {
+          "f_MHz": 100.0,
+          "S11_dB": -18.317,
+          "S21_dB": -0.069,
+          "Icore_over_Iincident_dB": 0.026,
+          "K_dB": 0.096,
+          "K_phase_deg": 11.82
+        },
+        {
+          "f_MHz": 148.6,
+          "S11_dB": -14.274,
+          "S21_dB": -0.167,
+          "Icore_over_Iincident_dB": 0.039,
+          "K_dB": 0.206,
+          "K_phase_deg": 17.4
+        },
+        {
+          "f_MHz": 200.0,
+          "S11_dB": -10.925,
+          "S21_dB": -0.367,
+          "Icore_over_Iincident_dB": -0.006,
+          "K_dB": 0.361,
+          "K_phase_deg": 23.1
+        },
+        {
+          "f_MHz": 300.0,
+          "S11_dB": -6.074,
+          "S21_dB": -1.242,
+          "Icore_over_Iincident_dB": -0.502,
+          "K_dB": 0.74,
+          "K_phase_deg": 33.48
+        },
+        {
+          "f_MHz": 394.6,
+          "S11_dB": -3.119,
+          "S21_dB": -2.924,
+          "Icore_over_Iincident_dB": -1.783,
+          "K_dB": 1.14,
+          "K_phase_deg": 42.33
+        },
+        {
+          "f_MHz": 500.0,
+          "S11_dB": -1.37,
+          "S21_dB": -5.764,
+          "Icore_over_Iincident_dB": -4.204,
+          "K_dB": 1.56,
+          "K_phase_deg": 51.11
+        }
+      ]
+    },
+    "A03_solid_launch": {
+      "fixture": "A03",
+      "note": "empty fixture, saved 216-point run; anchors are nearest saved points",
+      "anchors": [
+        {
+          "f_MHz": 100.0,
+          "S11_dB": -18.228,
+          "S21_dB": -0.071,
+          "Icore_over_Iincident_dB": 0.025,
+          "K_dB": 0.096,
+          "K_phase_deg": 11.58
+        },
+        {
+          "f_MHz": 148.6,
+          "S11_dB": -14.194,
+          "S21_dB": -0.17,
+          "Icore_over_Iincident_dB": 0.036,
+          "K_dB": 0.206,
+          "K_phase_deg": 17.04
+        },
+        {
+          "f_MHz": 200.0,
+          "S11_dB": -10.855,
+          "S21_dB": -0.373,
+          "Icore_over_Iincident_dB": -0.012,
+          "K_dB": 0.36,
+          "K_phase_deg": 22.62
+        },
+        {
+          "f_MHz": 300.0,
+          "S11_dB": -6.032,
+          "S21_dB": -1.256,
+          "Icore_over_Iincident_dB": -0.519,
+          "K_dB": 0.737,
+          "K_phase_deg": 32.76
+        },
+        {
+          "f_MHz": 394.6,
+          "S11_dB": -3.1,
+          "S21_dB": -2.941,
+          "Icore_over_Iincident_dB": -1.807,
+          "K_dB": 1.134,
+          "K_phase_deg": 41.37
+        },
+        {
+          "f_MHz": 500.0,
+          "S11_dB": -1.368,
+          "S21_dB": -5.77,
+          "Icore_over_Iincident_dB": -4.223,
+          "K_dB": 1.547,
+          "K_phase_deg": 49.87
+        }
+      ]
+    },
+    "A03_z020": {
+      "fixture": "A03",
+      "note": "empty fixture, saved 216-point run; anchors are nearest saved points",
+      "anchors": [
+        {
+          "f_MHz": 100.0,
+          "S11_dB": -16.23,
+          "S21_dB": -0.11,
+          "Icore_over_Iincident_dB": -0.058,
+          "K_dB": 0.052,
+          "K_phase_deg": 10.02
+        },
+        {
+          "f_MHz": 148.6,
+          "S11_dB": -12.572,
+          "S21_dB": -0.249,
+          "Icore_over_Iincident_dB": -0.136,
+          "K_dB": 0.113,
+          "K_phase_deg": 14.8
+        },
+        {
+          "f_MHz": 200.0,
+          "S11_dB": -9.709,
+          "S21_dB": -0.492,
+          "Icore_over_Iincident_dB": -0.293,
+          "K_dB": 0.199,
+          "K_phase_deg": 19.75
+        },
+        {
+          "f_MHz": 300.0,
+          "S11_dB": -5.759,
+          "S21_dB": -1.35,
+          "Icore_over_Iincident_dB": -0.938,
+          "K_dB": 0.412,
+          "K_phase_deg": 28.99
+        },
+        {
+          "f_MHz": 394.6,
+          "S11_dB": -3.31,
+          "S21_dB": -2.748,
+          "Icore_over_Iincident_dB": -2.108,
+          "K_dB": 0.639,
+          "K_phase_deg": 37.14
+        },
+        {
+          "f_MHz": 500.0,
+          "S11_dB": -1.686,
+          "S21_dB": -5.001,
+          "Icore_over_Iincident_dB": -4.128,
+          "K_dB": 0.873,
+          "K_phase_deg": 45.53
+        }
+      ]
+    },
+    "A03_z015": {
+      "fixture": "A03",
+      "note": "empty fixture, saved 216-point run; anchors are nearest saved points",
+      "anchors": [
+        {
+          "f_MHz": 100.0,
+          "S11_dB": -16.734,
+          "S21_dB": -0.098,
+          "Icore_over_Iincident_dB": -0.035,
+          "K_dB": 0.063,
+          "K_phase_deg": 10.5
+        },
+        {
+          "f_MHz": 148.6,
+          "S11_dB": -12.992,
+          "S21_dB": -0.225,
+          "Icore_over_Iincident_dB": -0.09,
+          "K_dB": 0.136,
+          "K_phase_deg": 15.5
+        },
+        {
+          "f_MHz": 200.0,
+          "S11_dB": -10.02,
+          "S21_dB": -0.456,
+          "Icore_over_Iincident_dB": -0.218,
+          "K_dB": 0.238,
+          "K_phase_deg": 20.66
+        },
+        {
+          "f_MHz": 300.0,
+          "S11_dB": -5.857,
+          "S21_dB": -1.315,
+          "Icore_over_Iincident_dB": -0.822,
+          "K_dB": 0.493,
+          "K_phase_deg": 30.23
+        },
+        {
+          "f_MHz": 394.6,
+          "S11_dB": -3.275,
+          "S21_dB": -2.778,
+          "Icore_over_Iincident_dB": -2.013,
+          "K_dB": 0.765,
+          "K_phase_deg": 38.61
+        },
+        {
+          "f_MHz": 500.0,
+          "S11_dB": -1.606,
+          "S21_dB": -5.177,
+          "Icore_over_Iincident_dB": -4.128,
+          "K_dB": 1.049,
+          "K_phase_deg": 47.14
+        }
+      ]
+    }
+  }
+}

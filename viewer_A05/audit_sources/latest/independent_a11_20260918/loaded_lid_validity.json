@@ -1,0 +1,114 @@
+[
+  {
+    "revision": "A10",
+    "native_sha256": "3f254113395618d6be3ddb2d02d18dd34eb9d7531fa5f476660bad3192017b9a",
+    "loaded_valid_on_open": false,
+    "loaded_check_errors": "Unorientable shape\nUnorientable shape\nUnorientable shape\nUnorientable shape\nUnorientable shape\nUnorientable shape\nNo error\nNo error\n",
+    "free_step_valid": true,
+    "free_step_check_errors": null,
+    "generator_deflection_cases": [
+      {
+        "imposed_deflection_mm": 0,
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "imposed_deflection_mm": 0.3,
+        "valid": false,
+        "solids": 1
+      },
+      {
+        "imposed_deflection_mm": 0.6,
+        "valid": false,
+        "solids": 1
+      },
+      {
+        "imposed_deflection_mm": 0.9,
+        "valid": false,
+        "solids": 1
+      },
+      {
+        "imposed_deflection_mm": 1.2,
+        "valid": false,
+        "solids": 1
+      },
+      {
+        "imposed_deflection_mm": 1.5,
+        "valid": false,
+        "solids": 1
+      },
+      {
+        "imposed_deflection_mm": 1.8,
+        "valid": false,
+        "solids": 1
+      },
+      {
+        "imposed_deflection_mm": 2.42,
+        "valid": false,
+        "solids": 1
+      },
+      {
+        "imposed_deflection_mm": 3.02,
+        "valid": false,
+        "solids": 1
+      }
+    ],
+    "generator_sha256": "0bcbae4869f61ac5165b680e32943cf4bc337950a3f3aec940a259e37c4da641"
+  },
+  {
+    "revision": "A11",
+    "native_sha256": "43347b92f42abb08b4b938e21b1780dc678d9b14a5508b7598555ee5ab1b244d",
+    "loaded_valid_on_open": true,
+    "loaded_check_errors": "BOP check found the following errors:\nError in Compound: BOPAlgo OperationAborted\n",
+    "free_step_valid": true,
+    "free_step_check_errors": null,
+    "generator_deflection_cases": [
+      {
+        "imposed_deflection_mm": 0,
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "imposed_deflection_mm": 0.3,
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "imposed_deflection_mm": 0.6,
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "imposed_deflection_mm": 0.9,
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "imposed_deflection_mm": 1.2,
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "imposed_deflection_mm": 1.5,
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "imposed_deflection_mm": 1.8,
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "imposed_deflection_mm": 2.42,
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "imposed_deflection_mm": 3.02,
+        "valid": true,
+        "solids": 1
+      }
+    ],
+    "generator_sha256": "dbeeca3abd98d1b29a931fe76aa90451164c7682c887c135e0bb47eb7112333e"
+  }
+]

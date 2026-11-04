@@ -1,0 +1,286 @@
+{
+  "format": "RFCP indexed actual CAD mesh / millimetres",
+  "parts": [
+    {
+      "name": "Head_LowerShell",
+      "base": "LowerShell",
+      "group": "FIXED",
+      "color": "#356e84",
+      "vo": 0,
+      "vc": 3647,
+      "io": 43764,
+      "ic": 22014
+    },
+    {
+      "name": "Head_UpperShell",
+      "base": "UpperShell",
+      "group": "CAP",
+      "color": "#58a0b5",
+      "vo": 131820,
+      "vc": 1184,
+      "io": 146028,
+      "ic": 7140
+    },
+    {
+      "name": "Head_LowerKeeper",
+      "base": "LowerKeeper",
+      "group": "FIXED",
+      "color": "#79b3be",
+      "vo": 174588,
+      "vc": 1056,
+      "io": 187260,
+      "ic": 6396
+    },
+    {
+      "name": "Head_UpperKeeper",
+      "base": "UpperKeeper",
+      "group": "CAP",
+      "color": "#79b3be",
+      "vo": 212844,
+      "vc": 628,
+      "io": 220380,
+      "ic": 3780
+    },
+    {
+      "name": "Head_FixedCore",
+      "base": "FixedCore",
+      "group": "FIXED",
+      "color": "#333e49",
+      "vo": 235500,
+      "vc": 2702,
+      "io": 267924,
+      "ic": 16200
+    },
+    {
+      "name": "Head_MovingCore",
+      "base": "MovingCore",
+      "group": "CAP",
+      "color": "#424e59",
+      "vo": 332724,
+      "vc": 2702,
+      "io": 365148,
+      "ic": 16200
+    },
+    {
+      "name": "Head_Winding",
+      "base": "Winding",
+      "group": "FIXED",
+      "color": "#db9f48",
+      "vo": 429948,
+      "vc": 20539,
+      "io": 676416,
+      "ic": 123222
+    },
+    {
+      "name": "Head_PCB",
+      "base": "PCB",
+      "group": "FIXED",
+      "color": "#318f59",
+      "vo": 1169304,
+      "vc": 2074,
+      "io": 1194192,
+      "ic": 12540
+    },
+    {
+      "name": "Head_SMAEnvelope",
+      "base": "SMAEnvelope",
+      "group": "FIXED",
+      "color": "#d6bd72",
+      "vo": 1244352,
+      "vc": 1772,
+      "io": 1265616,
+      "ic": 10572
+    },
+    {
+      "name": "Head_LowerPads",
+      "base": "LowerPads",
+      "group": "FIXED",
+      "color": "#d5af67",
+      "vo": 1307904,
+      "vc": 48,
+      "io": 1308480,
+      "ic": 216
+    },
+    {
+      "name": "Head_LowerKeeperHardware",
+      "base": "LowerKeeperHardware",
+      "group": "FIXED",
+      "color": "#ddd5bc",
+      "vo": 1309344,
+      "vc": 1536,
+      "io": 1327776,
+      "ic": 9192
+    },
+    {
+      "name": "Head_UpperPads",
+      "base": "UpperPads",
+      "group": "CAP",
+      "color": "#d5af67",
+      "vo": 1364544,
+      "vc": 48,
+      "io": 1365120,
+      "ic": 216
+    },
+    {
+      "name": "Head_UpperKeeperHardware",
+      "base": "UpperKeeperHardware",
+      "group": "CAP",
+      "color": "#ddd5bc",
+      "vo": 1365984,
+      "vc": 1536,
+      "io": 1384416,
+      "ic": 9192
+    },
+    {
+      "name": "Head_HandScrewsEnvelope",
+      "base": "HandScrewsEnvelope",
+      "group": "REMOVE",
+      "color": "#bbc7cf",
+      "vo": 1421184,
+      "vc": 1008,
+      "io": 1433280,
+      "ic": 6024
+    },
+    {
+      "name": "Head_SquareNutsEnvelope",
+      "base": "SquareNutsEnvelope",
+      "group": "FIXED",
+      "color": "#a6b2be",
+      "vo": 1457376,
+      "vc": 520,
+      "io": 1463616,
+      "ic": 3120
+    },
+    {
+      "name": "Head_PCBScrews",
+      "base": "PCBScrews",
+      "group": "FIXED",
+      "color": "#ddd5bc",
+      "vo": 1476096,
+      "vc": 1008,
+      "io": 1488192,
+      "ic": 6024
+    },
+    {
+      "name": "Head_PCBNuts",
+      "base": "PCBNuts",
+      "group": "FIXED",
+      "color": "#ddd5bc",
+      "vo": 1512288,
+      "vc": 528,
+      "io": 1518624,
+      "ic": 3168
+    },
+    {
+      "name": "FlatPCB",
+      "base": "FlatPCB",
+      "group": "BENCH",
+      "color": "#237d54",
+      "vo": 1531296,
+      "vc": 4436,
+      "io": 1584528,
+      "ic": 26796
+    },
+    {
+      "name": "SignalCopper",
+      "base": "SignalCopper",
+      "group": "BENCH",
+      "color": "#e5af4d",
+      "vo": 1691712,
+      "vc": 38705,
+      "io": 2156172,
+      "ic": 232518
+    },
+    {
+      "name": "ReturnCopper",
+      "base": "ReturnCopper",
+      "group": "BENCH",
+      "color": "#4c956a",
+      "vo": 3086244,
+      "vc": 122187,
+      "io": 4552488,
+      "ic": 734226
+    },
+    {
+      "name": "SMAInput",
+      "base": "SMAInput",
+      "group": "BENCH",
+      "color": "#d3ba72",
+      "vo": 7489392,
+      "vc": 1772,
+      "io": 7510656,
+      "ic": 10572
+    },
+    {
+      "name": "SMAOutput",
+      "base": "SMAOutput",
+      "group": "BENCH",
+      "color": "#d3ba72",
+      "vo": 7552944,
+      "vc": 1772,
+      "io": 7574208,
+      "ic": 10572
+    },
+    {
+      "name": "Base",
+      "base": "Base",
+      "group": "BENCH",
+      "color": "#657c8c",
+      "vo": 7616496,
+      "vc": 3951,
+      "io": 7663908,
+      "ic": 23766
+    },
+    {
+      "name": "BaseHandScrews",
+      "base": "BaseHandScrews",
+      "group": "BENCH",
+      "color": "#bbc7cf",
+      "vo": 7758972,
+      "vc": 1008,
+      "io": 7771068,
+      "ic": 6024
+    },
+    {
+      "name": "BaseNuts",
+      "base": "BaseNuts",
+      "group": "BENCH",
+      "color": "#a6b2be",
+      "vo": 7795164,
+      "vc": 520,
+      "io": 7801404,
+      "ic": 3120
+    },
+    {
+      "name": "CornerPCBScrews",
+      "base": "CornerPCBScrews",
+      "group": "BENCH",
+      "color": "#ddd5bc",
+      "vo": 7813884,
+      "vc": 2016,
+      "io": 7838076,
+      "ic": 12048
+    },
+    {
+      "name": "CornerPCBNuts",
+      "base": "CornerPCBNuts",
+      "group": "BENCH",
+      "color": "#ddd5bc",
+      "vo": 7886268,
+      "vc": 1056,
+      "io": 7898940,
+      "ic": 6336
+    }
+  ],
+  "revision": "A07",
+  "source_directory": "mechanical\\clamp_A07_DRAFT",
+  "source_sha256": {
+    "fixture_mesh.json": "45a93c31f72319b103a2304699c4fa2083a2cde7085d94bdfbd8a9a39488d55c",
+    "assembly_mesh.json": "f467f31d337e271ba10a838c548134ef016fb3a34fe1a3e117c1cdb0fad3526b"
+  },
+  "triangle_count": 440398,
+  "maximum_float32_rounding_mm": 3.812085907384244e-06,
+  "binary_sha256": "fab22025dd8e05966babc5ebffea0044a6c79726cbe87a506e957e2977a9bacc",
+  "remodelled": false,
+  "decimated": false
+}

@@ -1,0 +1,131 @@
+{
+  "classification": "CALCULATED_SOURCE_SURFACE_EXTENT_NOT_LOAD_ANALYSIS",
+  "source_step": "mechanical\\assembly_A10_DRAFT\\parts\\LowerBody_FREE_DRAFT.step",
+  "source_sha256": "e0f2d6386b4cb1347b0902e279c6549504f40170a1a58ba1af121cc83692a061",
+  "sample_cad_point_mm": [
+    -2.438593334484011,
+    -34.0,
+    4.791118589031576
+  ],
+  "faces_containing_point": [
+    {
+      "face_index": 50,
+      "area_mm2": 82.8,
+      "bounds_mm": {
+        "min": [
+          -6.0,
+          -34.0,
+          -2.0
+        ],
+        "max": [
+          6.0,
+          -34.0,
+          4.9
+        ]
+      }
+    }
+  ],
+  "sections_through_candidate_z_bounds": [
+    {
+      "z_mm": -2,
+      "solid_intervals_y_mm": [
+        [
+          -45.0,
+          -34.0
+        ],
+        [
+          -34.0,
+          -30.0
+        ]
+      ]
+    },
+    {
+      "z_mm": -1,
+      "solid_intervals_y_mm": [
+        [
+          -45.0,
+          -34.0
+        ]
+      ]
+    },
+    {
+      "z_mm": 0,
+      "solid_intervals_y_mm": [
+        [
+          -45.0,
+          -37.0
+        ],
+        [
+          -37.0,
+          -34.0
+        ]
+      ]
+    },
+    {
+      "z_mm": 3,
+      "solid_intervals_y_mm": [
+        [
+          -37.0,
+          -34.0
+        ]
+      ]
+    },
+    {
+      "z_mm": 4.7,
+      "solid_intervals_y_mm": [
+        [
+          -37.0,
+          -34.0
+        ]
+      ]
+    },
+    {
+      "z_mm": 4.74,
+      "solid_intervals_y_mm": [
+        [
+          -37.0,
+          -34.0
+        ]
+      ]
+    },
+    {
+      "z_mm": 4.76,
+      "solid_intervals_y_mm": [
+        [
+          -35.0,
+          -34.0
+        ]
+      ]
+    },
+    {
+      "z_mm": 4.8,
+      "solid_intervals_y_mm": [
+        [
+          -35.0,
+          -34.0
+        ]
+      ]
+    },
+    {
+      "z_mm": 4.89,
+      "solid_intervals_y_mm": [
+        [
+          -35.0,
+          -34.0
+        ]
+      ]
+    },
+    {
+      "z_mm": 4.91,
+      "solid_intervals_y_mm": []
+    },
+    {
+      "z_mm": 6,
+      "solid_intervals_y_mm": []
+    },
+    {
+      "z_mm": 7.7,
+      "solid_intervals_y_mm": []
+    }
+  ]
+}

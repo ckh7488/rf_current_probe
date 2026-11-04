@@ -1,0 +1,32 @@
+"""Update owned Site sources; build only after the new CAD passes its checks."""
+from pathlib import Path
+R=Path(__file__).resolve().parents[2]; P=R/'viewer_A05'
+names=['build_assembly_site.py','build_clamp_site.py','assembly_template.html','assembly_viewer.js','clamp_template.html','clamp_viewer.js','verify_current_cad_viewer.js']
+for name in names:
+    p=P/name;s=p.read_text(encoding='utf-8').replace('A11','A12').replace('C05','C06')
+    p.write_text(s,encoding='utf-8')
+p=P/'build_assembly_site.py';s=p.read_text(encoding='utf-8')
+s=s.replace("model={'parts':parts,", "model={'printCount':v['printed_total'],'printKinds':v['printed_unique'],'parts':parts,")
+s=s.replace('바닥 나사, SMA·인두 접근, 너트 조작, 뚜껑 위치 기준을 별도로 검토했습니다.', '너트의 쉬운 삽입·회전 방지·탈락 방지와 새 부품의 제작성을 검토했습니다.')
+p.write_text(s,encoding='utf-8')
+p=P/'build_clamp_site.py';s=p.read_text(encoding='utf-8')
+s=s.replace("model={'parts':parts,", "model={'printCount':sum(p['printed'] for p in parts),'parts':parts,")
+s=s.replace('출력물 5개: 유효 단일 솔리드.', '출력용 솔리드와 너트 덮개 조립을 별도로 검사했습니다.')
+p.write_text(s,encoding='utf-8')
+p=P/'assembly_viewer.js';s=p.read_text(encoding='utf-8')
+s=s.replace('10종 / 총15개', '${data.printKinds}종 / 총${data.printCount}개')
+s=s.replace('교정 PCB 아래의 너트는 기둥 바깥쪽 창에서 얇은 5.5 mm 스패너로 잡고 나사를 조입니다.', '교정 PCB 받침에는 회전을 막는 나일론 날개 너트 자리를 둡니다. 너트를 먼저 넣고 탈락 방지 덮개를 닫은 뒤, 위에서 나사를 조입니다.')
+s=s.replace('<details><summary>권선·PCB·고정바 조립 순서</summary>', '<details open><summary>너트를 넣고 조이는 방법</summary><p>사각 너트를 눈에 보이는 입구로 넣고 덮개를 닫습니다. 덮개는 빠짐만 막으며, 나사를 조이는 힘은 본체의 받침면이 받습니다. 반복 개폐 때는 이 덮개를 빼지 않습니다.</p><p><a href="compare.html?part=head_nut">너트 자리 수정 전후 3D →</a></p></details><details><summary>권선·PCB·고정바 조립 순서</summary>')
+p.write_text(s,encoding='utf-8')
+p=P/'clamp_viewer.js';s=p.read_text(encoding='utf-8')
+s=s.replace('3D 프린트 5개 + 기성 체결품', '열고 닫아도 너트는 제자리에')
+s=s.replace('한 개당 5개 / 앞뒤 10개','한 개당 ${data.printCount}개 / 앞뒤 ${data.printCount*2}개')
+s=s.replace('몸체·연결틀·위 턱과 가로대·아래 턱 두 개를 따로 출력해서 조립하는 안입니다.', '기존 다섯 출력 부품에 너트 탈락 방지 덮개를 더했습니다. 작은 손나사를 완전히 빼도 사각 너트를 다시 넣지 않도록 했습니다.')
+s=s.replace('출력물 5개와 기성 체결품','출력 부품과 기성 체결품')
+s=s.replace('<li>위 가로대를 올리고 손나사 두 개로 고정합니다.</li>', '<li>가로대용 사각 너트를 넣고 탈락 방지 덮개를 닫습니다. 덮개 조립 상태를 확인한 뒤 가로대를 올리고 손나사 두 개로 고정합니다.</li>')
+p.write_text(s,encoding='utf-8')
+p=P/'compare_3d_template.html';s=p.read_text(encoding='utf-8').replace('A10 / C04 → A11 / C05','A11 / C05 → A12 / C06').replace('앞서 보강한 8곳도 3D로 보기','이전 수정 14곳도 3D로 보기').replace('이전 보강의 A09 / C03 → A10 / C04 기록입니다.', 'A09 / C03부터 A11 / C05까지의 이전 수정 기록입니다.').replace('assembly/A11_REVIEW_PACKAGE.zip','assembly/A12_REVIEW_PACKAGE.zip');p.write_text(s,encoding='utf-8')
+p=P/'compare_3d_viewer.js';s=p.read_text(encoding='utf-8').replace("$(i<8?'earlier':'latest')", "$(c.after==='A12'||c.after==='C06'?'latest':'earlier')").replace('show(found>=0?found:8);', "show(found>=0?found:model.cases.findIndex(c=>c.after==='A12'||c.after==='C06'));");p.write_text(s,encoding='utf-8')
+p=P/'build_compare_3d.py';s=p.read_text(encoding='utf-8').replace("O=R/'reviews/visual_revision_20260918'","O=R/'reviews/nut_access_20260918'").replace("src=P/'audit_sources/visual_revision_20260918'","src=P/'audit_sources/nut_access_20260918'");p.write_text(s,encoding='utf-8')
+p=P/'verify_current_cad_viewer.js';s=p.read_text(encoding='utf-8').replace('assert.equal(Object.keys(am).length,73);assert.equal(Object.values(cm).filter(x=>x.printed).length,5);','assert(Object.keys(am).length>73);assert(Object.values(cm).filter(x=>x.printed).length>5);').replace("reviews/visual_revision_20260918/comparison_3d.json","reviews/nut_access_20260918/comparison_3d.json").replace('parts:73,','parts:Object.keys(am).length,');p.write_text(s,encoding='utf-8')
+print('Updated current viewer sources; output is unchanged until fresh CAD is built.')

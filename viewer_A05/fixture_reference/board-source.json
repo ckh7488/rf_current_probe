@@ -1,0 +1,176 @@
+{
+  "classification": "CAD_EXTRACTED_NOT_MEASURED",
+  "date": "2026-09-23",
+  "revision": "Fixture A03",
+  "filename": "RFCP_Fixture_Flat_A03_DRAFT.kicad_pcb",
+  "sha256": "7452432265c55c33bbce9c3bf0bc9ea6b5220603afae941fd1c91295e04ce31f",
+  "sourceTitle": "RFCP_Fixture_Flat_A02_DRAFT",
+  "sourceRevision": "A0.3 DRAFT",
+  "titleNote": "The source title retains A02; the selected A03 filename, A0.3 revision and A03 silkscreen identify this preserved A03 source.",
+  "extraction": "Read-only standard-library S-expression parser; no refill or native-file write.",
+  "counts": {
+    "edgePrimitives": 24,
+    "contours": 3,
+    "windows": 2,
+    "pads": 14,
+    "mountingHoles": 4,
+    "vias": 45,
+    "tracks": 0,
+    "filledPolygons": 4,
+    "filledPolygonVertices": 1540
+  },
+  "checks": [
+    {
+      "layer": "F.Cu",
+      "location": "center bridge",
+      "xy": [
+        72,
+        46.35
+      ],
+      "result": {
+        "SIG": true,
+        "GND": false
+      }
+    },
+    {
+      "layer": "F.Cu",
+      "location": "left return",
+      "xy": [
+        12,
+        46.35
+      ],
+      "result": {
+        "SIG": false,
+        "GND": true
+      }
+    },
+    {
+      "layer": "F.Cu",
+      "location": "right return",
+      "xy": [
+        132,
+        46.35
+      ],
+      "result": {
+        "SIG": false,
+        "GND": true
+      }
+    },
+    {
+      "layer": "F.Cu",
+      "location": "left window",
+      "xy": [
+        44,
+        47
+      ],
+      "result": {
+        "SIG": false,
+        "GND": false
+      }
+    },
+    {
+      "layer": "F.Cu",
+      "location": "right window",
+      "xy": [
+        99,
+        47
+      ],
+      "result": {
+        "SIG": false,
+        "GND": false
+      }
+    },
+    {
+      "layer": "F.Cu",
+      "location": "mounting hole",
+      "xy": [
+        7,
+        8
+      ],
+      "result": {
+        "SIG": false,
+        "GND": false
+      }
+    },
+    {
+      "layer": "B.Cu",
+      "location": "center bridge",
+      "xy": [
+        72,
+        46.35
+      ],
+      "result": {
+        "SIG": true,
+        "GND": false
+      }
+    },
+    {
+      "layer": "B.Cu",
+      "location": "left return",
+      "xy": [
+        12,
+        46.35
+      ],
+      "result": {
+        "SIG": false,
+        "GND": true
+      }
+    },
+    {
+      "layer": "B.Cu",
+      "location": "right return",
+      "xy": [
+        132,
+        46.35
+      ],
+      "result": {
+        "SIG": false,
+        "GND": true
+      }
+    },
+    {
+      "layer": "B.Cu",
+      "location": "left window",
+      "xy": [
+        44,
+        47
+      ],
+      "result": {
+        "SIG": false,
+        "GND": false
+      }
+    },
+    {
+      "layer": "B.Cu",
+      "location": "right window",
+      "xy": [
+        99,
+        47
+      ],
+      "result": {
+        "SIG": false,
+        "GND": false
+      }
+    },
+    {
+      "layer": "B.Cu",
+      "location": "mounting hole",
+      "xy": [
+        7,
+        8
+      ],
+      "result": {
+        "SIG": false,
+        "GND": false
+      }
+    }
+  ],
+  "limitations": [
+    "CAD_EXTRACTED: saved A03 copper fill, pads, vias and Edge.Cuts; no measured electrical response.",
+    "Both copper layers use the same top-view coordinates; bottom view is not mirrored.",
+    "Zone points retain the saved KiCad hole/slit contours; render with SVG fill-rule=\"evenodd\".",
+    "boardOutlinePath includes outer edge and both windows; subtract pad and via drills separately.",
+    "Silkscreen font shape, soldermask, connector bodies, core, winding and housing are not reproduced.",
+    "This bounded explanatory dataset is not a PCB manufacturing or fabrication source."
+  ]
+}

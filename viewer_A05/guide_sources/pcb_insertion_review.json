@@ -1,0 +1,150 @@
+[
+  {
+    "angle": -20,
+    "dy": -1.6,
+    "positions": 31,
+    "collisions": [
+      {
+        "angle": -20,
+        "y": -1.6,
+        "z": 12,
+        "part": "PCB",
+        "obstacle": "LowerBody",
+        "volume_mm3": 55.70749001161542
+      },
+      {
+        "angle": -20,
+        "y": -1.6,
+        "z": 16,
+        "part": "PCB",
+        "obstacle": "LowerBody",
+        "volume_mm3": 55.86535175684109
+      },
+      {
+        "angle": -20,
+        "y": -1.6,
+        "z": 20,
+        "part": "PCB",
+        "obstacle": "LowerBody",
+        "volume_mm3": 55.86535175684108
+      },
+      {
+        "angle": -20,
+        "y": -1.6,
+        "z": 24,
+        "part": "PCB",
+        "obstacle": "LowerBody",
+        "volume_mm3": 55.86535175684108
+      },
+      {
+        "angle": -20,
+        "y": -1.6,
+        "z": 28,
+        "part": "PCB",
+        "obstacle": "LowerBody",
+        "volume_mm3": 55.865351756840994
+      },
+      {
+        "angle": -20,
+        "y": -1.6,
+        "z": 32,
+        "part": "PCB",
+        "obstacle": "LowerBody",
+        "volume_mm3": 55.86535175684108
+      },
+      {
+        "angle": -20,
+        "y": -1.6,
+        "z": 36,
+        "part": "PCB",
+        "obstacle": "LowerBody",
+        "volume_mm3": 55.865351756840994
+      },
+      {
+        "angle": -20,
+        "y": -1.6,
+        "z": 40,
+        "part": "PCB",
+        "obstacle": "LowerBody",
+        "volume_mm3": 55.865351756841235
+      }
+    ]
+  },
+  {
+    "angle": -25,
+    "dy": -1.6,
+    "positions": 31,
+    "collisions": [
+      {
+        "angle": -25,
+        "y": -1.6,
+        "z": 12,
+        "part": "PCB",
+        "obstacle": "LowerBody",
+        "volume_mm3": 4.654541685407801
+      },
+      {
+        "angle": -25,
+        "y": -1.6,
+        "z": 16,
+        "part": "PCB",
+        "obstacle": "LowerBody",
+        "volume_mm3": 4.654541685407805
+      },
+      {
+        "angle": -25,
+        "y": -1.6,
+        "z": 20,
+        "part": "PCB",
+        "obstacle": "LowerBody",
+        "volume_mm3": 4.654541685407805
+      },
+      {
+        "angle": -25,
+        "y": -1.6,
+        "z": 24,
+        "part": "PCB",
+        "obstacle": "LowerBody",
+        "volume_mm3": 4.654541685407805
+      },
+      {
+        "angle": -25,
+        "y": -1.6,
+        "z": 28,
+        "part": "PCB",
+        "obstacle": "LowerBody",
+        "volume_mm3": 4.654541685407836
+      },
+      {
+        "angle": -25,
+        "y": -1.6,
+        "z": 32,
+        "part": "PCB",
+        "obstacle": "LowerBody",
+        "volume_mm3": 4.654541685407826
+      },
+      {
+        "angle": -25,
+        "y": -1.6,
+        "z": 36,
+        "part": "PCB",
+        "obstacle": "LowerBody",
+        "volume_mm3": 4.654541685407826
+      },
+      {
+        "angle": -25,
+        "y": -1.6,
+        "z": 40,
+        "part": "PCB",
+        "obstacle": "LowerBody",
+        "volume_mm3": 4.654541685407826
+      }
+    ]
+  },
+  {
+    "angle": -30,
+    "dy": -1.6,
+    "positions": 31,
+    "collisions": []
+  }
+]

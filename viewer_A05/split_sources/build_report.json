@@ -1,0 +1,283 @@
+{
+  "status": "DRAFT - NOT FOR FABRICATION; supplier re-review and physical fit required",
+  "classification": "CALCULATED_CAD_NOT_PRINT_OR_STRUCTURAL_SIMULATION",
+  "freecad": [
+    "1",
+    "0",
+    "2",
+    "39319 (Git)",
+    "https://github.com/FreeCAD/FreeCAD",
+    "2025/08/05 20:19:07",
+    "(HEAD detached at 1.0.2)",
+    "256fc7eff3379911ab5daf88e10182c509aa8052"
+  ],
+  "source_sha256": "a7cd0baa102cd987445c187bfd41a16b5300fb790d20a83692af9135f101e0ac",
+  "input_sha256": {
+    "mechanical\\assembly_A13_DRAFT\\RFCP_A13_Integrated_DRAFT.FCStd": "5338d317e73dd15f1c95182864a2cf8f4377bbea19776716b925b8b2af7ed846",
+    "mechanical\\assembly_A13_DRAFT\\parts\\UpperLid_FREE_DRAFT.step": "9abd0094ac364ad3d2c1dd458cc8f2d96e1a475b05ac0d3263454ae1e9958e4e"
+  },
+  "native_sha256": "400618d82bd9f1d98a7f45a7e3e4bda1664310d61d81435e3d18fd1194b9e2a7",
+  "mesh_sha256": "d7b22ceb230a093943872b5a9cd0abc39096fc282fae383d65120d6cacc0b0ac",
+  "parts": {
+    "LowerArmLeft": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 41744.97178573388,
+      "bbox_mm": [
+        69.0,
+        46.0,
+        38.0
+      ]
+    },
+    "LowerArmRight": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 38072.97180982395,
+      "bbox_mm": [
+        63.0,
+        38.0,
+        32.0
+      ]
+    },
+    "LowerCenter": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 173555.62183942963,
+      "bbox_mm": [
+        172.0,
+        69.00000000000001,
+        102.0
+      ]
+    },
+    "UpperLeft": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 42274.36718314696,
+      "bbox_mm": [
+        133.0,
+        53.2,
+        32.0
+      ]
+    },
+    "UpperRight": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 39963.36718314657,
+      "bbox_mm": [
+        132.2,
+        53.2,
+        32.0
+      ]
+    },
+    "BaseFront": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 203418.2836857034,
+      "bbox_mm": [
+        186.0,
+        19.0,
+        102.0
+      ]
+    },
+    "BaseCenter": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 340890.58819126844,
+      "bbox_mm": [
+        186.0,
+        86.0,
+        174.4
+      ]
+    },
+    "BaseRear": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 196831.0836857034,
+      "bbox_mm": [
+        186.0,
+        19.0,
+        100.0
+      ]
+    },
+    "LowerKeeper": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 6221.964611181351,
+      "bbox_mm": [
+        88.0,
+        26.5,
+        21.0
+      ]
+    },
+    "UpperKeeper": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 6221.964611181352,
+      "bbox_mm": [
+        88.0,
+        26.5,
+        21.0
+      ]
+    },
+    "C07_Frame": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 152449.12741948472,
+      "bbox_mm": [
+        158.0,
+        122.0,
+        51.0
+      ]
+    },
+    "C07_DriveYoke": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 55161.428807393335,
+      "bbox_mm": [
+        144.0,
+        80.0,
+        15.0
+      ]
+    },
+    "C07_TopBridgeJaw": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 16158.91555426467,
+      "bbox_mm": [
+        112.0,
+        28.0,
+        29.3
+      ]
+    },
+    "C07_Jaw1": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 4134.194376263356,
+      "bbox_mm": [
+        35.358133526676056,
+        27.075941853735465,
+        10.0
+      ]
+    },
+    "C07_Jaw2": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 4134.194376262272,
+      "bbox_mm": [
+        35.358133526675,
+        27.075941853732,
+        10.0
+      ]
+    }
+  },
+  "changed_parts": [
+    "LowerArmLeft",
+    "LowerArmRight",
+    "LowerCenter",
+    "UpperLeft",
+    "UpperRight",
+    "BaseFront",
+    "BaseCenter",
+    "BaseRear"
+  ],
+  "printed_unique": 15,
+  "printed_total": 20,
+  "additional_joint_bolts": 10,
+  "static_collisions": [],
+  "parameters": {
+    "base_width_mm": 186,
+    "base_length_mm": 314,
+    "base_thickness_mm": 16,
+    "axis_height_mm": 88,
+    "module_datum_y": -72,
+    "core_unchanged": true,
+    "leaf_span_mm": 63,
+    "leaf_thickness_mm": 2.4
+  },
+  "hardware": [
+    {
+      "use": "Base seams; screw from underside",
+      "qty": 4,
+      "screw": "M4 x 20",
+      "mpn": "50M040070P020",
+      "washer": "17M04DIN34815 ID4.3 OD9 t0.8 x2",
+      "nut": "04M040070HNDIN34814 AF7 H3.2",
+      "material": "nonconductive PA66"
+    },
+    {
+      "use": "Lower arm seams",
+      "qty": 4,
+      "screw": "M4 x 30",
+      "mpn": "50M040070P030",
+      "washer": "17M04DIN34815 ID4.3 OD9 t0.8 x2",
+      "nut": "04M040070HNDIN34814 AF7 H3.2",
+      "material": "nonconductive PA66"
+    },
+    {
+      "use": "Upper center seam",
+      "qty": 2,
+      "screw": "M4 x 30",
+      "mpn": "50M040070P030",
+      "washer": "17M04DIN34815 ID4.3 OD9 t0.8 x2",
+      "nut": "04M040070HNDIN34814 AF7 H3.2",
+      "material": "nonconductive PA66"
+    }
+  ],
+  "catalogue_only_update_20260921": {
+    "lower_thrust_washer": "Fabory 50060.060.001 ID6.4 OD12 t1.6; qty2, same as top washer",
+    "lower_nyloc_y_mm": [
+      34.2,
+      40.2
+    ],
+    "lower_washer_y_mm": [
+      40.2,
+      41.8
+    ],
+    "frame_endplay_nominal_mm": 0.2,
+    "pcb_screw": "Essentra 50M020040P012; qty2; maximum head D4 H1.6; nominal M2x12 shank",
+    "changed_shape_objects": [
+      "Cable1_ThrustWasher",
+      "Cable2_ThrustWasher",
+      "Cable1_LeadLockNut",
+      "Cable2_LeadLockNut",
+      "PCBScrews"
+    ]
+  },
+  "closure_catalogue_20260921": {
+    "stud": "Fabory 20106.040.070 M4x70",
+    "knob": "NBK KNFS-16-M4 through-thread",
+    "jamnut": "Fabory 51080.040.001 M4 AF7 H3.2",
+    "washer": "Essentra 17M04DIN34815 PA66 ID4.3 OD9 t0.8",
+    "quantity_each": 2,
+    "stud_y_mm": [
+      -16.5,
+      53.5
+    ],
+    "washer_y_mm": [
+      40,
+      40.8
+    ],
+    "nut_y_mm": [
+      40.8,
+      44
+    ],
+    "knob_y_mm": [
+      44,
+      53.5
+    ],
+    "nominal_effective_under_washer_length_mm": 56.5,
+    "nominal_tip_projection_mm": 6.9,
+    "assembly": "Preassemble outside the probe: stud top flush with knob top, counter-tighten jamnut against knob hub, then place PA washer; keep each four-part unit together for routine removal."
+  },
+  "limitations": [
+    "Splitting reduces individual span; no warp magnitude/probability or supplier acceptance established.",
+    "New lap joint slip, nylon screw creep, preload, fatigue and core contact force untested.",
+    "A13 FEA cannot validate A14 joints. Existing 2.4mm flexures retained, not reinforced arbitrarily.",
+    "Open laps seat on datum faces, no press-fit; real warpage and global tolerance may exceed local gaps.",
+    "All 10 new joint fasteners nonconductive; vendor dimensions/material and wrench fit require physical confirmation.",
+    "A13 remaining DFM warning in PCB holder needs fresh supplier review.",
+    "Existing C07 candidate screw/shaft sourcing and calibration PCB impedance holds remain."
+  ],
+  "pass_geometry": true,
+  "m2x12_adoption_record": "reviews/technical_closure_20260921/m2x12_result.json"
+}

@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "module_id": "fixture_a03",
+  "quantity_basis": "one assembled fixture",
+  "classification": "INSTALLATION_QUANTITIES_NOT_PURCHASE_QUANTITIES",
+  "already_included_in": "RF current probe integrated BOM",
+  "items": [
+    {
+      "id": "E03",
+      "name": "Fixture A03 PCB",
+      "mpn": "RFCP_Fixture_Flat_A03_DRAFT",
+      "spec": "144 x 92.7 x 1.6 mm; FR4 2-layer",
+      "quantity_per_fixture": 1,
+      "unit": "board",
+      "note": "RF integrated BOM E03; not an additional purchase"
+    },
+    {
+      "id": "E04",
+      "name": "SMA connector",
+      "manufacturer": "GCT",
+      "mpn": "RFPC-SMA28-F",
+      "spec": "SMA female THT",
+      "quantity_per_fixture": 2,
+      "unit": "piece",
+      "note": "2 of the 3 E04 connectors in RF integrated BOM; 1 is for head"
+    },
+    {
+      "id": "F13",
+      "name": "Fixture screw",
+      "manufacturer": "Essentra",
+      "mpn": "50M030050P012",
+      "spec": "PA66 M3 x 0.5 x 12 mm",
+      "quantity_per_fixture": 4,
+      "unit": "piece",
+      "note": "RF integrated BOM F13"
+    },
+    {
+      "id": "F14",
+      "name": "Fixture wing nut",
+      "manufacturer": "Kang Yang",
+      "mpn": "SMO-3(N)",
+      "spec": "PA66 M3",
+      "quantity_per_fixture": 4,
+      "unit": "piece",
+      "note": "RF integrated BOM F14"
+    }
+  ],
+  "shared_equipment": [
+    "2-port VNA",
+    "2 coax cables 50 ohm",
+    "compatible SOLT standards",
+    "one external 50 ohm working load",
+    "probe under calibration",
+    "BaseCenter A14 support (P05)"
+  ],
+  "consumables": [
+    "solder",
+    "flux",
+    "cleaning supplies"
+  ]
+}

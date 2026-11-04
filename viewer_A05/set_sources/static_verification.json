@@ -1,0 +1,24 @@
+{
+  "classification": "STATIC_DOCUMENT_AND_ARCHIVE_CHECK_NOT_BROWSER_QA",
+  "pass_": true,
+  "documents": [
+    "index.html",
+    "assembly.html",
+    "assembly-guide.html",
+    "bom.html",
+    "manual.html",
+    "purchase.html",
+    "impedance-review.html"
+  ],
+  "bom_rows": 43,
+  "printed_types": 10,
+  "printed_pieces": 15,
+  "local_links_checked": 103,
+  "offline_links_checked": 91,
+  "existing_3d_payloads_unchanged": true,
+  "cad_quantity_rows_checked": 29,
+  "native_sha256": "5338d317e73dd15f1c95182864a2cf8f4377bbea19776716b925b8b2af7ed846",
+  "cart_rows": 9,
+  "cart_krw": 348513,
+  "fixture_A02_on_hold": true
+}

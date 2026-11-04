@@ -1,0 +1,244 @@
+{
+  "classification": "CALCULATED_SAVED_CAD_TOOL_GAUGES_NOT_REAL_TOOLS",
+  "script_sha256": "96451349cca97d13c84e09872c5064c91109838655f3676258e384bc48db000c",
+  "revisions": {
+    "A10": {
+      "native_sha256": "3f254113395618d6be3ddb2d02d18dd34eb9d7531fa5f476660bad3192017b9a",
+      "tools": [
+        {
+          "operation": "head_SMA_D16x45",
+          "keeper_z_shift_mm": -0.635,
+          "collisions": [
+            {
+              "part": "LowerKeeper",
+              "overlap_mm3": 58.0239045
+            }
+          ]
+        },
+        {
+          "operation": "Splus_tapered_solder_tool",
+          "keeper_z_shift_mm": -0.635,
+          "collisions": [
+            {
+              "part": "LowerKeeper",
+              "overlap_mm3": 36.6042449
+            }
+          ]
+        },
+        {
+          "operation": "Sminus_tapered_solder_tool",
+          "keeper_z_shift_mm": -0.635,
+          "collisions": [
+            {
+              "part": "LowerKeeper",
+              "overlap_mm3": 36.6042449
+            }
+          ]
+        },
+        {
+          "operation": "head_SMA_D16x45",
+          "keeper_z_shift_mm": 0,
+          "collisions": [
+            {
+              "part": "LowerKeeper",
+              "overlap_mm3": 58.0239045
+            }
+          ]
+        },
+        {
+          "operation": "Splus_tapered_solder_tool",
+          "keeper_z_shift_mm": 0,
+          "collisions": [
+            {
+              "part": "LowerKeeper",
+              "overlap_mm3": 40.9462001
+            }
+          ]
+        },
+        {
+          "operation": "Sminus_tapered_solder_tool",
+          "keeper_z_shift_mm": 0,
+          "collisions": [
+            {
+              "part": "LowerKeeper",
+              "overlap_mm3": 40.9462001
+            }
+          ]
+        },
+        {
+          "operation": "head_SMA_D16x45",
+          "keeper_z_shift_mm": 0.635,
+          "collisions": [
+            {
+              "part": "LowerKeeper",
+              "overlap_mm3": 58.0239045
+            }
+          ]
+        },
+        {
+          "operation": "Splus_tapered_solder_tool",
+          "keeper_z_shift_mm": 0.635,
+          "collisions": [
+            {
+              "part": "LowerKeeper",
+              "overlap_mm3": 45.3730585
+            }
+          ]
+        },
+        {
+          "operation": "Sminus_tapered_solder_tool",
+          "keeper_z_shift_mm": 0.635,
+          "collisions": [
+            {
+              "part": "LowerKeeper",
+              "overlap_mm3": 45.3730585
+            }
+          ]
+        },
+        {
+          "operation": "PCB_M2_D4x85_driver",
+          "x_mm": -14.5,
+          "collisions": []
+        },
+        {
+          "operation": "PCB_M2_D4x85_driver",
+          "x_mm": 14.5,
+          "collisions": []
+        },
+        {
+          "operation": "keeper_M3_D8x65_driver",
+          "x_mm": -37,
+          "y_mm": -23,
+          "collisions": []
+        },
+        {
+          "operation": "keeper_M3_D8x65_driver",
+          "x_mm": 37,
+          "y_mm": -23,
+          "collisions": []
+        },
+        {
+          "operation": "keeper_M3_D8x65_driver",
+          "x_mm": -37,
+          "y_mm": 23,
+          "collisions": []
+        },
+        {
+          "operation": "keeper_M3_D8x65_driver",
+          "x_mm": 37,
+          "y_mm": 23,
+          "collisions": []
+        }
+      ],
+      "tool_cases": 15,
+      "failed_cases": 9,
+      "mount_bench_clearance_mm": {
+        "MountScrew0": -4.0,
+        "MountScrew1": -4.0,
+        "MountScrew2": -3.0,
+        "MountScrew3": -3.0,
+        "MountScrew4": -3.0,
+        "MountScrew5": -3.0
+      }
+    },
+    "A11": {
+      "native_sha256": "43347b92f42abb08b4b938e21b1780dc678d9b14a5508b7598555ee5ab1b244d",
+      "tools": [
+        {
+          "operation": "head_SMA_D16x45",
+          "keeper_z_shift_mm": -0.635,
+          "collisions": []
+        },
+        {
+          "operation": "Splus_tapered_solder_tool",
+          "keeper_z_shift_mm": -0.635,
+          "collisions": []
+        },
+        {
+          "operation": "Sminus_tapered_solder_tool",
+          "keeper_z_shift_mm": -0.635,
+          "collisions": []
+        },
+        {
+          "operation": "head_SMA_D16x45",
+          "keeper_z_shift_mm": 0,
+          "collisions": []
+        },
+        {
+          "operation": "Splus_tapered_solder_tool",
+          "keeper_z_shift_mm": 0,
+          "collisions": []
+        },
+        {
+          "operation": "Sminus_tapered_solder_tool",
+          "keeper_z_shift_mm": 0,
+          "collisions": []
+        },
+        {
+          "operation": "head_SMA_D16x45",
+          "keeper_z_shift_mm": 0.635,
+          "collisions": []
+        },
+        {
+          "operation": "Splus_tapered_solder_tool",
+          "keeper_z_shift_mm": 0.635,
+          "collisions": []
+        },
+        {
+          "operation": "Sminus_tapered_solder_tool",
+          "keeper_z_shift_mm": 0.635,
+          "collisions": []
+        },
+        {
+          "operation": "PCB_M2_D4x85_driver",
+          "x_mm": -14.5,
+          "collisions": []
+        },
+        {
+          "operation": "PCB_M2_D4x85_driver",
+          "x_mm": 14.5,
+          "collisions": []
+        },
+        {
+          "operation": "keeper_M3_D8x65_driver",
+          "x_mm": -37,
+          "y_mm": -23,
+          "collisions": []
+        },
+        {
+          "operation": "keeper_M3_D8x65_driver",
+          "x_mm": 37,
+          "y_mm": -23,
+          "collisions": []
+        },
+        {
+          "operation": "keeper_M3_D8x65_driver",
+          "x_mm": -37,
+          "y_mm": 23,
+          "collisions": []
+        },
+        {
+          "operation": "keeper_M3_D8x65_driver",
+          "x_mm": 37,
+          "y_mm": 23,
+          "collisions": []
+        }
+      ],
+      "tool_cases": 15,
+      "failed_cases": 0,
+      "mount_bench_clearance_mm": {
+        "MountScrew0": 1.0,
+        "MountScrew1": 1.0,
+        "MountScrew2": 2.0,
+        "MountScrew3": 2.0,
+        "MountScrew4": 2.0,
+        "MountScrew5": 2.0
+      }
+    }
+  },
+  "limits": [
+    "These are specified generic tool/connector gauges, not manufacturer tool drawings.",
+    "No thermal, hand dexterity, solder splash, torque, print variation or RF measurement.",
+    "Keeper +/-0.635 shift represents nominal core depth range only; other product tolerances are not combined."
+  ]
+}

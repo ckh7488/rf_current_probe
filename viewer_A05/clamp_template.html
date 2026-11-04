@@ -1,0 +1,19 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>RFCP — 출력해서 조립하는 중심 클램프</title><!--STYLE--><style>
+.toolbar{display:flex;gap:8px;flex-wrap:wrap;align-items:center}.toolbar a{color:#146f88;font-weight:700}.chip{font-size:12px;padding:5px 9px;background:#edf4f5;border-radius:6px}.extra-controls{display:grid;gap:12px}.extra-controls input{width:100%}.summary-table{border-collapse:collapse;width:100%;font-size:14px}.summary-table td{padding:8px 0;border-bottom:1px solid #dde5e9}.summary-table td:last-child{text-align:right}.c01note{padding:10px 18px;background:#fff5df;color:#674d1f;font-size:13px}#stage{min-height:410px}a{color:#146f88}
+[hidden]{display:none!important}header>a{color:#b1e3e5}
+</style></head><body>
+<header><div class="brand"><b>RFCP</b><span>케이블 중심 클램프 <strong>C07</strong></span></div><a href="./">← 프로브 문서</a><a href="compare.html">수정 전·후 비교</a><span class="draft">제작 검토용 · 실물 검증 전</span></header>
+<nav id="modes" aria-label="클램프 사용 장면"><button data-mode="mechanism" class="active">01 구조 · 개폐</button><button data-mode="pair">02 앞뒤 배치</button><button data-mode="assembly">03 부품 · 조립</button><button data-mode="cable">04 한 노브로 중심 맞춤</button></nav>
+<main><section class="workspace"><div class="viewtop"><div><span id="sceneTag">실제 C07 CAD</span><h1 id="sceneTitle">노브 하나로 세 턱을 같은 양만큼</h1></div><button id="reset">시점 초기화</button></div>
+<div id="stage"><div id="loading">클램프 형상 불러오는 중…</div><div id="knobLabel" style="position:absolute;pointer-events:none;padding:6px 10px;border-radius:8px;background:#145b70;color:white;font-size:13px;transform:translate(-50%,-100%)">이 큰 노브 하나로 조절</div></div>
+<div class="viewtools"><span>드래그: 회전 · 휠: 확대 · 부품 클릭: 설명</span><div><button data-view="front">정면</button><button data-view="back">뒤</button></div></div>
+<div class="motion extra-controls">
+<label for="diameter" id="diameterLabel">중심 구경 <output id="diameterOut">16 mm</output><input type="range" id="diameter" min="6" max="26" step="0.1" value="16"></label>
+<label for="centering" id="centeringLabel" hidden><b>큰 노브 조임</b> <output id="centeringOut">풀림 · 선이 치우친 상태</output><input type="range" id="centering" min="0" max="100" step="0.5" value="0"></label>
+<label for="opening" id="openingLabel">열고 닫기 <output id="openingOut">닫힘</output><input type="range" id="opening" min="0" max="100" step="1" value="0"></label>
+<label for="explode" id="explodeLabel" hidden>조립 펼쳐 보기 <input type="range" id="explode" min="0" max="100" step="1" value="0"></label>
+<p class="fine" id="motionHint">구경 슬라이더는 노브 회전에 따른 이상적인 이동입니다. 실제 나사산·마찰·케이블 압착은 재현하지 않습니다.</p>
+</div></section>
+<aside><div id="explanation"></div><section class="display"><h2>보기 설정</h2><label><input id="transparent" type="checkbox"> 뒤쪽 고정틀을 투명하게</label><div class="selection" id="selection">부품을 클릭하면 이름과 조립 역할을 볼 수 있습니다.</div></section>
+<details><summary>CAD 파일과 현재 검증</summary><p><a href="clamp/Cable_Clamp_C07_DRAFT.step" download>전체 STEP</a> · <a href="clamp/C07_print_parts_DRAFT.zip" download>출력물 5종 STL/STEP</a></p><p id="verification"></p><p class="fine">출력 공차·힘·내구성·RF·기성품 선정은 미검증입니다. 다운로드 파일은 제작 승인본이 아닙니다.</p></details></aside></main>
+<footer>패드 재단 없음 · 별도 스프링 없음 · 관통 홀 + 별도 너트 <span>C07 DRAFT — NOT FOR FABRICATION</span></footer><!--SCRIPTS--></body></html>

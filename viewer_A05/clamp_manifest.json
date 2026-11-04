@@ -1,0 +1,10 @@
+{
+  "classification": "C01_ACTUAL_CAD_SUPPLEMENT",
+  "parts": 16,
+  "printed": 5,
+  "mesh_sha256": "f7c10505876c704dcc0e624d1cf3567d179aa29fde1c56acee447dfc87427d33",
+  "native_sha256": "70cffeba809ee5a63aba22e7c2e500ac429eedfb68b185305760b4578dd10d3d",
+  "base_document": "published_A06_index.html",
+  "base_sha256": "1547346cb9247bca4047fa6d4a2bd99e892a437242927e4288458e7a9943ef05",
+  "unpublished_A07_preserved": "mechanical\\clamp_A07_DRAFT\\viewer_work_in_progress"
+}

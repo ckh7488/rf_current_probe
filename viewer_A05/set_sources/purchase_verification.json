@@ -1,0 +1,28 @@
+{
+  "classification": "PURCHASE_RECORD_RECONCILIATION_NOT_LIVE_QUOTE_OR_ORDER",
+  "passed": true,
+  "previous_rows_reconciled": 33,
+  "restored": {
+    "SHARED-FLUX": [
+      2,
+      34426
+    ],
+    "SHARED-LOAD": [
+      7,
+      28028
+    ],
+    "TIP-1.6D": [
+      1,
+      9350
+    ],
+    "TIP-2.4D": [
+      1,
+      9350
+    ]
+  },
+  "listed_purchase_rows": 15,
+  "digikey_bulk_rows": 11,
+  "existing_shared_cart_rows": 9,
+  "prices_are_historical": true,
+  "payment_made": false
+}

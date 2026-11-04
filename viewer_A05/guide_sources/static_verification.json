@@ -1,0 +1,9 @@
+{
+  "classification": "STATIC_ROUTE_PAYLOAD_AND_MOTION_CHECK_NOT_BROWSER_QA",
+  "steps": 36,
+  "parts": 76,
+  "complete_state_parts": 74,
+  "embedded_geometry": true,
+  "native_sha256": "5338d317e73dd15f1c95182864a2cf8f4377bbea19776716b925b8b2af7ed846",
+  "pass": true
+}

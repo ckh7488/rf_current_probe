@@ -1,0 +1,531 @@
+{
+  "classification": "CALCULATED_CAD_QUANTITY_CHECK_NOT_FIT_OR_RF_VALIDATION",
+  "native_sha256": "400618d82bd9f1d98a7f45a7e3e4bda1664310d61d81435e3d18fd1194b9e2a7",
+  "rows": [
+    {
+      "id": "P01",
+      "objects": {
+        "LowerCenter": 1
+      },
+      "usage_quantity": 1,
+      "cad_solids": 1,
+      "counted_units": 1,
+      "count_basis": "solid"
+    },
+    {
+      "id": "P02",
+      "objects": {
+        "UpperLeft": 1
+      },
+      "usage_quantity": 1,
+      "cad_solids": 1,
+      "counted_units": 1,
+      "count_basis": "solid"
+    },
+    {
+      "id": "P03",
+      "objects": {
+        "LowerKeeper": 1
+      },
+      "usage_quantity": 1,
+      "cad_solids": 1,
+      "counted_units": 1,
+      "count_basis": "solid"
+    },
+    {
+      "id": "P04",
+      "objects": {
+        "UpperKeeper": 1
+      },
+      "usage_quantity": 1,
+      "cad_solids": 1,
+      "counted_units": 1,
+      "count_basis": "solid"
+    },
+    {
+      "id": "P05",
+      "objects": {
+        "BaseCenter": 1
+      },
+      "usage_quantity": 1,
+      "cad_solids": 1,
+      "counted_units": 1,
+      "count_basis": "solid"
+    },
+    {
+      "id": "P06",
+      "objects": {
+        "Cable1_Frame": 1,
+        "Cable2_Frame": 1
+      },
+      "usage_quantity": 2,
+      "cad_solids": 2,
+      "counted_units": 2,
+      "count_basis": "solid"
+    },
+    {
+      "id": "P07",
+      "objects": {
+        "Cable1_DriveYoke": 1,
+        "Cable2_DriveYoke": 1
+      },
+      "usage_quantity": 2,
+      "cad_solids": 2,
+      "counted_units": 2,
+      "count_basis": "solid"
+    },
+    {
+      "id": "P08",
+      "objects": {
+        "Cable1_TopBridgeJaw": 1,
+        "Cable2_TopBridgeJaw": 1
+      },
+      "usage_quantity": 2,
+      "cad_solids": 2,
+      "counted_units": 2,
+      "count_basis": "solid"
+    },
+    {
+      "id": "P09",
+      "objects": {
+        "Cable1_Jaw1": 1,
+        "Cable2_Jaw1": 1
+      },
+      "usage_quantity": 2,
+      "cad_solids": 2,
+      "counted_units": 2,
+      "count_basis": "solid"
+    },
+    {
+      "id": "P10",
+      "objects": {
+        "Cable1_Jaw2": 1,
+        "Cable2_Jaw2": 1
+      },
+      "usage_quantity": 2,
+      "cad_solids": 2,
+      "counted_units": 2,
+      "count_basis": "solid"
+    },
+    {
+      "id": "P11",
+      "objects": {
+        "LowerArmLeft": 1
+      },
+      "usage_quantity": 1,
+      "cad_solids": 1,
+      "counted_units": 1,
+      "count_basis": "solid"
+    },
+    {
+      "id": "P12",
+      "objects": {
+        "LowerArmRight": 1
+      },
+      "usage_quantity": 1,
+      "cad_solids": 1,
+      "counted_units": 1,
+      "count_basis": "solid"
+    },
+    {
+      "id": "P13",
+      "objects": {
+        "UpperRight": 1
+      },
+      "usage_quantity": 1,
+      "cad_solids": 1,
+      "counted_units": 1,
+      "count_basis": "solid"
+    },
+    {
+      "id": "P14",
+      "objects": {
+        "BaseFront": 1
+      },
+      "usage_quantity": 1,
+      "cad_solids": 1,
+      "counted_units": 1,
+      "count_basis": "solid"
+    },
+    {
+      "id": "P15",
+      "objects": {
+        "BaseRear": 1
+      },
+      "usage_quantity": 1,
+      "cad_solids": 1,
+      "counted_units": 1,
+      "count_basis": "solid"
+    },
+    {
+      "id": "E01",
+      "objects": {
+        "FixedCore": 1,
+        "MovingCore": 1
+      },
+      "usage_quantity": 2,
+      "cad_solids": 2,
+      "counted_units": 2,
+      "count_basis": "solid"
+    },
+    {
+      "id": "E02",
+      "objects": {
+        "PCB": 1
+      },
+      "usage_quantity": 1,
+      "cad_solids": 1,
+      "counted_units": 1,
+      "count_basis": "solid"
+    },
+    {
+      "id": "E03",
+      "objects": {
+        "FlatPCB": 1
+      },
+      "usage_quantity": 1,
+      "cad_solids": 1,
+      "counted_units": 1,
+      "count_basis": "solid"
+    },
+    {
+      "id": "E04",
+      "objects": {
+        "SMAEnvelope": 6,
+        "SMAInput": 6,
+        "SMAOutput": 6
+      },
+      "usage_quantity": 3,
+      "cad_solids": 18,
+      "counted_units": 3,
+      "count_basis": "connector assembly"
+    },
+    {
+      "id": "E05",
+      "objects": {
+        "Winding": 1
+      },
+      "usage_quantity": null,
+      "cad_solids": 1,
+      "counted_units": 1,
+      "count_basis": "solid"
+    },
+    {
+      "id": "F01",
+      "objects": {
+        "PCBScrews": 2
+      },
+      "usage_quantity": 2,
+      "cad_solids": 2,
+      "counted_units": 2,
+      "count_basis": "solid"
+    },
+    {
+      "id": "F02",
+      "objects": {
+        "PCBNuts": 2
+      },
+      "usage_quantity": 2,
+      "cad_solids": 2,
+      "counted_units": 2,
+      "count_basis": "solid"
+    },
+    {
+      "id": "F03",
+      "objects": {
+        "LowerKeeperScrews": 2,
+        "UpperKeeperScrews": 2
+      },
+      "usage_quantity": 4,
+      "cad_solids": 4,
+      "counted_units": 4,
+      "count_basis": "solid"
+    },
+    {
+      "id": "F04",
+      "objects": {
+        "LowerKeeperNuts": 2,
+        "UpperKeeperNuts": 2
+      },
+      "usage_quantity": 4,
+      "cad_solids": 4,
+      "counted_units": 4,
+      "count_basis": "solid"
+    },
+    {
+      "id": "F05",
+      "objects": {
+        "HeadHandScrews": 2
+      },
+      "usage_quantity": 2,
+      "cad_solids": 2,
+      "counted_units": 2,
+      "count_basis": "solid"
+    },
+    {
+      "id": "F06",
+      "objects": {
+        "MountScrew0": 1,
+        "MountScrew1": 1,
+        "MountScrew2": 1,
+        "MountScrew3": 1,
+        "MountScrew4": 1,
+        "MountScrew5": 1,
+        "Cable1_BridgeScrew1": 1,
+        "Cable1_BridgeScrew2": 1,
+        "Cable2_BridgeScrew1": 1,
+        "Cable2_BridgeScrew2": 1
+      },
+      "usage_quantity": 10,
+      "cad_solids": 10,
+      "counted_units": 10,
+      "count_basis": "solid"
+    },
+    {
+      "id": "F07",
+      "objects": {
+        "HeadSquareNuts": 2,
+        "MountNut0": 1,
+        "MountNut1": 1,
+        "MountNut2": 1,
+        "MountNut3": 1,
+        "MountNut4": 1,
+        "MountNut5": 1,
+        "Cable1_BridgeNut1": 1,
+        "Cable1_BridgeNut2": 1,
+        "Cable1_FollowerNut1": 1,
+        "Cable1_FollowerNut2": 1,
+        "Cable2_BridgeNut1": 1,
+        "Cable2_BridgeNut2": 1,
+        "Cable2_FollowerNut1": 1,
+        "Cable2_FollowerNut2": 1
+      },
+      "usage_quantity": 16,
+      "cad_solids": 16,
+      "counted_units": 16,
+      "count_basis": "solid"
+    },
+    {
+      "id": "F08",
+      "objects": {
+        "Cable1_HandKnob": 1,
+        "Cable2_HandKnob": 1
+      },
+      "usage_quantity": 2,
+      "cad_solids": 2,
+      "counted_units": 2,
+      "count_basis": "solid"
+    },
+    {
+      "id": "F09",
+      "objects": {
+        "Cable1_DriveNut": 1,
+        "Cable2_DriveNut": 1
+      },
+      "usage_quantity": 2,
+      "cad_solids": 2,
+      "counted_units": 2,
+      "count_basis": "solid"
+    },
+    {
+      "id": "F10",
+      "objects": {
+        "Cable1_LeadLockNut": 1,
+        "Cable2_LeadLockNut": 1
+      },
+      "usage_quantity": 2,
+      "cad_solids": 2,
+      "counted_units": 2,
+      "count_basis": "solid"
+    },
+    {
+      "id": "F11",
+      "objects": {
+        "Cable1_ThrustWasher": 1,
+        "Cable2_ThrustWasher": 1
+      },
+      "usage_quantity": 2,
+      "cad_solids": 2,
+      "counted_units": 2,
+      "count_basis": "solid"
+    },
+    {
+      "id": "F12",
+      "objects": {
+        "Cable1_Follower1": 1,
+        "Cable1_Follower2": 1,
+        "Cable2_Follower1": 1,
+        "Cable2_Follower2": 1
+      },
+      "usage_quantity": 4,
+      "cad_solids": 4,
+      "counted_units": 4,
+      "count_basis": "solid"
+    },
+    {
+      "id": "F13",
+      "objects": {
+        "CalibrationScrews": 4
+      },
+      "usage_quantity": 4,
+      "cad_solids": 4,
+      "counted_units": 4,
+      "count_basis": "solid"
+    },
+    {
+      "id": "F14",
+      "objects": {
+        "CalibrationNuts": 4
+      },
+      "usage_quantity": 4,
+      "cad_solids": 4,
+      "counted_units": 4,
+      "count_basis": "solid"
+    },
+    {
+      "id": "F15",
+      "objects": {
+        "Cable1_LeadStud": 1,
+        "Cable2_LeadStud": 1
+      },
+      "usage_quantity": 2,
+      "cad_solids": 2,
+      "counted_units": 2,
+      "count_basis": "solid"
+    },
+    {
+      "id": "F16",
+      "objects": {
+        "Cable1_TopJamNut": 1,
+        "Cable2_TopJamNut": 1
+      },
+      "usage_quantity": 2,
+      "cad_solids": 2,
+      "counted_units": 2,
+      "count_basis": "solid"
+    },
+    {
+      "id": "F17",
+      "objects": {
+        "Cable1_TopWasher": 1,
+        "Cable2_TopWasher": 1
+      },
+      "usage_quantity": 2,
+      "cad_solids": 2,
+      "counted_units": 2,
+      "count_basis": "solid"
+    },
+    {
+      "id": "F18",
+      "objects": {
+        "BaseJointFLScrew": 1,
+        "BaseJointFRScrew": 1,
+        "BaseJointRLScrew": 1,
+        "BaseJointRRScrew": 1
+      },
+      "usage_quantity": 4,
+      "cad_solids": 4,
+      "counted_units": 4,
+      "count_basis": "solid"
+    },
+    {
+      "id": "F19",
+      "objects": {
+        "LowerJointL66Screw": 1,
+        "LowerJointL78Screw": 1,
+        "LowerJointR66Screw": 1,
+        "LowerJointR78Screw": 1,
+        "UpperJoint6LScrew": 1,
+        "UpperJoint6RScrew": 1
+      },
+      "usage_quantity": 6,
+      "cad_solids": 6,
+      "counted_units": 6,
+      "count_basis": "solid"
+    },
+    {
+      "id": "F20",
+      "objects": {
+        "BaseJointFLNut": 1,
+        "BaseJointFRNut": 1,
+        "BaseJointRLNut": 1,
+        "BaseJointRRNut": 1,
+        "LowerJointL66Nut": 1,
+        "LowerJointL78Nut": 1,
+        "LowerJointR66Nut": 1,
+        "LowerJointR78Nut": 1,
+        "UpperJoint6LNut": 1,
+        "UpperJoint6RNut": 1
+      },
+      "usage_quantity": 10,
+      "cad_solids": 10,
+      "counted_units": 10,
+      "count_basis": "solid"
+    },
+    {
+      "id": "F21",
+      "objects": {
+        "BaseJointFLRearWasher": 1,
+        "BaseJointFLFrontWasher": 1,
+        "BaseJointFRRearWasher": 1,
+        "BaseJointFRFrontWasher": 1,
+        "BaseJointRLRearWasher": 1,
+        "BaseJointRLFrontWasher": 1,
+        "BaseJointRRRearWasher": 1,
+        "BaseJointRRFrontWasher": 1,
+        "LowerJointL66RearWasher": 1,
+        "LowerJointL66FrontWasher": 1,
+        "LowerJointL78RearWasher": 1,
+        "LowerJointL78FrontWasher": 1,
+        "LowerJointR66RearWasher": 1,
+        "LowerJointR66FrontWasher": 1,
+        "LowerJointR78RearWasher": 1,
+        "LowerJointR78FrontWasher": 1,
+        "UpperJoint6LRearWasher": 1,
+        "UpperJoint6LFrontWasher": 1,
+        "UpperJoint6RRearWasher": 1,
+        "UpperJoint6RFrontWasher": 1
+      },
+      "usage_quantity": 20,
+      "cad_solids": 20,
+      "counted_units": 20,
+      "count_basis": "solid"
+    },
+    {
+      "id": "F22",
+      "objects": {
+        "HeadClosureKnobs": 2
+      },
+      "usage_quantity": 2,
+      "cad_solids": 2,
+      "counted_units": 2,
+      "count_basis": "solid"
+    },
+    {
+      "id": "F23",
+      "objects": {
+        "HeadClosureJamNuts": 2
+      },
+      "usage_quantity": 2,
+      "cad_solids": 2,
+      "counted_units": 2,
+      "count_basis": "solid"
+    },
+    {
+      "id": "F24",
+      "objects": {
+        "HeadClosureWashers": 2
+      },
+      "usage_quantity": 2,
+      "cad_solids": 2,
+      "counted_units": 2,
+      "count_basis": "solid"
+    }
+  ],
+  "unassigned_shape_objects": [
+    "SignalCopper",
+    "ReturnCopper"
+  ],
+  "pass": true,
+  "unassigned_explanation": "SignalCopper and ReturnCopper are copper on the fixture PCB E03, not separate purchased pieces."
+}

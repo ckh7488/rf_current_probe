@@ -1,0 +1,5 @@
+﻿id,name,manufacturer,mpn,spec,quantity_per_fixture,unit,note
+E03,Fixture A03 PCB,,RFCP_Fixture_Flat_A03_DRAFT,144 x 92.7 x 1.6 mm; FR4 2-layer,1,board,RF integrated BOM E03; not an additional purchase
+E04,SMA connector,GCT,RFPC-SMA28-F,SMA female THT,2,piece,2 of the 3 E04 connectors in RF integrated BOM; 1 is for head
+F13,Fixture screw,Essentra,50M030050P012,PA66 M3 x 0.5 x 12 mm,4,piece,RF integrated BOM F13
+F14,Fixture wing nut,Kang Yang,SMO-3(N),PA66 M3,4,piece,RF integrated BOM F14

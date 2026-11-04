@@ -1,0 +1,5 @@
+# Preserve static CAD assets and evidence bytes used by checksum manifests.
+/dist/** -text
+/guide_sources/** -text
+/set_sources/** -text
+/split_sources/** -text

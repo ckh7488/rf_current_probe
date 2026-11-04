@@ -1,0 +1,82 @@
+{
+  "pages": [
+    {
+      "file": "index.html",
+      "syntax_scripts": 3,
+      "local_links": [
+        "compare.html",
+        "audit/latest-review.html",
+        "assembly/RFCP_A11_Integrated_DRAFT.step",
+        "assembly/A11_REVIEW_PACKAGE.zip",
+        "clamp.html"
+      ],
+      "four_sections": true,
+      "comparison_pairs": null,
+      "external_runtime_dependencies": false
+    },
+    {
+      "file": "clamp.html",
+      "syntax_scripts": 3,
+      "local_links": [
+        "./",
+        "compare.html",
+        "clamp/Cable_Clamp_C05_DRAFT.step",
+        "clamp/C05_print_parts_DRAFT.zip"
+      ],
+      "four_sections": true,
+      "comparison_pairs": null,
+      "external_runtime_dependencies": false
+    },
+    {
+      "file": "compare.html",
+      "syntax_scripts": 3,
+      "local_links": [
+        "index.html",
+        "index.html",
+        "assembly/A11_REVIEW_PACKAGE.zip",
+        "audit/latest-review.html",
+        "compare-history.html",
+        "clamp.html"
+      ],
+      "four_sections": false,
+      "comparison_pairs": 14,
+      "external_runtime_dependencies": false
+    },
+    {
+      "file": "compare-history.html",
+      "syntax_scripts": 1,
+      "local_links": [
+        "index.html",
+        "compare.html",
+        "index.html",
+        "audit/README.md",
+        "audit/next-checks.html",
+        "assembly/A10_REVIEW_PACKAGE.zip"
+      ],
+      "four_sections": false,
+      "comparison_pairs": 8,
+      "external_runtime_dependencies": false
+    },
+    {
+      "file": "audit/latest-review.html",
+      "syntax_scripts": 0,
+      "local_links": [
+        "../index.html",
+        "../compare.html",
+        "../compare.html?part=mount",
+        "../compare.html?part=access",
+        "../compare.html?part=register",
+        "../compare.html?part=postaccess",
+        "../compare.html?part=backlash",
+        "../compare.html?part=exitcleanup",
+        "../assembly/A11_REVIEW_PACKAGE.zip",
+        "latest_review_sources.zip"
+      ],
+      "four_sections": false,
+      "comparison_pairs": null,
+      "external_runtime_dependencies": false
+    }
+  ],
+  "classification": "STATIC_ARTIFACT_CHECK",
+  "browser_checks_reported_separately": true
+}

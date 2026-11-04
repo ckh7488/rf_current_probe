@@ -1,0 +1,14 @@
+{
+  "classification": "BROWSER_UI_CHECK_NOT_PHYSICAL_VALIDATION",
+  "date": "2026-09-18",
+  "assembly_revision": "A11",
+  "clamp_revision": "C05",
+  "assembly_modes": ["structure", "calibration", "detach", "measurement"],
+  "assembly_controls": "Opening, explode, full detach and centering endpoints operated. Final centering label 0.00 mm in ideal demonstration.",
+  "clamp_controls": "C05 opening, assembly explode and centering endpoints operated.",
+  "comparison": "Earlier 13 case buttons operated; final 14th cleanup and corrected mount comparison operated. Added/removed material highlight rendered and reviewed.",
+  "screenshots_reviewed": ["keeper before/after", "cleanup change highlight", "integrated assembly", "measurement"],
+  "console_errors_on_final_compare_and_clamp": [],
+  "narrow_compare_viewport": {"requested_width":390,"height":844,"document_client_width":375,"document_scroll_width":375,"canvases_each_css_px":[349,310],"override_reset":true},
+  "limits": ["Browser interaction verifies document presentation, not physical force, cable deformation, RF response or manufacturing tolerance.", "Local cached A10 navigation was detected; final A11 content was checked with a fresh local revision URL."]
+}

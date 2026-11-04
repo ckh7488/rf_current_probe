@@ -1,0 +1,36 @@
+{
+  "date": "2026-09-23",
+  "scope": "A03 independent ATLAS report; no hardware or RF measurements changed",
+  "basis": "DEC-053 / whitepaper Rev.A 0.7; DEC-055 bench-draft and sensor usage distinction reviewed",
+  "classification": "DOCUMENTATION_NATIVE_PCB_AND_SAVED_SIMULATION",
+  "files": [
+    {
+      "path": "docs/RF_CURRENT_PROBE_WHITEPAPER.md",
+      "sha256": "844759832490edeae520071f5bbc8c70c81db3d67010f5bcdd2d4ace26bb4095"
+    },
+    {
+      "path": "docs/DECISIONS.md",
+      "sha256": "d7145bf9f80782359400f318430ccb2a59bf07950e3de0b05ee950c3825f1a29"
+    },
+    {
+      "path": "docs/G2_BENCH_PROCEDURE.md",
+      "sha256": "a5f9c53a984d857f44212178e9165df59c0e1b3299a5917e79852f1233481aff"
+    },
+    {
+      "path": "hardware/calibration_fixture_PCB_A03_DRAFT/README.md",
+      "sha256": "e97b58ce6792f29ba9d93b5a7eb94f4c0c967a38d0749f7d7be5506a05c95648"
+    },
+    {
+      "path": "hardware/calibration_fixture_PCB_A03_DRAFT/RFCP_Fixture_Flat_A03_DRAFT.kicad_pcb",
+      "sha256": "7452432265c55c33bbce9c3bf0bc9ea6b5220603afae941fd1c91295e04ce31f"
+    },
+    {
+      "path": "viewer_A05/set_sources/bom.json",
+      "sha256": "36cdc0efe1db64ab2965c2a6231d748e057ed96d31ef21592528efdd0fd092d4"
+    },
+    {
+      "path": "reviews/fixture_a03_output_reference_20260923/k_factor_results.json",
+      "sha256": "eec6f7b4d71891591a79e369086fbc82bffd14930368565f869596e41f867c05"
+    }
+  ]
+}

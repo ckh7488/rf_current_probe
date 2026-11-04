@@ -1,0 +1,16 @@
+{
+  "classification": "OBSERVED_BROWSER_UI",
+  "date": "2026-09-18",
+  "pages": ["index.html", "clamp.html", "compare.html"],
+  "checks": [
+    "Compare first pair renders with no title overlap at the observed desktop viewport.",
+    "Compare selection changes from pair 1 to pair 7 and updates image alt text and counter.",
+    "Root displays A10/C04 and has the four existing scene controls.",
+    "Root opening slider at 100 displays the lifted lid and caps.",
+    "Root measurement slider at 100 displays the ideal 0.00 mm center.",
+    "Root calibration scene displays P1 to fixture input, fixture output to load, head to P2.",
+    "Root detach slider at 100 displays the head separation state.",
+    "C04 detail page opens; centering slider at 100 displays ideal 0.00 mm and current CAD."
+  ],
+  "limits": ["Observed desktop browser only, not physical behavior.", "No claim of mobile browser or real hardware qualification."]
+}

@@ -1,0 +1,20 @@
+{
+  "mechanical\\assembly_A14_DRAFT\\parts\\LowerCenter_A14_DRAFT.stl": "bfc6b32c6e7be167b0908f91b0d0fa07581f472301412f922693d503b7777353",
+  "mechanical\\assembly_A14_DRAFT\\parts\\UpperLeft_A14_DRAFT.stl": "33c6917d76ab4290d491c76cbf92f39b1b000e456917197b16d9abc9e8956211",
+  "mechanical\\assembly_A14_DRAFT\\parts\\LowerKeeper_FREE_DRAFT.stl": "178cc4b861b3578b68d134eaaa5b24c906b6e820e7283d3c8997f598a31f200c",
+  "mechanical\\assembly_A14_DRAFT\\parts\\UpperKeeper_FREE_DRAFT.stl": "7a9238360fef5088b8bcc252fb72cfc2d20c59e782aa1c06b27c3cec39f95cad",
+  "mechanical\\assembly_A14_DRAFT\\parts\\BaseCenter_A14_DRAFT.stl": "843d6d6254fb4379ffdb953ad6def59e675fb25ade7b1e89542e8e1f04617f0a",
+  "mechanical\\assembly_A14_DRAFT\\parts\\C07_Frame_DRAFT.stl": "6f730a2b568c0932b97b59962a2d069c0cc998b54824a1ce908383c132ce1807",
+  "mechanical\\assembly_A14_DRAFT\\parts\\C07_DriveYoke_DRAFT.stl": "8bed8235b55fcb8f6ffa9182ad031c43cec80a77c70bc72ccfb1fa1110a93868",
+  "mechanical\\assembly_A14_DRAFT\\parts\\C07_TopBridgeJaw_DRAFT.stl": "46a284515d61f4bf7b3134a6dcedd5d5f0af36cbed1698a831445530edf38b36",
+  "mechanical\\assembly_A14_DRAFT\\parts\\C07_Jaw1_DRAFT.stl": "49cc91a2fdbb6efb1b4a3368edf535df3927171beb0e7b3c939a4f2408cd0fe6",
+  "mechanical\\assembly_A14_DRAFT\\parts\\C07_Jaw2_DRAFT.stl": "35cd0f5320cec7596fcd31e1c385168b7d82897c6d302644b3c9afa8f23cf8b0",
+  "mechanical\\assembly_A14_DRAFT\\parts\\LowerArmLeft_A14_DRAFT.stl": "33c5f3c9a00b302090f6a2cd49e394cc2c4503219de38c150ce064c4c9af4449",
+  "mechanical\\assembly_A14_DRAFT\\parts\\LowerArmRight_A14_DRAFT.stl": "290adebcb95725a36c461ac2f1a94c1880c141a50409dec644721598aeedb670",
+  "mechanical\\assembly_A14_DRAFT\\parts\\UpperRight_A14_DRAFT.stl": "a0ba5e16168e59a429124aa15f7c61df35ed67524cfe18e1442b5ab760229caa",
+  "mechanical\\assembly_A14_DRAFT\\parts\\BaseFront_A14_DRAFT.stl": "ab6883e4dba091b75cbe60001c81845e1dc16a36cb3b110b348287f42e21f098",
+  "mechanical\\assembly_A14_DRAFT\\parts\\BaseRear_A14_DRAFT.stl": "23f75b1e7a23afabf4bbab48e9bff02eaeef738607dff42c64a005520737975a",
+  "hardware/probe_head_A04_DRAFT/RFCP_Head_A04_DRAFT_REVIEW_ONLY.zip": "16f426064c1f2fde5fc03e98f7b80252a491f7d155a4cef00b44b4ef9fad8c81",
+  "hardware/calibration_fixture_PCB_A03_DRAFT/RFCP_Fixture_Flat_A03_DRAFT_REVIEW_ONLY.zip": "5981a1141c7e8cce268dc14e4335b0cdcff6b5e49b8526bdd0c8586a519688d2",
+  "reviews/a12_20260918/sources/SMO-3.pdf": "6959c83db8c5ed6218b326f6bb306fa61a36ea3710169050e872479007c0d8c1"
+}

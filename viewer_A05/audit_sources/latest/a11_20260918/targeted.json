@@ -1,0 +1,511 @@
+{
+  "classification": "CALCULATED_SAVED_CAD_NOT_PHYSICAL",
+  "source_sha256": "ebd5a5175eea72485772c121795c1aa378e936293f835434785e3de1c0cc81d3",
+  "native_sha256": "43347b92f42abb08b4b938e21b1780dc678d9b14a5508b7598555ee5ab1b244d",
+  "lid_geometry_equivalence": {
+    "free_symmetric_difference_mm3": 0.0,
+    "closed_baseline_valid": false,
+    "closed_symmetric_difference_mm3": null,
+    "closed_comparison_note": "A10 CLOSED baseline is invalid; Boolean difference volume is not a trustworthy comparison and is not reported.",
+    "closed_valid": true,
+    "scope": "FREE print/FEA source is unchanged. CLOSED representation replaces the invalid faceted/filleted curve with its analytic cubic; new lower datum interaction is not solved."
+  },
+  "keeper_contacts": [
+    {
+      "core": "FixedCore",
+      "old_front_area_mm2": 134.03183427241885,
+      "new_front_area_mm2": 134.03183427241885,
+      "delta_mm2": 0.0
+    },
+    {
+      "core": "MovingCore",
+      "old_front_area_mm2": 134.03183427242084,
+      "new_front_area_mm2": 134.03183427242084,
+      "delta_mm2": 0.0
+    }
+  ],
+  "wire_window_cleanup": {
+    "old_sliver_mm3": 1.8000000000000043,
+    "new_sliver_mm3": 0.0,
+    "retained_rear_wall_gauge_missing_mm3": 0.0,
+    "retained_nominal_wall_mm": 2.5
+  },
+  "mounts": [
+    {
+      "index": 0,
+      "length_mm": 20.0,
+      "bench_clearance_mm": 1.0,
+      "nut_bearing_gap_mm": 0.0,
+      "nut_engagement_mm": 3.200000000000003,
+      "tip_beyond_nut_mm": 1.7999999999999972
+    },
+    {
+      "index": 1,
+      "length_mm": 20.0,
+      "bench_clearance_mm": 1.0,
+      "nut_bearing_gap_mm": 0.0,
+      "nut_engagement_mm": 3.200000000000003,
+      "tip_beyond_nut_mm": 1.7999999999999972
+    },
+    {
+      "index": 2,
+      "length_mm": 20.0,
+      "bench_clearance_mm": 2.0,
+      "nut_bearing_gap_mm": 0.0,
+      "nut_engagement_mm": 3.200000000000003,
+      "tip_beyond_nut_mm": 0.7999999999999972
+    },
+    {
+      "index": 3,
+      "length_mm": 20.0,
+      "bench_clearance_mm": 2.0,
+      "nut_bearing_gap_mm": 0.0,
+      "nut_engagement_mm": 3.200000000000003,
+      "tip_beyond_nut_mm": 0.7999999999999972
+    },
+    {
+      "index": 4,
+      "length_mm": 20.0,
+      "bench_clearance_mm": 2.0,
+      "nut_bearing_gap_mm": 0.0,
+      "nut_engagement_mm": 3.200000000000003,
+      "tip_beyond_nut_mm": 0.7999999999999972
+    },
+    {
+      "index": 5,
+      "length_mm": 20.0,
+      "bench_clearance_mm": 2.0,
+      "nut_bearing_gap_mm": 0.0,
+      "nut_engagement_mm": 3.200000000000003,
+      "tip_beyond_nut_mm": 0.7999999999999972
+    }
+  ],
+  "below_bench": [],
+  "head_square_nut_rotation": [
+    {
+      "nut": 0,
+      "first_stop_deg": 25,
+      "poses": [
+        {
+          "deg": 0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "deg": 5,
+          "intersection_mm3": 0.0
+        },
+        {
+          "deg": 10,
+          "intersection_mm3": 0.0
+        },
+        {
+          "deg": 15,
+          "intersection_mm3": 0.0
+        },
+        {
+          "deg": 20,
+          "intersection_mm3": 0.0
+        },
+        {
+          "deg": 25,
+          "intersection_mm3": 0.286653551884391
+        },
+        {
+          "deg": 30,
+          "intersection_mm3": 0.8758465713836959
+        },
+        {
+          "deg": 35,
+          "intersection_mm3": 1.433191693842467
+        },
+        {
+          "deg": 40,
+          "intersection_mm3": 1.8100781400176766
+        },
+        {
+          "deg": 45,
+          "intersection_mm3": 1.9418187383760832
+        },
+        {
+          "deg": 50,
+          "intersection_mm3": 1.810078140017517
+        },
+        {
+          "deg": 55,
+          "intersection_mm3": 1.4331916938424123
+        },
+        {
+          "deg": 60,
+          "intersection_mm3": 0.8758465713836432
+        },
+        {
+          "deg": 65,
+          "intersection_mm3": 0.28665355188444486
+        },
+        {
+          "deg": 70,
+          "intersection_mm3": 0.0
+        },
+        {
+          "deg": 75,
+          "intersection_mm3": 0.0
+        },
+        {
+          "deg": 80,
+          "intersection_mm3": 0.0
+        },
+        {
+          "deg": 85,
+          "intersection_mm3": 0.0
+        },
+        {
+          "deg": 90,
+          "intersection_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "nut": 1,
+      "first_stop_deg": 25,
+      "poses": [
+        {
+          "deg": 0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "deg": 5,
+          "intersection_mm3": 0.0
+        },
+        {
+          "deg": 10,
+          "intersection_mm3": 0.0
+        },
+        {
+          "deg": 15,
+          "intersection_mm3": 0.0
+        },
+        {
+          "deg": 20,
+          "intersection_mm3": 0.0
+        },
+        {
+          "deg": 25,
+          "intersection_mm3": 0.2866535518844499
+        },
+        {
+          "deg": 30,
+          "intersection_mm3": 0.8758465713836714
+        },
+        {
+          "deg": 35,
+          "intersection_mm3": 1.433191693842547
+        },
+        {
+          "deg": 40,
+          "intersection_mm3": 1.8100781400176689
+        },
+        {
+          "deg": 45,
+          "intersection_mm3": 1.9418187383760515
+        },
+        {
+          "deg": 50,
+          "intersection_mm3": 1.810078140017572
+        },
+        {
+          "deg": 55,
+          "intersection_mm3": 1.4331916938424527
+        },
+        {
+          "deg": 60,
+          "intersection_mm3": 0.8758465713837157
+        },
+        {
+          "deg": 65,
+          "intersection_mm3": 0.28665355188447483
+        },
+        {
+          "deg": 70,
+          "intersection_mm3": 0.0
+        },
+        {
+          "deg": 75,
+          "intersection_mm3": 0.0
+        },
+        {
+          "deg": 80,
+          "intersection_mm3": 0.0
+        },
+        {
+          "deg": 85,
+          "intersection_mm3": 0.0
+        },
+        {
+          "deg": 90,
+          "intersection_mm3": 0.0
+        }
+      ]
+    }
+  ],
+  "loose_closure_hardware_follows_datum": [
+    {
+      "dx": -0.4,
+      "dz": -0.4,
+      "collisions": []
+    },
+    {
+      "dx": -0.4,
+      "dz": 0,
+      "collisions": []
+    },
+    {
+      "dx": -0.4,
+      "dz": 0.4,
+      "collisions": []
+    },
+    {
+      "dx": 0,
+      "dz": -0.4,
+      "collisions": []
+    },
+    {
+      "dx": 0,
+      "dz": 0,
+      "collisions": []
+    },
+    {
+      "dx": 0,
+      "dz": 0.4,
+      "collisions": []
+    },
+    {
+      "dx": 0.4,
+      "dz": -0.4,
+      "collisions": []
+    },
+    {
+      "dx": 0.4,
+      "dz": 0,
+      "collisions": []
+    },
+    {
+      "dx": 0.4,
+      "dz": 0.4,
+      "collisions": []
+    }
+  ],
+  "manual_flared_datum_placement": [
+    {
+      "lift_mm": 10.0,
+      "manual_xz_offset_mm": -1.5,
+      "collisions": []
+    },
+    {
+      "lift_mm": 9.75,
+      "manual_xz_offset_mm": -1.5,
+      "collisions": []
+    },
+    {
+      "lift_mm": 9.5,
+      "manual_xz_offset_mm": -1.5,
+      "collisions": []
+    },
+    {
+      "lift_mm": 9.25,
+      "manual_xz_offset_mm": -1.5,
+      "collisions": []
+    },
+    {
+      "lift_mm": 9.0,
+      "manual_xz_offset_mm": -1.5,
+      "collisions": []
+    },
+    {
+      "lift_mm": 8.75,
+      "manual_xz_offset_mm": -1.5,
+      "collisions": []
+    },
+    {
+      "lift_mm": 8.5,
+      "manual_xz_offset_mm": -1.5,
+      "collisions": []
+    },
+    {
+      "lift_mm": 8.25,
+      "manual_xz_offset_mm": -1.5,
+      "collisions": []
+    },
+    {
+      "lift_mm": 8.0,
+      "manual_xz_offset_mm": -1.5,
+      "collisions": []
+    },
+    {
+      "lift_mm": 7.75,
+      "manual_xz_offset_mm": -1.5,
+      "collisions": []
+    },
+    {
+      "lift_mm": 7.5,
+      "manual_xz_offset_mm": -1.5,
+      "collisions": []
+    },
+    {
+      "lift_mm": 7.25,
+      "manual_xz_offset_mm": -1.5,
+      "collisions": []
+    },
+    {
+      "lift_mm": 7.0,
+      "manual_xz_offset_mm": -1.5,
+      "collisions": []
+    },
+    {
+      "lift_mm": 6.75,
+      "manual_xz_offset_mm": -1.375,
+      "collisions": []
+    },
+    {
+      "lift_mm": 6.5,
+      "manual_xz_offset_mm": -1.25,
+      "collisions": []
+    },
+    {
+      "lift_mm": 6.25,
+      "manual_xz_offset_mm": -1.125,
+      "collisions": []
+    },
+    {
+      "lift_mm": 6.0,
+      "manual_xz_offset_mm": -1.0,
+      "collisions": []
+    },
+    {
+      "lift_mm": 5.75,
+      "manual_xz_offset_mm": -0.875,
+      "collisions": []
+    },
+    {
+      "lift_mm": 5.5,
+      "manual_xz_offset_mm": -0.75,
+      "collisions": []
+    },
+    {
+      "lift_mm": 5.25,
+      "manual_xz_offset_mm": -0.625,
+      "collisions": []
+    },
+    {
+      "lift_mm": 5.0,
+      "manual_xz_offset_mm": -0.5,
+      "collisions": []
+    },
+    {
+      "lift_mm": 4.75,
+      "manual_xz_offset_mm": -0.375,
+      "collisions": []
+    },
+    {
+      "lift_mm": 4.5,
+      "manual_xz_offset_mm": -0.25,
+      "collisions": []
+    },
+    {
+      "lift_mm": 4.25,
+      "manual_xz_offset_mm": -0.125,
+      "collisions": []
+    },
+    {
+      "lift_mm": 4.0,
+      "manual_xz_offset_mm": 0,
+      "collisions": []
+    },
+    {
+      "lift_mm": 3.75,
+      "manual_xz_offset_mm": 0,
+      "collisions": []
+    },
+    {
+      "lift_mm": 3.5,
+      "manual_xz_offset_mm": 0,
+      "collisions": []
+    },
+    {
+      "lift_mm": 3.25,
+      "manual_xz_offset_mm": 0,
+      "collisions": []
+    },
+    {
+      "lift_mm": 3.0,
+      "manual_xz_offset_mm": 0,
+      "collisions": []
+    },
+    {
+      "lift_mm": 2.75,
+      "manual_xz_offset_mm": 0,
+      "collisions": []
+    },
+    {
+      "lift_mm": 2.5,
+      "manual_xz_offset_mm": 0,
+      "collisions": []
+    },
+    {
+      "lift_mm": 2.25,
+      "manual_xz_offset_mm": 0,
+      "collisions": []
+    },
+    {
+      "lift_mm": 2.0,
+      "manual_xz_offset_mm": 0,
+      "collisions": []
+    },
+    {
+      "lift_mm": 1.75,
+      "manual_xz_offset_mm": 0,
+      "collisions": []
+    },
+    {
+      "lift_mm": 1.5,
+      "manual_xz_offset_mm": 0,
+      "collisions": []
+    },
+    {
+      "lift_mm": 1.25,
+      "manual_xz_offset_mm": 0,
+      "collisions": []
+    },
+    {
+      "lift_mm": 1.0,
+      "manual_xz_offset_mm": 0,
+      "collisions": []
+    },
+    {
+      "lift_mm": 0.75,
+      "manual_xz_offset_mm": 0,
+      "collisions": []
+    },
+    {
+      "lift_mm": 0.5,
+      "manual_xz_offset_mm": 0,
+      "collisions": []
+    },
+    {
+      "lift_mm": 0.25,
+      "manual_xz_offset_mm": 0,
+      "collisions": []
+    },
+    {
+      "lift_mm": 0.0,
+      "manual_xz_offset_mm": 0,
+      "collisions": []
+    }
+  ],
+  "datum_limits": [
+    "Manual gentle left/back seating before tightening; not an automatic precision-centering latch.",
+    "One L datum at the left foot; right foot span is not trapped between a second precise locator.",
+    "Nominal datum faces touch; as-printed face errors change the actual core position. No zero positional error claim.",
+    "Hardware float is nominal geometry only. Combined independent print warpage, hole errors, nut size and screw alignment still need first-article assembly verification."
+  ],
+  "pass": true
+}

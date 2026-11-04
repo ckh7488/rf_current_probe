@@ -1,0 +1,211 @@
+{
+  "classification": "SAMPLED_DISPLAY_PATHS_NOT_SWEPT_VOLUME_OR_HAND_TOOL_TEST",
+  "native_sha256": "5338d317e73dd15f1c95182864a2cf8f4377bbea19776716b925b8b2af7ed846",
+  "steps_source_sha256": "e8cb0ac9d5a3451ae2f9328f74f5e4ded120a53bb0dc33b5ded2cfd5a71bf72b",
+  "steps": {
+    "H01": {
+      "samples": 11,
+      "collisions": []
+    },
+    "H03": {
+      "samples": 11,
+      "collisions": []
+    },
+    "H04": {
+      "samples": 11,
+      "collisions": []
+    },
+    "H05": {
+      "samples": 11,
+      "collisions": []
+    },
+    "H07": {
+      "samples": 11,
+      "collisions": []
+    },
+    "H08": {
+      "samples": 11,
+      "collisions": []
+    },
+    "H09": {
+      "samples": 11,
+      "collisions": []
+    },
+    "H10": {
+      "samples": 11,
+      "collisions": []
+    },
+    "H11": {
+      "samples": 11,
+      "collisions": []
+    },
+    "H12": {
+      "samples": 11,
+      "collisions": []
+    },
+    "H14": {
+      "samples": 11,
+      "collisions": []
+    },
+    "C01": {
+      "samples": 11,
+      "collisions": []
+    },
+    "C02": {
+      "samples": 11,
+      "collisions": []
+    },
+    "C03": {
+      "samples": 11,
+      "collisions": []
+    },
+    "C04": {
+      "samples": 11,
+      "collisions": []
+    },
+    "C05": {
+      "samples": 11,
+      "collisions": []
+    },
+    "C06": {
+      "samples": 11,
+      "collisions": []
+    },
+    "C07": {
+      "samples": 11,
+      "collisions": []
+    },
+    "C08": {
+      "samples": 11,
+      "collisions": []
+    },
+    "C09": {
+      "samples": 11,
+      "collisions": []
+    },
+    "C10": {
+      "samples": 11,
+      "collisions": []
+    },
+    "C11": {
+      "samples": 11,
+      "collisions": []
+    },
+    "B01": {
+      "samples": 11,
+      "collisions": []
+    },
+    "B02": {
+      "samples": 11,
+      "collisions": []
+    },
+    "B03": {
+      "samples": 11,
+      "collisions": []
+    },
+    "B04": {
+      "samples": 11,
+      "collisions": []
+    },
+    "B05": {
+      "samples": 11,
+      "collisions": [
+        {
+          "t": 0.5,
+          "a": "Cable1_Frame",
+          "b": "MountScrew2",
+          "volume_mm3": 0.06347
+        },
+        {
+          "t": 0.6,
+          "a": "Cable1_Frame",
+          "b": "MountScrew2",
+          "volume_mm3": 0.06347
+        },
+        {
+          "t": 0.7,
+          "a": "Cable1_Frame",
+          "b": "MountScrew2",
+          "volume_mm3": 0.06347
+        },
+        {
+          "t": 0.8,
+          "a": "Cable1_Frame",
+          "b": "MountScrew2",
+          "volume_mm3": 0.06347
+        },
+        {
+          "t": 0.9,
+          "a": "Cable1_Frame",
+          "b": "MountScrew2",
+          "volume_mm3": 0.06347
+        },
+        {
+          "t": 1.0,
+          "a": "Cable1_Frame",
+          "b": "MountScrew2",
+          "volume_mm3": 0.06347
+        }
+      ]
+    },
+    "B06": {
+      "samples": 11,
+      "collisions": []
+    },
+    "B07": {
+      "samples": 11,
+      "collisions": [
+        {
+          "t": 0.5,
+          "a": "Cable2_Frame",
+          "b": "MountScrew4",
+          "volume_mm3": 0.06347
+        },
+        {
+          "t": 0.6,
+          "a": "Cable2_Frame",
+          "b": "MountScrew4",
+          "volume_mm3": 0.06347
+        },
+        {
+          "t": 0.7,
+          "a": "Cable2_Frame",
+          "b": "MountScrew4",
+          "volume_mm3": 0.06347
+        },
+        {
+          "t": 0.8,
+          "a": "Cable2_Frame",
+          "b": "MountScrew4",
+          "volume_mm3": 0.06347
+        },
+        {
+          "t": 0.9,
+          "a": "Cable2_Frame",
+          "b": "MountScrew4",
+          "volume_mm3": 0.06347
+        },
+        {
+          "t": 1.0,
+          "a": "Cable2_Frame",
+          "b": "MountScrew4",
+          "volume_mm3": 0.06347
+        }
+      ]
+    },
+    "Q02": {
+      "samples": 11,
+      "collisions": []
+    },
+    "Q03": {
+      "samples": 11,
+      "collisions": []
+    }
+  },
+  "limits": [
+    "Eleven poses per indicated step, not a continuous swept-volume proof.",
+    "Winding excluded: flexible tails and actual turns are not modeled.",
+    "Opening flexures use prior A13 path evidence, not this rigid translation checker.",
+    "Nominal geometry only; no hands, contact force, friction or print errors."
+  ]
+}

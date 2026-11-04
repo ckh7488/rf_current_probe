@@ -1,0 +1,704 @@
+{
+  "classification": "CALCULATED_SAVED_CAD_DISCRETE_PATHS",
+  "native_sha256": "8e547665d45ae71bc991756215d55e3f9a3e7d457b75f29fe904123e6636d606",
+  "source_sha256": "587869093b137a916247151942c847452b1f553338692d02af644a7e3bf6d3fa",
+  "paths": {
+    "LowerArmLeft_from_rear_before_core_and_base": [
+      {
+        "travel_mm": 0,
+        "collisions": []
+      },
+      {
+        "travel_mm": 3,
+        "collisions": []
+      },
+      {
+        "travel_mm": 6,
+        "collisions": []
+      },
+      {
+        "travel_mm": 9,
+        "collisions": []
+      },
+      {
+        "travel_mm": 12,
+        "collisions": []
+      },
+      {
+        "travel_mm": 15,
+        "collisions": []
+      },
+      {
+        "travel_mm": 18,
+        "collisions": []
+      },
+      {
+        "travel_mm": 21,
+        "collisions": []
+      },
+      {
+        "travel_mm": 24,
+        "collisions": []
+      },
+      {
+        "travel_mm": 27,
+        "collisions": []
+      },
+      {
+        "travel_mm": 30,
+        "collisions": []
+      },
+      {
+        "travel_mm": 33,
+        "collisions": []
+      },
+      {
+        "travel_mm": 36,
+        "collisions": []
+      },
+      {
+        "travel_mm": 39,
+        "collisions": []
+      },
+      {
+        "travel_mm": 42,
+        "collisions": []
+      },
+      {
+        "travel_mm": 45,
+        "collisions": []
+      },
+      {
+        "travel_mm": 48,
+        "collisions": []
+      },
+      {
+        "travel_mm": 51,
+        "collisions": []
+      },
+      {
+        "travel_mm": 54,
+        "collisions": []
+      },
+      {
+        "travel_mm": 57,
+        "collisions": []
+      },
+      {
+        "travel_mm": 60,
+        "collisions": []
+      }
+    ],
+    "LowerArmRight_from_rear_before_core_and_base": [
+      {
+        "travel_mm": 0,
+        "collisions": []
+      },
+      {
+        "travel_mm": 3,
+        "collisions": []
+      },
+      {
+        "travel_mm": 6,
+        "collisions": []
+      },
+      {
+        "travel_mm": 9,
+        "collisions": []
+      },
+      {
+        "travel_mm": 12,
+        "collisions": []
+      },
+      {
+        "travel_mm": 15,
+        "collisions": []
+      },
+      {
+        "travel_mm": 18,
+        "collisions": []
+      },
+      {
+        "travel_mm": 21,
+        "collisions": []
+      },
+      {
+        "travel_mm": 24,
+        "collisions": []
+      },
+      {
+        "travel_mm": 27,
+        "collisions": []
+      },
+      {
+        "travel_mm": 30,
+        "collisions": []
+      },
+      {
+        "travel_mm": 33,
+        "collisions": []
+      },
+      {
+        "travel_mm": 36,
+        "collisions": []
+      },
+      {
+        "travel_mm": 39,
+        "collisions": []
+      },
+      {
+        "travel_mm": 42,
+        "collisions": []
+      },
+      {
+        "travel_mm": 45,
+        "collisions": []
+      },
+      {
+        "travel_mm": 48,
+        "collisions": []
+      },
+      {
+        "travel_mm": 51,
+        "collisions": []
+      },
+      {
+        "travel_mm": 54,
+        "collisions": []
+      },
+      {
+        "travel_mm": 57,
+        "collisions": []
+      },
+      {
+        "travel_mm": 60,
+        "collisions": []
+      }
+    ],
+    "upper_right_from_rear_before_keeper_and_core": [
+      {
+        "travel_mm": 0,
+        "collisions": []
+      },
+      {
+        "travel_mm": 2,
+        "collisions": []
+      },
+      {
+        "travel_mm": 4,
+        "collisions": []
+      },
+      {
+        "travel_mm": 6,
+        "collisions": []
+      },
+      {
+        "travel_mm": 8,
+        "collisions": []
+      },
+      {
+        "travel_mm": 10,
+        "collisions": []
+      },
+      {
+        "travel_mm": 12,
+        "collisions": []
+      },
+      {
+        "travel_mm": 14,
+        "collisions": []
+      },
+      {
+        "travel_mm": 16,
+        "collisions": []
+      },
+      {
+        "travel_mm": 18,
+        "collisions": []
+      },
+      {
+        "travel_mm": 20,
+        "collisions": []
+      },
+      {
+        "travel_mm": 22,
+        "collisions": []
+      },
+      {
+        "travel_mm": 24,
+        "collisions": []
+      },
+      {
+        "travel_mm": 26,
+        "collisions": []
+      },
+      {
+        "travel_mm": 28,
+        "collisions": []
+      },
+      {
+        "travel_mm": 30,
+        "collisions": []
+      },
+      {
+        "travel_mm": 32,
+        "collisions": []
+      },
+      {
+        "travel_mm": 34,
+        "collisions": []
+      },
+      {
+        "travel_mm": 36,
+        "collisions": []
+      },
+      {
+        "travel_mm": 38,
+        "collisions": []
+      },
+      {
+        "travel_mm": 40,
+        "collisions": []
+      },
+      {
+        "travel_mm": 42,
+        "collisions": []
+      },
+      {
+        "travel_mm": 44,
+        "collisions": []
+      },
+      {
+        "travel_mm": 46,
+        "collisions": []
+      },
+      {
+        "travel_mm": 48,
+        "collisions": []
+      },
+      {
+        "travel_mm": 50,
+        "collisions": []
+      }
+    ],
+    "middle_base_lower_onto_end_laps": [
+      {
+        "travel_mm": 0,
+        "collisions": []
+      },
+      {
+        "travel_mm": 3,
+        "collisions": []
+      },
+      {
+        "travel_mm": 6,
+        "collisions": []
+      },
+      {
+        "travel_mm": 9,
+        "collisions": []
+      },
+      {
+        "travel_mm": 12,
+        "collisions": []
+      },
+      {
+        "travel_mm": 15,
+        "collisions": []
+      },
+      {
+        "travel_mm": 18,
+        "collisions": []
+      },
+      {
+        "travel_mm": 21,
+        "collisions": []
+      },
+      {
+        "travel_mm": 24,
+        "collisions": []
+      },
+      {
+        "travel_mm": 27,
+        "collisions": []
+      },
+      {
+        "travel_mm": 30,
+        "collisions": []
+      },
+      {
+        "travel_mm": 33,
+        "collisions": []
+      },
+      {
+        "travel_mm": 36,
+        "collisions": []
+      },
+      {
+        "travel_mm": 39,
+        "collisions": []
+      },
+      {
+        "travel_mm": 42,
+        "collisions": []
+      },
+      {
+        "travel_mm": 45,
+        "collisions": []
+      },
+      {
+        "travel_mm": 48,
+        "collisions": []
+      },
+      {
+        "travel_mm": 51,
+        "collisions": []
+      },
+      {
+        "travel_mm": 54,
+        "collisions": []
+      },
+      {
+        "travel_mm": 57,
+        "collisions": []
+      },
+      {
+        "travel_mm": 60,
+        "collisions": []
+      }
+    ],
+    "FixedCore_front_insertion": [
+      {
+        "travel_mm": 0,
+        "collisions": []
+      },
+      {
+        "travel_mm": 3,
+        "collisions": []
+      },
+      {
+        "travel_mm": 6,
+        "collisions": []
+      },
+      {
+        "travel_mm": 9,
+        "collisions": []
+      },
+      {
+        "travel_mm": 12,
+        "collisions": []
+      },
+      {
+        "travel_mm": 15,
+        "collisions": []
+      },
+      {
+        "travel_mm": 18,
+        "collisions": []
+      },
+      {
+        "travel_mm": 21,
+        "collisions": []
+      },
+      {
+        "travel_mm": 24,
+        "collisions": []
+      },
+      {
+        "travel_mm": 27,
+        "collisions": []
+      },
+      {
+        "travel_mm": 30,
+        "collisions": []
+      },
+      {
+        "travel_mm": 33,
+        "collisions": []
+      },
+      {
+        "travel_mm": 36,
+        "collisions": []
+      },
+      {
+        "travel_mm": 39,
+        "collisions": []
+      },
+      {
+        "travel_mm": 42,
+        "collisions": []
+      },
+      {
+        "travel_mm": 45,
+        "collisions": []
+      },
+      {
+        "travel_mm": 48,
+        "collisions": []
+      },
+      {
+        "travel_mm": 51,
+        "collisions": []
+      },
+      {
+        "travel_mm": 54,
+        "collisions": []
+      },
+      {
+        "travel_mm": 57,
+        "collisions": []
+      },
+      {
+        "travel_mm": 60,
+        "collisions": []
+      }
+    ],
+    "MovingCore_front_insertion": [
+      {
+        "travel_mm": 0,
+        "collisions": []
+      },
+      {
+        "travel_mm": 3,
+        "collisions": []
+      },
+      {
+        "travel_mm": 6,
+        "collisions": []
+      },
+      {
+        "travel_mm": 9,
+        "collisions": []
+      },
+      {
+        "travel_mm": 12,
+        "collisions": []
+      },
+      {
+        "travel_mm": 15,
+        "collisions": []
+      },
+      {
+        "travel_mm": 18,
+        "collisions": []
+      },
+      {
+        "travel_mm": 21,
+        "collisions": []
+      },
+      {
+        "travel_mm": 24,
+        "collisions": []
+      },
+      {
+        "travel_mm": 27,
+        "collisions": []
+      },
+      {
+        "travel_mm": 30,
+        "collisions": []
+      },
+      {
+        "travel_mm": 33,
+        "collisions": []
+      },
+      {
+        "travel_mm": 36,
+        "collisions": []
+      },
+      {
+        "travel_mm": 39,
+        "collisions": []
+      },
+      {
+        "travel_mm": 42,
+        "collisions": []
+      },
+      {
+        "travel_mm": 45,
+        "collisions": []
+      },
+      {
+        "travel_mm": 48,
+        "collisions": []
+      },
+      {
+        "travel_mm": 51,
+        "collisions": []
+      },
+      {
+        "travel_mm": 54,
+        "collisions": []
+      },
+      {
+        "travel_mm": 57,
+        "collisions": []
+      },
+      {
+        "travel_mm": 60,
+        "collisions": []
+      }
+    ],
+    "lid_release_and_lift": [
+      {
+        "lift_mm": 0,
+        "collisions": []
+      },
+      {
+        "lift_mm": 0.3,
+        "collisions": []
+      },
+      {
+        "lift_mm": 0.6,
+        "collisions": []
+      },
+      {
+        "lift_mm": 0.9,
+        "collisions": []
+      },
+      {
+        "lift_mm": 1.2,
+        "collisions": []
+      },
+      {
+        "lift_mm": 1.5,
+        "collisions": []
+      },
+      {
+        "lift_mm": 1.8,
+        "collisions": []
+      },
+      {
+        "lift_mm": 3,
+        "collisions": []
+      },
+      {
+        "lift_mm": 5,
+        "collisions": []
+      },
+      {
+        "lift_mm": 10,
+        "collisions": []
+      },
+      {
+        "lift_mm": 20,
+        "collisions": []
+      },
+      {
+        "lift_mm": 40,
+        "collisions": []
+      },
+      {
+        "lift_mm": 80,
+        "collisions": []
+      },
+      {
+        "lift_mm": 120,
+        "collisions": []
+      }
+    ]
+  },
+  "socket_access": [
+    {
+      "nut": "LowerJointL66Nut",
+      "tool": "OD12 mm socket, 30 mm axial insertion",
+      "collisions": []
+    },
+    {
+      "nut": "LowerJointL78Nut",
+      "tool": "OD12 mm socket, 30 mm axial insertion",
+      "collisions": []
+    },
+    {
+      "nut": "LowerJointR66Nut",
+      "tool": "OD12 mm socket, 30 mm axial insertion",
+      "collisions": []
+    },
+    {
+      "nut": "LowerJointR78Nut",
+      "tool": "OD12 mm socket, 30 mm axial insertion",
+      "collisions": []
+    },
+    {
+      "nut": "UpperJoint6LNut",
+      "tool": "OD12 mm socket, 30 mm axial insertion",
+      "collisions": []
+    },
+    {
+      "nut": "UpperJoint6RNut",
+      "tool": "OD12 mm socket, 30 mm axial insertion",
+      "collisions": []
+    },
+    {
+      "nut": "BaseJointFLNut",
+      "tool": "OD12 mm socket, 30 mm axial insertion",
+      "collisions": []
+    },
+    {
+      "nut": "BaseJointFRNut",
+      "tool": "OD12 mm socket, 30 mm axial insertion",
+      "collisions": []
+    },
+    {
+      "nut": "BaseJointRLNut",
+      "tool": "OD12 mm socket, 30 mm axial insertion",
+      "collisions": []
+    },
+    {
+      "nut": "BaseJointRRNut",
+      "tool": "OD12 mm socket, 30 mm axial insertion",
+      "collisions": []
+    }
+  ],
+  "unchanged_print_sha256": {
+    "C07_DriveYoke_DRAFT.stl": true,
+    "C07_Frame_DRAFT.stl": true,
+    "C07_Jaw1_DRAFT.stl": true,
+    "C07_Jaw2_DRAFT.stl": true,
+    "C07_TopBridgeJaw_DRAFT.stl": true,
+    "LowerKeeper_FREE_DRAFT.stl": true,
+    "UpperKeeper_FREE_DRAFT.stl": true
+  },
+  "core_and_PCB_symmetric_difference_mm3": {
+    "FixedCore": 0.0,
+    "MovingCore": 0.0,
+    "Winding": 0.0,
+    "PCB": 0.0,
+    "SMAEnvelope": 0.0
+  },
+  "free_leaf_symmetric_difference": [
+    {
+      "side": -1,
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "side": 1,
+      "symmetric_difference_mm3": 0.0
+    }
+  ],
+  "stl_closed": {
+    "BaseCenter_A14_DRAFT.stl": true,
+    "BaseFront_A14_DRAFT.stl": true,
+    "BaseRear_A14_DRAFT.stl": true,
+    "C07_DriveYoke_DRAFT.stl": true,
+    "C07_Frame_DRAFT.stl": true,
+    "C07_Jaw1_DRAFT.stl": true,
+    "C07_Jaw2_DRAFT.stl": true,
+    "C07_TopBridgeJaw_DRAFT.stl": true,
+    "LowerArmLeft_A14_DRAFT.stl": true,
+    "LowerArmRight_A14_DRAFT.stl": true,
+    "LowerCenter_A14_DRAFT.stl": true,
+    "LowerKeeper_FREE_DRAFT.stl": true,
+    "UpperKeeper_FREE_DRAFT.stl": true,
+    "UpperLeft_A14_DRAFT.stl": true,
+    "UpperRight_A14_DRAFT.stl": true
+  },
+  "limitations": [
+    "Discrete samples are not continuous collision proof. Threads, friction and deformation excluded.",
+    "OD12 socket access verified on the bare subassembly in specified order, not with every installed module.",
+    "Lap mating planes must be fully seated; loose screws do not define precision alignment.",
+    "Process/global warpage may exceed open-lap allowances; local nominal fit is not a printer guarantee.",
+    "Screw supplier dimensions, stripping, nylon creep, contact force and RF behavior not verified."
+  ],
+  "pass": true
+}

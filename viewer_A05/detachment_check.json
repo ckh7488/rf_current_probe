@@ -1,0 +1,161 @@
+{
+  "classification": "CALCULATED_CAD",
+  "source_sha256": "48bb8eefecaa989d05131f0a8a922de3cda8c7ea60642e11e63594de4f395c9f",
+  "assumptions": [
+    "Upper assembly, hand knobs, calibration board, corner screws and bench M2 nuts removed.",
+    "Small head PCB is held together with the lower assembly by the operator during lift.",
+    "No cable, tool, hand, friction or manufacturing-tolerance model."
+  ],
+  "moving_parts": [
+    "Head_FixedTray",
+    "Head_FixedKeeper1",
+    "Head_FixedKeeper2",
+    "Head_FixedCore",
+    "Head_PCB",
+    "Head_SMAEnvelope",
+    "Head_Winding",
+    "Head_SquareNutsEnvelope",
+    "Head_FixedKeeperBolts",
+    "Head_FixedKeeperNuts",
+    "Head_FixedPads"
+  ],
+  "obstacles": [
+    "Base",
+    "RubberFeet",
+    "BracketBaseScrews",
+    "BracketBaseNuts",
+    "Posts30FF",
+    "Posts35MF",
+    "CornerBaseScrews",
+    "HeadBracket_A05",
+    "BenchM2x16"
+  ],
+  "samples": [
+    {
+      "offset_z_mm": 0,
+      "overlap_mm3": 0.0
+    },
+    {
+      "offset_z_mm": 2,
+      "overlap_mm3": 0.0
+    },
+    {
+      "offset_z_mm": 4,
+      "overlap_mm3": 0.0
+    },
+    {
+      "offset_z_mm": 6,
+      "overlap_mm3": 0.0
+    },
+    {
+      "offset_z_mm": 8,
+      "overlap_mm3": 0.0
+    },
+    {
+      "offset_z_mm": 10,
+      "overlap_mm3": 0.0
+    },
+    {
+      "offset_z_mm": 12,
+      "overlap_mm3": 0.0
+    },
+    {
+      "offset_z_mm": 14,
+      "overlap_mm3": 0.0
+    },
+    {
+      "offset_z_mm": 16,
+      "overlap_mm3": 0.0
+    },
+    {
+      "offset_z_mm": 18,
+      "overlap_mm3": 0.0
+    },
+    {
+      "offset_z_mm": 20,
+      "overlap_mm3": 0.0
+    },
+    {
+      "offset_z_mm": 22,
+      "overlap_mm3": 0.0
+    },
+    {
+      "offset_z_mm": 24,
+      "overlap_mm3": 0.0
+    },
+    {
+      "offset_z_mm": 26,
+      "overlap_mm3": 0.0
+    },
+    {
+      "offset_z_mm": 28,
+      "overlap_mm3": 0.0
+    },
+    {
+      "offset_z_mm": 30,
+      "overlap_mm3": 0.0
+    },
+    {
+      "offset_z_mm": 32,
+      "overlap_mm3": 0.0
+    },
+    {
+      "offset_z_mm": 34,
+      "overlap_mm3": 0.0
+    },
+    {
+      "offset_z_mm": 36,
+      "overlap_mm3": 0.0
+    },
+    {
+      "offset_z_mm": 38,
+      "overlap_mm3": 0.0
+    },
+    {
+      "offset_z_mm": 40,
+      "overlap_mm3": 0.0
+    },
+    {
+      "offset_z_mm": 42,
+      "overlap_mm3": 0.0
+    },
+    {
+      "offset_z_mm": 44,
+      "overlap_mm3": 0.0
+    },
+    {
+      "offset_z_mm": 46,
+      "overlap_mm3": 0.0
+    },
+    {
+      "offset_z_mm": 48,
+      "overlap_mm3": 0.0
+    },
+    {
+      "offset_z_mm": 50,
+      "overlap_mm3": 0.0
+    },
+    {
+      "offset_z_mm": 52,
+      "overlap_mm3": 0.0
+    },
+    {
+      "offset_z_mm": 54,
+      "overlap_mm3": 0.0
+    },
+    {
+      "offset_z_mm": 56,
+      "overlap_mm3": 0.0
+    },
+    {
+      "offset_z_mm": 58,
+      "overlap_mm3": 0.0
+    },
+    {
+      "offset_z_mm": 60,
+      "overlap_mm3": 0.0
+    }
+  ],
+  "pass": true,
+  "max_overlap_mm3": 0.0
+}

@@ -1,0 +1,19 @@
+{
+  "classification": "STATIC_SITE_LINK_PAYLOAD_AND_PACKAGE_IDENTITY",
+  "pages": [
+    "index.html",
+    "clamp.html",
+    "compare.html",
+    "audit/latest-review.html"
+  ],
+  "local_links_checked": 25,
+  "comparison_cases": 20,
+  "sha256": {
+    "dist\\index.html": "bfff702de672b478a01d9daa926d1271abb224f41b3ae071dee5943b26a85689",
+    "dist\\clamp.html": "26c67fb62a80e1da4a15a03add6ed1a5551c5a9924e9053dce032edd658e4a67",
+    "dist\\compare.html": "c4ac2c2e52eaa93d2a0491216535a1067baa30ef235cc78ae57d069c876bb09f",
+    "dist\\audit\\latest-review.html": "7094b6addcf54fd6428fbb1e8ca3041dc270713a23f59cfb8037078d65951038",
+    "dist\\assembly\\A12_REVIEW_PACKAGE.zip": "9add649b594018c50b7f91d94c37ba687a354b6df9194864d76e00d6ffccc8ed"
+  },
+  "pass": true
+}

@@ -1,0 +1,16 @@
+/* The canvas keeps its full height. Text lives in normal document flow below it. */
+.annotation-dock{display:flex;flex-wrap:wrap;justify-content:space-evenly;gap:8px 18px;padding:10px 14px;background:var(--sc-surface,#fff);border-top:1px solid var(--sc-line,#d9e1e4);color:var(--sc-ink,#172e33);font-size:13px;line-height:1.5}
+.annotation-caption{display:flex;align-items:center;gap:7px;min-width:0;overflow-wrap:anywhere}
+.annotation-caption b{display:inline-grid;place-items:center;width:20px;height:20px;flex:0 0 20px;border:1px solid var(--sc-line,#d9e1e4);border-radius:50%;font-size:11px;font-weight:600;color:var(--sc-accent,#197d71)}
+#stage .annotation-lines{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;overflow:hidden;z-index:2}
+.annotation-lines path{fill:none;stroke:var(--sc-accent,#197d71);stroke-width:1;stroke-opacity:.52;vector-effect:non-scaling-stroke}
+.annotation-lines circle{fill:var(--sc-accent,#197d71);fill-opacity:.8;stroke:white;stroke-width:1;vector-effect:non-scaling-stroke}
+.annotation-toggle{display:inline-flex!important;align-items:center;gap:6px;margin:0!important;white-space:nowrap;cursor:pointer;font-size:14px!important;font-weight:500!important;color:var(--sc-ink,#172e33)}
+.annotation-toggle input{width:16px!important;height:16px!important;accent-color:var(--sc-accent,#197d71);margin:0!important}
+.viewtop,.viewhead{flex-wrap:wrap}.annotation-options{display:flex;flex-wrap:wrap;align-items:center;justify-content:flex-end;gap:8px 12px;margin-left:auto}
+.annotation-toggle:focus-within{outline:2px solid var(--sc-accent,#197d71);outline-offset:4px;border-radius:2px}
+.viewtools{flex-wrap:wrap}.annotation-hint{font-size:12px;color:var(--sc-muted,#5f737b);line-height:1.5}
+.viewtools #viewHint{position:static;pointer-events:auto}
+.comparison-caption{padding:8px 16px;border-top:1px solid var(--sc-line,#d9e1e4);font-size:13px;color:var(--sc-muted,#5f737b)}
+.annotation-dock[hidden],.annotation-lines[hidden],.comparison-caption[hidden],.annotation-hint[hidden]{display:none!important}
+@media(max-width:480px){.annotation-dock{gap:8px 12px;padding:10px}.annotation-caption{flex:1 1 120px;font-size:12px}.viewtools .annotation-hint{max-width:100%}}

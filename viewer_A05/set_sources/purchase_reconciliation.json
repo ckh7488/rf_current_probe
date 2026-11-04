@@ -1,0 +1,452 @@
+{
+  "date": "2026-09-21",
+  "scope": "Read-only comparison; only this review output written. No web repricing, purchase, CAD or Site edits.",
+  "sources": [
+    {
+      "path": "procurement/full_purchase_20260917/purchase.json",
+      "sha256": "e56c087c6116a0eb4c29e71179ab7c13a70d0f8ac37dd0ba94299cb5f987e5a4"
+    },
+    {
+      "path": "procurement/full_purchase_20260917/README.md",
+      "sha256": "30ebb34c949814cacf5d376a84b41eacbaa74cb65fddbca433ad1a510e159760"
+    },
+    {
+      "path": "procurement/full_purchase_20260917/최종검증.md",
+      "sha256": "aebbae3749bfe0525b4cf0d0a6064f3a7fa5e2114d684d117863aea2480523ab"
+    },
+    {
+      "path": "procurement/combined_20260917/README.md",
+      "sha256": "44354aa41a29cc7e1c8491adb4f10d30e1736d43d68e2260396fb5c611225b2f"
+    },
+    {
+      "path": "procurement/combined_20260917/combined_procurement.json",
+      "sha256": "4495490af1db6722fe867e29fdf63dc08e3847a148d48264637c1cb15fb21e88"
+    },
+    {
+      "path": "procurement/handoff_20260917/02_BALUN.md",
+      "sha256": "e4c556bc13cc5f603850ce21089513951dd00f61b9f3289d3ee8538051c0ae4f"
+    },
+    {
+      "path": "procurement/handoff_20260917/03_RF_LATER.md",
+      "sha256": "59f14955c29bc93997fd3410a845fe0b84855b5e50719fde343e99dab82fc45e"
+    },
+    {
+      "path": "viewer_A05/build_purchase_handoff.py",
+      "sha256": "b18837639f08ac05ab38e31aaf8586dd14db13a31950624132815a25624734ae"
+    },
+    {
+      "path": "viewer_A05/set_sources/bom.json",
+      "sha256": "de6027bc32b47fb6583856b3b9d805a97f779ff76d4a6d70dded428ccdb5bacf"
+    },
+    {
+      "path": "reviews/atlas_purchase_20260918/current_cart_rows.json",
+      "sha256": "37faf44f89e32abdb6159a00cb2ab0e5d77d4e6d6582fc4446e8c4e6ed106ab9"
+    },
+    {
+      "path": "hardware/calibration_fixture_PCB_A02/BOM_DELTA.md",
+      "sha256": "3e939ecbf8cecc986935e3a36396b4a897f1e556afb14baaeae8eda3435ce2e5"
+    },
+    {
+      "path": "docs/OPEN_CORE_HOLDER_REQUIREMENTS.md",
+      "sha256": "f0f4ae4f50f35298f25459f769f514028ce1717c48b2070a019a800ba20612a8"
+    }
+  ],
+  "old_rows_count": 33,
+  "current_handoff": {
+    "electronics_rows": 9,
+    "domestic_rows": 2,
+    "price_dates": [
+      "2026-09-18",
+      "2026-09-17"
+    ]
+  },
+  "missing_restore": [
+    {
+      "id": "SHARED-FLUX",
+      "name": "무세척 플럭스 10mL",
+      "mpn": "SMD291-10M",
+      "sku": "315-SMD291-10M-ND",
+      "restore_qty": 2,
+      "old_vendor": "DigiKey",
+      "old_unit_krw": 17213,
+      "old_line_krw": 34426,
+      "price_checked": "2026-09-17",
+      "old_product_url": "https://www.digikey.kr/ko/products/detail/chip-quik-inc/SMD291-10M/14636534",
+      "old_cart_url": "https://www.digikey.kr/short/nr974853",
+      "earlier_supplier_url": "https://www.digikey.kr/ko/products/detail/chip-quik-inc/SMD291-10M/14636534",
+      "reason": "Final audit explicitly records user-confirmed quantity2. No cancellation or completed purchase evidence found in reviewed records. Current generic stock-only wording loses this row.",
+      "classification": "UNSUPPORTED_OMISSION_RESTORE_OR_EXPLICIT_FULFILLMENT_EVIDENCE",
+      "payment_or_stock_confirmed": false
+    },
+    {
+      "id": "SHARED-LOAD",
+      "name": "SMA 수 50Ω 종단기",
+      "mpn": "2467938-1",
+      "sku": "343-2467938-1-ND",
+      "restore_qty": 7,
+      "old_vendor": "DigiKey",
+      "old_unit_krw": 4004,
+      "old_line_krw": 28028,
+      "price_checked": "2026-09-17",
+      "old_product_url": "https://www.digikey.kr/ko/products/detail/te-connectivity-linx/2467938-1/22535225",
+      "old_cart_url": "https://www.digikey.kr/short/nr974853",
+      "earlier_supplier_url": "https://www.digikey.kr/ko/products/detail/te-connectivity-linx/2467938-1/22535225",
+      "reason": "Final purchase quantity7=balun6+shared/spare1. Prior combined README explicitly calls them planned purchase, not received; separate from owned precision SOL standard. Current six-only/inventory wording loses spare and does not establish fulfillment.",
+      "classification": "UNSUPPORTED_OMISSION_RESTORE_OR_EXPLICIT_FULFILLMENT_EVIDENCE",
+      "payment_or_stock_confirmed": false
+    },
+    {
+      "id": "TIP-1.6D",
+      "name": "HAKKO 900M 인두팁 1.6D",
+      "mpn": "900M-T-1.6D",
+      "sku": "2290",
+      "restore_qty": 1,
+      "old_vendor": "디바이스마트",
+      "old_unit_krw": 9350,
+      "old_line_krw": 9350,
+      "price_checked": "2026-09-17",
+      "old_product_url": "https://www.devicemart.co.kr/goods/view?no=2290",
+      "old_cart_url": "https://www.devicemart.co.kr/order/cart",
+      "earlier_supplier_url": "https://www.topsolder.com/goods/goods_view.php?goodsNo=1201214199",
+      "reason": "Purchased accessory for owned HAKKO936/907. Owning iron does not establish owning this new tip. Old selected row1 omitted from domestic two-row list.",
+      "classification": "UNSUPPORTED_OMISSION_RESTORE_OR_EXPLICIT_FULFILLMENT_EVIDENCE",
+      "payment_or_stock_confirmed": false
+    },
+    {
+      "id": "TIP-2.4D",
+      "name": "HAKKO 900M 인두팁 2.4D",
+      "mpn": "900M-T-2.4D",
+      "sku": "2291",
+      "restore_qty": 1,
+      "old_vendor": "디바이스마트",
+      "old_unit_krw": 9350,
+      "old_line_krw": 9350,
+      "price_checked": "2026-09-17",
+      "old_product_url": "https://www.devicemart.co.kr/goods/view?no=2291",
+      "old_cart_url": "https://www.devicemart.co.kr/order/cart",
+      "earlier_supplier_url": "https://www.topsolder.com/goods/goods_view.php?goodsNo=1201214194",
+      "reason": "Purchased accessory for owned HAKKO936/907. Old selected row1 omitted from domestic two-row list.",
+      "classification": "UNSUPPORTED_OMISSION_RESTORE_OR_EXPLICIT_FULFILLMENT_EVIDENCE",
+      "payment_or_stock_confirmed": false
+    }
+  ],
+  "missing_old_line_total_krw": 81154,
+  "old_amount_caveat": "2026-09-17 historical line values. Not fresh quote. Shipping/tax treatment must follow original vendor lines; no new combined total computed.",
+  "retained": [
+    {
+      "id": "CAB-01",
+      "current_id": "RFCP-R06",
+      "mpn": "27480",
+      "old_qty": 1,
+      "current_qty": 1,
+      "old_line_krw": 15643,
+      "current_recorded_line_krw": 15643,
+      "url": "https://www.digikey.kr/ko/products/detail/sparkfun-electronics/27480/26266456",
+      "status": "RETAINED"
+    },
+    {
+      "id": "CAB-02",
+      "current_id": "RFCP-R01",
+      "mpn": "CSE-SGAM-305-SGAM",
+      "old_qty": 1,
+      "current_qty": 1,
+      "old_line_krw": 13223,
+      "current_recorded_line_krw": 13223,
+      "url": "https://www.digikey.kr/ko/products/detail/te-connectivity-linx/CSE-SGAM-305-SGAM/14633985",
+      "status": "RETAINED"
+    },
+    {
+      "id": "CONN-01",
+      "current_id": "RFCP-E04",
+      "mpn": "RFPC-SMA28-F",
+      "old_qty": 1,
+      "current_qty": 3,
+      "old_line_krw": 2578,
+      "current_recorded_line_krw": 7734,
+      "url": "https://www.digikey.kr/ko/products/detail/gct/RFPC-SMA28-F/22162141",
+      "status": "RETAINED_QUANTITY_CHANGED_FOR_PCB_FIXTURE"
+    },
+    {
+      "id": "ATT-01",
+      "current_id": "RFCP-R05",
+      "mpn": "VAT-10A+",
+      "old_qty": 1,
+      "current_qty": 1,
+      "old_line_krw": 36413,
+      "current_recorded_line_krw": 36413,
+      "url": "https://www.digikey.kr/ko/products/detail/mini-circuits/VAT-10A/19186400",
+      "status": "RETAINED"
+    },
+    {
+      "id": "BALUN-M12F",
+      "current_id": "BALUN-M12F",
+      "mpn": "T4143012081-000",
+      "old_qty": 2,
+      "current_qty": 2,
+      "old_line_krw": 49464,
+      "current_recorded_line_krw": 49464,
+      "url": "https://www.digikey.kr/ko/products/detail/te-connectivity-amp-connectors/T4143012081-000/9837142",
+      "status": "RETAINED"
+    },
+    {
+      "id": "BALUN-MOLEX",
+      "current_id": "BALUN-MOLEX",
+      "mpn": "5055680571",
+      "old_qty": 5,
+      "current_qty": 5,
+      "old_line_krw": 6050,
+      "current_recorded_line_krw": 6050,
+      "url": "https://www.digikey.kr/ko/products/detail/molex/5055680571/7807019",
+      "status": "RETAINED"
+    },
+    {
+      "id": "BALUN-SMA",
+      "current_id": "BALUN-SMA",
+      "mpn": "SMA-J-P-H-RA-TH1",
+      "old_qty": 10,
+      "current_qty": 10,
+      "old_line_krw": 55460,
+      "current_recorded_line_krw": 55460,
+      "url": "https://www.digikey.kr/ko/products/detail/samtec-inc/SMA-J-P-H-RA-TH1/2664715",
+      "status": "RETAINED"
+    },
+    {
+      "id": "BALUN-RJ45",
+      "current_id": "BALUN-RJ45",
+      "mpn": "RJE591885401",
+      "old_qty": 8,
+      "current_qty": 8,
+      "old_line_krw": 64416,
+      "current_recorded_line_krw": 64416,
+      "url": "https://www.digikey.kr/ko/products/detail/amphenol-cs-commercial-products/RJE591885401/6189327",
+      "status": "RETAINED"
+    },
+    {
+      "id": "BALUN-XFMR",
+      "current_id": "BALUN-XFMR",
+      "mpn": "ADT2-1T+",
+      "old_qty": 10,
+      "current_qty": 10,
+      "old_line_krw": 100110,
+      "current_recorded_line_krw": 100110,
+      "url": "https://www.digikey.kr/ko/products/detail/mini-circuits/ADT2-1T/13927001",
+      "status": "RETAINED"
+    },
+    {
+      "id": "WDG-01",
+      "current_id": "WDG-01",
+      "mpn": "UEW-0.3파이",
+      "old_qty": 1,
+      "current_qty": 1,
+      "old_line_krw": 26840,
+      "url": "https://www.devicemart.co.kr/goods/view?no=24937",
+      "status": "RETAINED_DOMESTIC"
+    },
+    {
+      "id": "INS-01",
+      "current_id": "INS-01",
+      "mpn": "SMG-A 5mm×33m",
+      "old_qty": 1,
+      "current_qty": 1,
+      "old_line_krw": 3300,
+      "url": "https://www.devicemart.co.kr/goods/view?no=34614",
+      "status": "RETAINED_DOMESTIC"
+    }
+  ],
+  "justified_design_removals": [
+    {
+      "id": "CONN-02",
+      "name": "지그용 패널 SMA 암",
+      "mpn": "132139",
+      "qty": 2,
+      "old_line_krw": 24718,
+      "old_url": "https://www.digikey.kr/short/nr974853",
+      "status": "JUSTIFIED_DESIGN_REMOVAL",
+      "reason": "Panel SMA132139 replaced by PCB SMA; CONN01/RFCP-E04 grows1→3. Evidence hardware/calibration_fixture_PCB_A02/BOM_DELTA.md."
+    },
+    {
+      "id": "CU-PLATE",
+      "name": "동판 300×200×1mm",
+      "mpn": "",
+      "qty": 1,
+      "old_line_krw": 21800,
+      "old_url": "https://www.gmtool.co.kr/goods/goods_view.php?goodsNo=1000001509",
+      "status": "JUSTIFIED_DESIGN_REMOVAL",
+      "reason": "Copper plate fabrication removed by PCB calibration fixture transition."
+    },
+    {
+      "id": "CU-STRIP",
+      "name": "동띠 25×300×0.5mm",
+      "mpn": "",
+      "qty": 1,
+      "old_line_krw": 2000,
+      "old_url": "https://www.gmtool.co.kr/goods/goods_view.php?goodsNo=1000001650",
+      "status": "JUSTIFIED_DESIGN_REMOVAL",
+      "reason": "Copper return strips removed by PCB calibration fixture transition."
+    },
+    {
+      "id": "CU-BRIDGE",
+      "name": "에나멜 동선 Ø0.5mm 1롤",
+      "mpn": "UEW-0.5파이",
+      "qty": 1,
+      "old_line_krw": 26840,
+      "old_url": "https://www.devicemart.co.kr/goods/view?no=1361304",
+      "status": "JUSTIFIED_DESIGN_REMOVAL",
+      "reason": "0.5mm wire roll was old copper fixture jumper; removed by PCB fixture transition. 0.3mm winding wire remains."
+    },
+    {
+      "id": "PAD-01",
+      "name": "실리콘 패드 원판 2mm",
+      "mpn": "",
+      "qty": 1,
+      "old_line_krw": 5500,
+      "old_url": "https://m.siliconehose.co.kr/goods/goods_view.php?goodsNo=1000000299",
+      "status": "JUSTIFIED_DESIGN_REMOVAL",
+      "reason": "User later rejects cut silicone pads; open printed support replaces pads. docs/OPEN_CORE_HOLDER_REQUIREMENTS.md lines10,15,29."
+    },
+    {
+      "id": "PAD-02",
+      "name": "실리콘 패드 원판 1.5mm",
+      "mpn": "",
+      "qty": 1,
+      "old_line_krw": 5500,
+      "old_url": "https://m.siliconehose.co.kr/goods/goods_view.php?goodsNo=1000000299",
+      "status": "JUSTIFIED_DESIGN_REMOVAL",
+      "reason": "Same later pad-free printed support requirement."
+    },
+    {
+      "id": "ADH-01",
+      "name": "KE45 투명 RTV 접착제 100g",
+      "mpn": "KE-45 투명 100g",
+      "qty": 1,
+      "old_line_krw": 7480,
+      "old_url": "https://www.devicemart.co.kr/goods/view?no=9498",
+      "status": "JUSTIFIED_DESIGN_REMOVAL",
+      "reason": "Adhesive was pad/stacked-foot bond; pad-free/no-adhesive open support supersedes this need."
+    }
+  ],
+  "explicit_holds": [
+    {
+      "id": "CORE-01",
+      "mpn": "2644181281",
+      "old_qty": 2,
+      "old_line_krw": 26590,
+      "old_url": "https://www.digikey.kr/short/nr974853",
+      "status": "EXPLICITLY_DISCLOSED_HOLD_NOT_UNEXPLAINED_OMISSION",
+      "reason": "Core half/pair purchase unit unresolved; physical2halves remain necessary."
+    },
+    {
+      "id": "ADAPT-CAL-01",
+      "mpn": "29-3835",
+      "old_qty": 1,
+      "old_line_krw": 9622,
+      "old_url": "https://www.digikey.kr/short/nr974853",
+      "status": "EXPLICITLY_DISCLOSED_HOLD_NOT_UNEXPLAINED_OMISSION",
+      "reason": "BNC/VNA calibration route conditional from old audit; current hold repeats condition."
+    }
+  ],
+  "mechanical_revision": [
+    {
+      "id": "MECH-M2X20",
+      "mpn": "50M020040P020",
+      "old_qty": 6,
+      "old_line_krw": 1037,
+      "old_url": "https://www.digikey.kr/ko/products/detail/essentra-components/50M020040P020/11638053",
+      "status": "MECHANICAL_REVISION_REQUIRES_CURRENT_F01_F24_NOT_OLD_CART_RESTORATION",
+      "current_mapping": "Old geometry fastener role superseded by A14/C07 hardware rows; do not restore old quantity automatically"
+    },
+    {
+      "id": "MECH-M2X10",
+      "mpn": "50M020040P010",
+      "old_qty": 2,
+      "old_line_krw": 404,
+      "old_url": "https://www.digikey.kr/ko/products/detail/essentra-components/50M020040P010/11638654",
+      "status": "MECHANICAL_REVISION_REQUIRES_CURRENT_F01_F24_NOT_OLD_CART_RESTORATION",
+      "current_mapping": "F01 quantity2 retained selected, not in electronics cart"
+    },
+    {
+      "id": "MECH-M2NUT",
+      "mpn": "04M020040HN",
+      "old_qty": 8,
+      "old_line_krw": 1522,
+      "old_url": "https://www.digikey.kr/ko/products/detail/essentra-components/04M020040HN/9677098",
+      "status": "MECHANICAL_REVISION_REQUIRES_CURRENT_F01_F24_NOT_OLD_CART_RESTORATION",
+      "current_mapping": "F02 quantity2 after removing old keeper/bracket fasteners"
+    },
+    {
+      "id": "MECH-M3X25",
+      "mpn": "50M030050P025",
+      "old_qty": 1,
+      "old_line_krw": 216,
+      "old_url": "https://www.digikey.kr/ko/products/detail/essentra-components/50M030050P025/9677017",
+      "status": "MECHANICAL_REVISION_REQUIRES_CURRENT_F01_F24_NOT_OLD_CART_RESTORATION",
+      "current_mapping": "Old geometry fastener role superseded by A14/C07 hardware rows; do not restore old quantity automatically"
+    },
+    {
+      "id": "MECH-M3X16-LATCH",
+      "mpn": "50M030050P016",
+      "old_qty": 1,
+      "old_line_krw": 216,
+      "old_url": "https://www.digikey.kr/ko/products/detail/essentra-components/50M030050P016/9677018",
+      "status": "MECHANICAL_REVISION_REQUIRES_CURRENT_F01_F24_NOT_OLD_CART_RESTORATION",
+      "current_mapping": "Old geometry fastener role superseded by A14/C07 hardware rows; do not restore old quantity automatically"
+    },
+    {
+      "id": "MECH-M3X12",
+      "mpn": "50M030050P012",
+      "old_qty": 6,
+      "old_line_krw": 1020,
+      "old_url": "https://www.digikey.kr/ko/products/detail/essentra-components/50M030050P012/11639796",
+      "status": "MECHANICAL_REVISION_REQUIRES_CURRENT_F01_F24_NOT_OLD_CART_RESTORATION",
+      "current_mapping": "F13 quantity4 in changed fixture attachment"
+    },
+    {
+      "id": "MECH-M3X10",
+      "mpn": "50M030050P010",
+      "old_qty": 5,
+      "old_line_krw": 850,
+      "old_url": "https://www.digikey.kr/ko/products/detail/essentra-components/50M030050P010/9677019",
+      "status": "MECHANICAL_REVISION_REQUIRES_CURRENT_F01_F24_NOT_OLD_CART_RESTORATION",
+      "current_mapping": "Old geometry fastener role superseded by A14/C07 hardware rows; do not restore old quantity automatically"
+    },
+    {
+      "id": "MECH-M3NUT",
+      "mpn": "04M030050HNDIN34814",
+      "old_qty": 12,
+      "old_line_krw": 2800,
+      "old_url": "https://www.digikey.kr/ko/products/detail/essentra-components/04M030050HNDIN34814/10243229",
+      "status": "MECHANICAL_REVISION_REQUIRES_CURRENT_F01_F24_NOT_OLD_CART_RESTORATION",
+      "current_mapping": "F04 quantity4 in changed keeper design"
+    },
+    {
+      "id": "MECH-M3WASHER",
+      "mpn": "MFW030A",
+      "old_qty": 1,
+      "old_line_krw": 144,
+      "old_url": "https://www.digikey.kr/ko/products/detail/essentra-components/MFW030A/4105389",
+      "status": "MECHANICAL_REVISION_REQUIRES_CURRENT_F01_F24_NOT_OLD_CART_RESTORATION",
+      "current_mapping": "Old geometry fastener role superseded by A14/C07 hardware rows; do not restore old quantity automatically"
+    }
+  ],
+  "classification_complete": {
+    "retained": 11,
+    "missing": 4,
+    "removed": 7,
+    "held": 2,
+    "mechanical_revision": 9,
+    "total": 33
+  },
+  "unsupported_current_claims": [
+    {
+      "location": "viewer_A05/set_sources/bom.json:T04",
+      "claim": "Combined iron/solder/flux/tester status=보유 확인",
+      "problem": "Owned iron is evidence only for iron; selected flux2 and tips1+1 remain purchase scope absent explicit fulfillment."
+    },
+    {
+      "location": "viewer_A05/set_sources/bom.json:R02 and build_purchase_handoff.py hold paragraph",
+      "claim": "50ohm load status보유; purchase excluded; balun6 if not bought",
+      "problem": "Existing selected work loads7 must not be replaced by owned SOL or reduced6 without user instruction/receipt."
+    }
+  ],
+  "not_newly_added": "Solder quantity/MPN was not selected in reviewed33row list; do not invent a solder purchase or call it owned. Record unresolved inventory if needed."
+}

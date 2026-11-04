@@ -1,0 +1,10 @@
+{
+  "classification": "STATIC_CAD_PAYLOAD_AND_IDEAL_MOTION_CHECK",
+  "assembly_revision": "A13",
+  "clamp_revision": "C07",
+  "parts": 71,
+  "clamp_instances_verified": 2,
+  "vertex_comparison_rounding_mm": 0.00001,
+  "comparison_pairs": 24,
+  "pass": true
+}

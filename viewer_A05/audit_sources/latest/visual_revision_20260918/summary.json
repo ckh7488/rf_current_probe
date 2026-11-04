@@ -1,0 +1,10 @@
+{
+  "classification": "CALCULATED_CAD_AND_SITE_REVIEW_NOT_FABRICATION_APPROVAL",
+  "native_sha256": "43347b92f42abb08b4b938e21b1780dc678d9b14a5508b7598555ee5ab1b244d",
+  "revision": "A11/C05",
+  "comparisons": 14,
+  "printed_unique": 10,
+  "printed_total": 15,
+  "scoped_checks_pass": true,
+  "physical_or_RF_measurements": false
+}
