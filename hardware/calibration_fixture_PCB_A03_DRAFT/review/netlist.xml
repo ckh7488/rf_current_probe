@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>E:\Current_Probe\hardware\calibration_fixture_PCB_A03_DRAFT\RFCP_Fixture_Flat_A03_DRAFT.kicad_sch</source>
+    <date>2026-09-21T19:14:53</date>
+    <tool>Eeschema 10.0.0</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>RFCP_Fixture_Flat_A03_DRAFT</title>
+        <company/>
+        <rev>A0.3 DRAFT</rev>
+        <date/>
+        <source>RFCP_Fixture_Flat_A03_DRAFT.kicad_sch</source>
+        <comment number="1" value="DRAFT - NOT FOR FABRICATION"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>RFPC-SMA28-F</value>
+      <footprint>Fixture:GCT_RFPC_SMA28_F</footprint>
+      <datasheet>https://gct.co/connector/rfpc-sma28-f</datasheet>
+      <fields>
+        <field name="Footprint">Fixture:GCT_RFPC_SMA28_F</field>
+        <field name="Datasheet">https://gct.co/connector/rfpc-sma28-f</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fixture" part="Terminal2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RFCP_Fixture_Flat_A03_DRAFT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7223e23e-fce2-5597-acbe-a0868f706c31</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>RFPC-SMA28-F</value>
+      <footprint>Fixture:GCT_RFPC_SMA28_F</footprint>
+      <datasheet>https://gct.co/connector/rfpc-sma28-f</datasheet>
+      <fields>
+        <field name="Footprint">Fixture:GCT_RFPC_SMA28_F</field>
+        <field name="Datasheet">https://gct.co/connector/rfpc-sma28-f</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Fixture" part="Terminal2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RFCP_Fixture_Flat_A03_DRAFT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>025d11a3-2a61-5a90-bc56-792c46ccafad</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Fixture" part="Terminal2">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">TERMINAL</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Fixture">
+      <uri>${KIPRJMOD}/Fixture.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/GND" class="Default">
+      <node ref="J1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="2" name="/SIG" class="Default">
+      <node ref="J1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+  </nets>
+</export>

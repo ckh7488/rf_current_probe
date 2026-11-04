@@ -1,0 +1,6 @@
+numpy==2.4.4
+scipy==1.18.1
+pandas==3.0.5
+scikit-rf==2.1.0
+matplotlib==3.10.8
+pytest==8.3.4

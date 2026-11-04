@@ -1,0 +1,46 @@
+  <section id="calibration">
+    <div class="section-heading"><span class="section-number">02</span><div><h2>캘리브레이션: 연결을 네 번 나눕니다</h2><p><strong>P1은 신호를 보내고, P2는 받습니다.</strong> 단계를 누르면 케이블과 50 Ω 부하의 위치가 바뀝니다.</p></div></div>
+    <div class="callout"><strong>연결을 바꿀 때는 RF OFF.</strong> 재배선 후 일차 경로와 프로브 출력의 종단을 확인하고 RF를 켭니다. 아래는 제한된 저에너지 실험실 시험 절차입니다.</div>
+    <div class="interactive calibration-panel">
+      <div class="step-buttons" role="group" aria-label="캘리브레이션 단계 선택">
+        <button type="button" data-step="0" aria-pressed="true"><span>0</span> VNA 교정</button>
+        <button type="button" data-step="1" aria-pressed="false"><span>1</span> 지그만 측정</button>
+        <button type="button" data-step="2" aria-pressed="false"><span>2</span> 헤드 장착</button>
+        <button type="button" data-step="3" aria-pressed="false"><span>3</span> 프로브 출력</button>
+      </div>
+      <div class="step-layout">
+        <figure class="step-figure">
+          <div id="solt-controls" class="solt-controls">
+            <div role="group" aria-label="교정 표준 선택"><button type="button" data-standard="open" aria-pressed="false">Open</button><button type="button" data-standard="short" aria-pressed="false">Short</button><button type="button" data-standard="load" aria-pressed="false">Load</button><button type="button" data-standard="thru" aria-pressed="true">Thru</button></div>
+            <div class="standard-ports" role="group" aria-label="표준을 연결할 케이블" hidden><button type="button" data-standard-port="1" aria-pressed="true">P1 끝</button><button type="button" data-standard-port="2" aria-pressed="false">P2 끝</button></div>
+            <p id="standard-note">Thru를 두 케이블 끝 사이에 연결합니다. 실제 키트의 성별·지연값을 교정 설정에 반영합니다.</p>
+          </div>
+          <div class="cad-stage" id="calibration-cad" data-viewer="calibration">
+          <p class="cad-loading" role="status">원본 CAD 모델을 불러오는 중…</p>
+          <span class="cad-badge">현재 · 평판 PCB {{fixture.revision}} / 집게 {{clamp.revision}}</span>
+        </div>
+        <div class="cad-toolbar" role="group" aria-label="3D 보기 조작">
+          <span>드래그 회전 · 휠 확대</span>
+          <button type="button" data-for="calibration" data-camera="overview">처음 시점</button>
+          <button type="button" data-for="calibration" data-camera="top">위에서</button>
+          <button type="button" data-for="calibration" data-camera="front">출력 쪽에서</button>
+          <button type="button" data-for="calibration" data-zoom="1.25" aria-label="3D 확대">＋</button>
+          <button type="button" data-for="calibration" data-zoom="0.8" aria-label="3D 축소">−</button>
+        </div>
+          <figcaption id="step-caption">교정 기준면은 케이블 끝입니다. 지그와 프로브를 연결하기 전에 VNA 측정 경로를 교정합니다.</figcaption>
+          <p class="cad-disclosure">지그·집게는 원본 CAD입니다. 케이블·외장 부하·교정 표준은 연결 위치를 보여주는 예시 외형이며, 실제 제품의 길이·성별·규격은 보유품으로 확인합니다. 선은 동축 케이블 전체를 나타냅니다.</p>
+        </figure>
+        <div id="step-text" class="step-text" aria-live="polite" aria-atomic="true">
+          <p class="eyebrow" id="step-kicker">0 / VNA 오차부터 정리</p><h3 id="step-title">케이블 끝에서 O/S/L/T 교정</h3>
+          <p id="step-purpose">VNA와 두 테스트 케이블의 영향을 교정합니다. 이 단계만으로 프로브의 감도가 정해지는 것은 아닙니다.</p>
+          <ol id="step-actions"><li>실제 장비 HW/FW/GUI, 케이블·표준의 모델과 성별을 확인합니다.</li><li>각 케이블 끝에 Open / Short / Load를 순서대로 연결하고 두 끝 사이의 Thru를 측정합니다.</li><li>지원되는 전체 2포트 교정을 적용하고 검증용 부하·Thru를 다시 연결해 확인합니다.</li></ol>
+          <dl class="connection-facts"><dt>P2 위치</dt><dd id="step-p2">교정 표준 / Thru</dd><dt>외장 부하 위치</dt><dd id="step-load">SOLT용 표준 Load를 순서대로 사용</dd><dt>저장할 기록</dt><dd><code id="step-file">calibration/ + setup 사진·장비 설정</code></dd></dl>
+          <p id="step-key" class="step-key">교정 표준 Load와 측정 중 사용하는 외장 50 Ω 부하는 역할을 구분합니다.</p>
+        </div>
+      </div>
+      <div class="step-footer"><button type="button" id="previous-step" disabled>← 이전</button><span id="step-count">1 / 4</span><button type="button" id="next-step">다음 단계 →</button></div>
+    </div>
+    <p class="readable"><strong>가장 중요한 전환은 2 → 3입니다.</strong> RF를 끄고 P2 케이블을 지그 OUT에서 프로브 출력으로 옮깁니다. 프로브에 붙였던 외장 50 Ω 부하는 지그 OUT으로 옮깁니다. 같은 부하 한 개를 역할을 바꿔 재사용할 수 있습니다.</p>
+    <details><summary>1차 경로와 프로브 출력에 각각 종단이 필요한 이유</summary><p>지그의 중심 도체와 귀환은 일차 회로이고, 권선·프로브 출력은 별도의 이차 회로입니다. 2단계에서는 P2가 일차를 종단하고 외장 부하가 프로브를 종단합니다. 3단계에서는 외장 부하가 일차를 종단하고 P2가 프로브를 종단합니다. 하나의 출력에 50 Ω 두 개를 병렬로 붙이는 이중 종단과는 다릅니다.</p></details>
+    <details><summary>시작 설정과 무전원 점검</summary><div class="table-wrap"><table><thead><tr><th>항목</th><th>첫 실험 설정안 · 장비에서 지원 여부 확인</th></tr></thead><tbody><tr><td>스윕</td><td>1~100 MHz, {{test.points}}점, linear</td></tr><tr><td>출력 / IF BW / 평균</td><td>{{test.level_dbm}} dBm / {{test.ifbw_hz}} Hz / 평균 {{test.averages}}회 시작안, 실제 지원값 기록</td></tr><tr><td>후속 구간</td><td>100 kHz~10 MHz, 100~300 MHz, 필요 시 300~500 MHz. 유효 구간을 각각 판정</td></tr><tr><td>선형성 비교</td><td>−30 / −20 / −10 dBm 시작안. 장비 정격과 실제 선형 범위 안에서만 수행</td></tr></tbody></table></div><p>RF 케이블·부하를 분리한 상태에서 지그 IN–OUT 중심끼리, 외피끼리 연속성을 확인하고 중심–외피 분리를 확인합니다. 프로브 SMA 중심–외피에는 권선의 낮은 DC 저항이 보일 수 있으며 정상입니다. 일차 도체와 권선의 의도치 않은 도통을 따로 검사합니다. DMM 검사는 내전압 시험이 아닙니다.</p><p>교정키트의 성별·모델·Thru 지연을 실제 구성에 맞춥니다. 알 수 없는 어댑터를 길이 0의 이상적인 Thru로 입력하지 않습니다. 단순 Thru 정규화만 했다면 전체 2포트 교정으로 기록하지 않습니다.</p></details>
+  </section>

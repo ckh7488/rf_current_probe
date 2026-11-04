@@ -1,0 +1,62 @@
+{
+  "record_created_utc": "2026-09-15T15:13:58.057426+00:00",
+  "files": [
+    {
+      "file": "2644181281_catalog.pdf",
+      "source": "https://docs.fair-rite.com/part-models/2644181281~cat.pdf",
+      "sha256": "ac497292931136f9284ddf8efe1474e6dfb2c0b48862aafe2ff17572b91bc660",
+      "bytes": 62176,
+      "download_or_extraction_mtime_utc": "2026-09-15T14:59:34.242887+00:00"
+    },
+    {
+      "file": "2644181281_model.zip",
+      "source": "https://docs.fair-rite.com/part-models/2644181281~cat~.zip",
+      "sha256": "3556fede3f2e63a98f14c0f0c6c25555f5b6bc8600f21503f8b2f34716ccde42",
+      "bytes": 29813,
+      "download_or_extraction_mtime_utc": "2026-09-15T14:59:34.161597+00:00"
+    },
+    {
+      "file": "2644181281.STEP",
+      "source": "ZIP member 2644181281.STEP",
+      "sha256": "c578160bc18e83bdf2adf1b5a43aaae9aeaf36ece08896193f34bb241581b35c",
+      "bytes": 163296,
+      "download_or_extraction_mtime_utc": "2026-09-15T15:02:41.764868+00:00"
+    },
+    {
+      "file": "core_farnell.pdf",
+      "source": "https://www.farnell.com/datasheets/2700033.pdf",
+      "sha256": "f0b8d227690fee3d53123bd339a9a458e307a19ea1444bbbfd957d8f36288d91",
+      "bytes": 527045,
+      "download_or_extraction_mtime_utc": "2026-09-15T14:58:27.873723+00:00"
+    },
+    {
+      "file": "core_official.html",
+      "source": "https://www.fair-rite.com/product/round-cable-snap-its-2644181281/",
+      "sha256": "f3f18aa488831ca76bcb51324a081894c79ed5f77919420f3026b9951a74530e",
+      "bytes": 167362,
+      "download_or_extraction_mtime_utc": "2026-09-15T14:58:29.691211+00:00"
+    },
+    {
+      "file": "VAT-10A_plus.pdf",
+      "source": "https://www.minicircuits.com/pdfs/VAT-10A%2B.pdf",
+      "sha256": "541af7ea3332eed8f3a79ae21940af32b252affb324f8c36f8b1d370f09a17e8",
+      "bytes": 401619,
+      "download_mtime_utc": "2026-09-15T15:09:44.072152+00:00"
+    },
+    {
+      "file": "CAB27480_linked_drawing.pdf",
+      "source": "https://cdn.sparkfun.com/assets/9/b/1/b/9/PN_28367_VPN_BCCA3788_Drawing.pdf",
+      "sha256": "f06ce02ca23d2820d6cd0ea2c20e5344e3db8dc9b0f0ed8f03309ac04b8147a6",
+      "bytes": 118533,
+      "download_mtime_utc": "2026-09-15T15:10:20.204842+00:00"
+    },
+    {
+      "file": "RFPC-SMA28-F.pdf",
+      "source": "https://www.tme.com/Document/1c95feb1da661cbfe6e78e2fd3e8e209/RFPC-SMA28-F.pdf",
+      "sha256": "2ddd817214a617fa59564be1c08c30e414aebc65557856dc0c6083d94c25baa6",
+      "bytes": 138186,
+      "download_mtime_utc": "2026-09-15T15:47:57.213418+00:00",
+      "note": "GCT Rev 1.2, 2025-05-12. Both drawing pages RFPC-SMA28-F; stale PDF title RFPC-SMA25-F."
+    }
+  ]
+}

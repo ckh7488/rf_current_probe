@@ -1,0 +1,16 @@
+{
+  "status": "DRAFT - NOT FOR FABRICATION; NOT SUBMITTED",
+  "zip_sha256": "3731b774ca699a8a170e27b86b25a56930e8d083a669327c1e0b0a4d72fa37be",
+  "files": {
+    "RFCP_Fixture_Flat_A03_SMA_R2_DRAFT-B_Cu.gbl": "defc8562507a9c525299365236d18dcb712dd9ca125aa4511749b111a92b6d2e",
+    "RFCP_Fixture_Flat_A03_SMA_R2_DRAFT-B_Mask.gbs": "5f2c721e10abcdb59ce9110a1e32c4e9c3f84cbd6c673374d3d753493cb431fc",
+    "RFCP_Fixture_Flat_A03_SMA_R2_DRAFT-B_Silkscreen.gbo": "a5980e005f5e31dcad621a3166f86d7f6b0bec3b6cff00dbcefc6aacd6bca557",
+    "RFCP_Fixture_Flat_A03_SMA_R2_DRAFT-Edge_Cuts.gm1": "23d9c219b13cdf61923b0eb35b7c5c332348c6d6eca4907797d37d5f34937690",
+    "RFCP_Fixture_Flat_A03_SMA_R2_DRAFT-F_Cu.gtl": "fd86f434c609e6dc07bb9925193503263438a8c8715e54f559772272223e3a42",
+    "RFCP_Fixture_Flat_A03_SMA_R2_DRAFT-F_Mask.gts": "eea35fdb1399106bae208f735e32e64719ce743a141db15452a664119a89c497",
+    "RFCP_Fixture_Flat_A03_SMA_R2_DRAFT-F_Silkscreen.gto": "48141c7471184258547069294056cedbfe9ae2a32e1aa67204f9e9f9f51ec1f3",
+    "RFCP_Fixture_Flat_A03_SMA_R2_DRAFT-job.gbrjob": "dd407dbe7ccf0c299a0ba161877e7a82fdd23ceb07b0de8eedd49049673db76c",
+    "RFCP_Fixture_Flat_A03_SMA_R2_DRAFT-NPTH.drl": "ac735e930f98345a9e3bd6ffce31c93f4e110daaf7e4a92152138f340f0e656b",
+    "RFCP_Fixture_Flat_A03_SMA_R2_DRAFT-PTH.drl": "465effae69c017ecb4949e852ba07254b2652ae2a5e8fd228d59a0ef06a500d7"
+  }
+}

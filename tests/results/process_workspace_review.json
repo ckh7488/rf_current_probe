@@ -1,0 +1,19 @@
+{
+  "data_kind": "CALCULATED",
+  "timestamp_utc": "2026-09-16T00:41:36.649558+00:00",
+  "markdown_files": 23,
+  "local_links_checked": 199,
+  "reference_hashes_preserved": 8,
+  "original_hashes_preserved": 2,
+  "requirements_rows": 56,
+  "pcb_cad_stl_unchanged": true,
+  "connection_review_and_rehearsal_hashes_current": true,
+  "junit": {
+    "tests": 110,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "actual_measurement_and_release_folders_empty": true,
+  "errors": []
+}

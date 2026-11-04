@@ -1,0 +1,35 @@
+{
+  "data_kind": "SYNTHETIC",
+  "parameters": {
+    "series_l_h": 3e-08,
+    "bypass_c_f": 3e-12,
+    "branch_r_ohm": 52,
+    "zt_ohm": 5
+  },
+  "selected_points": [
+    {
+      "frequency_hz": 100000.0,
+      "input_s11_db": -34.15118464955708,
+      "naive_magnitude_error_db": 2.6688996373119616e-07,
+      "naive_phase_error_deg": -0.005616000181554538
+    },
+    {
+      "frequency_hz": 99121006.54216817,
+      "input_s11_db": -17.133657620198925,
+      "naive_magnitude_error_db": 0.26483980789967765,
+      "naive_phase_error_deg": -5.748621056104357
+    },
+    {
+      "frequency_hz": 299938216.0472726,
+      "input_s11_db": -7.792447748361411,
+      "naive_magnitude_error_db": 2.601772861355334,
+      "naive_phase_error_deg": -23.369915208979894
+    },
+    {
+      "frequency_hz": 500000000.0,
+      "input_s11_db": -3.9477299528232916,
+      "naive_magnitude_error_db": 5.974436763071788,
+      "naive_phase_error_deg": -77.15662431611864
+    }
+  ]
+}

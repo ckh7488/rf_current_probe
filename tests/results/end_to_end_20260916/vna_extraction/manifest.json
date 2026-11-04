@@ -1,0 +1,83 @@
+{
+  "created_utc": "2026-09-16T00:28:17.163239+00:00",
+  "python": "3.12.6",
+  "scikit_rf": "2.1.0",
+  "numpy": "2.4.4",
+  "metadata": {
+    "measurement_id": "SYNTHETIC",
+    "head_id": "SYN-HEAD",
+    "head_revision": "SYN-5T",
+    "core_part": "SYNTHETIC",
+    "turns": 5,
+    "shield_revision": "SYNTHETIC",
+    "fixture_id": "SYNTHETIC",
+    "calibration_id": "SYN-BNC-CAL",
+    "cable_ids": [
+      "SYN-CABLE"
+    ],
+    "receiver_model": "SYNTHETIC",
+    "termination": "receiver_single_50_ohm",
+    "attenuation_profile": "SYNTHETIC",
+    "source_level": "SYNTHETIC",
+    "frequency_range": [
+      1000000.0,
+      100000000.0
+    ],
+    "if_bandwidth": "SYNTHETIC",
+    "averaging": "SYNTHETIC",
+    "temperature": "SYNTHETIC",
+    "conductor_position": "SYNTHETIC",
+    "timestamp": "SYNTHETIC",
+    "data_kind": "SYNTHETIC",
+    "schema_version": 1,
+    "clipped": false,
+    "phase_validated": false,
+    "phase_evidence": "tests: analytic reference",
+    "uncertainty_db": null,
+    "minimum_zt_ohm": 1e-06,
+    "included_chain_ids": [
+      "SYN-ATT10",
+      "SYN-CAB01"
+    ],
+    "additional_correction_ids": [],
+    "valid_frequency_bands_hz": [
+      [
+        1000000.0,
+        100000000.0
+      ]
+    ],
+    "invalid_frequency_bands_hz": [],
+    "quality_review": {
+      "snr": true,
+      "linearity": true,
+      "repeatability": true,
+      "leakage": true,
+      "position": true,
+      "evidence": "SYNTHETIC: exact analytic data, not hardware review"
+    },
+    "current_model": {
+      "mode": "matched",
+      "evidence": "SYNTHETIC analytic model",
+      "matched_path_verified": true,
+      "current_reference_verified": true,
+      "same_current_plane_verified": true,
+      "no_bypass_current_verified": true,
+      "hi_reference_verified": true
+    },
+    "output_reference_plane": {
+      "id": "SYN-CAB01-BNC",
+      "verified": true,
+      "impedance_ohm": 50,
+      "evidence": "SYNTHETIC ideal BNC reference plane; no real calibration"
+    }
+  },
+  "inputs": {
+    "E:\\Current_Probe\\tests\\results\\end_to_end_20260916\\inputs\\transfer.s2p": "e68d944a6ffc4109b423b6628cd711f9b04cff07c8a2c4ef0231263d51166101",
+    "E:\\Current_Probe\\tests\\results\\end_to_end_20260916\\inputs\\transfer.json": "950a182f47e7c144b21a10072f699831b41fecee5da456e08959a9c570fecdd3"
+  },
+  "code_sha256": "ed7c80bab0bded8bb70723f9ebd099580c02fead40853a4770b00c96e9277a4a",
+  "rows": 4,
+  "eligible_rows": 4,
+  "scope_internal_response_included": false,
+  "meaning": "Conditional extraction, not proof of hardware performance or uncertainty."
+}

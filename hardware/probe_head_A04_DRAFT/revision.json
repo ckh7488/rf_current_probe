@@ -1,0 +1,16 @@
+{
+  "data_kind": "CALCULATED",
+  "status": "DRAFT - NOT FOR FABRICATION",
+  "old_name": "RFCP_Head_A03_DRAFT",
+  "new_name": "RFCP_Head_A04_DRAFT",
+  "library": "RFCP.pretty",
+  "old_label": "A03 DRAFT",
+  "new_label": "A04 DRAFT",
+  "revision": "A0.4",
+  "source_directory": "probe_head_A03",
+  "source_hashes": {
+    "RFCP_Head_A03_DRAFT.kicad_pcb": "e8fe7e9c551d78b89099443fee699feafc675fd767ea91fa858292c19d2d4c3d",
+    "RFCP_Head_A03_DRAFT.kicad_pro": "c3c33f6da7f225807c1c2ca2d35a3bfd8aeac4eaf52352bd1768fb58a52bde37",
+    "RFCP_Head_A03_DRAFT.kicad_sch": "9654f04ae9263d4e80cd624577c2eed8f4da46ee7b18b220bc4265738773d271"
+  }
+}

@@ -1,0 +1,16 @@
+  <section id="records">
+    <div class="section-heading"><span class="section-number">07</span><div><h2>무엇을 저장해야 다시 믿고 쓸 수 있나요?</h2><p>곡선 이미지에 더해 원시 S-parameter, 설정, 실제 조립 상태가 필요합니다.</p></div></div>
+    <div class="two-col"><div><h3>측정 ID 하나에 남길 파일</h3><pre><code>측정 ID/
+  setup_photos/
+  instrument_setup/
+  calibration/
+  T01_notes.md
+  {{test.empty_file}}
+  {{test.loaded_file}}
+  {{test.transfer_file}}
+  {{test.file_prefix}}_probe_transfer.json
+  {{test.file_prefix}}_repeat_01.s2p … 05.s2p
+  run_notes.md</code></pre></div><div class="prose"><h3>교정표와 함께 남길 조건</h3><p>헤드 ID·리비전, 코어, 턴 수·극성, 차폐, 지그 ID, 케이블·부하·감쇠기 ID, 교정 ID·기준면, 출력 레벨, 주파수·IF BW·평균, 도체 위치, 온도와 시각을 기록합니다.</p><p>코어·권선·차폐·측정 체인이 바뀌면 교정의 재사용 가능성을 검토합니다. 원시 파일을 덮어쓰지 않고 새 기록으로 남깁니다.</p><a class="download-link" href="records/bench-checklist.md" download>벤치 체크리스트 받기 (.md) ↓</a></div></div>
+    <details><summary>현재 확보한 증거와 아직 없는 것</summary><ul><li>헤드 PCB A0.2: 저장된 설정 기준 ERC/DRC 위반 0건. 이는 RF 성능 검증이 아닙니다.</li><li>집게 A0.3: 국소 보강 및 공칭 CAD 검사 기록. 출력 공차·강도·실물 맞춤은 미검증입니다.</li><li>분석 코드: 2026-09-16 저장 로그의 110개 자동시험 통과와 합성 리허설. 실측 데이터를 대신하지 않습니다.</li><li>평판 PCB 교정지그 A0.2: 새 저장 파일의 ERC/DRC와 공칭 전류 경로·간격을 재검사했습니다. RF 성능은 미측정입니다.</li><li>실제 ZT 교정표, 유효 대역, 최소 검출 전류, 허용 전류·내전압·현장 보호 정격은 아직 없습니다.</li></ul><p><a href="records/source-notes.md">설계 근거와 상태 설명</a> · <a href="records/evidence.json">이 문서의 원본 식별·해시</a></p></details>
+    <p class="closing">다음 실험은 <strong>조립·무전원 점검 → 지그 through → {{head.turns}}턴 상대 S21 → 반복성·누설 비교</strong>입니다. 그 결과로 유효 대역과 다음 설계 변경을 결정합니다.</p>
+  </section>

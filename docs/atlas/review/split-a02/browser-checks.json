@@ -1,0 +1,52 @@
+{
+  "url": "http://127.0.0.1:8766/",
+  "geometry": {
+    "structure": {
+      "parts": 35,
+      "triangles": 456702
+    },
+    "calibration": {
+      "parts": 35,
+      "triangles": 456702
+    }
+  },
+  "revision_comparison": 2,
+  "calibration_always_A02": true,
+  "upward_SMA_cable_alignment": true,
+  "step_states": 4,
+  "standards": 4,
+  "standard_ports": 2,
+  "assembly_modes": 4,
+  "head_only_isolation": true,
+  "shared_design_id": true,
+  "legacy_redirect": true,
+  "two_document_navigation": true,
+  "path_modes": 3,
+  "keyboard_camera": true,
+  "camera_presets": 3,
+  "responsive": [
+    {
+      "page": "assembly",
+      "viewport": 390,
+      "document": 390
+    },
+    {
+      "page": "assembly",
+      "viewport": 320,
+      "document": 320
+    },
+    {
+      "page": "testing",
+      "viewport": 390,
+      "document": 390
+    },
+    {
+      "page": "testing",
+      "viewport": 320,
+      "document": 320
+    }
+  ],
+  "back_to_catalog": true,
+  "errors": [],
+  "failed": []
+}

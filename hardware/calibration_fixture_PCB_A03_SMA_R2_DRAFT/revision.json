@@ -1,0 +1,20 @@
+{
+  "source_directory": "calibration_fixture_PCB_A03_DRAFT",
+  "directory": "calibration_fixture_PCB_A03_SMA_R2_DRAFT",
+  "old_name": "RFCP_Fixture_Flat_A03_DRAFT",
+  "new_name": "RFCP_Fixture_Flat_A03_SMA_R2_DRAFT",
+  "library": "Fixture.pretty",
+  "sma_count": 2,
+  "revision": "A0.3-SMA-R2",
+  "old_board_label": "A03",
+  "new_board_label": "A03R2",
+  "old_title_label": "A0.3",
+  "new_title_label": "A0.3-R2",
+  "baseline_hashes": {
+    "RFCP_Fixture_Flat_A03_DRAFT.kicad_pcb": "7452432265c55c33bbce9c3bf0bc9ea6b5220603afae941fd1c91295e04ce31f",
+    "RFCP_Fixture_Flat_A03_DRAFT.kicad_pro": "119b81fe168347f0ce16b257a5ae85d48b550d045d8561468b0700bebdc8dd19",
+    "RFCP_Fixture_Flat_A03_DRAFT.kicad_sch": "49f4fc4ad211b01266b445ef9c8edd8be780ccfe77705f529e97da8dff0da76f"
+  },
+  "status": "DRAFT - NOT FOR FABRICATION; NOT SUBMITTED",
+  "classification": "CALCULATED_NOT_MEASURED"
+}

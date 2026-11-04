@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "data_kind": "SYNTHETIC",
+  "measurement_id": "SYN-CW-001",
+  "receiver_id": "SYN-SCOPE-01",
+  "receiver_model": "SYN-IDEAL",
+  "channel": "CH1",
+  "head_id": "SYN-HEAD",
+  "head_revision": "SYN-5T",
+  "calibration_id": "SYN-BNC-CAL",
+  "timestamp": "2026-09-16T00:00:00+09:00",
+  "normalization_evidence": "SYNTHETIC direct SI serializer",
+  "setup_evidence": "SYNTHETIC settings; not read from an instrument",
+  "voltage_convention": "displayed_volts_probe_1x",
+  "probe_factor": 1,
+  "input_ohm": 50,
+  "external_50ohm_termination": false,
+  "coupling": "DC",
+  "bandwidth_setting": "FULL",
+  "acquisition_mode": "sample",
+  "clipped": false,
+  "overload": false,
+  "source_mode": "CW",
+  "stationarity_verified": true,
+  "aliasing_review": {
+    "verified": true,
+    "evidence": "SYNTHETIC analytic spectrum <= 3e+07 Hz"
+  },
+  "noise_review": {
+    "verified": true,
+    "evidence": "SYNTHETIC noiseless arithmetic"
+  },
+  "sample_rate_hz": 1000000000.0,
+  "volts_per_div": 0.005,
+  "channel_offset_v": 0,
+  "temperature_c": 25,
+  "frequency_hz": 10000000.0,
+  "record_length": 4096,
+  "included_chain_ids": [
+    "SYN-ATT10",
+    "SYN-CAB01"
+  ],
+  "additional_correction_ids": [],
+  "external_gain_applied": false,
+  "input_reference_plane_id": "SYN-CAB01-BNC",
+  "fit_harmonics": 3,
+  "receiver_response": {
+    "verified": true,
+    "loading_verified": true,
+    "evidence": "SYNTHETIC gain 0.9; perfect 50 ohm",
+    "settings": {
+      "receiver_id": "SYN-SCOPE-01",
+      "receiver_model": "SYN-IDEAL",
+      "channel": "CH1",
+      "input_ohm": 50,
+      "coupling": "DC",
+      "bandwidth_setting": "FULL",
+      "probe_factor": 1,
+      "volts_per_div": 0.005,
+      "channel_offset_v": 0,
+      "sample_rate_hz": 1000000000.0,
+      "acquisition_mode": "sample",
+      "head_id": "SYN-HEAD",
+      "head_revision": "SYN-5T",
+      "included_chain_ids": [
+        "SYN-ATT10",
+        "SYN-CAB01"
+      ],
+      "input_reference_plane_id": "SYN-CAB01-BNC"
+    },
+    "frequency_hz": 10000000.0,
+    "gain_definition": "displayed_V_per_calibrated_50ohm_V",
+    "gain": 0.9,
+    "temperature_range_c": [
+      20,
+      30
+    ]
+  }
+}

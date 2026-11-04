@@ -1,0 +1,100 @@
+(footprint "MountingHole_2.8mm_NPTH"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "H1"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "796cc779-1fe3-4399-953a-53da1464774d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Value" "NYLON_M2"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a271ad7-50c4-41d7-a38e-7bf2bdb17876")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0925200b-91ac-45fb-8854-fde98888ed5e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ab653244-5223-49f2-ad2e-045dc040d22d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr board_only exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3 -3)
+		(end 3 -3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "352987c5-4b6c-41cb-ba2c-f1618cde0750")
+	)
+	(fp_line
+		(start -3 3)
+		(end -3 -3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "c6d08bdc-f8ee-43f5-8c50-842f90aa2662")
+	)
+	(fp_line
+		(start 3 -3)
+		(end 3 3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "6f25f958-abd6-4d7b-81b9-f5c0c11e5e7d")
+	)
+	(fp_line
+		(start 3 3)
+		(end -3 3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "5812b4fa-03d6-42d9-a9e1-a53fc9a9a0bd")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 2.8 2.8)
+		(drill 2.8)
+		(layers "*.Cu" "*.Mask")
+		(uuid "70c1f0ff-9ac7-41d2-8aa9-e87726a01f65")
+	)
+	(embedded_fonts no)
+)

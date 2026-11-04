@@ -1,0 +1,120 @@
+{
+  "data_kind": "CALCULATED_NOT_MEASURED",
+  "source_pcb_sha256": "7452432265c55c33bbce9c3bf0bc9ea6b5220603afae941fd1c91295e04ce31f",
+  "external_outline_windows_thickness_identical": true,
+  "footprints_pad_perimeters_coordinates_nets_identical": true,
+  "signal_tracks_and_vias_identical": true,
+  "gerber_outline_commands_identical": true,
+  "erc_drc_parity_unconnected_ignored_all_zero": true,
+  "drill_coordinates_match_saved_board": true,
+  "pth_count": 55,
+  "npth_count": 4,
+  "review_zip_byte_matches_exports": true,
+  "review_zip_sha256": "5981a1141c7e8cce268dc14e4335b0cdcff6b5e49b8526bdd0c8586a519688d2",
+  "intentional_hole_changes": [
+    {
+      "reference": "J1",
+      "pad": "1",
+      "xy": [
+        72.0,
+        12.0
+      ],
+      "old": 1.5,
+      "new": 1.7
+    },
+    {
+      "reference": "J1",
+      "pad": "2",
+      "xy": [
+        69.46,
+        9.46
+      ],
+      "old": 1.7,
+      "new": 1.9
+    },
+    {
+      "reference": "J1",
+      "pad": "2",
+      "xy": [
+        69.46,
+        14.54
+      ],
+      "old": 1.7,
+      "new": 1.9
+    },
+    {
+      "reference": "J1",
+      "pad": "2",
+      "xy": [
+        74.54,
+        9.46
+      ],
+      "old": 1.7,
+      "new": 1.9
+    },
+    {
+      "reference": "J1",
+      "pad": "2",
+      "xy": [
+        74.54,
+        14.54
+      ],
+      "old": 1.7,
+      "new": 1.9
+    },
+    {
+      "reference": "J2",
+      "pad": "1",
+      "xy": [
+        72.0,
+        80.7
+      ],
+      "old": 1.5,
+      "new": 1.7
+    },
+    {
+      "reference": "J2",
+      "pad": "2",
+      "xy": [
+        69.46,
+        78.16
+      ],
+      "old": 1.7,
+      "new": 1.9
+    },
+    {
+      "reference": "J2",
+      "pad": "2",
+      "xy": [
+        69.46,
+        83.24
+      ],
+      "old": 1.7,
+      "new": 1.9
+    },
+    {
+      "reference": "J2",
+      "pad": "2",
+      "xy": [
+        74.54,
+        78.16
+      ],
+      "old": 1.7,
+      "new": 1.9
+    },
+    {
+      "reference": "J2",
+      "pad": "2",
+      "xy": [
+        74.54,
+        83.24
+      ],
+      "old": 1.7,
+      "new": 1.9
+    }
+  ],
+  "limitations": [
+    "No RF response, solder joint strength, pin straightness or physical fit is certified by ERC/DRC.",
+    "No JLC submission or fabrication approval follows from this check."
+  ]
+}

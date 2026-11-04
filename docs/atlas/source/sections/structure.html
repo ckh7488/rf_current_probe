@@ -1,0 +1,47 @@
+  <section id="structure">
+    <div class="section-heading"><span class="section-number">02</span><div><h2>평판 PCB 한 장으로, 지그를 단순하게</h2><p>144 × 92.7 mm 보드 1장 · 직접 납땜하는 SMA 2개 · 네 모서리 고정.</p></div></div>
+    <p class="readable">새 {{fixture.revision}}는 이전 3장 PCB를 한 장으로 합쳤습니다. 세로 보드 접합과 점퍼선이 사라지고, 두 SMA를 보드에 직접 납땜합니다. 기존 바닥판과 헤드 브래킷을 유지하고, 양끝 출력 지지대는 <strong>65 mm 나일론 기둥 4곳</strong>으로 바꿉니다. 판의 외곽·두 창·구멍은 PCB 업체에서 가공합니다.</p>
+    <div class="interactive topology-panel">
+      <div class="revision-controls" role="group" aria-label="현재와 이전 지그 비교">
+        <button type="button" data-revision-choice="{{fixture.model_id}}" aria-pressed="true">현재 {{fixture.revision}} · 평판 1장</button>
+        <button type="button" data-revision-choice="A01" aria-pressed="false">이전 A0.1 · 3장과 비교</button>
+      </div>
+      <p id="revision-note" class="revision-note" aria-live="polite">현재 {{fixture.revision}}: 평판 1장 · SMA 직접 납땜 · 나일론 기둥 4곳. 아래 제작·교정 설명의 기준입니다.</p>
+      <div class="controls" role="group" aria-label="PCB 전류 경로 강조">
+        <button type="button" data-path="all" aria-pressed="true">전체 구조</button>
+        <button type="button" data-path="signal" aria-pressed="false">① 신호 · 코어 안</button>
+        <button type="button" data-path="return" aria-pressed="false">② 귀환 · 코어 밖</button>
+      </div>
+      <div class="assembly-controls" role="group" aria-label="원본 CAD 조립 상태">
+        <button type="button" data-assembly="open" aria-pressed="true">집게 열기</button>
+        <button type="button" data-assembly="closed" aria-pressed="false">집게 닫기</button>
+        <button type="button" data-assembly="pcb" aria-pressed="false">PCB·SMA만 보기</button>
+        <button type="button" data-assembly="head" aria-pressed="false">프로브 헤드만 보기</button>
+        <span>신호·귀환을 선택하면 해당 PCB 경로를 따로 봅니다.</span>
+      </div>
+      <div class="cad-stage" id="structure-cad" data-viewer="structure">
+          <p class="cad-loading" role="status">원본 CAD 모델을 불러오는 중…</p>
+          <span class="cad-badge">현재 · 평판 PCB {{fixture.revision}} / 집게 {{clamp.revision}}</span>
+        </div>
+        <div class="cad-toolbar" role="group" aria-label="3D 보기 조작">
+          <span>드래그 회전 · 휠 확대</span>
+          <button type="button" data-for="structure" data-camera="overview">처음 시점</button>
+          <button type="button" data-for="structure" data-camera="top">위에서</button>
+          <button type="button" data-for="structure" data-camera="front">출력 쪽에서</button>
+          <button type="button" data-for="structure" data-zoom="1.25" aria-label="3D 확대">＋</button>
+          <button type="button" data-for="structure" data-zoom="0.8" aria-label="3D 축소">−</button>
+        </div>
+      <div class="topology-grid">
+        <div class="cad-origin"><p class="eyebrow">저장된 설계 형상 그대로</p><h3>한 장의 보드와 위로 향한 SMA를 보세요.</h3><p>평판 PCB는 KiCad에서 내보낸 형상, 집게·브래킷·바닥판은 저장 CAD입니다. 기둥은 제조사 도면 치수의 공칭 모델입니다. 신호는 금색, 바깥 귀환은 초록색입니다.</p><p class="note">CAD 초안이며 실물 사진이 아닙니다. 동박은 경로를 보여주기 위한 색으로 표시하며 솔더마스크·실크는 생략했습니다. 열림 보기에서는 일부 패드·체결 부품을 숨겼습니다.</p></div>
+        <div class="prose"><p class="diagram-caption" id="path-explanation" aria-live="polite">같은 한 장의 PCB 안에서 중앙 SIG와 바깥 GND를 분리합니다. 두 창 사이 중앙 다리만 코어 안으로 들어갑니다.</p>
+          <dl class="parts"><dt>평판 PCB × 1</dt><dd>{{fixture.size}}, 2층 초안. {{fixture.window_size}} 창 2개 사이에 폭 8 mm의 중앙 다리가 있습니다.</dd><dt>J1 / J2 · 수직 SMA</dt><dd>{{head.sma}} 2개. 중심 핀은 SIG, 네 외피 핀은 GND에 직접 납땜합니다. 지그에는 점퍼선이 없습니다.</dd><dt>모서리 기둥 × 4곳</dt><dd>30 mm F/F + 35 mm M/F 나일론 기둥을 한 쌍씩 사용합니다. 총 8개 부품으로 높이 65 mm를 만듭니다. 구멍 간격은 {{fixture.mount_spacing}}입니다.</dd><dt>집게 무게는 별도로 지지</dt><dd>기존 Base와 HeadBracket이 받칩니다. 좁은 PCB 중앙 다리에 집게를 매달지 않습니다.</dd></dl>
+          <p class="note">치수는 원본 CAD 설계값입니다. 3D 보기 자체가 조립 검사·RF 해석을 뜻하지는 않습니다.</p>
+        </div>
+      </div>
+    </div>
+    <details class="cad-details"><summary>원본 CAD 렌더와 PCB 외곽을 큰 이미지로 보기</summary><p>평판 PCB를 네 모서리 기둥에 고정합니다. 금색 중앙 다리가 코어 안을 지나며, 녹색 바깥 레일은 밖으로 돌아갑니다. 아래는 저장된 CAD를 렌더링한 이미지로 실물 사진이 아닙니다.</p><figure><a href="{{assets.assembly}}"><img src="{{assets.assembly}}" width="2400" height="1350" loading="lazy" alt="평판 PCB 한 장과 네 모서리 기둥, 기존 집게와 바닥판을 조립한 A0.2 CAD의 닫힘과 열림 모습"></a><figcaption>평판 PCB 교정지그 A0.2 초안. 그림을 누르면 원본 크기로 볼 수 있습니다. RF 응답·출력물 공차·실제 체결은 미검증입니다.</figcaption></figure><figure><a href="{{assets.board}}"><img src="{{assets.board}}" width="1950" height="1350" loading="lazy" alt="두 창과 모서리 고정 구멍 네 곳, 직접 납땜하는 SMA 두 개를 가진 평판 PCB 한 장의 설계 외형"></a><figcaption>별도 EndPanel이 없습니다. 중앙 다리는 양면 SIG이며, 같은 보드의 바깥 GND가 두 SMA 외피를 연결합니다.</figcaption></figure></details>
+    <div class="two-col principle-grid">
+      <div><h3>중앙 다리의 앞·뒤는 모두 SIG</h3><p>신호 동박 바로 아래에 GND를 깔아 함께 코어에 통과시키면 귀환전류까지 감싸게 됩니다. 평판 A0.2의 중앙 다리는 <strong>양면 모두 같은 신호 경로</strong>이고, 귀환은 양옆으로 떨어뜨립니다.</p><img class="cross-section" src="assets/cross-section.svg" width="640" height="270" alt="올바른 중앙 다리는 윗면과 아랫면 모두 SIG이며 비아로 이어지고, 피해야 하는 구성은 윗면 SIG 바로 아래 GND가 함께 코어 안을 지나는 구성"></div>
+      <div><h3>PCB라는 이유로 50 Ω가 되지는 않습니다</h3><p>양끝 SMA, 중앙 다리, 넓은 귀환 루프의 조합은 반사·방사·직접 픽업을 만들 수 있습니다. <strong>지그 단독 측정 → 헤드 장착 영향 → 프로브 출력 측정</strong> 순서로 확인합니다.</p><p>첫 결과는 같은 지그에서의 상대 응답입니다. 코어 위치의 전류와 기준면을 입증한 뒤에 전달 임피던스 ZT를 계산합니다.</p><details><summary>초안과 기존 기록의 관계</summary><p>프로브 헤드 PCB는 A0.2, 집게는 A0.3입니다. 현재 교정지그는 평판 PCB A0.2 초안입니다. 이전 동판 지그와 PCB 3장 A0.1은 이력·비교용입니다. 이전 교정값·간섭 결과·견적을 새 지그에 전용하지 않습니다. 아래 제작·교정 연결은 A0.2 기준입니다.</p></details></div>
+    </div>
+  </section>

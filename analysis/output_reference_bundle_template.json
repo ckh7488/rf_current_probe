@@ -1,0 +1,174 @@
+{
+  "schema_version": 1,
+  "data_kind": "MEASURED",
+  "alignment": {
+    "method": "exact"
+  },
+  "evidence": {
+    "current_path": "UNKNOWN",
+    "head_load_swap": "UNKNOWN",
+    "limits": "UNKNOWN",
+    "uncertainty": "UNKNOWN"
+  },
+  "uncertainty_components": [
+    "direct_pickup",
+    "head_load_swap",
+    "k_model_common_error",
+    "load_reflection",
+    "position",
+    "repeatability",
+    "vna"
+  ],
+  "limits": {
+    "minimum_through_magnitude": null,
+    "minimum_k_magnitude": null,
+    "minimum_one_minus_gamma": null,
+    "minimum_feedback_denominator": null,
+    "minimum_snr_db": null,
+    "maximum_direct_pickup_db": null,
+    "maximum_repeatability_db": null,
+    "maximum_direction_error_db": null,
+    "maximum_direction_phase_deg": null
+  },
+  "forward": {
+    "identity": {
+      "head_id": "UNKNOWN",
+      "head_revision": "UNKNOWN",
+      "fixture_id": "UNKNOWN",
+      "fixture_revision": "UNKNOWN",
+      "configuration_id": "UNKNOWN",
+      "turns": null,
+      "shield_revision": "UNKNOWN",
+      "included_chain_ids": [
+        "UNKNOWN"
+      ],
+      "primary_load_id": "UNKNOWN"
+    },
+    "input_plane_id": "UNKNOWN",
+    "fixture_output_plane_id": "UNKNOWN",
+    "probe_output_plane_id": "UNKNOWN",
+    "vna_calibration_id": "UNKNOWN",
+    "setup_id": "UNKNOWN",
+    "polarity": 1,
+    "phase_validated": false,
+    "reflection_phase_validated": false,
+    "evidence": "UNKNOWN",
+    "through": {
+      "file": "forward_through.s2p",
+      "sha256": "",
+      "data_kind": "MEASURED",
+      "setup_id": "UNKNOWN",
+      "vna_calibration_id": "UNKNOWN",
+      "reference_plane_ids": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ]
+    },
+    "transfer": {
+      "file": "forward_transfer.s2p",
+      "sha256": "",
+      "data_kind": "MEASURED",
+      "setup_id": "UNKNOWN",
+      "vna_calibration_id": "UNKNOWN",
+      "reference_plane_ids": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ]
+    },
+    "k": {
+      "file": "forward_k.csv",
+      "sha256": "",
+      "data_kind": "MEASURED",
+      "units": "Icore/Iout",
+      "output_plane_id": "UNKNOWN",
+      "applies_to_fixture_revision": "UNKNOWN",
+      "source_fixture_revision": "UNKNOWN",
+      "applicability_evidence": "UNKNOWN",
+      "phase_validated": false
+    }
+  },
+  "reverse": {
+    "identity": {
+      "head_id": "UNKNOWN",
+      "head_revision": "UNKNOWN",
+      "fixture_id": "UNKNOWN",
+      "fixture_revision": "UNKNOWN",
+      "configuration_id": "UNKNOWN",
+      "turns": null,
+      "shield_revision": "UNKNOWN",
+      "included_chain_ids": [
+        "UNKNOWN"
+      ],
+      "primary_load_id": "UNKNOWN"
+    },
+    "input_plane_id": "UNKNOWN",
+    "fixture_output_plane_id": "UNKNOWN",
+    "probe_output_plane_id": "UNKNOWN",
+    "vna_calibration_id": "UNKNOWN",
+    "setup_id": "UNKNOWN",
+    "polarity": -1,
+    "phase_validated": false,
+    "reflection_phase_validated": false,
+    "evidence": "UNKNOWN",
+    "through": {
+      "file": "reverse_through.s2p",
+      "sha256": "",
+      "data_kind": "MEASURED",
+      "setup_id": "UNKNOWN",
+      "vna_calibration_id": "UNKNOWN",
+      "reference_plane_ids": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ]
+    },
+    "transfer": {
+      "file": "reverse_transfer.s2p",
+      "sha256": "",
+      "data_kind": "MEASURED",
+      "setup_id": "UNKNOWN",
+      "vna_calibration_id": "UNKNOWN",
+      "reference_plane_ids": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ]
+    },
+    "k": {
+      "file": "reverse_k.csv",
+      "sha256": "",
+      "data_kind": "MEASURED",
+      "units": "Icore/Iout",
+      "output_plane_id": "UNKNOWN",
+      "applies_to_fixture_revision": "UNKNOWN",
+      "source_fixture_revision": "UNKNOWN",
+      "applicability_evidence": "UNKNOWN",
+      "phase_validated": false
+    }
+  },
+  "load": {
+    "file": "load.s1p",
+    "sha256": "",
+    "data_kind": "MEASURED",
+    "load_id": "UNKNOWN",
+    "reference_plane_id": "UNKNOWN",
+    "calibration_id": "UNKNOWN",
+    "standards_model_id": "UNKNOWN",
+    "connector": "SMA-F",
+    "calibration_method": "SOL_AT_FEMALE_PLANE",
+    "calibrated": false,
+    "standards_connector": "SMA-M",
+    "phase_validated": false,
+    "evidence": "UNKNOWN",
+    "applies_to_output_plane_ids": [
+      "UNKNOWN",
+      "UNKNOWN"
+    ],
+    "reference_plane_transfer_evidence": "UNKNOWN"
+  },
+  "review": {
+    "file": "review.csv",
+    "sha256": "",
+    "data_kind": "MEASURED",
+    "configuration_id": "UNKNOWN",
+    "evidence": "UNKNOWN"
+  }
+}

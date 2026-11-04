@@ -1,0 +1,201 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-28T13:56:32",
+    "ignored_checks": [],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.0",
+    "schematic_parity": [],
+    "source": "RFCP_Head_A04_SMA_R2_DRAFT.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "세그먼트 of J1 on F.Silkscreen",
+                    "pos": {
+                        "x": 13.900001,
+                        "y": 8.900001
+                    },
+                    "uuid": "fd1b1b52-a17c-444b-baba-d5edf8997b3d"
+                },
+                {
+                    "description": "2의 PTH 패드[/GND]J1",
+                    "pos": {
+                        "x": 20.54,
+                        "y": 10.46
+                    },
+                    "uuid": "f7cd9b9b-0441-431f-869c-e84107324242"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "세그먼트 of J1 on F.Silkscreen",
+                    "pos": {
+                        "x": 13.900001,
+                        "y": 8.900001
+                    },
+                    "uuid": "fd1b1b52-a17c-444b-baba-d5edf8997b3d"
+                },
+                {
+                    "description": "2의 PTH 패드[/GND]J1",
+                    "pos": {
+                        "x": 15.46,
+                        "y": 10.46
+                    },
+                    "uuid": "552b1c34-9596-4408-88ed-7fdc7cb2ce57"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "세그먼트 of J1 on F.Silkscreen",
+                    "pos": {
+                        "x": 13.900001,
+                        "y": 17.099999
+                    },
+                    "uuid": "8e30b8cf-5214-438f-97b4-ff3f62fa5077"
+                },
+                {
+                    "description": "2의 PTH 패드[/GND]J1",
+                    "pos": {
+                        "x": 15.46,
+                        "y": 15.54
+                    },
+                    "uuid": "5e3e6509-69ae-4cd4-b040-50242fc18cf2"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "세그먼트 of J1 on F.Silkscreen",
+                    "pos": {
+                        "x": 13.900001,
+                        "y": 17.099999
+                    },
+                    "uuid": "8e30b8cf-5214-438f-97b4-ff3f62fa5077"
+                },
+                {
+                    "description": "2의 PTH 패드[/GND]J1",
+                    "pos": {
+                        "x": 15.46,
+                        "y": 10.46
+                    },
+                    "uuid": "552b1c34-9596-4408-88ed-7fdc7cb2ce57"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "세그먼트 of J1 on F.Silkscreen",
+                    "pos": {
+                        "x": 22.099999,
+                        "y": 8.900001
+                    },
+                    "uuid": "446f84ea-6d77-4530-8df1-0cfaa683ace4"
+                },
+                {
+                    "description": "2의 PTH 패드[/GND]J1",
+                    "pos": {
+                        "x": 20.54,
+                        "y": 10.46
+                    },
+                    "uuid": "f7cd9b9b-0441-431f-869c-e84107324242"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "세그먼트 of J1 on F.Silkscreen",
+                    "pos": {
+                        "x": 22.099999,
+                        "y": 8.900001
+                    },
+                    "uuid": "446f84ea-6d77-4530-8df1-0cfaa683ace4"
+                },
+                {
+                    "description": "2의 PTH 패드[/GND]J1",
+                    "pos": {
+                        "x": 20.54,
+                        "y": 15.54
+                    },
+                    "uuid": "2b2e8c56-bd1e-4ede-a061-51dbccec876f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "세그먼트 of J1 on F.Silkscreen",
+                    "pos": {
+                        "x": 22.099999,
+                        "y": 17.099999
+                    },
+                    "uuid": "6aa22e5e-834d-4796-8d95-6fe9d53bd378"
+                },
+                {
+                    "description": "2의 PTH 패드[/GND]J1",
+                    "pos": {
+                        "x": 15.46,
+                        "y": 15.54
+                    },
+                    "uuid": "5e3e6509-69ae-4cd4-b040-50242fc18cf2"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "세그먼트 of J1 on F.Silkscreen",
+                    "pos": {
+                        "x": 22.099999,
+                        "y": 17.099999
+                    },
+                    "uuid": "6aa22e5e-834d-4796-8d95-6fe9d53bd378"
+                },
+                {
+                    "description": "2의 PTH 패드[/GND]J1",
+                    "pos": {
+                        "x": 20.54,
+                        "y": 15.54
+                    },
+                    "uuid": "2b2e8c56-bd1e-4ede-a061-51dbccec876f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+  <section id="scope">
+    <div class="section-heading"><span class="section-number">06</span><div><h2>스코프로 옮기면 전압부터 저장합니다</h2><p>VNA의 교정 결과가 스코프 내부 응답까지 보정해 주지는 않습니다.</p></div></div>
+    <div class="scope-chain" aria-label="스코프 기본 연결"><span>프로브 SMA</span><b>→</b><span>검증된 감쇠·보호</span><b>→</b><span>SMA–BNC 케이블</span><b>→</b><span>스코프 내부 50 Ω</span></div>
+    <div class="two-col prose"><div><h3>단일 주파수 비교</h3><p>VNA 측정을 저장하고 RF OFF에서 재배선합니다. 벤치 소스는 sweep에서 <strong>CW, P1만 활성화</strong>로 바꿉니다. 파형에 고조파가 있을 수 있으므로 기본파 RMS를 따로 분석합니다.</p><p>잠정 장비는 Tektronix MSO4054입니다. 실물 모델·입력 상태 확인 후 DC coupling / 50 Ω / Voltage 1× / FULL / Sample 설정안을 적용합니다. 내부 50 Ω를 사용하면 외장 feed-through 50 Ω를 병렬로 더하지 않습니다.</p></div><div><h3>전류 환산을 허용하는 조건</h3><p>같은 헤드·권선·케이블·감쇠기, 같은 출력 기준면, 유효 ZT와 스코프 응답·부하가 확인되어야 합니다. VNA 연결에 사용한 BNC–SMA 어댑터를 제거했다면 그 영향도 정리해야 합니다.</p><p><strong>확인 전 결과는 V 단위입니다.</strong> 펄스의 최대 전압을 한 주파수의 ZT로 나누지 않습니다. 감쇠기를 서지 보호기로 간주하지 않고, 현장 적용 전 보호·삽입 영향·순 DC 영향을 확인합니다.</p></div></div>
+    <p class="source-note">50 Ω 수신기와 전류 환산의 기본 관계: <a href="https://www.tekbox.com/product/FAQ_Current_Probes.pdf">Tekbox RF 전류 프로브 FAQ</a>. 실제 장비 설정·안전 조건은 해당 모델과 사용 체인에서 별도로 검증합니다.</p>
+  </section>

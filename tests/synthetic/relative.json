@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "measurement_id": "SYN-FIXTURE-001",
+  "head_id": "SYN-IDEAL-5OHM",
+  "head_revision": "SYNTHETIC",
+  "core_part": "NONE-ANALYTIC",
+  "turns": 5,
+  "shield_revision": "NONE",
+  "fixture_id": "SYN-L30nH-C3pF-R52",
+  "calibration_id": "SYN-CAL-001",
+  "cable_ids": [],
+  "receiver_model": "IDEAL-50OHM",
+  "termination": "receiver_single_50_ohm",
+  "attenuation_profile": "NONE",
+  "source_level": "NORMALIZED-POWER-WAVES",
+  "frequency_range": [
+    100000.0,
+    500000000.0
+  ],
+  "if_bandwidth": "NOT_APPLICABLE_SYNTHETIC",
+  "averaging": "NOT_APPLICABLE_SYNTHETIC",
+  "temperature": "NOT_APPLICABLE_SYNTHETIC",
+  "conductor_position": "ANALYTIC-BRANCH",
+  "timestamp": "2026-09-16T00:00:00+09:00",
+  "data_kind": "SYNTHETIC",
+  "clipped": false,
+  "phase_validated": true,
+  "phase_evidence": "analysis/fixture_model.py: exact analytic reference; not hardware",
+  "uncertainty_db": null,
+  "minimum_zt_ohm": 1e-06,
+  "included_chain_ids": [
+    "SYN-IDEAL-RECEIVER"
+  ],
+  "additional_correction_ids": [],
+  "valid_frequency_bands_hz": [
+    [
+      100000.0,
+      500000000.0
+    ]
+  ],
+  "invalid_frequency_bands_hz": [],
+  "quality_review": {
+    "snr": true,
+    "linearity": true,
+    "repeatability": true,
+    "leakage": true,
+    "position": true,
+    "evidence": "Exact SYNTHETIC data by construction; no real quality assessment"
+  },
+  "current_model": {
+    "mode": "relative"
+  },
+  "synthetic_parameters": {
+    "series_l_h": 3e-08,
+    "bypass_c_f": 3e-12,
+    "branch_r_ohm": 52,
+    "zt_ohm": 5
+  },
+  "limitations": "S12/S22 placeholders. This is not a full reciprocal or fitted RF sensor simulation."
+}

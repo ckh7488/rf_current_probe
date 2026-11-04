@@ -1,0 +1,68 @@
+{
+  "measurement_id": "SYNTHETIC",
+  "head_id": "SYN-HEAD",
+  "head_revision": "SYN-5T",
+  "core_part": "SYNTHETIC",
+  "turns": 5,
+  "shield_revision": "SYNTHETIC",
+  "fixture_id": "SYNTHETIC",
+  "calibration_id": "SYN-BNC-CAL",
+  "cable_ids": [
+    "SYN-CABLE"
+  ],
+  "receiver_model": "SYNTHETIC",
+  "termination": "receiver_single_50_ohm",
+  "attenuation_profile": "SYNTHETIC",
+  "source_level": "SYNTHETIC",
+  "frequency_range": [
+    1000000.0,
+    100000000.0
+  ],
+  "if_bandwidth": "SYNTHETIC",
+  "averaging": "SYNTHETIC",
+  "temperature": "SYNTHETIC",
+  "conductor_position": "SYNTHETIC",
+  "timestamp": "SYNTHETIC",
+  "data_kind": "SYNTHETIC",
+  "schema_version": 1,
+  "clipped": false,
+  "phase_validated": false,
+  "phase_evidence": "tests: analytic reference",
+  "uncertainty_db": null,
+  "minimum_zt_ohm": 1e-06,
+  "included_chain_ids": [
+    "SYN-ATT10",
+    "SYN-CAB01"
+  ],
+  "additional_correction_ids": [],
+  "valid_frequency_bands_hz": [
+    [
+      1000000.0,
+      100000000.0
+    ]
+  ],
+  "invalid_frequency_bands_hz": [],
+  "quality_review": {
+    "snr": true,
+    "linearity": true,
+    "repeatability": true,
+    "leakage": true,
+    "position": true,
+    "evidence": "SYNTHETIC: exact analytic data, not hardware review"
+  },
+  "current_model": {
+    "mode": "matched",
+    "evidence": "SYNTHETIC analytic model",
+    "matched_path_verified": true,
+    "current_reference_verified": true,
+    "same_current_plane_verified": true,
+    "no_bypass_current_verified": true,
+    "hi_reference_verified": true
+  },
+  "output_reference_plane": {
+    "id": "SYN-CAB01-BNC",
+    "verified": true,
+    "impedance_ohm": 50,
+    "evidence": "SYNTHETIC ideal BNC reference plane; no real calibration"
+  }
+}

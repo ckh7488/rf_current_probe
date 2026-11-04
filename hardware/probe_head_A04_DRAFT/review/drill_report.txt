@@ -1,0 +1,26 @@
+Drill report for RFCP_Head_A04_DRAFT.kicad_pcb
+Created on 2026-09-21T19:14:45
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'RFCP_Head_A04_DRAFT-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.300mm  0.0118"  (6 holes))
+    T2  0.800mm  0.0315"  (2 holes))
+    T3  1.700mm  0.0669"  (1 hole)
+    T4  1.900mm  0.0748"  (4 holes))
+
+    Total plated holes count 13
+
+
+Drill file 'RFCP_Head_A04_DRAFT-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  2.800mm  0.1102"  (2 holes))
+
+    Total unplated holes count 2

@@ -1,0 +1,33 @@
+{
+  "url": "http://127.0.0.1:8766/",
+  "geometry": {
+    "structure": {
+      "parts": 44,
+      "triangles": 654058
+    },
+    "calibration": {
+      "parts": 44,
+      "triangles": 654058
+    }
+  },
+  "step_states": 4,
+  "standards": 4,
+  "standard_ports": 2,
+  "assembly_modes": 3,
+  "path_modes": 3,
+  "keyboard_camera": true,
+  "camera_presets": 3,
+  "responsive": [
+    {
+      "viewport": 390,
+      "document": 390
+    },
+    {
+      "viewport": 320,
+      "document": 320
+    }
+  ],
+  "back_to_catalog": true,
+  "errors": [],
+  "failed": []
+}

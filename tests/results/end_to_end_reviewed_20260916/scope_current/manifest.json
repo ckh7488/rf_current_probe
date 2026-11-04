@@ -1,0 +1,161 @@
+{
+  "created_utc": "2026-09-16T00:37:38.510892+00:00",
+  "metadata": {
+    "schema_version": 1,
+    "data_kind": "SYNTHETIC",
+    "measurement_id": "SYN-CW-001",
+    "receiver_id": "SYN-SCOPE-01",
+    "receiver_model": "SYN-IDEAL",
+    "channel": "CH1",
+    "head_id": "SYN-HEAD",
+    "head_revision": "SYN-5T",
+    "calibration_id": "SYN-BNC-CAL",
+    "timestamp": "2026-09-16T00:00:00+09:00",
+    "normalization_evidence": "SYNTHETIC direct SI serializer",
+    "setup_evidence": "SYNTHETIC settings; not read from an instrument",
+    "voltage_convention": "displayed_volts_probe_1x",
+    "probe_factor": 1,
+    "input_ohm": 50,
+    "external_50ohm_termination": false,
+    "coupling": "DC",
+    "bandwidth_setting": "FULL",
+    "acquisition_mode": "sample",
+    "clipped": false,
+    "overload": false,
+    "source_mode": "CW",
+    "stationarity_verified": true,
+    "aliasing_review": {
+      "verified": true,
+      "evidence": "SYNTHETIC analytic spectrum <= 3e+07 Hz"
+    },
+    "noise_review": {
+      "verified": true,
+      "evidence": "SYNTHETIC noiseless arithmetic"
+    },
+    "sample_rate_hz": 1000000000.0,
+    "volts_per_div": 0.005,
+    "channel_offset_v": 0,
+    "temperature_c": 25,
+    "frequency_hz": 10000000.0,
+    "record_length": 4096,
+    "included_chain_ids": [
+      "SYN-ATT10",
+      "SYN-CAB01"
+    ],
+    "additional_correction_ids": [],
+    "external_gain_applied": false,
+    "input_reference_plane_id": "SYN-CAB01-BNC",
+    "fit_harmonics": 3,
+    "receiver_response": {
+      "verified": true,
+      "loading_verified": true,
+      "evidence": "SYNTHETIC gain 0.9; perfect 50 ohm",
+      "settings": {
+        "receiver_id": "SYN-SCOPE-01",
+        "receiver_model": "SYN-IDEAL",
+        "channel": "CH1",
+        "input_ohm": 50,
+        "coupling": "DC",
+        "bandwidth_setting": "FULL",
+        "probe_factor": 1,
+        "volts_per_div": 0.005,
+        "channel_offset_v": 0,
+        "sample_rate_hz": 1000000000.0,
+        "acquisition_mode": "sample",
+        "head_id": "SYN-HEAD",
+        "head_revision": "SYN-5T",
+        "included_chain_ids": [
+          "SYN-ATT10",
+          "SYN-CAB01"
+        ],
+        "input_reference_plane_id": "SYN-CAB01-BNC"
+      },
+      "frequency_hz": 10000000.0,
+      "gain_definition": "displayed_V_per_calibrated_50ohm_V",
+      "gain": 0.9,
+      "temperature_range_c": [
+        20,
+        30
+      ]
+    }
+  },
+  "calibration_metadata": {
+    "measurement_id": "SYNTHETIC",
+    "head_id": "SYN-HEAD",
+    "head_revision": "SYN-5T",
+    "core_part": "SYNTHETIC",
+    "turns": 5,
+    "shield_revision": "SYNTHETIC",
+    "fixture_id": "SYNTHETIC",
+    "calibration_id": "SYN-BNC-CAL",
+    "cable_ids": [
+      "SYN-CABLE"
+    ],
+    "receiver_model": "SYNTHETIC",
+    "termination": "receiver_single_50_ohm",
+    "attenuation_profile": "SYNTHETIC",
+    "source_level": "SYNTHETIC",
+    "frequency_range": [
+      1000000.0,
+      100000000.0
+    ],
+    "if_bandwidth": "SYNTHETIC",
+    "averaging": "SYNTHETIC",
+    "temperature": "SYNTHETIC",
+    "conductor_position": "SYNTHETIC",
+    "timestamp": "SYNTHETIC",
+    "data_kind": "SYNTHETIC",
+    "schema_version": 1,
+    "clipped": false,
+    "phase_validated": false,
+    "phase_evidence": "tests: analytic reference",
+    "uncertainty_db": null,
+    "minimum_zt_ohm": 1e-06,
+    "included_chain_ids": [
+      "SYN-ATT10",
+      "SYN-CAB01"
+    ],
+    "additional_correction_ids": [],
+    "valid_frequency_bands_hz": [
+      [
+        1000000.0,
+        100000000.0
+      ]
+    ],
+    "invalid_frequency_bands_hz": [],
+    "quality_review": {
+      "snr": true,
+      "linearity": true,
+      "repeatability": true,
+      "leakage": true,
+      "position": true,
+      "evidence": "SYNTHETIC: exact analytic data, not hardware review"
+    },
+    "current_model": {
+      "mode": "matched",
+      "evidence": "SYNTHETIC analytic model",
+      "matched_path_verified": true,
+      "current_reference_verified": true,
+      "same_current_plane_verified": true,
+      "no_bypass_current_verified": true,
+      "hi_reference_verified": true
+    },
+    "output_reference_plane": {
+      "id": "SYN-CAB01-BNC",
+      "verified": true,
+      "impedance_ohm": 50,
+      "evidence": "SYNTHETIC ideal BNC reference plane; no real calibration"
+    }
+  },
+  "inputs": {
+    "E:\\Current_Probe\\tests\\results\\end_to_end_reviewed_20260916\\inputs\\cw.csv": "c3672c750e4f369483fdc6799440849635b0730e97c1d1f40df2b8da15d67579",
+    "E:\\Current_Probe\\tests\\results\\end_to_end_reviewed_20260916\\inputs\\scope.json": "57364aebb750a9fb3c3e0b060f77a68eb4a2d0a7cf17a2b54216ab89c36fa755",
+    "E:\\Current_Probe\\tests\\results\\end_to_end_reviewed_20260916\\inputs\\transfer.s2p": "e68d944a6ffc4109b423b6628cd711f9b04cff07c8a2c4ef0231263d51166101",
+    "E:\\Current_Probe\\tests\\results\\end_to_end_reviewed_20260916\\inputs\\transfer.json": "950a182f47e7c144b21a10072f699831b41fecee5da456e08959a9c570fecdd3"
+  },
+  "code_sha256": {
+    "scope_tone.py": "8c36c6f0ba5021974ad54a3b74a657361a40f3437673fb5a62c17c2a1b083678",
+    "rfcp.py": "ed7c80bab0bded8bb70723f9ebd099580c02fead40853a4770b00c96e9277a4a"
+  },
+  "meaning": "Offline analysis; metadata assertions are not verification of connected instruments."
+}

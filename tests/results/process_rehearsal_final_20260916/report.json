@@ -1,0 +1,259 @@
+{
+  "data_kind": "SYNTHETIC",
+  "meaning": "Software/declared connection rehearsal, not measured hardware or RF EM simulation",
+  "connection_checks": [
+    {
+      "id": "through_primary",
+      "kind": "CALCULATED",
+      "joins": [
+        "VNA.P1:SMA-F <-> CAB-P1:SMA-M",
+        "CAB-P1:SMA-M <-> FIXTURE:SMA-F",
+        "FIXTURE:SMA-F <-> CAB-P2:SMA-M",
+        "CAB-P2:SMA-M <-> VNA.P2:SMA-F"
+      ],
+      "pass": true
+    },
+    {
+      "id": "through_head_terminated",
+      "kind": "CALCULATED",
+      "joins": [
+        "HEAD.OUT:SMA-F <-> HEAD-LOAD:SMA-M"
+      ],
+      "pass": true
+    },
+    {
+      "id": "transfer_primary_terminated",
+      "kind": "CALCULATED",
+      "joins": [
+        "VNA.P1:SMA-F <-> CAB-P1:SMA-M",
+        "CAB-P1:SMA-M <-> FIXTURE:SMA-F",
+        "FIXTURE:SMA-F <-> PRIMARY-LOAD:SMA-M"
+      ],
+      "pass": true
+    },
+    {
+      "id": "transfer_head_to_vna",
+      "kind": "CALCULATED",
+      "joins": [
+        "HEAD.OUT:SMA-F <-> CAB-P2:SMA-M",
+        "CAB-P2:SMA-M <-> VNA.P2:SMA-F"
+      ],
+      "pass": true
+    },
+    {
+      "id": "complete_chain_to_vna",
+      "kind": "CALCULATED",
+      "joins": [
+        "HEAD.OUT:SMA-F <-> ATT:SMA-M",
+        "ATT:SMA-F <-> CAB-01:SMA-M",
+        "CAB-01:BNC-M <-> ADAPT-CAL:BNC-F",
+        "ADAPT-CAL:SMA-F <-> CAB-P2:SMA-M",
+        "CAB-P2:SMA-M <-> VNA.P2:SMA-F"
+      ],
+      "pass": true
+    },
+    {
+      "id": "complete_chain_to_scope",
+      "kind": "CALCULATED",
+      "joins": [
+        "HEAD.OUT:SMA-F <-> ATT:SMA-M",
+        "ATT:SMA-F <-> CAB-01:SMA-M",
+        "CAB-01:BNC-M <-> SCOPE.CH1:BNC-F"
+      ],
+      "pass": true
+    },
+    {
+      "id": "sol_female_on_test_cable",
+      "kind": "CALCULATED",
+      "joins": [
+        "VNA.P1:SMA-F <-> CAB-P1:SMA-M",
+        "CAB-P1:SMA-M <-> SOL-STANDARD:SMA-F"
+      ],
+      "pass": true
+    },
+    {
+      "id": "thru_female_female",
+      "kind": "CALCULATED",
+      "joins": [
+        "VNA.P1:SMA-F <-> CAB-P1:SMA-M",
+        "CAB-P1:SMA-M <-> THRU:SMA-F",
+        "THRU:SMA-F <-> CAB-P2:SMA-M",
+        "CAB-P2:SMA-M <-> VNA.P2:SMA-F"
+      ],
+      "pass": true
+    },
+    {
+      "id": "old_adapter_rejected",
+      "pass": true,
+      "reason": "Cannot mate OLD-ADAPT SMA-M to CAB-P2 SMA-M"
+    }
+  ],
+  "tone_checks": [
+    {
+      "sample_rate_hz": 1000000000.0000308,
+      "samples": 30000,
+      "frequency_hz": 1000000.0,
+      "fundamental_vrms_displayed": 0.0014230249470757708,
+      "harmonics_vrms_displayed": [
+        0.0014230249470757708,
+        8.973369658680439e-19,
+        0.0005692099788303091
+      ],
+      "fit_harmonics": 3,
+      "partial_thd_ratio": 0.4000000000000005,
+      "dc_v_displayed": 0.0007,
+      "total_vrms_displayed": 0.00168493323309857,
+      "residual_vrms": 2.0858932815095672e-17,
+      "residual_to_fundamental_ratio": 1.4658163834695592e-14,
+      "data_kind": "SYNTHETIC",
+      "current_rms_a": 0.001,
+      "uncertainty_db": null,
+      "status": "CONDITIONAL_FUNDAMENTAL_CURRENT",
+      "scope_internal_response_included": true,
+      "limitation": "Fundamental only. Partial THD/residual do not prove absence of aliasing or hardware accuracy.",
+      "receiver_gain": 0.9,
+      "calibration_id": "SYN-BNC-CAL",
+      "uncertainty_note": "UNASSESSED: calibration, receiver, loading, fit and noise require a combined budget"
+    },
+    {
+      "sample_rate_hz": 999999999.9999249,
+      "samples": 4096,
+      "frequency_hz": 10000000.0,
+      "fundamental_vrms_displayed": 0.0014230249470757663,
+      "harmonics_vrms_displayed": [
+        0.0014230249470757663,
+        9.334533665625833e-19,
+        0.0005692099788303085
+      ],
+      "fit_harmonics": 3,
+      "partial_thd_ratio": 0.40000000000000135,
+      "dc_v_displayed": 0.0007000000000000005,
+      "total_vrms_displayed": 0.001685663111157878,
+      "residual_vrms": 3.3743068899465583e-17,
+      "residual_to_fundamental_ratio": 2.3712211770289504e-14,
+      "data_kind": "SYNTHETIC",
+      "current_rms_a": 0.0009999999999999968,
+      "uncertainty_db": null,
+      "status": "CONDITIONAL_FUNDAMENTAL_CURRENT",
+      "scope_internal_response_included": true,
+      "limitation": "Fundamental only. Partial THD/residual do not prove absence of aliasing or hardware accuracy.",
+      "receiver_gain": 0.9,
+      "calibration_id": "SYN-BNC-CAL",
+      "uncertainty_note": "UNASSESSED: calibration, receiver, loading, fit and noise require a combined budget"
+    },
+    {
+      "sample_rate_hz": 999999999.9999249,
+      "samples": 4096,
+      "frequency_hz": 30000000.0,
+      "fundamental_vrms_displayed": 0.0014230249470757687,
+      "harmonics_vrms_displayed": [
+        0.0014230249470757687,
+        5.838607383087711e-19,
+        0.0005692099788303082
+      ],
+      "fit_harmonics": 3,
+      "partial_thd_ratio": 0.4000000000000005,
+      "dc_v_displayed": 0.0006999999999999999,
+      "total_vrms_displayed": 0.001685682391107486,
+      "residual_vrms": 8.337254674241309e-17,
+      "residual_to_fundamental_ratio": 5.858825378552829e-14,
+      "data_kind": "SYNTHETIC",
+      "current_rms_a": 0.0009999999999999985,
+      "uncertainty_db": null,
+      "status": "CONDITIONAL_FUNDAMENTAL_CURRENT",
+      "scope_internal_response_included": true,
+      "limitation": "Fundamental only. Partial THD/residual do not prove absence of aliasing or hardware accuracy.",
+      "receiver_gain": 0.9,
+      "calibration_id": "SYN-BNC-CAL",
+      "uncertainty_note": "UNASSESSED: calibration, receiver, loading, fit and noise require a combined budget"
+    },
+    {
+      "sample_rate_hz": 999999999.9999249,
+      "samples": 4096,
+      "frequency_hz": 100000000.0,
+      "fundamental_vrms_displayed": 0.0014230249470757767,
+      "harmonics_vrms_displayed": [
+        0.0014230249470757767,
+        2.9948208423951023e-18,
+        0.0005692099788303087
+      ],
+      "fit_harmonics": 3,
+      "partial_thd_ratio": 0.3999999999999986,
+      "dc_v_displayed": 0.0006999999999999986,
+      "total_vrms_displayed": 0.0016854349665491502,
+      "residual_vrms": 2.7834662361774017e-16,
+      "residual_to_fundamental_ratio": 1.9560206881103827e-13,
+      "data_kind": "SYNTHETIC",
+      "current_rms_a": 0.0010000000000000041,
+      "uncertainty_db": null,
+      "status": "CONDITIONAL_FUNDAMENTAL_CURRENT",
+      "scope_internal_response_included": true,
+      "limitation": "Fundamental only. Partial THD/residual do not prove absence of aliasing or hardware accuracy.",
+      "receiver_gain": 0.9,
+      "calibration_id": "SYN-BNC-CAL",
+      "uncertainty_note": "UNASSESSED: calibration, receiver, loading, fit and noise require a combined budget"
+    }
+  ],
+  "negative_scenarios": [
+    {
+      "id": "adapter_removed",
+      "rejected": true,
+      "reason": "Changed or missing calibrated included_chain_ids"
+    },
+    {
+      "id": "wrong_reference_plane",
+      "rejected": true,
+      "reason": "VNA-to-scope reference plane differs; adapter removal is not automatic de-embedding"
+    },
+    {
+      "id": "double_50ohm",
+      "rejected": true,
+      "reason": "Use internal 50 ohm only; parallel external termination rejected"
+    },
+    {
+      "id": "input_1meg",
+      "rejected": true,
+      "reason": "Use internal 50 ohm only; parallel external termination rejected"
+    },
+    {
+      "id": "probe_10x",
+      "rejected": true,
+      "reason": "Voltage probe 1x and already scaled display volts required"
+    },
+    {
+      "id": "sweeping_source",
+      "rejected": true,
+      "reason": "Stationary CW required; swept VNA/pulse record is not a tone"
+    },
+    {
+      "id": "double_attenuation",
+      "rejected": true,
+      "reason": "Do not reapply cable/attenuator compensation or scope current scaling"
+    },
+    {
+      "id": "unknown_receiver",
+      "rejected": true,
+      "reason": "Receiver amplitude response and 50-ohm loading equivalence need evidence"
+    },
+    {
+      "id": "relative_only",
+      "rejected": true,
+      "reason": "Invalid/null calibration interval"
+    },
+    {
+      "id": "clipped_record",
+      "rejected": true,
+      "reason": "Explicit no-clipping and no-overload observations required"
+    }
+  ],
+  "all_expected_outcomes": true,
+  "expected_fundamental_current_a": 0.001,
+  "wrong_whole_waveform_rms_current_a": 0.001184563288663219,
+  "code_sha256": {
+    "tests\\rehearse_workflow.py": "b385c5b30944c36e0fee3e5276721710a44644939de5518a3d809ba481274d3f",
+    "analysis\\rfcp.py": "ed7c80bab0bded8bb70723f9ebd099580c02fead40853a4770b00c96e9277a4a",
+    "analysis\\scope_tone.py": "67592395089e02285c9763ff94f8190a3e0cade4e43de6cc23cb9f5575353e5a",
+    "analysis\\connection_plan.py": "477d26d7ee00deb681975f60ced83bad11ab637359610d991cdd2185639debda",
+    "tests\\rehearsal_data.py": "b1ee385c67c0097e8e09e614d51af3967ddcf88c9f6d6db3eb6df13c8cf6434c"
+  }
+}

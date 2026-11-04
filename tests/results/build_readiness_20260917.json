@@ -1,0 +1,23 @@
+{
+  "data_kind": "CALCULATED",
+  "status": "DRAFT - NOT FOR FABRICATION",
+  "timestamp_utc": "2026-09-17T01:11:42.967041+00:00",
+  "original_and_reference_hashes_preserved": true,
+  "references_checked": 10,
+  "markdown_files": 26,
+  "local_links_checked": 271,
+  "old_and_new_native_reports_hashes_current": true,
+  "new_printable_stl_count": 9,
+  "gerber_count": 7,
+  "pth_count": 13,
+  "npth_count": 2,
+  "prior_software_junit_not_rerun": {
+    "tests": 110,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "requirements_rows": 56,
+  "measurements_and_release_empty": true,
+  "errors": []
+}

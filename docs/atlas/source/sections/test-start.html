@@ -1,0 +1,7 @@
+<section id="preflight">
+  <div class="section-heading"><span class="section-number">시작</span><div><h2>측정 전에, 조립 상태와 저장 폴더부터</h2><p>먼저 상대 응답을 확보합니다. 전류 모델과 기준면이 확인된 범위만 전류로 환산합니다.</p></div></div>
+  <ol class="start-list"><li><a href="index.html#a08">조립 절차 A08</a>의 무전원 점검 기록을 확인합니다. 실제 헤드·코어·턴 수·지그 리비전이 이 문서와 다르면 차이를 기록하고 해당 조립·시험 단계부터 재확인합니다.</li><li>측정 ID별 새 폴더를 만들고 헤드 ID, 지그 ID, 장비 HW/FW/GUI 버전, 케이블·어댑터·부하·교정키트 ID와 사진을 저장합니다. 이전 측정 파일은 덮어쓰지 않습니다.</li><li>LibreVNA와 테스트 케이블 2개, 맞는 성별의 SOLT 표준, 대역·전력 정격이 확인된 외장 50 Ω 부하 1개를 준비합니다. 커넥터 모델·외형·어댑터를 확인하고 케이블을 별도로 지지합니다.</li><li>RF OFF 상태에서 시작합니다. 아래 순서에 따라 케이블을 연결하고 수신기/부하가 올바른지 확인한 뒤 RF를 켭니다.</li></ol>
+  <div class="test-settings"><span><small>첫 스윕</small>{{test.start_mhz}}–{{test.stop_mhz}} MHz</span><span><small>선형 스윕</small>{{test.points}}점</span><span><small>출력 시작안</small>{{test.level_dbm}} dBm</span><span><small>IF BW / 평균</small>{{test.ifbw_hz}} Hz / {{test.averages}}회</span></div>
+  <p class="note">위 설정은 시작안입니다. 실제 장비의 지원값과 정격을 확인하고 적용한 값을 기록합니다. 처음부터 전체 목표 대역의 성능을 주장하지 않습니다.</p>
+  <div class="table-wrap"><table><thead><tr><th>이 문서에서 부르는 이름</th><th>실제 위치 / 역할</th></tr></thead><tbody><tr><td>P1 / P2</td><td>VNA의 송신 / 수신 포트. 교정 기준면은 테스트 케이블 끝</td></tr><tr><td>지그 J1 · IN / 지그 J2 · OUT</td><td>평판 PCB 위를 향한 SMA 2개. 중앙 SIG로 연결</td></tr><tr><td>프로브 출력 = HEAD.J1</td><td>집게의 작은 헤드 PCB에 있는 SMA. 아래 3단계에서 P2가 이동할 곳</td></tr><tr><td>HEAD.J2 · S+ / S−</td><td>권선 납땜 패드. 외장 부하를 연결하는 SMA가 아님</td></tr></tbody></table></div>
+</section>

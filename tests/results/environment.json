@@ -1,0 +1,19 @@
+{
+  "record_created_utc": "2026-09-15T15:09:07.658319+00:00",
+  "python": "3.12.6",
+  "executable": "E:\\Current_Probe\\.venv\\Scripts\\python.exe",
+  "packages": {
+    "numpy": "2.4.4",
+    "scipy": "1.18.1",
+    "pandas": "3.0.5",
+    "scikit-rf": "2.1.0",
+    "matplotlib": "3.10.8",
+    "pytest": "8.3.4",
+    "pypdf": "6.14.2",
+    "Pillow": "12.2.0"
+  },
+  "kicad_cli": "10.0.0",
+  "freecad": "1.0.2 revision 39319",
+  "poppler": "26.07.0",
+  "note": "Versions/API help actually inspected; no ERC/DRC or instrument measurement executed."
+}

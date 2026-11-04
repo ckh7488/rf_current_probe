@@ -1,0 +1,271 @@
+{
+  "classification": "CALCULATED_LOCAL_ROOT_SUPPORT_CANDIDATE",
+  "status": "DRAFT - NOT FOR FABRICATION; A17/C10 local guide-root candidate",
+  "freecad": [
+    "1",
+    "0",
+    "2",
+    "39319 (Git)",
+    "https://github.com/FreeCAD/FreeCAD",
+    "2025/08/05 20:19:07",
+    "(HEAD detached at 1.0.2)",
+    "256fc7eff3379911ab5daf88e10182c509aa8052"
+  ],
+  "source_native_sha256": "de06004040260944b5d0b273f6d03324cb95ff67584b03bc914ae1985cae25cc",
+  "source_hashes": {
+    "mechanical\\assembly_A16_DRAFT\\RFCP_A16_Integrated_DRAFT.FCStd": "de06004040260944b5d0b273f6d03324cb95ff67584b03bc914ae1985cae25cc",
+    "mechanical\\build_assembly_A17.py": "e5d1cd752cda2578f049fd8531209fd6df21f50dd1e4bc4a6132707736f8974d"
+  },
+  "native_sha256": "2a16681db880fcb1abfb0241824d7b5618d99477fb55288e33bc57d1e9064d92",
+  "changed_objects": [
+    {
+      "part": "Cable1_Frame",
+      "old_volume_mm3": 204124.56966387428,
+      "new_volume_mm3": 205717.6274241155,
+      "added_mm3": 1593.0577757675987,
+      "removed_mm3": 0.0,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "part": "Cable2_Frame",
+      "old_volume_mm3": 204124.56966387405,
+      "new_volume_mm3": 205717.6274241156,
+      "added_mm3": 1593.0577757675978,
+      "removed_mm3": 0.0,
+      "valid": true,
+      "solids": 1
+    }
+  ],
+  "parts": [
+    {
+      "id": "P01",
+      "file": "LowerCenter_A14_DRAFT.stl",
+      "quantity": 1,
+      "material": "SLS3201PA-F",
+      "changed": false,
+      "sha256": "bfc6b32c6e7be167b0908f91b0d0fa07581f472301412f922693d503b7777353",
+      "replaces_file": null,
+      "changed_from_A15": false,
+      "changed_from_A16": false
+    },
+    {
+      "id": "P02",
+      "file": "UpperLeft_A14_DRAFT.stl",
+      "quantity": 1,
+      "material": "SLS3201PA-F",
+      "changed": false,
+      "sha256": "33c6917d76ab4290d491c76cbf92f39b1b000e456917197b16d9abc9e8956211",
+      "replaces_file": null,
+      "changed_from_A15": false,
+      "changed_from_A16": false
+    },
+    {
+      "id": "P03",
+      "file": "LowerKeeper_FREE_DRAFT.stl",
+      "quantity": 1,
+      "material": "SLS3201PA-F",
+      "changed": false,
+      "sha256": "178cc4b861b3578b68d134eaaa5b24c906b6e820e7283d3c8997f598a31f200c",
+      "replaces_file": null,
+      "changed_from_A15": false,
+      "changed_from_A16": false
+    },
+    {
+      "id": "P04",
+      "file": "UpperKeeper_FREE_DRAFT.stl",
+      "quantity": 1,
+      "material": "SLS3201PA-F",
+      "changed": false,
+      "sha256": "7a9238360fef5088b8bcc252fb72cfc2d20c59e782aa1c06b27c3cec39f95cad",
+      "replaces_file": null,
+      "changed_from_A15": false,
+      "changed_from_A16": false
+    },
+    {
+      "id": "P05",
+      "file": "BaseCenter_A16_DRAFT.stl",
+      "quantity": 1,
+      "material": "9600 Resin",
+      "changed": true,
+      "sha256": "62e2934ea7836a6003ca0cb7cd81388e619a5d61f9e9cb8fe3274c401354f149",
+      "replaces_file": "BaseCenter_A14_DRAFT.stl",
+      "changed_from_A15": true,
+      "changed_from_A16": false
+    },
+    {
+      "id": "P06",
+      "file": "C10_Frame_DRAFT.stl",
+      "quantity": 2,
+      "material": "9600 Resin",
+      "changed": true,
+      "sha256": "0573aa61947a964f5e2f5eb0e175b293fa1e46fd24aff2bda242d501ffefdcfe",
+      "replaces_file": "C07_Frame_DRAFT.stl",
+      "changed_from_A15": true,
+      "changed_from_A16": true
+    },
+    {
+      "id": "P07",
+      "file": "C07_DriveYoke_DRAFT.stl",
+      "quantity": 2,
+      "material": "9600 Resin",
+      "changed": false,
+      "sha256": "8bed8235b55fcb8f6ffa9182ad031c43cec80a77c70bc72ccfb1fa1110a93868",
+      "replaces_file": null,
+      "changed_from_A15": false,
+      "changed_from_A16": false
+    },
+    {
+      "id": "P08",
+      "file": "C07_TopBridgeJaw_DRAFT.stl",
+      "quantity": 2,
+      "material": "9600 Resin",
+      "changed": false,
+      "sha256": "46a284515d61f4bf7b3134a6dcedd5d5f0af36cbed1698a831445530edf38b36",
+      "replaces_file": null,
+      "changed_from_A15": false,
+      "changed_from_A16": false
+    },
+    {
+      "id": "P09",
+      "file": "C07_Jaw1_DRAFT.stl",
+      "quantity": 2,
+      "material": "SLS3201PA-F",
+      "changed": false,
+      "sha256": "49cc91a2fdbb6efb1b4a3368edf535df3927171beb0e7b3c939a4f2408cd0fe6",
+      "replaces_file": null,
+      "changed_from_A15": false,
+      "changed_from_A16": false
+    },
+    {
+      "id": "P10",
+      "file": "C07_Jaw2_DRAFT.stl",
+      "quantity": 2,
+      "material": "SLS3201PA-F",
+      "changed": false,
+      "sha256": "35cd0f5320cec7596fcd31e1c385168b7d82897c6d302644b3c9afa8f23cf8b0",
+      "replaces_file": null,
+      "changed_from_A15": false,
+      "changed_from_A16": false
+    },
+    {
+      "id": "P11",
+      "file": "LowerArmLeft_A14_DRAFT.stl",
+      "quantity": 1,
+      "material": "9600 Resin",
+      "changed": false,
+      "sha256": "33c5f3c9a00b302090f6a2cd49e394cc2c4503219de38c150ce064c4c9af4449",
+      "replaces_file": null,
+      "changed_from_A15": false,
+      "changed_from_A16": false
+    },
+    {
+      "id": "P12",
+      "file": "LowerArmRight_A14_DRAFT.stl",
+      "quantity": 1,
+      "material": "9600 Resin",
+      "changed": false,
+      "sha256": "290adebcb95725a36c461ac2f1a94c1880c141a50409dec644721598aeedb670",
+      "replaces_file": null,
+      "changed_from_A15": false,
+      "changed_from_A16": false
+    },
+    {
+      "id": "P13",
+      "file": "UpperRight_A14_DRAFT.stl",
+      "quantity": 1,
+      "material": "SLS3201PA-F",
+      "changed": false,
+      "sha256": "a0ba5e16168e59a429124aa15f7c61df35ed67524cfe18e1442b5ab760229caa",
+      "replaces_file": null,
+      "changed_from_A15": false,
+      "changed_from_A16": false
+    },
+    {
+      "id": "P14",
+      "file": "BaseFront_A16_DRAFT.stl",
+      "quantity": 1,
+      "material": "9600 Resin",
+      "changed": true,
+      "sha256": "24e4fbbfb20ac2a814a53412747a9b4f3c05f7f5e9f6b2374b9873a4c09d1030",
+      "replaces_file": "BaseFront_A14_DRAFT.stl",
+      "changed_from_A15": true,
+      "changed_from_A16": false
+    },
+    {
+      "id": "P15",
+      "file": "BaseRear_A15_DRAFT.stl",
+      "quantity": 1,
+      "material": "9600 Resin",
+      "changed": true,
+      "sha256": "2fb6ef77b602fb1b4f2075d6ab38f99649d9cad61dcb1f8dd6d614a717cac03b",
+      "replaces_file": "BaseRear_A14_DRAFT.stl",
+      "changed_from_A15": false,
+      "changed_from_A16": false
+    }
+  ],
+  "fastener_changes": [],
+  "material_changes": [],
+  "fillet_radius_mm": 2.5,
+  "inner_root_radius_mm": 0.75,
+  "root_end_radius_mm": 0.75,
+  "root_end_edge_count": 24,
+  "original_edge_bounds_mm": [
+    [
+      -37.7,
+      5.0,
+      17.0,
+      -37.7,
+      20.0,
+      17.0
+    ],
+    [
+      37.7,
+      5.0,
+      17.0,
+      37.7,
+      20.0,
+      17.0
+    ],
+    [
+      -60.3,
+      5.0,
+      17.0,
+      -60.3,
+      20.0,
+      17.0
+    ],
+    [
+      60.3,
+      5.0,
+      17.0,
+      60.3,
+      20.0,
+      17.0
+    ]
+  ],
+  "web_extension_boxes_mm": [
+    [
+      -44,
+      12,
+      12,
+      13,
+      12.5,
+      5
+    ],
+    [
+      31,
+      12,
+      12,
+      13,
+      12.5,
+      5
+    ]
+  ],
+  "source_native_unchanged": true,
+  "limits": [
+    "Separate saved-CAD assembly checks and structural simulations are required.",
+    "Not a physical strength or RF qualification.",
+    "No supplier action or manufacturing approval performed."
+  ]
+}

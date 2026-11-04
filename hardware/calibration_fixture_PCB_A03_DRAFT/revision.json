@@ -1,0 +1,16 @@
+{
+  "data_kind": "CALCULATED",
+  "status": "DRAFT - NOT FOR FABRICATION",
+  "old_name": "RFCP_Fixture_Flat_A02_DRAFT",
+  "new_name": "RFCP_Fixture_Flat_A03_DRAFT",
+  "library": "Fixture.pretty",
+  "old_label": "A02",
+  "new_label": "A03",
+  "revision": "A0.3",
+  "source_directory": "calibration_fixture_PCB_A02",
+  "source_hashes": {
+    "RFCP_Fixture_Flat_A02_DRAFT.kicad_pcb": "c148d6bf5d71da9dff32b5e93b917266076ec98e5edab353ca737e3c02134783",
+    "RFCP_Fixture_Flat_A02_DRAFT.kicad_pro": "29d34eb65e118cbc826de609dba467c9a6cf61547bf49b22c291ef61f51ede6a",
+    "RFCP_Fixture_Flat_A02_DRAFT.kicad_sch": "db094661356b8ffe788d4916f7211540988342e9262fe5e90a41c8c6b73425a8"
+  }
+}

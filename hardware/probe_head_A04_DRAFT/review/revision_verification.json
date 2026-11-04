@@ -1,0 +1,70 @@
+{
+  "data_kind": "CALCULATED_NOT_MEASURED",
+  "source_pcb_sha256": "38a257380bd70205c55be3fff8bcf504889c01ce60fa83e79403088546b68808",
+  "external_outline_windows_thickness_identical": true,
+  "footprints_pad_perimeters_coordinates_nets_identical": true,
+  "signal_tracks_and_vias_identical": true,
+  "gerber_outline_commands_identical": true,
+  "erc_drc_parity_unconnected_ignored_all_zero": true,
+  "drill_coordinates_match_saved_board": true,
+  "pth_count": 13,
+  "npth_count": 2,
+  "review_zip_byte_matches_exports": true,
+  "review_zip_sha256": "16f426064c1f2fde5fc03e98f7b80252a491f7d155a4cef00b44b4ef9fad8c81",
+  "intentional_hole_changes": [
+    {
+      "reference": "J1",
+      "pad": "1",
+      "xy": [
+        18.0,
+        13.0
+      ],
+      "old": 1.5,
+      "new": 1.7
+    },
+    {
+      "reference": "J1",
+      "pad": "2",
+      "xy": [
+        15.46,
+        10.46
+      ],
+      "old": 1.7,
+      "new": 1.9
+    },
+    {
+      "reference": "J1",
+      "pad": "2",
+      "xy": [
+        15.46,
+        15.54
+      ],
+      "old": 1.7,
+      "new": 1.9
+    },
+    {
+      "reference": "J1",
+      "pad": "2",
+      "xy": [
+        20.54,
+        10.46
+      ],
+      "old": 1.7,
+      "new": 1.9
+    },
+    {
+      "reference": "J1",
+      "pad": "2",
+      "xy": [
+        20.54,
+        15.54
+      ],
+      "old": 1.7,
+      "new": 1.9
+    }
+  ],
+  "limitations": [
+    "No RF response, solder joint strength, pin straightness or physical fit is certified by ERC/DRC.",
+    "No JLC submission or fabrication approval follows from this check."
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "data_kind": "CALCULATED",
+  "method": "Independent checks on saved FreeCAD assemblies; no regeneration or fabrication changes.",
+  "source_sha256": {
+    "A01": "525b6e8698ab6084b8c7c58e07206f2ee8045841244c1a01d37275b4af391ee2",
+    "A02": "3ac103da890b9f00fb0ea9693ab19197f76d9b953bc25a0413eb59d2dea5dc46"
+  },
+  "freecad_version": [
+    "1",
+    "0",
+    "2"
+  ],
+  "aperture_cylinder_mm": {
+    "radius": 15,
+    "z_start": 0,
+    "length": 12.7
+  },
+  "aperture_copper": {
+    "SignalCopper": {
+      "common_volume_mm3": 6.104324699216534,
+      "valid": true,
+      "solids": 1
+    },
+    "ReturnCopper": {
+      "common_volume_mm3": 0.0,
+      "valid": true,
+      "solids": 1
+    }
+  },
+  "signal_return_clearance_mm": 0.35050025917084593,
+  "closed_pcb_head": {
+    "overlap_mm3": 0.0,
+    "clearance_mm": 2.0
+  },
+  "motion_with_two_assumed_plugs": [
+    {
+      "degrees": 0,
+      "overlap_mm3": 0.0,
+      "clearance_mm": 6.016479452304313
+    },
+    {
+      "degrees": 5,
+      "overlap_mm3": 0.0,
+      "clearance_mm": 6.508997456626106
+    },
+    {
+      "degrees": 10,
+      "overlap_mm3": 0.0,
+      "clearance_mm": 6.508997456626099
+    },
+    {
+      "degrees": 15,
+      "overlap_mm3": 0.0,
+      "clearance_mm": 6.508997456626099
+    },
+    {
+      "degrees": 20,
+      "overlap_mm3": 0.0,
+      "clearance_mm": 6.508997456626106
+    },
+    {
+      "degrees": 25,
+      "overlap_mm3": 0.0,
+      "clearance_mm": 6.508997456626099
+    },
+    {
+      "degrees": 30,
+      "overlap_mm3": 0.0,
+      "clearance_mm": 6.508997456626106
+    },
+    {
+      "degrees": 35,
+      "overlap_mm3": 0.0,
+      "clearance_mm": 6.508997456626097
+    },
+    {
+      "degrees": 40,
+      "overlap_mm3": 0.0,
+      "clearance_mm": 6.5089974566260915
+    },
+    {
+      "degrees": 45,
+      "overlap_mm3": 0.0,
+      "clearance_mm": 6.508997456626099
+    },
+    {
+      "degrees": 50,
+      "overlap_mm3": 0.0,
+      "clearance_mm": 6.508997456626097
+    },
+    {
+      "degrees": 55,
+      "overlap_mm3": 0.0,
+      "clearance_mm": 6.5089974566260995
+    },
+    {
+      "degrees": 60,
+      "overlap_mm3": 0.0,
+      "clearance_mm": 6.508997456626096
+    },
+    {
+      "degrees": 65,
+      "overlap_mm3": 0.0,
+      "clearance_mm": 6.508997456626098
+    },
+    {
+      "degrees": 70,
+      "overlap_mm3": 0.0,
+      "clearance_mm": 6.278487595471085
+    },
+    {
+      "degrees": 75,
+      "overlap_mm3": 0.0,
+      "clearance_mm": 5.986478033434981
+    },
+    {
+      "degrees": 80,
+      "overlap_mm3": 0.0,
+      "clearance_mm": 5.756413355137247
+    },
+    {
+      "degrees": 85,
+      "overlap_mm3": 0.0,
+      "clearance_mm": 5.597775798622929
+    },
+    {
+      "degrees": 90,
+      "overlap_mm3": 0.0,
+      "clearance_mm": 4.91
+    }
+  ],
+  "plug_assumption": {
+    "diameter_mm": 12,
+    "length_mm": 30,
+    "axis": "+Y",
+    "start_y_mm": 9.2
+  },
+  "retained_support_volume_match_A01": {
+    "Base": true,
+    "HeadBracket": true
+  },
+  "base_screw_comparison_mm": {
+    "female_depth_nominal": 10,
+    "existing_M3x12_engagement": 9.4,
+    "existing_end_margin": 0.6,
+    "candidate_M3x10_engagement": 7.4,
+    "candidate_end_margin": 2.6
+  },
+  "limitations": [
+    "Nominal geometry; no tolerance, load/torque/creep, solder or RF checks.",
+    "Motion sampled every 5 degrees, not a continuous sweep.",
+    "Plug envelopes are assumptions, not actual purchased cable dimensions.",
+    "M3x10 alternative is arithmetic only, not substituted into the CAD."
+  ],
+  "pass": true
+}

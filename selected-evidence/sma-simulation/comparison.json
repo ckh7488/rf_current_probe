@@ -1,0 +1,262 @@
+{
+  "classification": "SIMULATED_DRAWING_BASED_APPROXIMATION_NOT_MEASURED",
+  "runs": {
+    "vertical": "vertical_3g_12ns",
+    "right_angle": "ra_3g_12ns"
+  },
+  "anchors": [
+    {
+      "frequency_Hz": 1000000.0,
+      "vertical_S11_db": -58.65346596209867,
+      "right_angle_S11_db": -58.5404727396833,
+      "vertical_S21_db": -0.003034810147123659,
+      "right_angle_S21_db": -0.0028756569719401437,
+      "delta_S21_db": 0.00015915317518457067,
+      "delta_S21_phase_deg": -0.027822650199563606,
+      "vertical_K_db": -0.0006758673201941939,
+      "right_angle_K_db": -0.0008525976833616316,
+      "delta_K_db": -0.0001767303631684239,
+      "delta_K_phase_deg": 0.013249074421701087
+    },
+    {
+      "frequency_Hz": 10000000.0,
+      "vertical_S11_db": -39.02426977585283,
+      "right_angle_S11_db": -38.85593951489443,
+      "vertical_S21_db": -0.0035788188090862096,
+      "right_angle_S21_db": -0.003449329580194424,
+      "delta_S21_db": 0.00012948922888951253,
+      "delta_S21_phase_deg": -0.27821170163041287,
+      "vertical_K_db": 0.0003739716333773582,
+      "right_angle_K_db": 0.00015293383215767855,
+      "delta_K_db": -0.0002210378012214343,
+      "delta_K_phase_deg": 0.1324942813900995
+    },
+    {
+      "frequency_Hz": 30000000.0,
+      "vertical_S11_db": -29.433895155665862,
+      "right_angle_S11_db": -29.26971047534783,
+      "vertical_S21_db": -0.008037672462500136,
+      "right_angle_S21_db": -0.008140215598707453,
+      "delta_S21_db": -0.00010254313621004526,
+      "delta_S21_phase_deg": -0.8342832528317141,
+      "vertical_K_db": 0.008821372535350093,
+      "right_angle_K_db": 0.008239880731680414,
+      "delta_K_db": -0.0005814918036727318,
+      "delta_K_phase_deg": 0.3975730308547133
+    },
+    {
+      "frequency_Hz": 100000000.0,
+      "vertical_S11_db": -18.420058627000746,
+      "right_angle_S11_db": -18.301617456734924,
+      "vertical_S21_db": -0.0666864668196061,
+      "right_angle_S21_db": -0.068644570252016,
+      "delta_S21_db": -0.0019581034324083987,
+      "delta_S21_phase_deg": -2.769910575569498,
+      "vertical_K_db": 0.1012260942040074,
+      "right_angle_K_db": 0.09637175024150016,
+      "delta_K_db": -0.004854343962505024,
+      "delta_K_phase_deg": 1.3301415513153487
+    },
+    {
+      "frequency_Hz": 150000000.0,
+      "vertical_S11_db": -14.21715870804054,
+      "right_angle_S11_db": -14.145561769369037,
+      "vertical_S21_db": -0.17189190560350756,
+      "right_angle_S21_db": -0.17478894563498343,
+      "delta_S21_db": -0.002897040031476535,
+      "delta_S21_phase_deg": -4.13842981254916,
+      "vertical_K_db": 0.22074044230554343,
+      "right_angle_K_db": 0.21011074303974256,
+      "delta_K_db": -0.010629699265799274,
+      "delta_K_phase_deg": 2.008998023156292
+    },
+    {
+      "frequency_Hz": 200000000.0,
+      "vertical_S11_db": -10.917755544693172,
+      "right_angle_S11_db": -10.892674035088989,
+      "vertical_S21_db": -0.37067166295304366,
+      "right_angle_S21_db": -0.3727046232780643,
+      "delta_S21_db": -0.002032960325021136,
+      "delta_S21_phase_deg": -5.494860144605843,
+      "vertical_K_db": 0.3788122116151596,
+      "right_angle_K_db": 0.36124807155038985,
+      "delta_K_db": -0.01756414006477027,
+      "delta_K_phase_deg": 2.7057985297964104
+    },
+    {
+      "frequency_Hz": 300000000.0,
+      "vertical_S11_db": -5.948748613391053,
+      "right_angle_S11_db": -5.9874293395883695,
+      "vertical_S21_db": -1.2796669859336771,
+      "right_angle_S21_db": -1.266781304379088,
+      "delta_S21_db": 0.012885681554588121,
+      "delta_S21_phase_deg": -8.200857062585776,
+      "vertical_K_db": 0.7778195457981569,
+      "right_angle_K_db": 0.7474331466055272,
+      "delta_K_db": -0.030386399192631263,
+      "delta_K_phase_deg": 4.147733402889122
+    },
+    {
+      "frequency_Hz": 500000000.0,
+      "vertical_S11_db": -1.2772397557048776,
+      "right_angle_S11_db": -1.2988767344907965,
+      "vertical_S21_db": -6.048254306324216,
+      "right_angle_S21_db": -5.99007111977368,
+      "delta_S21_db": 0.05818318655053726,
+      "delta_S21_phase_deg": -14.170574360955827,
+      "vertical_K_db": 1.6379893385548907,
+      "right_angle_K_db": 1.5992118811018372,
+      "delta_K_db": -0.03877745745305271,
+      "delta_K_phase_deg": 7.170244431983476
+    }
+  ],
+  "maximum_absolute_delta": {
+    "1_to_150_MHz": {
+      "delta_S21_db": 0.002897040031476535,
+      "delta_S21_phase_deg": 4.13842981254916,
+      "delta_K_db": 0.010629699265799274,
+      "delta_K_phase_deg": 2.008998023156292
+    },
+    "1_to_200_MHz": {
+      "delta_S21_db": 0.0029194332272635087,
+      "delta_S21_phase_deg": 5.494860144605843,
+      "delta_K_db": 0.01756414006477027,
+      "delta_K_phase_deg": 2.7057985297964104
+    },
+    "1_to_500_MHz": {
+      "delta_S21_db": 0.059017060409544235,
+      "delta_S21_phase_deg": 14.170574360955827,
+      "delta_K_db": 0.040341007374726644,
+      "delta_K_phase_deg": 7.170244431983476
+    }
+  },
+  "quality": {
+    "vertical": {
+      "classification": "NUMERICAL_CHECKS_NOT_MEASURED",
+      "run": "vertical_3g_12ns",
+      "raw_reduction_complex_error": {
+        "S11": 1.1443916996305594e-16,
+        "S21": 0.0,
+        "K": 0.0
+      },
+      "recorded_stop_ns": 6.44358526736,
+      "power_fraction_min": 0.9936185962745815,
+      "power_fraction_max": 0.9993028167315309,
+      "passivity_excess_max": 0.0,
+      "windows": [
+        {
+          "fraction": 0.8,
+          "stop_ns": 5.154868213888,
+          "S11_max_window_change_db_to_150MHz": 0.11946025913379359,
+          "S11_max_window_change_deg_to_150MHz": 2.462561907864125,
+          "S11_max_window_change_db_to_200MHz": 0.11946025913379359,
+          "S11_max_window_change_deg_to_200MHz": 2.462561907864125,
+          "S11_max_window_change_db_to_500MHz": 0.11946025913379359,
+          "S11_max_window_change_deg_to_500MHz": 2.462561907864125,
+          "S21_max_window_change_db_to_150MHz": 0.0010563615220504927,
+          "S21_max_window_change_deg_to_150MHz": 0.008739538731332163,
+          "S21_max_window_change_db_to_200MHz": 0.001893112902094605,
+          "S21_max_window_change_deg_to_200MHz": 0.008739538731332163,
+          "S21_max_window_change_db_to_500MHz": 0.005250019918125937,
+          "S21_max_window_change_deg_to_500MHz": 0.04434899061446529,
+          "K_max_window_change_db_to_150MHz": 0.003617425504968683,
+          "K_max_window_change_deg_to_150MHz": 0.023474750352655657,
+          "K_max_window_change_db_to_200MHz": 0.003617425504968683,
+          "K_max_window_change_deg_to_200MHz": 0.023474750352655657,
+          "K_max_window_change_db_to_500MHz": 0.003617425504968683,
+          "K_max_window_change_deg_to_500MHz": 0.023474750352655657
+        },
+        {
+          "fraction": 0.9,
+          "stop_ns": 5.7992267406239995,
+          "S11_max_window_change_db_to_150MHz": 0.1993261979586327,
+          "S11_max_window_change_deg_to_150MHz": 6.119504897670629,
+          "S11_max_window_change_db_to_200MHz": 0.1993261979586327,
+          "S11_max_window_change_deg_to_200MHz": 6.119504897670629,
+          "S11_max_window_change_db_to_500MHz": 0.1993261979586327,
+          "S11_max_window_change_deg_to_500MHz": 6.119504897670629,
+          "S21_max_window_change_db_to_150MHz": 0.0016592486870471103,
+          "S21_max_window_change_deg_to_150MHz": 0.010912221814659088,
+          "S21_max_window_change_db_to_200MHz": 0.0016592486870471103,
+          "S21_max_window_change_deg_to_200MHz": 0.011026209144170135,
+          "S21_max_window_change_db_to_500MHz": 0.002364253640941962,
+          "S21_max_window_change_deg_to_500MHz": 0.01827200502935463,
+          "K_max_window_change_db_to_150MHz": 0.0003677471761298829,
+          "K_max_window_change_deg_to_150MHz": 0.0016873761500643173,
+          "K_max_window_change_db_to_200MHz": 0.0003677471761298829,
+          "K_max_window_change_deg_to_200MHz": 0.003182087923078793,
+          "K_max_window_change_db_to_500MHz": 0.0014321119026484896,
+          "K_max_window_change_deg_to_500MHz": 0.00993786711519304
+        }
+      ],
+      "nested_max_pct_to_150MHz": 0.013265223906462663,
+      "nested_max_pct_to_200MHz": 0.02371282588007555
+    },
+    "right_angle": {
+      "classification": "NUMERICAL_CHECKS_NOT_MEASURED",
+      "run": "ra_3g_12ns",
+      "raw_reduction_complex_error": {
+        "S11": 1.3877787807814457e-16,
+        "S21": 0.0,
+        "K": 0.0
+      },
+      "recorded_stop_ns": 6.48515678521,
+      "power_fraction_min": 0.9932655695264886,
+      "power_fraction_max": 0.9993394741166518,
+      "passivity_excess_max": 0.0,
+      "windows": [
+        {
+          "fraction": 0.8,
+          "stop_ns": 5.188125428168001,
+          "S11_max_window_change_db_to_150MHz": 0.21565230170397665,
+          "S11_max_window_change_deg_to_150MHz": 4.6605707548182265,
+          "S11_max_window_change_db_to_200MHz": 0.21565230170397665,
+          "S11_max_window_change_deg_to_200MHz": 4.6605707548182265,
+          "S11_max_window_change_db_to_500MHz": 0.21565230170397665,
+          "S11_max_window_change_deg_to_500MHz": 4.6605707548182265,
+          "S21_max_window_change_db_to_150MHz": 0.0010142721488466502,
+          "S21_max_window_change_deg_to_150MHz": 0.0075535616284772905,
+          "S21_max_window_change_db_to_200MHz": 0.0016956166166357772,
+          "S21_max_window_change_deg_to_200MHz": 0.0075535616284772905,
+          "S21_max_window_change_db_to_500MHz": 0.005074990919150991,
+          "S21_max_window_change_deg_to_500MHz": 0.043322406626289015,
+          "K_max_window_change_db_to_150MHz": 0.003654289617587291,
+          "K_max_window_change_deg_to_150MHz": 0.02367973878498087,
+          "K_max_window_change_db_to_200MHz": 0.003654289617587291,
+          "K_max_window_change_deg_to_200MHz": 0.02367973878498087,
+          "K_max_window_change_db_to_500MHz": 0.003654289617587291,
+          "K_max_window_change_deg_to_500MHz": 0.02367973878498087
+        },
+        {
+          "fraction": 0.9,
+          "stop_ns": 5.836641106689,
+          "S11_max_window_change_db_to_150MHz": 0.17758228162789613,
+          "S11_max_window_change_deg_to_150MHz": 6.055402960671219,
+          "S11_max_window_change_db_to_200MHz": 0.17758228162789613,
+          "S11_max_window_change_deg_to_200MHz": 6.055402960671219,
+          "S11_max_window_change_db_to_500MHz": 0.17758228162789613,
+          "S11_max_window_change_deg_to_500MHz": 6.055402960671219,
+          "S21_max_window_change_db_to_150MHz": 0.0015061763065164079,
+          "S21_max_window_change_deg_to_150MHz": 0.009886988031522291,
+          "S21_max_window_change_db_to_200MHz": 0.0015061763065164079,
+          "S21_max_window_change_deg_to_200MHz": 0.010046078214220187,
+          "S21_max_window_change_db_to_500MHz": 0.002289486092888528,
+          "S21_max_window_change_deg_to_500MHz": 0.017829248050971264,
+          "K_max_window_change_db_to_150MHz": 0.0004522983665152652,
+          "K_max_window_change_deg_to_150MHz": 0.002020750127424095,
+          "K_max_window_change_db_to_200MHz": 0.0004522983665152652,
+          "K_max_window_change_deg_to_200MHz": 0.003934454316202983,
+          "K_max_window_change_db_to_500MHz": 0.0019353379956977388,
+          "K_max_window_change_deg_to_500MHz": 0.011296479702113081
+        }
+      ],
+      "nested_max_pct_to_150MHz": 0.013358110258327368,
+      "nested_max_pct_to_200MHz": 0.023851567084134953
+    }
+  },
+  "limitations": [
+    "Unknown internal geometry and board/body seating are sensitivity assumptions.",
+    "No manufactured connector S2P, physical loss, solder mask, winding or bench is represented.",
+    "Forward S11/S21 only; a full 2-port Touchstone matrix is not fabricated from uncomputed reverse data."
+  ]
+}

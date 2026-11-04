@@ -1,0 +1,3652 @@
+{
+  "snapshot_at": "2026-11-04T09:06:45.445562+00:00",
+  "files": [
+    {
+      "path": "docs/3D_PRINT_RELEASE_A16_C09.md",
+      "source": "E:\\Current_Probe\\docs\\3D_PRINT_RELEASE_A16_C09.md",
+      "source_sha256": "420f4e179591250e9911396ef58dfa6e370135f15b9e3e983d1940c4da596cf7",
+      "bytes": 10112
+    },
+    {
+      "path": "docs/3D_PRINT_RELEASE_A17_C10.md",
+      "source": "E:\\Current_Probe\\docs\\3D_PRINT_RELEASE_A17_C10.md",
+      "source_sha256": "797a1dab76a496442709590c0529824e31e8151cc5ceef26709d4a12c3e3f4f6",
+      "bytes": 3388
+    },
+    {
+      "path": "docs/3D_PRINT_RELEASE_A18_C10.md",
+      "source": "E:\\Current_Probe\\docs\\3D_PRINT_RELEASE_A18_C10.md",
+      "source_sha256": "95c75102f2f8efc0fa8170b14b38de274e93baa4041d23f73ab3f08d7be09e90",
+      "bytes": 2493
+    },
+    {
+      "path": "docs/3D_PRINT_RELEASE_A19.md",
+      "source": "E:\\Current_Probe\\docs\\3D_PRINT_RELEASE_A19.md",
+      "source_sha256": "0241334a3da903c2becbcf3ffef044a3696f028696696654f0919831b2f4a7ad",
+      "bytes": 3217
+    },
+    {
+      "path": "docs/A05_USAGE_VIEWER.md",
+      "source": "E:\\Current_Probe\\docs\\A05_USAGE_VIEWER.md",
+      "source_sha256": "e499dd10e933a9cedf38d416c5cb7b9e09fe16bcf48145169eae40af002297a7",
+      "bytes": 4159
+    },
+    {
+      "path": "docs/ASSEMBLY_CONSTRAINTS_20260917.md",
+      "source": "E:\\Current_Probe\\docs\\ASSEMBLY_CONSTRAINTS_20260917.md",
+      "source_sha256": "3d87f14507d171f119666146d19134b7b34917393a6a01b74b25b3ff185e9cad",
+      "bytes": 1537
+    },
+    {
+      "path": "docs/ATLAS_A02_DESIGN_REVIEW.md",
+      "source": "E:\\Current_Probe\\docs\\ATLAS_A02_DESIGN_REVIEW.md",
+      "source_sha256": "875975ef023365bf25a1b2d38ecf11499a567b70435abf93bfdcfd4668be616f",
+      "bytes": 9812
+    },
+    {
+      "path": "docs/ATLAS_CURRENT_PROBE_DRAFT.md",
+      "source": "E:\\Current_Probe\\docs\\ATLAS_CURRENT_PROBE_DRAFT.md",
+      "source_sha256": "40bcc6c9e62b5774e36ec9f2d23629fc33c849300d6f997c6c57ae2ba4502a5d",
+      "bytes": 1221
+    },
+    {
+      "path": "docs/BOM_DRAFT.md",
+      "source": "E:\\Current_Probe\\docs\\BOM_DRAFT.md",
+      "source_sha256": "62332e34456028a9c49758fcfbb2364a63394164793ef879b113f14166dd3c7f",
+      "bytes": 19626
+    },
+    {
+      "path": "docs/BUILD_READINESS_20260917.md",
+      "source": "E:\\Current_Probe\\docs\\BUILD_READINESS_20260917.md",
+      "source_sha256": "f2a0cb1e9b29901d20c8b9af41839824a18dd326861efb15c72a2668848238d8",
+      "bytes": 10773
+    },
+    {
+      "path": "docs/CABLE_CENTERING_CONCEPT.md",
+      "source": "E:\\Current_Probe\\docs\\CABLE_CENTERING_CONCEPT.md",
+      "source_sha256": "7bd174e392dc485bfd331ea3079064178d04e310ac1bfe3b17eac53d27e83164",
+      "bytes": 5882
+    },
+    {
+      "path": "docs/CLAMP_SIMPLIFICATION_BRIEF.md",
+      "source": "E:\\Current_Probe\\docs\\CLAMP_SIMPLIFICATION_BRIEF.md",
+      "source_sha256": "49f94b879ef430ab70c3b4495fc9c9f16fbd818b379e4bf78f69dc207cc5cc28",
+      "bytes": 7801
+    },
+    {
+      "path": "docs/CURRENT_BUILD.md",
+      "source": "E:\\Current_Probe\\docs\\CURRENT_BUILD.md",
+      "source_sha256": "1811cab5547324768080e42753993fe7a96838ba0ad2c79327916681ac5a8ae3",
+      "bytes": 4584
+    },
+    {
+      "path": "docs/CURRENT_READINESS.md",
+      "source": "E:\\Current_Probe\\docs\\CURRENT_READINESS.md",
+      "source_sha256": "9bff253a173508820923f0eb5b51e016d8aec6f707affcb9c0d878bd2399a9a1",
+      "bytes": 5385
+    },
+    {
+      "path": "docs/DECISIONS.md",
+      "source": "E:\\Current_Probe\\docs\\DECISIONS.md",
+      "source_sha256": "3907bda3b20ba3a1edcd6597a6ecaeefe1786c7b26ab21216cd2c655076e6454",
+      "bytes": 141747
+    },
+    {
+      "path": "docs/DOCUMENT_INDEX.md",
+      "source": "E:\\Current_Probe\\docs\\DOCUMENT_INDEX.md",
+      "source_sha256": "6941596e35441b6beb171a9a9a1de514267ee322fe00c1f3136c436746897970",
+      "bytes": 3753
+    },
+    {
+      "path": "docs/END_TO_END_REHEARSAL.md",
+      "source": "E:\\Current_Probe\\docs\\END_TO_END_REHEARSAL.md",
+      "source_sha256": "9538dca2ce252302e385f33d3eaeb8bf90d9a9c8e6258c5435203c782d9a0b02",
+      "bytes": 19662
+    },
+    {
+      "path": "docs/G1_APERTURE_REVIEW.md",
+      "source": "E:\\Current_Probe\\docs\\G1_APERTURE_REVIEW.md",
+      "source_sha256": "1d61c5208128a44aa4e25d145aba4b607805d60a6d22fad3288cd928c9665926",
+      "bytes": 7532
+    },
+    {
+      "path": "docs/G1_FIXTURE_REVIEW.md",
+      "source": "E:\\Current_Probe\\docs\\G1_FIXTURE_REVIEW.md",
+      "source_sha256": "33294f12a32d5e09cdbb1266e992e784bb9316a92ab68036ad668e6a775cc9cb",
+      "bytes": 8647
+    },
+    {
+      "path": "docs/G1_SPLIT_CORE_SELECTION.md",
+      "source": "E:\\Current_Probe\\docs\\G1_SPLIT_CORE_SELECTION.md",
+      "source_sha256": "692fe353c748b426ef44dd6a251918da2df1a6c1ceaf88ade87136ab84952623",
+      "bytes": 17124
+    },
+    {
+      "path": "docs/G2_BENCH_PROCEDURE.md",
+      "source": "E:\\Current_Probe\\docs\\G2_BENCH_PROCEDURE.md",
+      "source_sha256": "3fdb8d777db20c4c5f1815744f6fe7a16d2bb56417adbe223629f1d9891a3b4b",
+      "bytes": 16811
+    },
+    {
+      "path": "docs/G2_VERIFICATION.md",
+      "source": "E:\\Current_Probe\\docs\\G2_VERIFICATION.md",
+      "source_sha256": "399cd23cc3da523fc83b6060ebad42a346a07596d9bd7c0395d63a603262182a",
+      "bytes": 8033
+    },
+    {
+      "path": "docs/G3_PROTOTYPE_PACKAGE.md",
+      "source": "E:\\Current_Probe\\docs\\G3_PROTOTYPE_PACKAGE.md",
+      "source_sha256": "aa65881e3c7bb181356481e261dd1e7164da88745a3d565730b778785e349bcd",
+      "bytes": 5817
+    },
+    {
+      "path": "docs/INSTRUMENT_BASELINE.md",
+      "source": "E:\\Current_Probe\\docs\\INSTRUMENT_BASELINE.md",
+      "source_sha256": "ee76bac6f67b59db7b62f96af26a52a54eee93bc62842ba167072b31705f1f0e",
+      "bytes": 2545
+    },
+    {
+      "path": "docs/OPEN_CORE_HOLDER_REQUIREMENTS.md",
+      "source": "E:\\Current_Probe\\docs\\OPEN_CORE_HOLDER_REQUIREMENTS.md",
+      "source_sha256": "009d6146ff687140af6aa89c9d23aff8d36cac1a1a45204d845cfceea988ccef",
+      "bytes": 4062
+    },
+    {
+      "path": "docs/OPEN_DECISIONS.md",
+      "source": "E:\\Current_Probe\\docs\\OPEN_DECISIONS.md",
+      "source_sha256": "88073d64430c3fe9eb73e83a44243a0240649501ed2588c9de0b0748151b2d82",
+      "bytes": 7268
+    },
+    {
+      "path": "docs/PROTECTION_AND_PROCUREMENT.md",
+      "source": "E:\\Current_Probe\\docs\\PROTECTION_AND_PROCUREMENT.md",
+      "source_sha256": "884304db3a11e62b7206480ecd30d36ed61f02b75f9ec84705896a76951e1471",
+      "bytes": 9596
+    },
+    {
+      "path": "docs/REQUIREMENTS.csv",
+      "source": "E:\\Current_Probe\\docs\\REQUIREMENTS.csv",
+      "source_sha256": "4723028ca4ef3445b46242ee405f7cf756cb73079d0153b78d6e44052975f078",
+      "bytes": 30119
+    },
+    {
+      "path": "docs/RF_CURRENT_PROBE_WHITEPAPER.md",
+      "source": "E:\\Current_Probe\\docs\\RF_CURRENT_PROBE_WHITEPAPER.md",
+      "source_sha256": "6828d2bd4a111a89db59ef921e1e22e0b9efc3c88b2b5f885830f96e7f492429",
+      "bytes": 71809
+    },
+    {
+      "path": "docs/STATUS.md",
+      "source": "E:\\Current_Probe\\docs\\STATUS.md",
+      "source_sha256": "0b4e9b958ff5dfd6f0e0aedaf8daa02c12a70210fcabae6ddbd6ce374c4157b8",
+      "bytes": 5383
+    },
+    {
+      "path": "docs/current_build.json",
+      "source": "E:\\Current_Probe\\docs\\current_build.json",
+      "source_sha256": "49edd13a61d33331db2f90fa54f9397e8e127563eb85a8f14bff3fd0271d5a3b",
+      "bytes": 27685
+    },
+    {
+      "path": "docs/atlas/CAD_PRESENTATION_REVISION.md",
+      "source": "E:\\Current_Probe\\docs\\atlas\\CAD_PRESENTATION_REVISION.md",
+      "source_sha256": "3370c9327656c80f84d6fdf74e77a23d58504914c24562e0e456074ae571ea9d",
+      "bytes": 2306
+    },
+    {
+      "path": "docs/atlas/README.md",
+      "source": "E:\\Current_Probe\\docs\\atlas\\README.md",
+      "source_sha256": "98a1c5bc975e877b13a346e69ab9fb5c6305c5bf0461d01c16d8514d426dc526",
+      "bytes": 962
+    },
+    {
+      "path": "docs/atlas/align_pcb_procedure.py",
+      "source": "E:\\Current_Probe\\docs\\atlas\\align_pcb_procedure.py",
+      "source_sha256": "bf7a98775ee6c222cd08eac10c70a1cf8a305b7ca9219130ec959f25b9343277",
+      "bytes": 1633
+    },
+    {
+      "path": "docs/atlas/build_docs.py",
+      "source": "E:\\Current_Probe\\docs\\atlas\\build_docs.py",
+      "source_sha256": "c8059161c84a1bc570f92199f7faa693c7c42a38948cef09752d32fbd7ef202a",
+      "bytes": 9868
+    },
+    {
+      "path": "docs/atlas/build_report_assets.py",
+      "source": "E:\\Current_Probe\\docs\\atlas\\build_report_assets.py",
+      "source_sha256": "5fffaea674a88cf5c2a8c76ee93e7f5698876457f929a73be40332dade4c63fe",
+      "bytes": 16609
+    },
+    {
+      "path": "docs/atlas/export_cad_viewer.py",
+      "source": "E:\\Current_Probe\\docs\\atlas\\export_cad_viewer.py",
+      "source_sha256": "02e92ed8618c121330f673440504475548031fa61c11395f42e84407f5114548",
+      "bytes": 2627
+    },
+    {
+      "path": "docs/atlas/init_split_sources.py",
+      "source": "E:\\Current_Probe\\docs\\atlas\\init_split_sources.py",
+      "source_sha256": "f27030f119c48438ff49b09cb7094909184ca4628b206b6a9abb8e9a38eb5d53",
+      "bytes": 4534
+    },
+    {
+      "path": "docs/atlas/inspect_layout.cjs",
+      "source": "E:\\Current_Probe\\docs\\atlas\\inspect_layout.cjs",
+      "source_sha256": "551fa17566acd1c67f4a7d121e56956adf2f22fcd509d64f3a8f768f31a72f2a",
+      "bytes": 905
+    },
+    {
+      "path": "docs/atlas/publish_document_set.py",
+      "source": "E:\\Current_Probe\\docs\\atlas\\publish_document_set.py",
+      "source_sha256": "d0df998af2bb59826b8781df750b7fa1e7950624a39fc2206f98953a418dce92",
+      "bytes": 278
+    },
+    {
+      "path": "docs/atlas/record_cad_revision.py",
+      "source": "E:\\Current_Probe\\docs\\atlas\\record_cad_revision.py",
+      "source_sha256": "0c120999eb338d867761d3145f57b5917ace38991d3acbd683917d2ebdc53164",
+      "bytes": 6873
+    },
+    {
+      "path": "docs/atlas/render_current_cover.py",
+      "source": "E:\\Current_Probe\\docs\\atlas\\render_current_cover.py",
+      "source_sha256": "d4cdbb8f19c1193d8b7a4745b3694fb9f83de3633b0fb6a749075db7b9274023",
+      "bytes": 2098
+    },
+    {
+      "path": "docs/atlas/review_cad.cjs",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review_cad.cjs",
+      "source_sha256": "1db5fdc7bb2ba764b52b664987a10d85a96693209baaa2ad0355972d3904c526",
+      "bytes": 9170
+    },
+    {
+      "path": "docs/atlas/review_flat_cad.py",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review_flat_cad.py",
+      "source_sha256": "c7d98960f183df348da0b6d2d8733c565cbfc43fb8d98e5b773bb358c8a0afdb",
+      "bytes": 3941
+    },
+    {
+      "path": "docs/atlas/review_report.cjs",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review_report.cjs",
+      "source_sha256": "62b816647aeb07599575571fba1682fc15c722b80da31e8e72c90bcc1f907223",
+      "bytes": 5367
+    },
+    {
+      "path": "docs/atlas/update_atlas_doc.py",
+      "source": "E:\\Current_Probe\\docs\\atlas\\update_atlas_doc.py",
+      "source_sha256": "bfb11edc37657c42068ea2e2d13a59b78a4b6fc597c819f3b1e247b8051f29cb",
+      "bytes": 10349
+    },
+    {
+      "path": "docs/atlas/update_cad_presentation.py",
+      "source": "E:\\Current_Probe\\docs\\atlas\\update_cad_presentation.py",
+      "source_sha256": "9af7e2006de8705a49e2827e641bfc5e94e87cbf0c52e3c9deabf0a595f157fe",
+      "bytes": 6907
+    },
+    {
+      "path": "docs/atlas/update_flat_presentation.py",
+      "source": "E:\\Current_Probe\\docs\\atlas\\update_flat_presentation.py",
+      "source_sha256": "ee2f8cef8636c5329c99ee7e4952c67dab869245c516cca1a38c3ae742b286b8",
+      "bytes": 15342
+    },
+    {
+      "path": "docs/atlas/review/browser-checks.json",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\browser-checks.json",
+      "source_sha256": "6b3665363110c6008c431bcdddf0eaded59f923a94ca9a95c71d48880eabcb79",
+      "bytes": 379
+    },
+    {
+      "path": "docs/atlas/review/cad-publication.json",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\cad-publication.json",
+      "source_sha256": "dc6b31d48d58f07d6efdfa97a648118e7af9b96d439aeae03edbc7e68ed75abc",
+      "bytes": 219
+    },
+    {
+      "path": "docs/atlas/review/calibration-320.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\calibration-320.png",
+      "source_sha256": "0516f2624ef71b665bf83a4d3bc1c008a00c0f110f92f532b786b13919bb7645",
+      "bytes": 52490
+    },
+    {
+      "path": "docs/atlas/review/calibration-390.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\calibration-390.png",
+      "source_sha256": "2ac462b4583c38dca4a0eae6af30eefb77acd0ce542bf383163265b1e5a9e84b",
+      "bytes": 53665
+    },
+    {
+      "path": "docs/atlas/review/calibration-desktop.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\calibration-desktop.png",
+      "source_sha256": "f53255d32f3ee7b29a4f9250f09b7b776b603109a79176bc02aa61a066ecfa59",
+      "bytes": 68613
+    },
+    {
+      "path": "docs/atlas/review/catalog.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\catalog.png",
+      "source_sha256": "e0ef96d9fe7e32b4b9758d62c3cd634dff2ca1298e4d45db2590d410dd7ae752",
+      "bytes": 118906
+    },
+    {
+      "path": "docs/atlas/review/pcb-cad.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\pcb-cad.png",
+      "source_sha256": "833f56fb2bd039168516da656cf2744eae1c313de31ce0a516b782188cdd0155",
+      "bytes": 204938
+    },
+    {
+      "path": "docs/atlas/review/pcb-current-path.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\pcb-current-path.png",
+      "source_sha256": "af634a31152b6a0fbf122693337f62e2c3c12ef193022216df00ecba39c3aad1",
+      "bytes": 24112
+    },
+    {
+      "path": "docs/atlas/review/publication.json",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\publication.json",
+      "source_sha256": "bcf4e241312368c1325654cf2b07d66ba099824311fa4aa465820c5835c6c806",
+      "bytes": 440
+    },
+    {
+      "path": "docs/atlas/review/step-0.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\step-0.png",
+      "source_sha256": "7e8f587f97dd87f47401c089812a8f577dd2e57e830610f48a3123a93114f15d",
+      "bytes": 21929
+    },
+    {
+      "path": "docs/atlas/review/step-1.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\step-1.png",
+      "source_sha256": "c2cd3fce9fee03f3992305bafd48db5e224f5f5d1b916ffe085eae3d3b7d5930",
+      "bytes": 19675
+    },
+    {
+      "path": "docs/atlas/review/step-2.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\step-2.png",
+      "source_sha256": "6aad84489d352f715df96929fab6b5c46ff7c9df2f5b6bcb2bf0f182048bc192",
+      "bytes": 24037
+    },
+    {
+      "path": "docs/atlas/review/step-3.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\step-3.png",
+      "source_sha256": "908da588ab288767d9a0bc2fc7ebc58100df3096a860536fe907ce941cd2c865",
+      "bytes": 23502
+    },
+    {
+      "path": "docs/atlas/review/topology-320.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\topology-320.png",
+      "source_sha256": "d57aef4bc358de3204791bf408b76999f02c89365f246d4111645be491b76831",
+      "bytes": 44577
+    },
+    {
+      "path": "docs/atlas/review/topology-390.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\topology-390.png",
+      "source_sha256": "a5200757dbf8b503e78377cf2dcb3d8f437806042a7d6653aafe07811aa3d008",
+      "bytes": 43827
+    },
+    {
+      "path": "docs/atlas/review/topology-desktop.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\topology-desktop.png",
+      "source_sha256": "2c19e10061d27bf5ba7c384c2216359c3ab51dccb779277e32dfebba74f382fc",
+      "bytes": 60251
+    },
+    {
+      "path": "docs/atlas/review/a02-design/drc.json",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\a02-design\\drc.json",
+      "source_sha256": "1075ab6fe79364fa41a65a94772efb5e67f3e702a777bff9d20920a04fb0eea8",
+      "bytes": 423
+    },
+    {
+      "path": "docs/atlas/review/a02-design/erc.json",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\a02-design\\erc.json",
+      "source_sha256": "309bc4454b64d45689ce96d9997cc0ca130d53265ce62832c3c3cc7bfe144bbd",
+      "bytes": 511
+    },
+    {
+      "path": "docs/atlas/review/a02-design/independent-cad.json",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\a02-design\\independent-cad.json",
+      "source_sha256": "28f019594cf042b9c13c704783bfb3c1400a938cb47f43b82267613a3760e31f",
+      "bytes": 3658
+    },
+    {
+      "path": "docs/atlas/review/a02-design/pcb-summary.json",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\a02-design\\pcb-summary.json",
+      "source_sha256": "75e60dbfa1ef890dcb14ff18b781299d3646d268b04a8a4f3ccd217ff510b4d3",
+      "bytes": 471
+    },
+    {
+      "path": "docs/atlas/review/a02-design/sma-drawing.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\a02-design\\sma-drawing.png",
+      "source_sha256": "1d6d9aaf306531bb156e965446ad11da3cec1bb2ed25a2a170e91649e41ac3a5",
+      "bytes": 114396
+    },
+    {
+      "path": "docs/atlas/review/a02-design/spacer30.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\a02-design\\spacer30.png",
+      "source_sha256": "92a0cf513ef49d699feedb1faff7fe8a5faa98b7732219418d1a162ead7659c3",
+      "bytes": 104821
+    },
+    {
+      "path": "docs/atlas/review/a02-design/spacer35.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\a02-design\\spacer35.png",
+      "source_sha256": "c9ecf194a9a5e4561f6a501f8e36ef0719a61fe3bcd1f54e08d66d4df97567b5",
+      "bytes": 109414
+    },
+    {
+      "path": "docs/atlas/review/cad/browser-checks.json",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\cad\\browser-checks.json",
+      "source_sha256": "c2315d633dea20ed38eb7868567d41069166a5c707eb9da5a3675c6529f822a8",
+      "bytes": 551
+    },
+    {
+      "path": "docs/atlas/review/cad/calibration-320.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\cad\\calibration-320.png",
+      "source_sha256": "b8c527f124b0fba5a4aa33e4027856cab65f9813ff08c1d3ac3bf8318fcfedae",
+      "bytes": 70026
+    },
+    {
+      "path": "docs/atlas/review/cad/calibration-390.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\cad\\calibration-390.png",
+      "source_sha256": "83efdd19f28f5b56180231f3c63b59c8c2d7e031b44e7a6376fe9a7f131bf8ed",
+      "bytes": 73223
+    },
+    {
+      "path": "docs/atlas/review/cad/calibration-desktop.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\cad\\calibration-desktop.png",
+      "source_sha256": "d3ff703213496c9aa531d6ff2b019126bb204bbcf13a79d4b85923f142676f57",
+      "bytes": 98286
+    },
+    {
+      "path": "docs/atlas/review/cad/camera-front.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\cad\\camera-front.png",
+      "source_sha256": "78a3d0dd2c333b3e87ba3e10855ddd6d72a4774f6e14d8b61e5598261d7f470c",
+      "bytes": 30687
+    },
+    {
+      "path": "docs/atlas/review/cad/camera-overview.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\cad\\camera-overview.png",
+      "source_sha256": "f8d06a92fa2047783cefa6fb444833b888547782bdf763cc4f6e2aa00c10ee4a",
+      "bytes": 44365
+    },
+    {
+      "path": "docs/atlas/review/cad/camera-top.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\cad\\camera-top.png",
+      "source_sha256": "c55dfa0ca722b55bdfe2b26f12cebfda46cace719c6f90fcbbf628a0e5ef64ac",
+      "bytes": 32390
+    },
+    {
+      "path": "docs/atlas/review/cad/path-all.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\cad\\path-all.png",
+      "source_sha256": "8c7bf6024b7669e83a60abff59c176fb4a82e887c436039c6396b06ac4ca4617",
+      "bytes": 34384
+    },
+    {
+      "path": "docs/atlas/review/cad/path-return.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\cad\\path-return.png",
+      "source_sha256": "80647db7dc3220c4bdfa224e425327afcdd3c0e25b01fa283b3efaf4f327b2ca",
+      "bytes": 27514
+    },
+    {
+      "path": "docs/atlas/review/cad/path-signal.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\cad\\path-signal.png",
+      "source_sha256": "e76bf5397b17e64c37e5f320e067128aa7d4b5547c1da57bab75f239b4e00fc9",
+      "bytes": 29992
+    },
+    {
+      "path": "docs/atlas/review/cad/standard-load.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\cad\\standard-load.png",
+      "source_sha256": "b1fc0c1c965d11f095b009538eaa2a331555fa5c507f16abfb974d18e46df725",
+      "bytes": 22914
+    },
+    {
+      "path": "docs/atlas/review/cad/standard-open.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\cad\\standard-open.png",
+      "source_sha256": "07bedec232f6802d465fcd5c0cac994662c34efbb800d83c3e28f91a726adfdf",
+      "bytes": 23041
+    },
+    {
+      "path": "docs/atlas/review/cad/standard-short.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\cad\\standard-short.png",
+      "source_sha256": "bd4216b04118715ae197e4fac9ae5fb116715cd7d8df7ba4489d4d5c4b0e29f5",
+      "bytes": 22966
+    },
+    {
+      "path": "docs/atlas/review/cad/standard-thru.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\cad\\standard-thru.png",
+      "source_sha256": "060902ee1adb7a1a88c75590ac5499de96fe323d57c13775db4e96fbd714f967",
+      "bytes": 24944
+    },
+    {
+      "path": "docs/atlas/review/cad/step-0.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\cad\\step-0.png",
+      "source_sha256": "060902ee1adb7a1a88c75590ac5499de96fe323d57c13775db4e96fbd714f967",
+      "bytes": 24944
+    },
+    {
+      "path": "docs/atlas/review/cad/step-1.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\cad\\step-1.png",
+      "source_sha256": "c649d221c17cdc90f236aaa5c1e36f8bc1a3b3761ba592218d21d3bdf14792c8",
+      "bytes": 41022
+    },
+    {
+      "path": "docs/atlas/review/cad/step-2.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\cad\\step-2.png",
+      "source_sha256": "8da8bef7dcc2a7c9423bf3679f904a4223870fe87936f72f0fb1bdc34c3b0867",
+      "bytes": 46308
+    },
+    {
+      "path": "docs/atlas/review/cad/step-3.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\cad\\step-3.png",
+      "source_sha256": "f8d06a92fa2047783cefa6fb444833b888547782bdf763cc4f6e2aa00c10ee4a",
+      "bytes": 44365
+    },
+    {
+      "path": "docs/atlas/review/cad/structure-320.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\cad\\structure-320.png",
+      "source_sha256": "ec5a0d1999a1f6eb9ea623b803b3a113ad6b914f4cffcefc274b9429bf79ed78",
+      "bytes": 79976
+    },
+    {
+      "path": "docs/atlas/review/cad/structure-390.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\cad\\structure-390.png",
+      "source_sha256": "b7f4d601cea0805818e07f2aadeb74ff4e71c85be76c4e34929a379de32ce823",
+      "bytes": 81167
+    },
+    {
+      "path": "docs/atlas/review/cad/structure-closed.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\cad\\structure-closed.png",
+      "source_sha256": "2d9cb8adf63c93fbdccf58fa978f2af6b0ef7b13c1e62b77d18b305baf9b6cd4",
+      "bytes": 34431
+    },
+    {
+      "path": "docs/atlas/review/cad/structure-desktop.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\cad\\structure-desktop.png",
+      "source_sha256": "f047207ce965232fdd828080ef6b3d750d157e78d6ded6617d0a1be51bf5fc21",
+      "bytes": 96091
+    },
+    {
+      "path": "docs/atlas/review/cad/structure-open.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\cad\\structure-open.png",
+      "source_sha256": "8c7bf6024b7669e83a60abff59c176fb4a82e887c436039c6396b06ac4ca4617",
+      "bytes": 34384
+    },
+    {
+      "path": "docs/atlas/review/cad/structure-pcb.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\cad\\structure-pcb.png",
+      "source_sha256": "b8fed695e7c0fbe46f5f6e752ce588f4f8b8596fd116b310d32d98a6c053ea2a",
+      "bytes": 23048
+    },
+    {
+      "path": "docs/atlas/review/cad-live/browser-checks.json",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\cad-live\\browser-checks.json",
+      "source_sha256": "cc39c845155349a8cee017e48d11358570f4418322540be5f4885cc15cf82838",
+      "bytes": 564
+    },
+    {
+      "path": "docs/atlas/review/cad-live/calibration-320.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\cad-live\\calibration-320.png",
+      "source_sha256": "b8c527f124b0fba5a4aa33e4027856cab65f9813ff08c1d3ac3bf8318fcfedae",
+      "bytes": 70026
+    },
+    {
+      "path": "docs/atlas/review/cad-live/calibration-390.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\cad-live\\calibration-390.png",
+      "source_sha256": "83efdd19f28f5b56180231f3c63b59c8c2d7e031b44e7a6376fe9a7f131bf8ed",
+      "bytes": 73223
+    },
+    {
+      "path": "docs/atlas/review/cad-live/calibration-desktop.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\cad-live\\calibration-desktop.png",
+      "source_sha256": "d3ff703213496c9aa531d6ff2b019126bb204bbcf13a79d4b85923f142676f57",
+      "bytes": 98286
+    },
+    {
+      "path": "docs/atlas/review/cad-live/camera-front.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\cad-live\\camera-front.png",
+      "source_sha256": "78a3d0dd2c333b3e87ba3e10855ddd6d72a4774f6e14d8b61e5598261d7f470c",
+      "bytes": 30687
+    },
+    {
+      "path": "docs/atlas/review/cad-live/camera-overview.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\cad-live\\camera-overview.png",
+      "source_sha256": "f8d06a92fa2047783cefa6fb444833b888547782bdf763cc4f6e2aa00c10ee4a",
+      "bytes": 44365
+    },
+    {
+      "path": "docs/atlas/review/cad-live/camera-top.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\cad-live\\camera-top.png",
+      "source_sha256": "c55dfa0ca722b55bdfe2b26f12cebfda46cace719c6f90fcbbf628a0e5ef64ac",
+      "bytes": 32390
+    },
+    {
+      "path": "docs/atlas/review/cad-live/path-all.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\cad-live\\path-all.png",
+      "source_sha256": "8c7bf6024b7669e83a60abff59c176fb4a82e887c436039c6396b06ac4ca4617",
+      "bytes": 34384
+    },
+    {
+      "path": "docs/atlas/review/cad-live/path-return.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\cad-live\\path-return.png",
+      "source_sha256": "09958a8f07eef0081230bc6ce26c07723a5ccc462b53065bbac6a5d2cabc3160",
+      "bytes": 27516
+    },
+    {
+      "path": "docs/atlas/review/cad-live/path-signal.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\cad-live\\path-signal.png",
+      "source_sha256": "f6dcbac743f2c7150074fa7947b982c45a3b3d01483903397c076b3a081b9bc0",
+      "bytes": 29808
+    },
+    {
+      "path": "docs/atlas/review/cad-live/standard-load.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\cad-live\\standard-load.png",
+      "source_sha256": "b1fc0c1c965d11f095b009538eaa2a331555fa5c507f16abfb974d18e46df725",
+      "bytes": 22914
+    },
+    {
+      "path": "docs/atlas/review/cad-live/standard-open.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\cad-live\\standard-open.png",
+      "source_sha256": "07bedec232f6802d465fcd5c0cac994662c34efbb800d83c3e28f91a726adfdf",
+      "bytes": 23041
+    },
+    {
+      "path": "docs/atlas/review/cad-live/standard-short.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\cad-live\\standard-short.png",
+      "source_sha256": "bd4216b04118715ae197e4fac9ae5fb116715cd7d8df7ba4489d4d5c4b0e29f5",
+      "bytes": 22966
+    },
+    {
+      "path": "docs/atlas/review/cad-live/standard-thru.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\cad-live\\standard-thru.png",
+      "source_sha256": "060902ee1adb7a1a88c75590ac5499de96fe323d57c13775db4e96fbd714f967",
+      "bytes": 24944
+    },
+    {
+      "path": "docs/atlas/review/cad-live/step-0.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\cad-live\\step-0.png",
+      "source_sha256": "060902ee1adb7a1a88c75590ac5499de96fe323d57c13775db4e96fbd714f967",
+      "bytes": 24944
+    },
+    {
+      "path": "docs/atlas/review/cad-live/step-1.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\cad-live\\step-1.png",
+      "source_sha256": "c649d221c17cdc90f236aaa5c1e36f8bc1a3b3761ba592218d21d3bdf14792c8",
+      "bytes": 41022
+    },
+    {
+      "path": "docs/atlas/review/cad-live/step-2.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\cad-live\\step-2.png",
+      "source_sha256": "8da8bef7dcc2a7c9423bf3679f904a4223870fe87936f72f0fb1bdc34c3b0867",
+      "bytes": 46308
+    },
+    {
+      "path": "docs/atlas/review/cad-live/step-3.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\cad-live\\step-3.png",
+      "source_sha256": "f8d06a92fa2047783cefa6fb444833b888547782bdf763cc4f6e2aa00c10ee4a",
+      "bytes": 44365
+    },
+    {
+      "path": "docs/atlas/review/cad-live/structure-320.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\cad-live\\structure-320.png",
+      "source_sha256": "ec5a0d1999a1f6eb9ea623b803b3a113ad6b914f4cffcefc274b9429bf79ed78",
+      "bytes": 79976
+    },
+    {
+      "path": "docs/atlas/review/cad-live/structure-390.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\cad-live\\structure-390.png",
+      "source_sha256": "b7f4d601cea0805818e07f2aadeb74ff4e71c85be76c4e34929a379de32ce823",
+      "bytes": 81167
+    },
+    {
+      "path": "docs/atlas/review/cad-live/structure-closed.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\cad-live\\structure-closed.png",
+      "source_sha256": "2d9cb8adf63c93fbdccf58fa978f2af6b0ef7b13c1e62b77d18b305baf9b6cd4",
+      "bytes": 34431
+    },
+    {
+      "path": "docs/atlas/review/cad-live/structure-desktop.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\cad-live\\structure-desktop.png",
+      "source_sha256": "f047207ce965232fdd828080ef6b3d750d157e78d6ded6617d0a1be51bf5fc21",
+      "bytes": 96091
+    },
+    {
+      "path": "docs/atlas/review/cad-live/structure-open.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\cad-live\\structure-open.png",
+      "source_sha256": "8c7bf6024b7669e83a60abff59c176fb4a82e887c436039c6396b06ac4ca4617",
+      "bytes": 34384
+    },
+    {
+      "path": "docs/atlas/review/cad-live/structure-pcb.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\cad-live\\structure-pcb.png",
+      "source_sha256": "b8fed695e7c0fbe46f5f6e752ce588f4f8b8596fd116b310d32d98a6c053ea2a",
+      "bytes": 23048
+    },
+    {
+      "path": "docs/atlas/review/flat-a02/browser-checks.json",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\flat-a02\\browser-checks.json",
+      "source_sha256": "1182e9ab9fe5ec5bdf10048f893d2e5828c8ebbe04401cf2d6dee14426e0ce18",
+      "bytes": 651
+    },
+    {
+      "path": "docs/atlas/review/flat-a02/calibration-320.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\flat-a02\\calibration-320.png",
+      "source_sha256": "3c88f31df25f3bba2ecbf0ff9955d7302799c5a826903a6a5247a1aca26d7be7",
+      "bytes": 71376
+    },
+    {
+      "path": "docs/atlas/review/flat-a02/calibration-390.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\flat-a02\\calibration-390.png",
+      "source_sha256": "378ed8d8e34cef8d9d712d2858f8ab4155312e0011aea5c0b0f4cd1f4da62694",
+      "bytes": 75257
+    },
+    {
+      "path": "docs/atlas/review/flat-a02/calibration-desktop.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\flat-a02\\calibration-desktop.png",
+      "source_sha256": "5a73f9497e1db0933456d7ffcd59664bcdc28b3faba4027fb6bcf403ed620d82",
+      "bytes": 95727
+    },
+    {
+      "path": "docs/atlas/review/flat-a02/camera-front.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\flat-a02\\camera-front.png",
+      "source_sha256": "0421003fab472ba60705186b23d828e088220b3aa80fa4d8a3d73c4780fe5dd6",
+      "bytes": 33513
+    },
+    {
+      "path": "docs/atlas/review/flat-a02/camera-overview.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\flat-a02\\camera-overview.png",
+      "source_sha256": "93179608bf9dc6f2f1c079dd0b5a7f74f31016875a67f1799cf458bd3825808a",
+      "bytes": 40568
+    },
+    {
+      "path": "docs/atlas/review/flat-a02/camera-top.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\flat-a02\\camera-top.png",
+      "source_sha256": "c883442cd7ce13a411d68cf445e2740871723f93222094b916cd5f81b39fdff6",
+      "bytes": 26448
+    },
+    {
+      "path": "docs/atlas/review/flat-a02/path-all.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\flat-a02\\path-all.png",
+      "source_sha256": "b32762d43b608fa619f1ec48a4a80bf99037cfd895cf1b1408bcdde25babd260",
+      "bytes": 32487
+    },
+    {
+      "path": "docs/atlas/review/flat-a02/path-return.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\flat-a02\\path-return.png",
+      "source_sha256": "b0ec4a17cfd2a9c68b94a25f68672b00908aa4d7b5553cbb3707f79cd52c924b",
+      "bytes": 22691
+    },
+    {
+      "path": "docs/atlas/review/flat-a02/path-signal.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\flat-a02\\path-signal.png",
+      "source_sha256": "58fe49cf554391ab64af2cfc31edf9e6cd04e783b206219d539b1f694eb61c1a",
+      "bytes": 23710
+    },
+    {
+      "path": "docs/atlas/review/flat-a02/revision-A01.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\flat-a02\\revision-A01.png",
+      "source_sha256": "f08cfd94046208bcf4c8a28de59dcfc4e99c73bca0354cffe1dff4512f7d2181",
+      "bytes": 34870
+    },
+    {
+      "path": "docs/atlas/review/flat-a02/revision-A02.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\flat-a02\\revision-A02.png",
+      "source_sha256": "b32762d43b608fa619f1ec48a4a80bf99037cfd895cf1b1408bcdde25babd260",
+      "bytes": 32487
+    },
+    {
+      "path": "docs/atlas/review/flat-a02/standard-load.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\flat-a02\\standard-load.png",
+      "source_sha256": "ce37260d5925178378da033d7286fb8f0e0ad02f8bde46d8972be255fa311696",
+      "bytes": 22920
+    },
+    {
+      "path": "docs/atlas/review/flat-a02/standard-open.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\flat-a02\\standard-open.png",
+      "source_sha256": "68cc6ace8ca57165e1b7b3c2b200d2c83699c7c774e80611c071db0eda09f154",
+      "bytes": 23047
+    },
+    {
+      "path": "docs/atlas/review/flat-a02/standard-short.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\flat-a02\\standard-short.png",
+      "source_sha256": "6e6a8c1f16155238c582316c608f571944abc8cadccfc0a8ea3f2a499180ba2d",
+      "bytes": 22966
+    },
+    {
+      "path": "docs/atlas/review/flat-a02/standard-thru.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\flat-a02\\standard-thru.png",
+      "source_sha256": "e2d32d49210d25a5367db49eb31730a91ef310a556509c1c357bfddcf8d418a6",
+      "bytes": 24968
+    },
+    {
+      "path": "docs/atlas/review/flat-a02/step-0.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\flat-a02\\step-0.png",
+      "source_sha256": "e2d32d49210d25a5367db49eb31730a91ef310a556509c1c357bfddcf8d418a6",
+      "bytes": 24968
+    },
+    {
+      "path": "docs/atlas/review/flat-a02/step-1.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\flat-a02\\step-1.png",
+      "source_sha256": "25b779b8ff1f81d53a621e10045cd120f07e7b9308f908984e587ef4cf5520bc",
+      "bytes": 34841
+    },
+    {
+      "path": "docs/atlas/review/flat-a02/step-2.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\flat-a02\\step-2.png",
+      "source_sha256": "84a811404d793358d42f7b8dd1f0d8934ad574a35b9f1bb59747bbf2953ba691",
+      "bytes": 42853
+    },
+    {
+      "path": "docs/atlas/review/flat-a02/step-3.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\flat-a02\\step-3.png",
+      "source_sha256": "93179608bf9dc6f2f1c079dd0b5a7f74f31016875a67f1799cf458bd3825808a",
+      "bytes": 40568
+    },
+    {
+      "path": "docs/atlas/review/flat-a02/structure-320.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\flat-a02\\structure-320.png",
+      "source_sha256": "3b12180d0c0e5b386b0cd5eed1f30d46a4ce8d9f4059801afb8d42bc4de03d6f",
+      "bytes": 92128
+    },
+    {
+      "path": "docs/atlas/review/flat-a02/structure-390.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\flat-a02\\structure-390.png",
+      "source_sha256": "80a514c18689be143709f9e6d15efa2a70a0998aec77119b0a12e1683a83ca82",
+      "bytes": 91682
+    },
+    {
+      "path": "docs/atlas/review/flat-a02/structure-closed.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\flat-a02\\structure-closed.png",
+      "source_sha256": "d73063cf8dc25b8cc21d044908e37e573282a7c7fd65231f0755c1b172bf222b",
+      "bytes": 32753
+    },
+    {
+      "path": "docs/atlas/review/flat-a02/structure-desktop.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\flat-a02\\structure-desktop.png",
+      "source_sha256": "4f7be7f72beff2bae97d9199393c403639e4caa6a328bde781304ba9afd7f9eb",
+      "bytes": 106452
+    },
+    {
+      "path": "docs/atlas/review/flat-a02/structure-open.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\flat-a02\\structure-open.png",
+      "source_sha256": "b32762d43b608fa619f1ec48a4a80bf99037cfd895cf1b1408bcdde25babd260",
+      "bytes": 32487
+    },
+    {
+      "path": "docs/atlas/review/flat-a02/structure-pcb.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\flat-a02\\structure-pcb.png",
+      "source_sha256": "7daa8947cf3ed728107e7a5bdebd1db057438d7dd57c014d6b39456c1750ab06",
+      "bytes": 18331
+    },
+    {
+      "path": "docs/atlas/review/live/browser-checks.json",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\live\\browser-checks.json",
+      "source_sha256": "3d12a8faea215c0236d0476682664e3018b60af53fa98c1db1b2d2ee94035735",
+      "bytes": 392
+    },
+    {
+      "path": "docs/atlas/review/live/calibration-320.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\live\\calibration-320.png",
+      "source_sha256": "0516f2624ef71b665bf83a4d3bc1c008a00c0f110f92f532b786b13919bb7645",
+      "bytes": 52490
+    },
+    {
+      "path": "docs/atlas/review/live/calibration-390.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\live\\calibration-390.png",
+      "source_sha256": "2ac462b4583c38dca4a0eae6af30eefb77acd0ce542bf383163265b1e5a9e84b",
+      "bytes": 53665
+    },
+    {
+      "path": "docs/atlas/review/live/calibration-desktop.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\live\\calibration-desktop.png",
+      "source_sha256": "f53255d32f3ee7b29a4f9250f09b7b776b603109a79176bc02aa61a066ecfa59",
+      "bytes": 68613
+    },
+    {
+      "path": "docs/atlas/review/live/catalog.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\live\\catalog.png",
+      "source_sha256": "60e53a5a601c5e6dcae0f260fd810fb246ce9f88218ff09fc1879a597d5644d2",
+      "bytes": 118658
+    },
+    {
+      "path": "docs/atlas/review/live/pcb-cad.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\live\\pcb-cad.png",
+      "source_sha256": "833f56fb2bd039168516da656cf2744eae1c313de31ce0a516b782188cdd0155",
+      "bytes": 204938
+    },
+    {
+      "path": "docs/atlas/review/live/pcb-current-path.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\live\\pcb-current-path.png",
+      "source_sha256": "af634a31152b6a0fbf122693337f62e2c3c12ef193022216df00ecba39c3aad1",
+      "bytes": 24112
+    },
+    {
+      "path": "docs/atlas/review/live/step-0.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\live\\step-0.png",
+      "source_sha256": "7e8f587f97dd87f47401c089812a8f577dd2e57e830610f48a3123a93114f15d",
+      "bytes": 21929
+    },
+    {
+      "path": "docs/atlas/review/live/step-1.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\live\\step-1.png",
+      "source_sha256": "c2cd3fce9fee03f3992305bafd48db5e224f5f5d1b916ffe085eae3d3b7d5930",
+      "bytes": 19675
+    },
+    {
+      "path": "docs/atlas/review/live/step-2.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\live\\step-2.png",
+      "source_sha256": "6aad84489d352f715df96929fab6b5c46ff7c9df2f5b6bcb2bf0f182048bc192",
+      "bytes": 24037
+    },
+    {
+      "path": "docs/atlas/review/live/step-3.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\live\\step-3.png",
+      "source_sha256": "908da588ab288767d9a0bc2fc7ebc58100df3096a860536fe907ce941cd2c865",
+      "bytes": 23502
+    },
+    {
+      "path": "docs/atlas/review/live/topology-320.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\live\\topology-320.png",
+      "source_sha256": "d57aef4bc358de3204791bf408b76999f02c89365f246d4111645be491b76831",
+      "bytes": 44577
+    },
+    {
+      "path": "docs/atlas/review/live/topology-390.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\live\\topology-390.png",
+      "source_sha256": "a5200757dbf8b503e78377cf2dcb3d8f437806042a7d6653aafe07811aa3d008",
+      "bytes": 43827
+    },
+    {
+      "path": "docs/atlas/review/live/topology-desktop.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\live\\topology-desktop.png",
+      "source_sha256": "2c19e10061d27bf5ba7c384c2216359c3ab51dccb779277e32dfebba74f382fc",
+      "bytes": 60251
+    },
+    {
+      "path": "docs/atlas/review/split-a02/assembly-full-desktop.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\split-a02\\assembly-full-desktop.png",
+      "source_sha256": "28bd2cdc031efdbc57eac7e90d0dc110d38a068b3b86f6521a3454c6d4abe183",
+      "bytes": 890931
+    },
+    {
+      "path": "docs/atlas/review/split-a02/assembly-step-320.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\split-a02\\assembly-step-320.png",
+      "source_sha256": "6babfbd0722fbc4a3e85b9a278e8d63e0e10333521df5a1ff5b303d39b29844b",
+      "bytes": 46769
+    },
+    {
+      "path": "docs/atlas/review/split-a02/assembly-step-390.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\split-a02\\assembly-step-390.png",
+      "source_sha256": "4dd139237eb5c2225ec68aa4ea06066931fc220120df6c36d053ebdac8657153",
+      "bytes": 46449
+    },
+    {
+      "path": "docs/atlas/review/split-a02/browser-checks.json",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\split-a02\\browser-checks.json",
+      "source_sha256": "89c8af956974c08a348947f66c8defe57387ee35381889409ab3dc707c0fa634",
+      "bytes": 990
+    },
+    {
+      "path": "docs/atlas/review/split-a02/calibration-320.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\split-a02\\calibration-320.png",
+      "source_sha256": "a4279fa92145aecee5d1e72ef8d928154babbbfd9829015345b13792f76a987a",
+      "bytes": 71354
+    },
+    {
+      "path": "docs/atlas/review/split-a02/calibration-390.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\split-a02\\calibration-390.png",
+      "source_sha256": "783af830b8ae34b3bc4b4e270f727a71324b1f5440809e069345364a2817c80d",
+      "bytes": 75250
+    },
+    {
+      "path": "docs/atlas/review/split-a02/calibration-desktop.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\split-a02\\calibration-desktop.png",
+      "source_sha256": "5a9454898b1de6af519ef9e85852bd1f8edd865601cef6f09a00e253acecd30e",
+      "bytes": 95787
+    },
+    {
+      "path": "docs/atlas/review/split-a02/camera-front.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\split-a02\\camera-front.png",
+      "source_sha256": "465bdd586f486272edb7823eace9161f8a2fb6478345bbb74b961729e67aa580",
+      "bytes": 33559
+    },
+    {
+      "path": "docs/atlas/review/split-a02/camera-overview.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\split-a02\\camera-overview.png",
+      "source_sha256": "3ff323c1842b34d65fa22f7a9d32062533df2f08d1957d0e7c53d0f6d438b609",
+      "bytes": 40700
+    },
+    {
+      "path": "docs/atlas/review/split-a02/camera-top.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\split-a02\\camera-top.png",
+      "source_sha256": "e6cd0c79c5c4426ab98af81e80316eedf666962e7ea7100d79840a12583c0ab8",
+      "bytes": 26358
+    },
+    {
+      "path": "docs/atlas/review/split-a02/head-assembly-step.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\split-a02\\head-assembly-step.png",
+      "source_sha256": "ae9b80bd9a5f4c2ffcae9d77a89dc47a5407947a517a616764cab0b7e6a739b9",
+      "bytes": 107746
+    },
+    {
+      "path": "docs/atlas/review/split-a02/path-all.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\split-a02\\path-all.png",
+      "source_sha256": "b32762d43b608fa619f1ec48a4a80bf99037cfd895cf1b1408bcdde25babd260",
+      "bytes": 32487
+    },
+    {
+      "path": "docs/atlas/review/split-a02/path-return.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\split-a02\\path-return.png",
+      "source_sha256": "67ff158bf4b5f7ed27d111ee6169994961eaa6fdc97b87af9a5dfef2862f2234",
+      "bytes": 22716
+    },
+    {
+      "path": "docs/atlas/review/split-a02/path-signal.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\split-a02\\path-signal.png",
+      "source_sha256": "03511591d421e15c0786d2d7dc87c90ae3539664738b00d7487ce3805d1b38ae",
+      "bytes": 23664
+    },
+    {
+      "path": "docs/atlas/review/split-a02/publication.json",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\split-a02\\publication.json",
+      "source_sha256": "3ef9ac504e3cd56cb240c30f8cb4d871887bb59bef34d4eef9cb12257fad2420",
+      "bytes": 1095
+    },
+    {
+      "path": "docs/atlas/review/split-a02/revision-A01.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\split-a02\\revision-A01.png",
+      "source_sha256": "22b8620413ec406cc0c02c51cd2e2a66e396474532bf46cea2aabac706e503ba",
+      "bytes": 34900
+    },
+    {
+      "path": "docs/atlas/review/split-a02/revision-A02.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\split-a02\\revision-A02.png",
+      "source_sha256": "b32762d43b608fa619f1ec48a4a80bf99037cfd895cf1b1408bcdde25babd260",
+      "bytes": 32487
+    },
+    {
+      "path": "docs/atlas/review/split-a02/standard-load.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\split-a02\\standard-load.png",
+      "source_sha256": "b1fc0c1c965d11f095b009538eaa2a331555fa5c507f16abfb974d18e46df725",
+      "bytes": 22914
+    },
+    {
+      "path": "docs/atlas/review/split-a02/standard-open.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\split-a02\\standard-open.png",
+      "source_sha256": "07bedec232f6802d465fcd5c0cac994662c34efbb800d83c3e28f91a726adfdf",
+      "bytes": 23041
+    },
+    {
+      "path": "docs/atlas/review/split-a02/standard-short.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\split-a02\\standard-short.png",
+      "source_sha256": "bd4216b04118715ae197e4fac9ae5fb116715cd7d8df7ba4489d4d5c4b0e29f5",
+      "bytes": 22966
+    },
+    {
+      "path": "docs/atlas/review/split-a02/standard-thru.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\split-a02\\standard-thru.png",
+      "source_sha256": "060902ee1adb7a1a88c75590ac5499de96fe323d57c13775db4e96fbd714f967",
+      "bytes": 24944
+    },
+    {
+      "path": "docs/atlas/review/split-a02/step-0.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\split-a02\\step-0.png",
+      "source_sha256": "060902ee1adb7a1a88c75590ac5499de96fe323d57c13775db4e96fbd714f967",
+      "bytes": 24944
+    },
+    {
+      "path": "docs/atlas/review/split-a02/step-1.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\split-a02\\step-1.png",
+      "source_sha256": "6061c2d870ccdf7a3ac38a9a1954d34e6725880a81bb12c7ec39f5f8c536530f",
+      "bytes": 35003
+    },
+    {
+      "path": "docs/atlas/review/split-a02/step-2.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\split-a02\\step-2.png",
+      "source_sha256": "b95198a12c4738abd166913ba2520b9eaa0343a2b8aa364716f32225904bafcd",
+      "bytes": 42910
+    },
+    {
+      "path": "docs/atlas/review/split-a02/step-3.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\split-a02\\step-3.png",
+      "source_sha256": "3ff323c1842b34d65fa22f7a9d32062533df2f08d1957d0e7c53d0f6d438b609",
+      "bytes": 40700
+    },
+    {
+      "path": "docs/atlas/review/split-a02/structure-320.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\split-a02\\structure-320.png",
+      "source_sha256": "166cab9fa3d3167ae9e023eeda199d3fa01a5f27bf49f4f49a4e7749fac456f0",
+      "bytes": 92869
+    },
+    {
+      "path": "docs/atlas/review/split-a02/structure-390.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\split-a02\\structure-390.png",
+      "source_sha256": "51e598721c925c5702c0a03f2662566bfc076f786b1ebaa16b6c23bc4a096cd3",
+      "bytes": 92598
+    },
+    {
+      "path": "docs/atlas/review/split-a02/structure-closed.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\split-a02\\structure-closed.png",
+      "source_sha256": "f12f41be91c366738972956cfc312ce9528e10c354a094301425ad0dcc88ff41",
+      "bytes": 32771
+    },
+    {
+      "path": "docs/atlas/review/split-a02/structure-desktop.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\split-a02\\structure-desktop.png",
+      "source_sha256": "dba9f0512ec7003b29ff89be93818737c1e7bc99e39c48fe6d3e76ec60d104cc",
+      "bytes": 106950
+    },
+    {
+      "path": "docs/atlas/review/split-a02/structure-head.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\split-a02\\structure-head.png",
+      "source_sha256": "f2cab85c0680b42d9fdfca3c21e9c732e5a915c683eeb6770b92bcabd3bb6b39",
+      "bytes": 36489
+    },
+    {
+      "path": "docs/atlas/review/split-a02/structure-open.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\split-a02\\structure-open.png",
+      "source_sha256": "b32762d43b608fa619f1ec48a4a80bf99037cfd895cf1b1408bcdde25babd260",
+      "bytes": 32487
+    },
+    {
+      "path": "docs/atlas/review/split-a02/structure-pcb.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\split-a02\\structure-pcb.png",
+      "source_sha256": "0fcf2f7778e27ff99184e51110f584d91bfb2e3ac237ae45e6948a1b020ce806",
+      "bytes": 18348
+    },
+    {
+      "path": "docs/atlas/review/split-a02/test-overflow.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\split-a02\\test-overflow.png",
+      "source_sha256": "3c30f7fca0d4a074cd6b5f318d5955612ce53e20dd2f08263af2d7f587e2b7d7",
+      "bytes": 562404
+    },
+    {
+      "path": "docs/atlas/review/split-a02-live/assembly-full-desktop.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\split-a02-live\\assembly-full-desktop.png",
+      "source_sha256": "d8fc807c6b273c397e29f69063970ce0234b14893d017d98a6a879687685134a",
+      "bytes": 819643
+    },
+    {
+      "path": "docs/atlas/review/split-a02-live/assembly-step-320.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\split-a02-live\\assembly-step-320.png",
+      "source_sha256": "6babfbd0722fbc4a3e85b9a278e8d63e0e10333521df5a1ff5b303d39b29844b",
+      "bytes": 46769
+    },
+    {
+      "path": "docs/atlas/review/split-a02-live/assembly-step-390.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\split-a02-live\\assembly-step-390.png",
+      "source_sha256": "4dd139237eb5c2225ec68aa4ea06066931fc220120df6c36d053ebdac8657153",
+      "bytes": 46449
+    },
+    {
+      "path": "docs/atlas/review/split-a02-live/browser-checks.json",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\split-a02-live\\browser-checks.json",
+      "source_sha256": "8661e30fce34d534233be2b214212e5efe29c581634992ba4827bb37ebedc28f",
+      "bytes": 1003
+    },
+    {
+      "path": "docs/atlas/review/split-a02-live/calibration-320.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\split-a02-live\\calibration-320.png",
+      "source_sha256": "a4279fa92145aecee5d1e72ef8d928154babbbfd9829015345b13792f76a987a",
+      "bytes": 71354
+    },
+    {
+      "path": "docs/atlas/review/split-a02-live/calibration-390.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\split-a02-live\\calibration-390.png",
+      "source_sha256": "783af830b8ae34b3bc4b4e270f727a71324b1f5440809e069345364a2817c80d",
+      "bytes": 75250
+    },
+    {
+      "path": "docs/atlas/review/split-a02-live/calibration-desktop.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\split-a02-live\\calibration-desktop.png",
+      "source_sha256": "5a9454898b1de6af519ef9e85852bd1f8edd865601cef6f09a00e253acecd30e",
+      "bytes": 95787
+    },
+    {
+      "path": "docs/atlas/review/split-a02-live/camera-front.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\split-a02-live\\camera-front.png",
+      "source_sha256": "465bdd586f486272edb7823eace9161f8a2fb6478345bbb74b961729e67aa580",
+      "bytes": 33559
+    },
+    {
+      "path": "docs/atlas/review/split-a02-live/camera-overview.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\split-a02-live\\camera-overview.png",
+      "source_sha256": "3ff323c1842b34d65fa22f7a9d32062533df2f08d1957d0e7c53d0f6d438b609",
+      "bytes": 40700
+    },
+    {
+      "path": "docs/atlas/review/split-a02-live/camera-top.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\split-a02-live\\camera-top.png",
+      "source_sha256": "e6cd0c79c5c4426ab98af81e80316eedf666962e7ea7100d79840a12583c0ab8",
+      "bytes": 26358
+    },
+    {
+      "path": "docs/atlas/review/split-a02-live/head-assembly-step.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\split-a02-live\\head-assembly-step.png",
+      "source_sha256": "31e2850f860a3c02db178eed8d710d88016c5db78bf0719c37206d082cbfde82",
+      "bytes": 37124
+    },
+    {
+      "path": "docs/atlas/review/split-a02-live/path-all.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\split-a02-live\\path-all.png",
+      "source_sha256": "b32762d43b608fa619f1ec48a4a80bf99037cfd895cf1b1408bcdde25babd260",
+      "bytes": 32487
+    },
+    {
+      "path": "docs/atlas/review/split-a02-live/path-return.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\split-a02-live\\path-return.png",
+      "source_sha256": "dcd317dd1f81c9c7ec01f240006e9cd1dfc28405d0f9a9e4bda22ac5c64e1e1f",
+      "bytes": 22695
+    },
+    {
+      "path": "docs/atlas/review/split-a02-live/path-signal.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\split-a02-live\\path-signal.png",
+      "source_sha256": "516e29a368be6feb5a190023e2864ea5be750730334259e654ce06a474d89b39",
+      "bytes": 23673
+    },
+    {
+      "path": "docs/atlas/review/split-a02-live/revision-A01.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\split-a02-live\\revision-A01.png",
+      "source_sha256": "22b8620413ec406cc0c02c51cd2e2a66e396474532bf46cea2aabac706e503ba",
+      "bytes": 34900
+    },
+    {
+      "path": "docs/atlas/review/split-a02-live/revision-A02.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\split-a02-live\\revision-A02.png",
+      "source_sha256": "b32762d43b608fa619f1ec48a4a80bf99037cfd895cf1b1408bcdde25babd260",
+      "bytes": 32487
+    },
+    {
+      "path": "docs/atlas/review/split-a02-live/standard-load.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\split-a02-live\\standard-load.png",
+      "source_sha256": "b1fc0c1c965d11f095b009538eaa2a331555fa5c507f16abfb974d18e46df725",
+      "bytes": 22914
+    },
+    {
+      "path": "docs/atlas/review/split-a02-live/standard-open.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\split-a02-live\\standard-open.png",
+      "source_sha256": "07bedec232f6802d465fcd5c0cac994662c34efbb800d83c3e28f91a726adfdf",
+      "bytes": 23041
+    },
+    {
+      "path": "docs/atlas/review/split-a02-live/standard-short.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\split-a02-live\\standard-short.png",
+      "source_sha256": "bd4216b04118715ae197e4fac9ae5fb116715cd7d8df7ba4489d4d5c4b0e29f5",
+      "bytes": 22966
+    },
+    {
+      "path": "docs/atlas/review/split-a02-live/standard-thru.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\split-a02-live\\standard-thru.png",
+      "source_sha256": "060902ee1adb7a1a88c75590ac5499de96fe323d57c13775db4e96fbd714f967",
+      "bytes": 24944
+    },
+    {
+      "path": "docs/atlas/review/split-a02-live/step-0.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\split-a02-live\\step-0.png",
+      "source_sha256": "060902ee1adb7a1a88c75590ac5499de96fe323d57c13775db4e96fbd714f967",
+      "bytes": 24944
+    },
+    {
+      "path": "docs/atlas/review/split-a02-live/step-1.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\split-a02-live\\step-1.png",
+      "source_sha256": "6061c2d870ccdf7a3ac38a9a1954d34e6725880a81bb12c7ec39f5f8c536530f",
+      "bytes": 35003
+    },
+    {
+      "path": "docs/atlas/review/split-a02-live/step-2.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\split-a02-live\\step-2.png",
+      "source_sha256": "b95198a12c4738abd166913ba2520b9eaa0343a2b8aa364716f32225904bafcd",
+      "bytes": 42910
+    },
+    {
+      "path": "docs/atlas/review/split-a02-live/step-3.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\split-a02-live\\step-3.png",
+      "source_sha256": "3ff323c1842b34d65fa22f7a9d32062533df2f08d1957d0e7c53d0f6d438b609",
+      "bytes": 40700
+    },
+    {
+      "path": "docs/atlas/review/split-a02-live/structure-320.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\split-a02-live\\structure-320.png",
+      "source_sha256": "166cab9fa3d3167ae9e023eeda199d3fa01a5f27bf49f4f49a4e7749fac456f0",
+      "bytes": 92869
+    },
+    {
+      "path": "docs/atlas/review/split-a02-live/structure-390.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\split-a02-live\\structure-390.png",
+      "source_sha256": "51e598721c925c5702c0a03f2662566bfc076f786b1ebaa16b6c23bc4a096cd3",
+      "bytes": 92598
+    },
+    {
+      "path": "docs/atlas/review/split-a02-live/structure-closed.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\split-a02-live\\structure-closed.png",
+      "source_sha256": "f12f41be91c366738972956cfc312ce9528e10c354a094301425ad0dcc88ff41",
+      "bytes": 32771
+    },
+    {
+      "path": "docs/atlas/review/split-a02-live/structure-desktop.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\split-a02-live\\structure-desktop.png",
+      "source_sha256": "dba9f0512ec7003b29ff89be93818737c1e7bc99e39c48fe6d3e76ec60d104cc",
+      "bytes": 106950
+    },
+    {
+      "path": "docs/atlas/review/split-a02-live/structure-head.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\split-a02-live\\structure-head.png",
+      "source_sha256": "f2cab85c0680b42d9fdfca3c21e9c732e5a915c683eeb6770b92bcabd3bb6b39",
+      "bytes": 36489
+    },
+    {
+      "path": "docs/atlas/review/split-a02-live/structure-open.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\split-a02-live\\structure-open.png",
+      "source_sha256": "b32762d43b608fa619f1ec48a4a80bf99037cfd895cf1b1408bcdde25babd260",
+      "bytes": 32487
+    },
+    {
+      "path": "docs/atlas/review/split-a02-live/structure-pcb.png",
+      "source": "E:\\Current_Probe\\docs\\atlas\\review\\split-a02-live\\structure-pcb.png",
+      "source_sha256": "0fcf2f7778e27ff99184e51110f584d91bfb2e3ac237ae45e6948a1b020ce806",
+      "bytes": 18348
+    },
+    {
+      "path": "docs/atlas/source/README.md",
+      "source": "E:\\Current_Probe\\docs\\atlas\\source\\README.md",
+      "source_sha256": "e89f0117edd58ba6009fb8e51093460686471ed38091965bd9cd83628f9b10e0",
+      "bytes": 1903
+    },
+    {
+      "path": "docs/atlas/source/bench-checklist.md",
+      "source": "E:\\Current_Probe\\docs\\atlas\\source\\bench-checklist.md",
+      "source_sha256": "8134d7f070e0aff7bc23aa7c885579a2bdc3dbfaee468f8e5677bb88f8545e76",
+      "bytes": 3728
+    },
+    {
+      "path": "docs/atlas/source/design.json",
+      "source": "E:\\Current_Probe\\docs\\atlas\\source\\design.json",
+      "source_sha256": "571b081e92a82deca30812d5dc1381efa3d73ff077d43db6629187c4dd3e4730",
+      "bytes": 3557
+    },
+    {
+      "path": "docs/atlas/source/source-notes.md",
+      "source": "E:\\Current_Probe\\docs\\atlas\\source\\source-notes.md",
+      "source_sha256": "adcf531ac19fc83fbfa43e7ac3d9979191d20ff51f4055515fc3d7e7a7b2bcce",
+      "bytes": 4078
+    },
+    {
+      "path": "docs/atlas/source/sections/assembly-procedure.html",
+      "source": "E:\\Current_Probe\\docs\\atlas\\source\\sections\\assembly-procedure.html",
+      "source_sha256": "45956916e0d31f8162eb236ae00c34a3e27fc7250017ed9174763697ba51a4e7",
+      "bytes": 12762
+    },
+    {
+      "path": "docs/atlas/source/sections/calibration.html",
+      "source": "E:\\Current_Probe\\docs\\atlas\\source\\sections\\calibration.html",
+      "source_sha256": "7467017fe04cc34e92697e2d1f4c901aba8285e13ec5d5db3bae4ec43272979a",
+      "bytes": 7270
+    },
+    {
+      "path": "docs/atlas/source/sections/change-control.html",
+      "source": "E:\\Current_Probe\\docs\\atlas\\source\\sections\\change-control.html",
+      "source_sha256": "a64e9f1e4ebaf69c01314fe1c9fb2f12397e88c39c099b4dc3ecf10865ff74c5",
+      "bytes": 2603
+    },
+    {
+      "path": "docs/atlas/source/sections/conversion.html",
+      "source": "E:\\Current_Probe\\docs\\atlas\\source\\sections\\conversion.html",
+      "source_sha256": "2e0dca4d05c39db846d12b6b8f45004808858cbe79ae5e8d2473880cb9527171",
+      "bytes": 3358
+    },
+    {
+      "path": "docs/atlas/source/sections/design-review.html",
+      "source": "E:\\Current_Probe\\docs\\atlas\\source\\sections\\design-review.html",
+      "source_sha256": "71f0badd36bf32b6db53a49c8f576705b71d564231dee26b12d8b006f4fe795e",
+      "bytes": 3789
+    },
+    {
+      "path": "docs/atlas/source/sections/purpose.html",
+      "source": "E:\\Current_Probe\\docs\\atlas\\source\\sections\\purpose.html",
+      "source_sha256": "e2a50ec4bf5b9ff09e8054601e0b656286bc3e3f273790cda305da90c79f1e64",
+      "bytes": 1395
+    },
+    {
+      "path": "docs/atlas/source/sections/quality.html",
+      "source": "E:\\Current_Probe\\docs\\atlas\\source\\sections\\quality.html",
+      "source_sha256": "17a8a453b236da225c294eea235d0bd94639d2bf408c496ab0710efc50d6a1a1",
+      "bytes": 4287
+    },
+    {
+      "path": "docs/atlas/source/sections/records.html",
+      "source": "E:\\Current_Probe\\docs\\atlas\\source\\sections\\records.html",
+      "source_sha256": "7e2b3be64c07884f11744b6640643aac91434a5f01fbb8f22359f2d8f52aec37",
+      "bytes": 2415
+    },
+    {
+      "path": "docs/atlas/source/sections/scope.html",
+      "source": "E:\\Current_Probe\\docs\\atlas\\source\\sections\\scope.html",
+      "source_sha256": "8298bff6c72e6f4f645620648b9d0f43c7ad4567ad62ae5dfcc85c6d6973144b",
+      "bytes": 1951
+    },
+    {
+      "path": "docs/atlas/source/sections/structure.html",
+      "source": "E:\\Current_Probe\\docs\\atlas\\source\\sections\\structure.html",
+      "source_sha256": "4bdd7f30c024bd5a8ad2e1715c2637477dd6bda5b69d89c65d9aa70c522a879a",
+      "bytes": 7826
+    },
+    {
+      "path": "docs/atlas/source/sections/test-start.html",
+      "source": "E:\\Current_Probe\\docs\\atlas\\source\\sections\\test-start.html",
+      "source_sha256": "0cecec36428eec407eb62b871f44d4217c59953130e02c9c8994d32e6df40142",
+      "bytes": 2398
+    },
+    {
+      "path": "docs/history/ATLAS_CURRENT_PROBE_DRAFT_v0.1.md",
+      "source": "E:\\Current_Probe\\docs\\history\\ATLAS_CURRENT_PROBE_DRAFT_v0.1.md",
+      "source_sha256": "90600adab7fc43cc5519829f2fdefbed5ba79b7d3ac0b21a557a82088cc6c49b",
+      "bytes": 24216
+    },
+    {
+      "path": "docs/history/ATLAS_CURRENT_PROBE_DRAFT_v0.3.md",
+      "source": "E:\\Current_Probe\\docs\\history\\ATLAS_CURRENT_PROBE_DRAFT_v0.3.md",
+      "source_sha256": "1940127dc6d67e0fe41eace6362b420c199deb933c2088c91bd2239e951b065a",
+      "bytes": 29981
+    },
+    {
+      "path": "docs/history/BOM_DRAFT_0.11.md",
+      "source": "E:\\Current_Probe\\docs\\history\\BOM_DRAFT_0.11.md",
+      "source_sha256": "a246a2f5fbfe5a3284f38ec2d8edb0690d6d68b43db3cb68ca949fbfbd6a6f9f",
+      "bytes": 14501
+    },
+    {
+      "path": "docs/history/BOM_DRAFT_0.12.md",
+      "source": "E:\\Current_Probe\\docs\\history\\BOM_DRAFT_0.12.md",
+      "source_sha256": "35199f2ebe3c184395633fab2e92e78ac52433ed230053fdea6a915df784681e",
+      "bytes": 14410
+    },
+    {
+      "path": "docs/history/RF_CURRENT_PROBE_WHITEPAPER_0.1.md",
+      "source": "E:\\Current_Probe\\docs\\history\\RF_CURRENT_PROBE_WHITEPAPER_0.1.md",
+      "source_sha256": "a89eb1a47eed1dbf0a0005657f6bf931b5d49d811165e8c01ad13e133317919d",
+      "bytes": 56383
+    },
+    {
+      "path": "docs/history/RF_CURRENT_PROBE_WHITEPAPER_0.2_20260922_before.md",
+      "source": "E:\\Current_Probe\\docs\\history\\RF_CURRENT_PROBE_WHITEPAPER_0.2_20260922_before.md",
+      "source_sha256": "57cf03f5e05932f106906c0dc573e4a8441e2d2daf737302e6df2fac1b794288",
+      "bytes": 57879
+    },
+    {
+      "path": "docs/history/RF_CURRENT_PROBE_WHITEPAPER_0.4_20260923_before.md",
+      "source": "E:\\Current_Probe\\docs\\history\\RF_CURRENT_PROBE_WHITEPAPER_0.4_20260923_before.md",
+      "source_sha256": "16d14e9d1040660c4456060771a896e93180002ad9cfe0584026c21f6d6dcd58",
+      "bytes": 61571
+    },
+    {
+      "path": "docs/history/RF_CURRENT_PROBE_WHITEPAPER_0.6_20260923_before.md",
+      "source": "E:\\Current_Probe\\docs\\history\\RF_CURRENT_PROBE_WHITEPAPER_0.6_20260923_before.md",
+      "source_sha256": "abc8d21df6668d754d535884fde80725719a1907d98cf46f69d72bc25856cbbe",
+      "bytes": 63729
+    },
+    {
+      "path": "docs/references/2644181281_catalog.pdf",
+      "source": "E:\\Current_Probe\\docs\\references\\2644181281_catalog.pdf",
+      "source_sha256": "ac497292931136f9284ddf8efe1474e6dfb2c0b48862aafe2ff17572b91bc660",
+      "bytes": 62176
+    },
+    {
+      "path": "docs/references/2644181281_catalog_page1.png",
+      "source": "E:\\Current_Probe\\docs\\references\\2644181281_catalog_page1.png",
+      "source_sha256": "48628388aaf8b9549edb394365eb48e7f91dfaeac6b5e8ccdc334eb49797548e",
+      "bytes": 150648
+    },
+    {
+      "path": "docs/references/CAB27480_linked_drawing.pdf",
+      "source": "E:\\Current_Probe\\docs\\references\\CAB27480_linked_drawing.pdf",
+      "source_sha256": "f06ce02ca23d2820d6cd0ea2c20e5344e3db8dc9b0f0ed8f03309ac04b8147a6",
+      "bytes": 118533
+    },
+    {
+      "path": "docs/references/CAB27480_linked_drawing_page1.png",
+      "source": "E:\\Current_Probe\\docs\\references\\CAB27480_linked_drawing_page1.png",
+      "source_sha256": "053e965883bb46fcb902d91e9003f4efde28b73b7c8db58e81585603d2540a13",
+      "bytes": 143203
+    },
+    {
+      "path": "docs/references/README.md",
+      "source": "E:\\Current_Probe\\docs\\references\\README.md",
+      "source_sha256": "76baad4c8335a916d314d52fbce08f8c829928de8da1ad88e2bc51e83dbe1c96",
+      "bytes": 4621
+    },
+    {
+      "path": "docs/references/RFPC-SMA28-F.pdf",
+      "source": "E:\\Current_Probe\\docs\\references\\RFPC-SMA28-F.pdf",
+      "source_sha256": "2ddd817214a617fa59564be1c08c30e414aebc65557856dc0c6083d94c25baa6",
+      "bytes": 138186
+    },
+    {
+      "path": "docs/references/RFPC-SMA28-F_page1.png",
+      "source": "E:\\Current_Probe\\docs\\references\\RFPC-SMA28-F_page1.png",
+      "source_sha256": "a225ab164cd8cd49c04f4a0929f7c54d5b21407f03d42159fda8d98e70169255",
+      "bytes": 132494
+    },
+    {
+      "path": "docs/references/RFPC-SMA28-F_page2.png",
+      "source": "E:\\Current_Probe\\docs\\references\\RFPC-SMA28-F_page2.png",
+      "source_sha256": "e98a88b1fb0dbd73db57261acabd03ace7f7ddc8fc193bf71afbeca64e9d59c7",
+      "bytes": 96054
+    },
+    {
+      "path": "docs/references/VAT-10A_plus.pdf",
+      "source": "E:\\Current_Probe\\docs\\references\\VAT-10A_plus.pdf",
+      "source_sha256": "541af7ea3332eed8f3a79ae21940af32b252affb324f8c36f8b1d370f09a17e8",
+      "bytes": 401619
+    },
+    {
+      "path": "docs/references/VAT-10A_plus_page2.png",
+      "source": "E:\\Current_Probe\\docs\\references\\VAT-10A_plus_page2.png",
+      "source_sha256": "87adfb19514063530a0015f79fe72be03fbb942afa406d83be03b72766cb82d5",
+      "bytes": 293660
+    },
+    {
+      "path": "docs/references/core_farnell.pdf",
+      "source": "E:\\Current_Probe\\docs\\references\\core_farnell.pdf",
+      "source_sha256": "f0b8d227690fee3d53123bd339a9a458e307a19ea1444bbbfd957d8f36288d91",
+      "bytes": 527045
+    },
+    {
+      "path": "docs/references/core_farnell_page1.png",
+      "source": "E:\\Current_Probe\\docs\\references\\core_farnell_page1.png",
+      "source_sha256": "69575df6573ad477043abfba6937441deede0662dfd33a15b209bbe95503b536",
+      "bytes": 274696
+    },
+    {
+      "path": "docs/references/core_official.html",
+      "source": "E:\\Current_Probe\\docs\\references\\core_official.html",
+      "source_sha256": "f3f18aa488831ca76bcb51324a081894c79ed5f77919420f3026b9951a74530e",
+      "bytes": 167362
+    },
+    {
+      "path": "docs/references/manifest.json",
+      "source": "E:\\Current_Probe\\docs\\references\\manifest.json",
+      "source_sha256": "5c3e3d55254c1a63fb014e6e4902448c2f4f9df1cfbd2ccfff3db8bd4a853e29",
+      "bytes": 2687
+    },
+    {
+      "path": "docs/references/bom_20260917/Essentra_Fasteners.pdf",
+      "source": "E:\\Current_Probe\\docs\\references\\bom_20260917\\Essentra_Fasteners.pdf",
+      "source_sha256": "7543de4c100afa217ee7be20d03dcb201432452150029c7c13a0c2c892a87471",
+      "bytes": 13093849
+    },
+    {
+      "path": "docs/references/bom_20260917/fasteners_p37.png",
+      "source": "E:\\Current_Probe\\docs\\references\\bom_20260917\\fasteners_p37.png",
+      "source_sha256": "9018199e460d5ac2c941a199e5f96c0b1219d789e0517b5b7c1c1e68db90211b",
+      "bytes": 278874
+    },
+    {
+      "path": "docs/references/bom_20260917/fasteners_p73.png",
+      "source": "E:\\Current_Probe\\docs\\references\\bom_20260917\\fasteners_p73.png",
+      "source_sha256": "93e789edf03b7941493a1346dca64e718ee39cca4ab6ec3895fcf0a1bd1e43d8",
+      "bytes": 237459
+    },
+    {
+      "path": "docs/references/bom_20260917/fasteners_p74.png",
+      "source": "E:\\Current_Probe\\docs\\references\\bom_20260917\\fasteners_p74.png",
+      "source_sha256": "8cafeea201402ee52beb20abef248ce914b9b57f1557476dd0a96c29c303c340",
+      "bytes": 182950
+    },
+    {
+      "path": "docs/references/bom_20260917/fasteners_p80.png",
+      "source": "E:\\Current_Probe\\docs\\references\\bom_20260917\\fasteners_p80.png",
+      "source_sha256": "7331f3271a443141dc98c05dd538c507152b94ecbfbca734a7e517a8f2619d89",
+      "bytes": 261448
+    },
+    {
+      "path": "docs/references/bom_20260917/fasteners_p88.png",
+      "source": "E:\\Current_Probe\\docs\\references\\bom_20260917\\fasteners_p88.png",
+      "source_sha256": "841cd6f845b2637256dcedef012fe863be8cadb2183142fb0a4b1debb907d801",
+      "bytes": 211962
+    },
+    {
+      "path": "docs/references/fixture_20260917/132139_catalog_page38.png",
+      "source": "E:\\Current_Probe\\docs\\references\\fixture_20260917\\132139_catalog_page38.png",
+      "source_sha256": "d3fa3ba6b12ade5568f9ecc32c020d2d758abfc4e8f7599441411e1cad7319cb",
+      "bytes": 331634
+    },
+    {
+      "path": "docs/references/fixture_20260917/amphenol_catalog_distributor.pdf",
+      "source": "E:\\Current_Probe\\docs\\references\\fixture_20260917\\amphenol_catalog_distributor.pdf",
+      "source_sha256": "6d77e1f8d53433b36f25bab076c9cef7ce693c911bd7572481caf390dd4ab23e",
+      "bytes": 7964266
+    },
+    {
+      "path": "docs/references/fixture_20260917/catalog_manifest.json",
+      "source": "E:\\Current_Probe\\docs\\references\\fixture_20260917\\catalog_manifest.json",
+      "source_sha256": "086e3b25a74519a036fec60fde3fd44968f58a255deaa8e7a25432e20c0d92a1",
+      "bytes": 344
+    },
+    {
+      "path": "docs/references/fixture_20260917/manifest.json",
+      "source": "E:\\Current_Probe\\docs\\references\\fixture_20260917\\manifest.json",
+      "source_sha256": "bf00c0d899c221cac0f96b423b6dc32575bba65a45e7ee4b50a3f3178383e2da",
+      "bytes": 869
+    },
+    {
+      "path": "analysis/OUTPUT_REFERENCE.md",
+      "source": "E:\\Current_Probe\\analysis\\OUTPUT_REFERENCE.md",
+      "source_sha256": "5cb2fd90f0a3a09447e16260d51bc7fab160b74be8108897a3d7be3d9968c21b",
+      "bytes": 7597
+    },
+    {
+      "path": "analysis/README.md",
+      "source": "E:\\Current_Probe\\analysis\\README.md",
+      "source_sha256": "91c49c64375917250ba3b29897ee3c119bc55f0f9180a71df8539e3382f272b8",
+      "bytes": 7851
+    },
+    {
+      "path": "analysis/__init__.py",
+      "source": "E:\\Current_Probe\\analysis\\__init__.py",
+      "source_sha256": "48b091d426061d0877727816d55c0afc3519e62bc8d48302a824f0fa8a639172",
+      "bytes": 64
+    },
+    {
+      "path": "analysis/analyse_fixture_corrected.py",
+      "source": "E:\\Current_Probe\\analysis\\analyse_fixture_corrected.py",
+      "source_sha256": "5959fa886a667caef0a34ccd7b35871ed3caa2719d554574b80adfe0df9cc8c2",
+      "bytes": 9234
+    },
+    {
+      "path": "analysis/analyse_fixture_recheck.py",
+      "source": "E:\\Current_Probe\\analysis\\analyse_fixture_recheck.py",
+      "source_sha256": "e396e812a2129c22353661a5e3d395151adbf35859913a69c970f8e5256ec535",
+      "bytes": 9224
+    },
+    {
+      "path": "analysis/analyse_fixture_solid.py",
+      "source": "E:\\Current_Probe\\analysis\\analyse_fixture_solid.py",
+      "source_sha256": "137222f4accd358fb6a484d92948c8b29d6e262228b5e5bde3f9a7b1a668948b",
+      "bytes": 10704
+    },
+    {
+      "path": "analysis/analyse_fixture_validation.py",
+      "source": "E:\\Current_Probe\\analysis\\analyse_fixture_validation.py",
+      "source_sha256": "c216f7f500d8503dabae2110b04044d67d54baee3f98630f524600fcd35bdbb4",
+      "bytes": 8676
+    },
+    {
+      "path": "analysis/audit_all_pec_components.py",
+      "source": "E:\\Current_Probe\\analysis\\audit_all_pec_components.py",
+      "source_sha256": "919f28109750546135c70de484608ce1273eea3ebd35bd31d9ecc2cf326ab085",
+      "bytes": 4164
+    },
+    {
+      "path": "analysis/audit_solid_via_definition.py",
+      "source": "E:\\Current_Probe\\analysis\\audit_solid_via_definition.py",
+      "source_sha256": "223f7b5b2a37623c2f0eac692c9d57bddebafc5bc2383c248ab88b9055c7a102",
+      "bytes": 1801
+    },
+    {
+      "path": "analysis/check_em_ports.py",
+      "source": "E:\\Current_Probe\\analysis\\check_em_ports.py",
+      "source_sha256": "2cf8c6ef764d2bd9baeec83a8db6a163c4fa5c4a0240fdcbb8e6ff767293d3f4",
+      "bytes": 2188
+    },
+    {
+      "path": "analysis/check_fixture_nominal.py",
+      "source": "E:\\Current_Probe\\analysis\\check_fixture_nominal.py",
+      "source_sha256": "74063cfb4157e80b184a7f0a2e83ad57e5f5b38431589e25a2e77aa3117ad46a",
+      "bytes": 1705
+    },
+    {
+      "path": "analysis/check_sma_launch.py",
+      "source": "E:\\Current_Probe\\analysis\\check_sma_launch.py",
+      "source_sha256": "e49d6c22fc4ba6434ff841f0759defe276b6c8103712693dbc165f48b6462b04",
+      "bytes": 2644
+    },
+    {
+      "path": "analysis/compare_fixture_meshes.py",
+      "source": "E:\\Current_Probe\\analysis\\compare_fixture_meshes.py",
+      "source_sha256": "dc42259e1f15b0923f56aaead7f26f2fd5248f29548e03b58888bc61a29cfffc",
+      "bytes": 5367
+    },
+    {
+      "path": "analysis/compare_solid_fixture.py",
+      "source": "E:\\Current_Probe\\analysis\\compare_solid_fixture.py",
+      "source_sha256": "d6a07c0ffa98ff88152f63ef9128bad2cb7d5ccde5ea30074993b249c102d7f0",
+      "bytes": 4704
+    },
+    {
+      "path": "analysis/complete_fixture_validation.py",
+      "source": "E:\\Current_Probe\\analysis\\complete_fixture_validation.py",
+      "source_sha256": "42805c415104b27b778e61e8184c79b7ee7ea30fea493ce16bc2c12bcc5e5253",
+      "bytes": 2274
+    },
+    {
+      "path": "analysis/connection_plan.py",
+      "source": "E:\\Current_Probe\\analysis\\connection_plan.py",
+      "source_sha256": "477d26d7ee00deb681975f60ced83bad11ab637359610d991cdd2185639debda",
+      "bytes": 946
+    },
+    {
+      "path": "analysis/debug_em_launch.py",
+      "source": "E:\\Current_Probe\\analysis\\debug_em_launch.py",
+      "source_sha256": "2e4b8f43aa26f2aa5243e184ded22b412a9610560c1b7e76180e16d6c820007a",
+      "bytes": 1156
+    },
+    {
+      "path": "analysis/debug_fixture_pec.py",
+      "source": "E:\\Current_Probe\\analysis\\debug_fixture_pec.py",
+      "source_sha256": "52aa6a70ac00e1a99b79b480da4998945362a9950d556917f48dde7151bc517f",
+      "bytes": 980
+    },
+    {
+      "path": "analysis/debug_openems_a04_layers.py",
+      "source": "E:\\Current_Probe\\analysis\\debug_openems_a04_layers.py",
+      "source_sha256": "6657896a34dd970fe5597e63b9c6e6a1f7629725dc3500fce7f39c3ed08dd46a",
+      "bytes": 5886
+    },
+    {
+      "path": "analysis/debug_openems_two_planes.py",
+      "source": "E:\\Current_Probe\\analysis\\debug_openems_two_planes.py",
+      "source_sha256": "e97170741f58b1f88741ac57f8c1626465795924ab0dcaf864978444a495b39e",
+      "bytes": 2469
+    },
+    {
+      "path": "analysis/diagnose_a05_shunt_adjustment.py",
+      "source": "E:\\Current_Probe\\analysis\\diagnose_a05_shunt_adjustment.py",
+      "source_sha256": "a4751d5c866c1bd54296ac7cf6a740ad2df8d91dbe7383557889f05fe7cec863",
+      "bytes": 2625
+    },
+    {
+      "path": "analysis/diagnose_a05_two_element_adjustment.py",
+      "source": "E:\\Current_Probe\\analysis\\diagnose_a05_two_element_adjustment.py",
+      "source_sha256": "143b6de5b2aeb2db2551cc88ecd18df7fb72e2ebff9eaff83349564b8aabe9f9",
+      "bytes": 2577
+    },
+    {
+      "path": "analysis/diagnose_a06_equivalent_network.py",
+      "source": "E:\\Current_Probe\\analysis\\diagnose_a06_equivalent_network.py",
+      "source_sha256": "b1de285908cfa99faeedc4b60e797a4152b09879cda4bbad888bc2db9f1906d4",
+      "bytes": 2417
+    },
+    {
+      "path": "analysis/diagnose_symmetric_matching_feasibility.py",
+      "source": "E:\\Current_Probe\\analysis\\diagnose_symmetric_matching_feasibility.py",
+      "source_sha256": "7e5775472ef6cc4c41bbccf9c6b32514834997b2b255adb16d28228a88f48c0d",
+      "bytes": 4098
+    },
+    {
+      "path": "analysis/export_sma_revisions.py",
+      "source": "E:\\Current_Probe\\analysis\\export_sma_revisions.py",
+      "source_sha256": "c3c821404f3d11f016af60586a9e1e676571ac050b40520de61e0a5af076632b",
+      "bytes": 2368
+    },
+    {
+      "path": "analysis/extract_fixture_a04_em.py",
+      "source": "E:\\Current_Probe\\analysis\\extract_fixture_a04_em.py",
+      "source_sha256": "7df17e71f8ac7df322760fc8f42bc8bfda9271ad4155e20c855541a3b8377757",
+      "bytes": 3702
+    },
+    {
+      "path": "analysis/extract_fixture_a05_em.py",
+      "source": "E:\\Current_Probe\\analysis\\extract_fixture_a05_em.py",
+      "source_sha256": "2ca38369f7573401286aefa8707687701889689704d65e2c296e859fdebf3b77",
+      "bytes": 3702
+    },
+    {
+      "path": "analysis/extract_fixture_cross_section.py",
+      "source": "E:\\Current_Probe\\analysis\\extract_fixture_cross_section.py",
+      "source_sha256": "e68d68233e62d5b35a409b6c9d02612f31d9ed066a45f83db47309beb8d06e99",
+      "bytes": 1062
+    },
+    {
+      "path": "analysis/extract_fixture_em.py",
+      "source": "E:\\Current_Probe\\analysis\\extract_fixture_em.py",
+      "source_sha256": "9c7d5516f41e4edc1aa94b94b13e29c4d054a3bb69cafc27239d453a9a7665e1",
+      "bytes": 2027
+    },
+    {
+      "path": "analysis/extract_revised_fixture_em.py",
+      "source": "E:\\Current_Probe\\analysis\\extract_revised_fixture_em.py",
+      "source_sha256": "cbf0a88732acdc5591b0be21447c4f96ae1282a69e39c0f2607fcadedc61f71b",
+      "bytes": 2076
+    },
+    {
+      "path": "analysis/finish_solid_study.py",
+      "source": "E:\\Current_Probe\\analysis\\finish_solid_study.py",
+      "source_sha256": "8ba539ddfb91f3d672dcc90a2697518aba65d4f56b37cab146f7c72f26f925ad",
+      "bytes": 2440
+    },
+    {
+      "path": "analysis/fixture_a04_cross_section.py",
+      "source": "E:\\Current_Probe\\analysis\\fixture_a04_cross_section.py",
+      "source_sha256": "d7a95ad1ea834d89443e66174d6bc6b1c3e181c9dd01a0493b7953318357eae4",
+      "bytes": 7928
+    },
+    {
+      "path": "analysis/fixture_a04_full_em.py",
+      "source": "E:\\Current_Probe\\analysis\\fixture_a04_full_em.py",
+      "source_sha256": "57218ad3378e769fb34281d4930dced021f625795638791415c6e94f2f15cff1",
+      "bytes": 16071
+    },
+    {
+      "path": "analysis/fixture_a04_stop_check.py",
+      "source": "E:\\Current_Probe\\analysis\\fixture_a04_stop_check.py",
+      "source_sha256": "fa279e1435bb825c3680d46954f53512898218d7ee041c0b8afe06331793d03a",
+      "bytes": 4392
+    },
+    {
+      "path": "analysis/fixture_a04_validated_em.py",
+      "source": "E:\\Current_Probe\\analysis\\fixture_a04_validated_em.py",
+      "source_sha256": "7e4674e1f0ab648e4e167312799548a61393f7bc28bdf043459502ea19670e7f",
+      "bytes": 12210
+    },
+    {
+      "path": "analysis/fixture_a05_cage_cross_section.py",
+      "source": "E:\\Current_Probe\\analysis\\fixture_a05_cage_cross_section.py",
+      "source_sha256": "681b96d924eb3ddd92b0c0402faeb08964c36b780328d2501e10e6cd5f832794",
+      "bytes": 10741
+    },
+    {
+      "path": "analysis/fixture_a05_mesh.py",
+      "source": "E:\\Current_Probe\\analysis\\fixture_a05_mesh.py",
+      "source_sha256": "87b761ae24a553e3da8682c66cfb52d84def407bc3b51419683fdd30ca5bc864",
+      "bytes": 19376
+    },
+    {
+      "path": "analysis/fixture_a05_reducer.py",
+      "source": "E:\\Current_Probe\\analysis\\fixture_a05_reducer.py",
+      "source_sha256": "5f87e97d1db0c64d2982327c11d7a2f845e98040004c887b19c97cd9aacc08e0",
+      "bytes": 2712
+    },
+    {
+      "path": "analysis/fixture_a05_validated_em.py",
+      "source": "E:\\Current_Probe\\analysis\\fixture_a05_validated_em.py",
+      "source_sha256": "1bfdd83f93c120944bb3f5b42f1410a967d873acae3af21c07070a0a53c09088",
+      "bytes": 12350
+    },
+    {
+      "path": "analysis/fixture_a06_cage_em.py",
+      "source": "E:\\Current_Probe\\analysis\\fixture_a06_cage_em.py",
+      "source_sha256": "2cde5a1076c800bcd304d7b4d9f5c80b2cbf8cc3e789fd5e3b98fa0c5b3531ff",
+      "bytes": 18683
+    },
+    {
+      "path": "analysis/fixture_a07_uniform_cross_section.py",
+      "source": "E:\\Current_Probe\\analysis\\fixture_a07_uniform_cross_section.py",
+      "source_sha256": "eec2dd5e53dc7f7893e4e0ed275595ec9119e256d896a8b866c3bb22c419b590",
+      "bytes": 6116
+    },
+    {
+      "path": "analysis/fixture_corrected_topology.py",
+      "source": "E:\\Current_Probe\\analysis\\fixture_corrected_topology.py",
+      "source_sha256": "7728fbaea8d64da1b5f07d207393def4353407480dece5094f2fcb16c1fd4b2e",
+      "bytes": 10878
+    },
+    {
+      "path": "analysis/fixture_em.py",
+      "source": "E:\\Current_Probe\\analysis\\fixture_em.py",
+      "source_sha256": "6d1ceed009ea0e92176087e0bcc2add9043a87eeacff57b172827e782a1f29cb",
+      "bytes": 9480
+    },
+    {
+      "path": "analysis/fixture_impedance_20260918.py",
+      "source": "E:\\Current_Probe\\analysis\\fixture_impedance_20260918.py",
+      "source_sha256": "fdcac3183e61b1026be4ceb9fac442b5c07508744ad48829981518f0153c9ddc",
+      "bytes": 6339
+    },
+    {
+      "path": "analysis/fixture_independent_recheck.py",
+      "source": "E:\\Current_Probe\\analysis\\fixture_independent_recheck.py",
+      "source_sha256": "1b0224ade6a33f2a646545042bc8c4e1ba3f670381be393e2f59deb6007a66c9",
+      "bytes": 10358
+    },
+    {
+      "path": "analysis/fixture_match_redesign.py",
+      "source": "E:\\Current_Probe\\analysis\\fixture_match_redesign.py",
+      "source_sha256": "f0dc5600244d284c2960ef5f7a0fd80aabe61f2598993a198428eb7ff3d67dd4",
+      "bytes": 12241
+    },
+    {
+      "path": "analysis/fixture_model.py",
+      "source": "E:\\Current_Probe\\analysis\\fixture_model.py",
+      "source_sha256": "d69b96240abfb9919eaddea463e3a92966548b07a037be3f5a711ebd5f7aad7f",
+      "bytes": 1101
+    },
+    {
+      "path": "analysis/fixture_solid_vias.py",
+      "source": "E:\\Current_Probe\\analysis\\fixture_solid_vias.py",
+      "source_sha256": "a8dbf0ecc3dd78f48c0d259a011a596a8bd993b7348b7a4ea1e76da253e88e21",
+      "bytes": 11959
+    },
+    {
+      "path": "analysis/fixture_structural_em.py",
+      "source": "E:\\Current_Probe\\analysis\\fixture_structural_em.py",
+      "source_sha256": "cdb70ad4a1bd8a86140c14df188b47e35a7ad1a3ff08f734e72327f3f0ba6b1b",
+      "bytes": 19392
+    },
+    {
+      "path": "analysis/fixture_structural_redesign.py",
+      "source": "E:\\Current_Probe\\analysis\\fixture_structural_redesign.py",
+      "source_sha256": "b26273c9554663773c6c9a3a5c12f85654262e0ebfa69e794c6a3bb65d8672ae",
+      "bytes": 11547
+    },
+    {
+      "path": "analysis/fixture_validation.py",
+      "source": "E:\\Current_Probe\\analysis\\fixture_validation.py",
+      "source_sha256": "270aab1a04e53fa4b55123561236be333d8018a3d07ebe3dd2977ad6bd8aae3d",
+      "bytes": 10122
+    },
+    {
+      "path": "analysis/import_fixture_reference.py",
+      "source": "E:\\Current_Probe\\analysis\\import_fixture_reference.py",
+      "source_sha256": "a9b189edc8a8b3174f72d23618f1a9dd9ce9ed072bb2c6e05b8892464aa0fe50",
+      "bytes": 1044
+    },
+    {
+      "path": "analysis/inspect_fixture_sections.py",
+      "source": "E:\\Current_Probe\\analysis\\inspect_fixture_sections.py",
+      "source_sha256": "8e039a62a5ee6d81ebc19ab58a07e7471a126eaa8f2e5f1d4ece8e2055c48220",
+      "bytes": 634
+    },
+    {
+      "path": "analysis/inspect_pec_graph.py",
+      "source": "E:\\Current_Probe\\analysis\\inspect_pec_graph.py",
+      "source_sha256": "7ca93ce643e92a90eb7ab8c0aad2cd5eba32bce547b4814a1a6d9cd88e29b5d9",
+      "bytes": 2486
+    },
+    {
+      "path": "analysis/metadata_template.json",
+      "source": "E:\\Current_Probe\\analysis\\metadata_template.json",
+      "source_sha256": "ace11928ba81af08ccb8a1863262923049e87a54ee01cfacb311c73fe7199485",
+      "bytes": 1443
+    },
+    {
+      "path": "analysis/output_reference.py",
+      "source": "E:\\Current_Probe\\analysis\\output_reference.py",
+      "source_sha256": "21075c6e6d975b46f2f325009af1f7e5305e11be8aca7500a7c7cab3340c4f74",
+      "bytes": 19410
+    },
+    {
+      "path": "analysis/output_reference_bundle_template.json",
+      "source": "E:\\Current_Probe\\analysis\\output_reference_bundle_template.json",
+      "source_sha256": "a1bf45538b417f4023cb7d7c69f0290a4d3cbb99578db89ff826c802372364b2",
+      "bytes": 4638
+    },
+    {
+      "path": "analysis/package_design_closure.py",
+      "source": "E:\\Current_Probe\\analysis\\package_design_closure.py",
+      "source_sha256": "1477c80614e426be43d003b0ab4dc6a0be3f56fc09b1499b77c43aad175a7491",
+      "bytes": 2631
+    },
+    {
+      "path": "analysis/plot_fixture_closure.py",
+      "source": "E:\\Current_Probe\\analysis\\plot_fixture_closure.py",
+      "source_sha256": "1a6b67385c336e753dde15ed4a5f1625fc8d005ac4185d48dd405d55ef7d4789",
+      "bytes": 2900
+    },
+    {
+      "path": "analysis/plot_fixture_pec.py",
+      "source": "E:\\Current_Probe\\analysis\\plot_fixture_pec.py",
+      "source_sha256": "7273c6bcad79d21402f5232f143f00d0c4abf316ae864e4c903bcdfd7fffb97b",
+      "bytes": 2616
+    },
+    {
+      "path": "analysis/plot_fixture_redesign_results.py",
+      "source": "E:\\Current_Probe\\analysis\\plot_fixture_redesign_results.py",
+      "source_sha256": "dc94cf1c384cc9040b9d3a5e8790c8cdd621ee04bbe2329ea9063b66e0b3ec6e",
+      "bytes": 3248
+    },
+    {
+      "path": "analysis/plot_sma_fit.py",
+      "source": "E:\\Current_Probe\\analysis\\plot_sma_fit.py",
+      "source_sha256": "d6bd7524dabf86a757c814e19555b0816aaac758113815e4d54a5cfa63ecf419",
+      "bytes": 1539
+    },
+    {
+      "path": "analysis/prepare_sma_revisions.py",
+      "source": "E:\\Current_Probe\\analysis\\prepare_sma_revisions.py",
+      "source_sha256": "a56eaa4433acf8497662a0008169e969a5d3a61874c3919d49d8cf843ca866dd",
+      "bytes": 4140
+    },
+    {
+      "path": "analysis/requirements.txt",
+      "source": "E:\\Current_Probe\\analysis\\requirements.txt",
+      "source_sha256": "d915cf41e3a4af845e5b7d94e04540ac410ede27e470e40f2e0a33dfcdb97444",
+      "bytes": 91
+    },
+    {
+      "path": "analysis/rfcp.py",
+      "source": "E:\\Current_Probe\\analysis\\rfcp.py",
+      "source_sha256": "bb999d2e2e2cbb51f067576d90ca1c0d84f324a1ba9c306ce1c64346dca7e2ae",
+      "bytes": 18966
+    },
+    {
+      "path": "analysis/run_solid_via_matrix.py",
+      "source": "E:\\Current_Probe\\analysis\\run_solid_via_matrix.py",
+      "source_sha256": "1800ffe0c813be4596b0288ee23cb1bed8e085cd95380e71380fccc7e336e6f8",
+      "bytes": 3754
+    },
+    {
+      "path": "analysis/scope_metadata_template.json",
+      "source": "E:\\Current_Probe\\analysis\\scope_metadata_template.json",
+      "source_sha256": "e2f6884c681f33556ad1484d0dd17426cee98ea50f32af4ece09461efd9355ce",
+      "bytes": 1537
+    },
+    {
+      "path": "analysis/scope_tone.py",
+      "source": "E:\\Current_Probe\\analysis\\scope_tone.py",
+      "source_sha256": "23ad4efd53e55d1c5c4293ec6896dc7dfcc5221ca7a61aad04c6d2284c75a6f9",
+      "bytes": 12300
+    },
+    {
+      "path": "analysis/simulate_fixture_shunt_match.py",
+      "source": "E:\\Current_Probe\\analysis\\simulate_fixture_shunt_match.py",
+      "source_sha256": "f8e0a4e4b54d1d23ca574c56f8273cc8408e31e70050f9b8bd617607b6237eeb",
+      "bytes": 7409
+    },
+    {
+      "path": "analysis/sma_fit_review.py",
+      "source": "E:\\Current_Probe\\analysis\\sma_fit_review.py",
+      "source_sha256": "db23906c1fa3ea2ca4332d2650df31159eb8d78f783e0cba1e0006eefce9ead8",
+      "bytes": 4632
+    },
+    {
+      "path": "analysis/snapshot_fixture_em.py",
+      "source": "E:\\Current_Probe\\analysis\\snapshot_fixture_em.py",
+      "source_sha256": "96ea196ae710eb7cdf48c9ec13ac868e6b866176e043068c5cba053b523bba8d",
+      "bytes": 2759
+    },
+    {
+      "path": "analysis/split_core_tradeoff.py",
+      "source": "E:\\Current_Probe\\analysis\\split_core_tradeoff.py",
+      "source_sha256": "3c98889333b45c6ba2d8dd73a8ebc78ec62d0484d449962d1acfee8f21fccdf4",
+      "bytes": 1983
+    },
+    {
+      "path": "analysis/split_core_tradeoff_calculated.json",
+      "source": "E:\\Current_Probe\\analysis\\split_core_tradeoff_calculated.json",
+      "source_sha256": "03fe4f22cfa0535416114354e72b9a1f391fa3487fc5fa94776465fa2ca63775",
+      "bytes": 3515
+    },
+    {
+      "path": "analysis/summarise_fixture_closure.py",
+      "source": "E:\\Current_Probe\\analysis\\summarise_fixture_closure.py",
+      "source_sha256": "e54906621f32101c997991d9fb0fba2c194178c0aea9642dcc8c8db2940e4869",
+      "bytes": 4597
+    },
+    {
+      "path": "analysis/summarize_fixture_a04_em.py",
+      "source": "E:\\Current_Probe\\analysis\\summarize_fixture_a04_em.py",
+      "source_sha256": "de3711ad959cb7ad910ba93bdc1f30e111f5a11a664cee894f926e3d0b3ceaa1",
+      "bytes": 9511
+    },
+    {
+      "path": "analysis/summarize_fixture_a05_screen.py",
+      "source": "E:\\Current_Probe\\analysis\\summarize_fixture_a05_screen.py",
+      "source_sha256": "0709e107746510d4d33063f2ac81959db7ef098ad8721f0f87011cac74945d96",
+      "bytes": 4045
+    },
+    {
+      "path": "analysis/summarize_fixture_em.py",
+      "source": "E:\\Current_Probe\\analysis\\summarize_fixture_em.py",
+      "source_sha256": "d0a7a5120b7f8a3fae0aa229e1d74a7056d52587f6917670e9892cc6bed0927d",
+      "bytes": 3927
+    },
+    {
+      "path": "analysis/synthetic_output_reference.py",
+      "source": "E:\\Current_Probe\\analysis\\synthetic_output_reference.py",
+      "source_sha256": "b1e46ba3885c75e40c32e6cb397e37f39a40a0ac748d22952a888da50af3b123",
+      "bytes": 7708
+    },
+    {
+      "path": "analysis/update_design_closure_status.py",
+      "source": "E:\\Current_Probe\\analysis\\update_design_closure_status.py",
+      "source_sha256": "00fceb7f788c5ae78159c70928e345ce18e711799ebbe6b189e7af241493fb24",
+      "bytes": 7687
+    },
+    {
+      "path": "analysis/verify_a04_pec_connectivity.py",
+      "source": "E:\\Current_Probe\\analysis\\verify_a04_pec_connectivity.py",
+      "source_sha256": "c6af84e84d00e741d5b14070112ef2740273d97e7a13a21b66c014920b478594",
+      "bytes": 3406
+    },
+    {
+      "path": "analysis/verify_a05_pec_connectivity.py",
+      "source": "E:\\Current_Probe\\analysis\\verify_a05_pec_connectivity.py",
+      "source_sha256": "378c1b2d2c6cff5307eea37a67611b0cdedfeab4da7fde77ecbf3f4af467e27b",
+      "bytes": 3406
+    },
+    {
+      "path": "analysis/verify_a06_pec_connectivity.py",
+      "source": "E:\\Current_Probe\\analysis\\verify_a06_pec_connectivity.py",
+      "source_sha256": "acac8ccea65dbed401962d720cc7b0ad820059638ee0383ccf733f948be4840b",
+      "bytes": 3545
+    },
+    {
+      "path": "analysis/verify_fixture_a04.py",
+      "source": "E:\\Current_Probe\\analysis\\verify_fixture_a04.py",
+      "source_sha256": "aa8ad001078a6ca457c0b98a76ca368b7ea7f35f2518c00482b5b25c052a26d5",
+      "bytes": 5969
+    },
+    {
+      "path": "analysis/verify_fixture_a04_em_link.py",
+      "source": "E:\\Current_Probe\\analysis\\verify_fixture_a04_em_link.py",
+      "source_sha256": "dac01d8ea19adddb255f3295c22496b1e0bfa1edc0e49e2bd7350b54b908535b",
+      "bytes": 3023
+    },
+    {
+      "path": "analysis/verify_fixture_a04_mechanical.py",
+      "source": "E:\\Current_Probe\\analysis\\verify_fixture_a04_mechanical.py",
+      "source_sha256": "ddf1cc02fd7d033eb1463905c51417abec1db5c066538090ea5e95817ce3a0ae",
+      "bytes": 1609
+    },
+    {
+      "path": "analysis/verify_fixture_a05.py",
+      "source": "E:\\Current_Probe\\analysis\\verify_fixture_a05.py",
+      "source_sha256": "56401f1ded1d42a5ff4faff8c7eb9e3aa475bdff47b4fa5554168fb4aabf1afe",
+      "bytes": 7039
+    },
+    {
+      "path": "analysis/verify_fixture_postprocess.py",
+      "source": "E:\\Current_Probe\\analysis\\verify_fixture_postprocess.py",
+      "source_sha256": "1436fdf6e5e6b25cc530e9d66324a4ec19ecb9207970267435682f13ebdc1077",
+      "bytes": 1964
+    },
+    {
+      "path": "analysis/verify_sma_revisions.py",
+      "source": "E:\\Current_Probe\\analysis\\verify_sma_revisions.py",
+      "source_sha256": "2296f5297dac752ae5c084adeb449c593139b1bc78ea774f032ff8eef0387b07",
+      "bytes": 5769
+    },
+    {
+      "path": "analysis/watch_solid_observables.py",
+      "source": "E:\\Current_Probe\\analysis\\watch_solid_observables.py",
+      "source_sha256": "d3f91cc3ea73de5cf47e444c665f4aba6ffc9cfae9a4bab802a8014e486ce6cd",
+      "bytes": 3292
+    },
+    {
+      "path": "analysis/write_design_closure_report.py",
+      "source": "E:\\Current_Probe\\analysis\\write_design_closure_report.py",
+      "source_sha256": "be5d92c9639d7188140b11f637a124cc84ad69b1b045d848cce3285ade84d18c",
+      "bytes": 11469
+    },
+    {
+      "path": "tests/__init__.py",
+      "source": "E:\\Current_Probe\\tests\\__init__.py",
+      "source_sha256": "42099d1df3f79482d4379d9eb260148a3555b98b71f49becfc1cc3e67eb13c85",
+      "bytes": 59
+    },
+    {
+      "path": "tests/generate_synthetic.py",
+      "source": "E:\\Current_Probe\\tests\\generate_synthetic.py",
+      "source_sha256": "d5a010737dce772a3a21a3389f022375903ce79a9a97c4be59d2dda93f2271b0",
+      "bytes": 3852
+    },
+    {
+      "path": "tests/rehearsal_data.py",
+      "source": "E:\\Current_Probe\\tests\\rehearsal_data.py",
+      "source_sha256": "b1ee385c67c0097e8e09e614d51af3967ddcf88c9f6d6db3eb6df13c8cf6434c",
+      "bytes": 3355
+    },
+    {
+      "path": "tests/rehearse_workflow.py",
+      "source": "E:\\Current_Probe\\tests\\rehearse_workflow.py",
+      "source_sha256": "b385c5b30944c36e0fee3e5276721710a44644939de5518a3d809ba481274d3f",
+      "bytes": 5745
+    },
+    {
+      "path": "tests/review_build_package.py",
+      "source": "E:\\Current_Probe\\tests\\review_build_package.py",
+      "source_sha256": "544c3af5d875c424ce48ae5b4489dccd01d913c98620e7597a5cf756bc1cfe30",
+      "bytes": 5134
+    },
+    {
+      "path": "tests/test_output_reference.py",
+      "source": "E:\\Current_Probe\\tests\\test_output_reference.py",
+      "source_sha256": "b6915a877b359d5623145670337e5769b21ada21e3dafd9e134d01558c9dfff0",
+      "bytes": 9754
+    },
+    {
+      "path": "tests/test_rfcp.py",
+      "source": "E:\\Current_Probe\\tests\\test_rfcp.py",
+      "source_sha256": "9b19d36ea306db0592a61f6d768301afbab6d5c56986bcad918e14e842397f7d",
+      "bytes": 10109
+    },
+    {
+      "path": "tests/test_scope_tone.py",
+      "source": "E:\\Current_Probe\\tests\\test_scope_tone.py",
+      "source_sha256": "6934bfc4e48f4674206255764955ebcb12b537669ab0ffd67e42ec94b1bae649",
+      "bytes": 5964
+    },
+    {
+      "path": "tests/results/G3_workspace_review.json",
+      "source": "E:\\Current_Probe\\tests\\results\\G3_workspace_review.json",
+      "source_sha256": "55853f4a30118ee28fda6ad64471be57117b622288c573b6e5792c1221ce181e",
+      "bytes": 390
+    },
+    {
+      "path": "tests/results/build_readiness_20260917.json",
+      "source": "E:\\Current_Probe\\tests\\results\\build_readiness_20260917.json",
+      "source_sha256": "57f7fdaa280636ecb91616fe85e63e40ad318a077680223225925ca7da9ee32c",
+      "bytes": 629
+    },
+    {
+      "path": "tests/results/environment.json",
+      "source": "E:\\Current_Probe\\tests\\results\\environment.json",
+      "source_sha256": "ed48f3fed06fc47fedd6da2940f15965e5b86b15aba5a72e3ee6579ac52c91a5",
+      "bytes": 565
+    },
+    {
+      "path": "tests/results/process_review_tests.xml",
+      "source": "E:\\Current_Probe\\tests\\results\\process_review_tests.xml",
+      "source_sha256": "2f524996f7b23be33597d6e22d4ac244e0b6dcc06217f425bf5d3e28c2745eff",
+      "bytes": 13902
+    },
+    {
+      "path": "tests/results/process_workspace_review.json",
+      "source": "E:\\Current_Probe\\tests\\results\\process_workspace_review.json",
+      "source_sha256": "9a963e81d611f5c7d12f542e7280827909aa57344f2d2af85873f1b597b52eba",
+      "bytes": 508
+    },
+    {
+      "path": "tests/results/unit_tests.xml",
+      "source": "E:\\Current_Probe\\tests\\results\\unit_tests.xml",
+      "source_sha256": "b6824447d64f1f6a69c5a32d7b1acc47bccc0e0fc68f1f7443ee9efb61954fc8",
+      "bytes": 8211
+    },
+    {
+      "path": "tests/results/workspace_review.json",
+      "source": "E:\\Current_Probe\\tests\\results\\workspace_review.json",
+      "source_sha256": "d42333fa162d087af9ca4dc1d83c1a85bef8004ff63cb6e0c24a1c7f8d93a1ec",
+      "bytes": 792
+    },
+    {
+      "path": "tests/results/end_to_end_20260916/connection_plan.json",
+      "source": "E:\\Current_Probe\\tests\\results\\end_to_end_20260916\\connection_plan.json",
+      "source_sha256": "9a0fa4f9d90f9f002e1683c4739c158d2f943cf17e306dc1f7a21a28640053aa",
+      "bytes": 2279
+    },
+    {
+      "path": "tests/results/end_to_end_20260916/report.json",
+      "source": "E:\\Current_Probe\\tests\\results\\end_to_end_20260916\\report.json",
+      "source_sha256": "2ae0a2200a3a93fcb9dd9ac3ff6f50d2c6e863135ab45fbc06e83e8bc3a0d869",
+      "bytes": 8955
+    },
+    {
+      "path": "tests/results/end_to_end_20260916/inputs/cw.csv",
+      "source": "E:\\Current_Probe\\tests\\results\\end_to_end_20260916\\inputs\\cw.csv",
+      "source_sha256": "c3672c750e4f369483fdc6799440849635b0730e97c1d1f40df2b8da15d67579",
+      "bytes": 210759
+    },
+    {
+      "path": "tests/results/end_to_end_20260916/inputs/scope.json",
+      "source": "E:\\Current_Probe\\tests\\results\\end_to_end_20260916\\inputs\\scope.json",
+      "source_sha256": "74342ab38167f5c5936808e877615274c76dd854b57d18ad6b56d89aff3449dc",
+      "bytes": 2252
+    },
+    {
+      "path": "tests/results/end_to_end_20260916/inputs/transfer.json",
+      "source": "E:\\Current_Probe\\tests\\results\\end_to_end_20260916\\inputs\\transfer.json",
+      "source_sha256": "950a182f47e7c144b21a10072f699831b41fecee5da456e08959a9c570fecdd3",
+      "bytes": 1788
+    },
+    {
+      "path": "tests/results/end_to_end_20260916/scope_current/manifest.json",
+      "source": "E:\\Current_Probe\\tests\\results\\end_to_end_20260916\\scope_current\\manifest.json",
+      "source_sha256": "c0022d666d7ee0997fbea38919a260a90a3149f43d9beef3c0a39576dd0c1f19",
+      "bytes": 5357
+    },
+    {
+      "path": "tests/results/end_to_end_20260916/scope_current/tone_result.json",
+      "source": "E:\\Current_Probe\\tests\\results\\end_to_end_20260916\\scope_current\\tone_result.json",
+      "source_sha256": "cc44032d0a46a52d5b554d753153aa5b369a52ef03a40e368553366eb07ad7af",
+      "bytes": 993
+    },
+    {
+      "path": "tests/results/end_to_end_20260916/scope_voltage/manifest.json",
+      "source": "E:\\Current_Probe\\tests\\results\\end_to_end_20260916\\scope_voltage\\manifest.json",
+      "source_sha256": "e1a8df031efe35ab41271fafc645a20bb76384348e987f02fa71ccb32f9ba6ce",
+      "bytes": 3134
+    },
+    {
+      "path": "tests/results/end_to_end_20260916/scope_voltage/tone_result.json",
+      "source": "E:\\Current_Probe\\tests\\results\\end_to_end_20260916\\scope_voltage\\tone_result.json",
+      "source_sha256": "fae3daccbd067bbb05d01acfeebff9192f85929ee5d290b616baf609cd2d4c16",
+      "bytes": 787
+    },
+    {
+      "path": "tests/results/end_to_end_20260916/vna_extraction/manifest.json",
+      "source": "E:\\Current_Probe\\tests\\results\\end_to_end_20260916\\vna_extraction\\manifest.json",
+      "source_sha256": "47b49421afa1bd63456881ac96de8c06d1404c02f97ad4651bc891f1efc9bd09",
+      "bytes": 2652
+    },
+    {
+      "path": "tests/results/end_to_end_20260916/vna_extraction/response.png",
+      "source": "E:\\Current_Probe\\tests\\results\\end_to_end_20260916\\vna_extraction\\response.png",
+      "source_sha256": "c2a38c51aa50b1c376ba12e955ccdfcf09b4bf72a57421e418a25c87bdb9dde3",
+      "bytes": 71264
+    },
+    {
+      "path": "tests/results/end_to_end_20260916/vna_extraction/zt.csv",
+      "source": "E:\\Current_Probe\\tests\\results\\end_to_end_20260916\\vna_extraction\\zt.csv",
+      "source_sha256": "237fa1344c9ddb9d57d636a7cfa88522bc94e7db38bc0c8efad4d5a2af04c6b5",
+      "bytes": 480
+    },
+    {
+      "path": "tests/results/end_to_end_reviewed_20260916/connection_plan.json",
+      "source": "E:\\Current_Probe\\tests\\results\\end_to_end_reviewed_20260916\\connection_plan.json",
+      "source_sha256": "9a0fa4f9d90f9f002e1683c4739c158d2f943cf17e306dc1f7a21a28640053aa",
+      "bytes": 2279
+    },
+    {
+      "path": "tests/results/end_to_end_reviewed_20260916/report.json",
+      "source": "E:\\Current_Probe\\tests\\results\\end_to_end_reviewed_20260916\\report.json",
+      "source_sha256": "6cd093720772e110f6c1c5dffe4aa25107349165f7cb3624aef263d58673700d",
+      "bytes": 8955
+    },
+    {
+      "path": "tests/results/end_to_end_reviewed_20260916/inputs/cw.csv",
+      "source": "E:\\Current_Probe\\tests\\results\\end_to_end_reviewed_20260916\\inputs\\cw.csv",
+      "source_sha256": "c3672c750e4f369483fdc6799440849635b0730e97c1d1f40df2b8da15d67579",
+      "bytes": 210759
+    },
+    {
+      "path": "tests/results/end_to_end_reviewed_20260916/inputs/scope.json",
+      "source": "E:\\Current_Probe\\tests\\results\\end_to_end_reviewed_20260916\\inputs\\scope.json",
+      "source_sha256": "57364aebb750a9fb3c3e0b060f77a68eb4a2d0a7cf17a2b54216ab89c36fa755",
+      "bytes": 2254
+    },
+    {
+      "path": "tests/results/end_to_end_reviewed_20260916/inputs/transfer.json",
+      "source": "E:\\Current_Probe\\tests\\results\\end_to_end_reviewed_20260916\\inputs\\transfer.json",
+      "source_sha256": "950a182f47e7c144b21a10072f699831b41fecee5da456e08959a9c570fecdd3",
+      "bytes": 1788
+    },
+    {
+      "path": "tests/results/end_to_end_reviewed_20260916/scope_current/manifest.json",
+      "source": "E:\\Current_Probe\\tests\\results\\end_to_end_reviewed_20260916\\scope_current\\manifest.json",
+      "source_sha256": "2ec9292df26906234496e832fd77ad156b1462a36f0e7d6aa6766b7ece0edd69",
+      "bytes": 5395
+    },
+    {
+      "path": "tests/results/end_to_end_reviewed_20260916/scope_current/tone_result.json",
+      "source": "E:\\Current_Probe\\tests\\results\\end_to_end_reviewed_20260916\\scope_current\\tone_result.json",
+      "source_sha256": "cc44032d0a46a52d5b554d753153aa5b369a52ef03a40e368553366eb07ad7af",
+      "bytes": 993
+    },
+    {
+      "path": "tests/results/end_to_end_reviewed_20260916/scope_voltage/manifest.json",
+      "source": "E:\\Current_Probe\\tests\\results\\end_to_end_reviewed_20260916\\scope_voltage\\manifest.json",
+      "source_sha256": "9f0ac2b274e9d82d6e4f77e75de5d2e84e94ca11ef30c9f1d460182b40017a22",
+      "bytes": 3154
+    },
+    {
+      "path": "tests/results/end_to_end_reviewed_20260916/scope_voltage/tone_result.json",
+      "source": "E:\\Current_Probe\\tests\\results\\end_to_end_reviewed_20260916\\scope_voltage\\tone_result.json",
+      "source_sha256": "fae3daccbd067bbb05d01acfeebff9192f85929ee5d290b616baf609cd2d4c16",
+      "bytes": 787
+    },
+    {
+      "path": "tests/results/end_to_end_reviewed_20260916/vna_extraction/manifest.json",
+      "source": "E:\\Current_Probe\\tests\\results\\end_to_end_reviewed_20260916\\vna_extraction\\manifest.json",
+      "source_sha256": "e224efbb70b53f3a1dae8a638ff88a46cce8537a41873f4673e00fe207843db0",
+      "bytes": 2670
+    },
+    {
+      "path": "tests/results/end_to_end_reviewed_20260916/vna_extraction/response.png",
+      "source": "E:\\Current_Probe\\tests\\results\\end_to_end_reviewed_20260916\\vna_extraction\\response.png",
+      "source_sha256": "c2a38c51aa50b1c376ba12e955ccdfcf09b4bf72a57421e418a25c87bdb9dde3",
+      "bytes": 71264
+    },
+    {
+      "path": "tests/results/end_to_end_reviewed_20260916/vna_extraction/zt.csv",
+      "source": "E:\\Current_Probe\\tests\\results\\end_to_end_reviewed_20260916\\vna_extraction\\zt.csv",
+      "source_sha256": "237fa1344c9ddb9d57d636a7cfa88522bc94e7db38bc0c8efad4d5a2af04c6b5",
+      "bytes": 480
+    },
+    {
+      "path": "tests/results/hi_model_demo/manifest.json",
+      "source": "E:\\Current_Probe\\tests\\results\\hi_model_demo\\manifest.json",
+      "source_sha256": "baa671399bb964fe7c27e6dfc0c174510469d3baf239e9c632ddcd176b612c8d",
+      "bytes": 29995
+    },
+    {
+      "path": "tests/results/hi_model_demo/response.png",
+      "source": "E:\\Current_Probe\\tests\\results\\hi_model_demo\\response.png",
+      "source_sha256": "3beb58bd5325bdd3c82c4a0b545211f4262dd947789b984611c6b6a5e133b350",
+      "bytes": 77016
+    },
+    {
+      "path": "tests/results/hi_model_demo/zt.csv",
+      "source": "E:\\Current_Probe\\tests\\results\\hi_model_demo\\zt.csv",
+      "source_sha256": "fd5240347e27cdc3263b48f766a84973e2d76ba6ac7a536d763b8b82af4ba2a8",
+      "bytes": 36178
+    },
+    {
+      "path": "tests/results/hi_model_reviewed/manifest.json",
+      "source": "E:\\Current_Probe\\tests\\results\\hi_model_reviewed\\manifest.json",
+      "source_sha256": "206dfbd69219a6b0bb8e8543914c618d19c908882b60ffe9b309d46171808c20",
+      "bytes": 29995
+    },
+    {
+      "path": "tests/results/hi_model_reviewed/response.png",
+      "source": "E:\\Current_Probe\\tests\\results\\hi_model_reviewed\\response.png",
+      "source_sha256": "3beb58bd5325bdd3c82c4a0b545211f4262dd947789b984611c6b6a5e133b350",
+      "bytes": 77016
+    },
+    {
+      "path": "tests/results/hi_model_reviewed/zt.csv",
+      "source": "E:\\Current_Probe\\tests\\results\\hi_model_reviewed\\zt.csv",
+      "source_sha256": "fd5240347e27cdc3263b48f766a84973e2d76ba6ac7a536d763b8b82af4ba2a8",
+      "bytes": 36178
+    },
+    {
+      "path": "tests/results/process_rehearsal_final_20260916/connection_plan.json",
+      "source": "E:\\Current_Probe\\tests\\results\\process_rehearsal_final_20260916\\connection_plan.json",
+      "source_sha256": "9a0fa4f9d90f9f002e1683c4739c158d2f943cf17e306dc1f7a21a28640053aa",
+      "bytes": 2279
+    },
+    {
+      "path": "tests/results/process_rehearsal_final_20260916/report.json",
+      "source": "E:\\Current_Probe\\tests\\results\\process_rehearsal_final_20260916\\report.json",
+      "source_sha256": "40a66f5fc2a29f5fed7e33e2f745d9820f455c461829c9546b183f6ab6814c78",
+      "bytes": 9063
+    },
+    {
+      "path": "tests/results/process_rehearsal_final_20260916/inputs/cw.csv",
+      "source": "E:\\Current_Probe\\tests\\results\\process_rehearsal_final_20260916\\inputs\\cw.csv",
+      "source_sha256": "c3672c750e4f369483fdc6799440849635b0730e97c1d1f40df2b8da15d67579",
+      "bytes": 210759
+    },
+    {
+      "path": "tests/results/process_rehearsal_final_20260916/inputs/scope.json",
+      "source": "E:\\Current_Probe\\tests\\results\\process_rehearsal_final_20260916\\inputs\\scope.json",
+      "source_sha256": "57364aebb750a9fb3c3e0b060f77a68eb4a2d0a7cf17a2b54216ab89c36fa755",
+      "bytes": 2254
+    },
+    {
+      "path": "tests/results/process_rehearsal_final_20260916/inputs/transfer.json",
+      "source": "E:\\Current_Probe\\tests\\results\\process_rehearsal_final_20260916\\inputs\\transfer.json",
+      "source_sha256": "950a182f47e7c144b21a10072f699831b41fecee5da456e08959a9c570fecdd3",
+      "bytes": 1788
+    },
+    {
+      "path": "tests/results/process_rehearsal_final_20260916/scope_current/manifest.json",
+      "source": "E:\\Current_Probe\\tests\\results\\process_rehearsal_final_20260916\\scope_current\\manifest.json",
+      "source_sha256": "73b0fae5ddecc3b802db65a414e6d72270718c3a8bedd0c4a6816f1d4ed9c779",
+      "bytes": 5455
+    },
+    {
+      "path": "tests/results/process_rehearsal_final_20260916/scope_current/tone_result.json",
+      "source": "E:\\Current_Probe\\tests\\results\\process_rehearsal_final_20260916\\scope_current\\tone_result.json",
+      "source_sha256": "38818ec3f19d7a9fe5caca8841615fc2f9e8fd9d03bad3414e5729cef7f22fb0",
+      "bytes": 1016
+    },
+    {
+      "path": "tests/results/process_rehearsal_final_20260916/scope_voltage/manifest.json",
+      "source": "E:\\Current_Probe\\tests\\results\\process_rehearsal_final_20260916\\scope_voltage\\manifest.json",
+      "source_sha256": "0625efd553df49ceddad6a3b533349c8f8ece3588dfacc70c2bf98c2421dc663",
+      "bytes": 3206
+    },
+    {
+      "path": "tests/results/process_rehearsal_final_20260916/scope_voltage/tone_result.json",
+      "source": "E:\\Current_Probe\\tests\\results\\process_rehearsal_final_20260916\\scope_voltage\\tone_result.json",
+      "source_sha256": "1f1c078a47806109f3f63de1ed0d2915557e28cc34e4486959b50559c4d423a9",
+      "bytes": 810
+    },
+    {
+      "path": "tests/results/process_rehearsal_final_20260916/vna_extraction/manifest.json",
+      "source": "E:\\Current_Probe\\tests\\results\\process_rehearsal_final_20260916\\vna_extraction\\manifest.json",
+      "source_sha256": "2b6541a6f95c64a37a63c90b1327bc3d205c526c3c71dac6b303959c096d46ad",
+      "bytes": 2678
+    },
+    {
+      "path": "tests/results/process_rehearsal_final_20260916/vna_extraction/response.png",
+      "source": "E:\\Current_Probe\\tests\\results\\process_rehearsal_final_20260916\\vna_extraction\\response.png",
+      "source_sha256": "c2a38c51aa50b1c376ba12e955ccdfcf09b4bf72a57421e418a25c87bdb9dde3",
+      "bytes": 71264
+    },
+    {
+      "path": "tests/results/process_rehearsal_final_20260916/vna_extraction/zt.csv",
+      "source": "E:\\Current_Probe\\tests\\results\\process_rehearsal_final_20260916\\vna_extraction\\zt.csv",
+      "source_sha256": "237fa1344c9ddb9d57d636a7cfa88522bc94e7db38bc0c8efad4d5a2af04c6b5",
+      "bytes": 480
+    },
+    {
+      "path": "tests/results/relative_demo/manifest.json",
+      "source": "E:\\Current_Probe\\tests\\results\\relative_demo\\manifest.json",
+      "source_sha256": "a313bd8c756de50dd286b0b911ed3f5f2f2ed5afb831a59bb84e3134f048198f",
+      "bytes": 2514
+    },
+    {
+      "path": "tests/results/relative_demo/response.png",
+      "source": "E:\\Current_Probe\\tests\\results\\relative_demo\\response.png",
+      "source_sha256": "d73c311702eedff6fe53f11a233ac485df04b65919f0f1dbc3246e368d97fe48",
+      "bytes": 75692
+    },
+    {
+      "path": "tests/results/relative_demo/zt.csv",
+      "source": "E:\\Current_Probe\\tests\\results\\relative_demo\\zt.csv",
+      "source_sha256": "b282e57fb81c3ebd973ab9798ce5c26432c3cf09606fa6f5f9c0c3944c3e4d02",
+      "bytes": 29914
+    },
+    {
+      "path": "tests/results/relative_reviewed/manifest.json",
+      "source": "E:\\Current_Probe\\tests\\results\\relative_reviewed\\manifest.json",
+      "source_sha256": "6ca3e5bca430ec155573cc63b85d197e353ff313e35542fe53f22343970b6255",
+      "bytes": 2514
+    },
+    {
+      "path": "tests/results/relative_reviewed/response.png",
+      "source": "E:\\Current_Probe\\tests\\results\\relative_reviewed\\response.png",
+      "source_sha256": "a6a2df5c0700e9f538ef14da3e51c26735ac31580e637e9e48414d7e79672ccb",
+      "bytes": 74731
+    },
+    {
+      "path": "tests/results/relative_reviewed/zt.csv",
+      "source": "E:\\Current_Probe\\tests\\results\\relative_reviewed\\zt.csv",
+      "source_sha256": "b282e57fb81c3ebd973ab9798ce5c26432c3cf09606fa6f5f9c0c3944c3e4d02",
+      "bytes": 29914
+    },
+    {
+      "path": "tests/synthetic/bypass_fixture.json",
+      "source": "E:\\Current_Probe\\tests\\synthetic\\bypass_fixture.json",
+      "source_sha256": "b0b2610744cd0750cd81652c81b9909a5c129c243a0ee7f2b6785ee68c8c1968",
+      "bytes": 27363
+    },
+    {
+      "path": "tests/synthetic/expected_calculated.json",
+      "source": "E:\\Current_Probe\\tests\\synthetic\\expected_calculated.json",
+      "source_sha256": "81f652178b3fae02c3944f689c06653435db3294f43eb6adba9d1f26f88d420b",
+      "bytes": 1000
+    },
+    {
+      "path": "tests/synthetic/input_current.json",
+      "source": "E:\\Current_Probe\\tests\\synthetic\\input_current.json",
+      "source_sha256": "ace1d01ea4793848849f310b2d46db229fb9818888da08ff786fa0c1a042b988",
+      "bytes": 1885
+    },
+    {
+      "path": "tests/synthetic/relative.json",
+      "source": "E:\\Current_Probe\\tests\\synthetic\\relative.json",
+      "source_sha256": "c520bd9969f8f4aa1f0728d0ee8352618b625145e9d5ccddbc8b84a2979e5597",
+      "bytes": 1712
+    },
+    {
+      "path": "hardware/probe_head_A04_DRAFT/README.md",
+      "source": "E:\\Current_Probe\\hardware\\probe_head_A04_DRAFT\\README.md",
+      "source_sha256": "93beb118c8a1b9a01f972d2c025a594563a5b164027ae680980fcd5d715b6e61",
+      "bytes": 3361
+    },
+    {
+      "path": "hardware/probe_head_A04_DRAFT/RFCP.kicad_sym",
+      "source": "E:\\Current_Probe\\hardware\\probe_head_A04_DRAFT\\RFCP.kicad_sym",
+      "source_sha256": "5d9cb1ecac7edd04f4580c2cd198ec3dc8f4f72e496117e7b61768cc3635164a",
+      "bytes": 1982
+    },
+    {
+      "path": "hardware/probe_head_A04_DRAFT/RFCP_Head_A04_DRAFT.kicad_pcb",
+      "source": "E:\\Current_Probe\\hardware\\probe_head_A04_DRAFT\\RFCP_Head_A04_DRAFT.kicad_pcb",
+      "source_sha256": "38a257380bd70205c55be3fff8bcf504889c01ce60fa83e79403088546b68808",
+      "bytes": 34299
+    },
+    {
+      "path": "hardware/probe_head_A04_DRAFT/RFCP_Head_A04_DRAFT.kicad_pro",
+      "source": "E:\\Current_Probe\\hardware\\probe_head_A04_DRAFT\\RFCP_Head_A04_DRAFT.kicad_pro",
+      "source_sha256": "c3c33f6da7f225807c1c2ca2d35a3bfd8aeac4eaf52352bd1768fb58a52bde37",
+      "bytes": 1335
+    },
+    {
+      "path": "hardware/probe_head_A04_DRAFT/RFCP_Head_A04_DRAFT.kicad_sch",
+      "source": "E:\\Current_Probe\\hardware\\probe_head_A04_DRAFT\\RFCP_Head_A04_DRAFT.kicad_sch",
+      "source_sha256": "7adf85517fb9fec3406711764212ece85afdcffe6a2c4e971512ba02947c33b9",
+      "bytes": 6794
+    },
+    {
+      "path": "hardware/probe_head_A04_DRAFT/build_revision.py",
+      "source": "E:\\Current_Probe\\hardware\\probe_head_A04_DRAFT\\build_revision.py",
+      "source_sha256": "9e445655a8a1cefa4330c65821db81ec5c48f3f622221e6761c9b6ad71150bf8",
+      "bytes": 2256
+    },
+    {
+      "path": "hardware/probe_head_A04_DRAFT/export_manifest.json",
+      "source": "E:\\Current_Probe\\hardware\\probe_head_A04_DRAFT\\export_manifest.json",
+      "source_sha256": "828f7e057ab1f3adfc8847c34bad36767f8eafdc84a44ba4f541b686e6f9c736",
+      "bytes": 1227
+    },
+    {
+      "path": "hardware/probe_head_A04_DRAFT/revision.json",
+      "source": "E:\\Current_Probe\\hardware\\probe_head_A04_DRAFT\\revision.json",
+      "source_sha256": "8952f05c4d24f3ad8df3c06389d456a570fd28517bbdc1212620cf21e3cfca48",
+      "bytes": 649
+    },
+    {
+      "path": "hardware/probe_head_A04_DRAFT/RFCP.pretty/CoilPads_2.54mm.kicad_mod",
+      "source": "E:\\Current_Probe\\hardware\\probe_head_A04_DRAFT\\RFCP.pretty\\CoilPads_2.54mm.kicad_mod",
+      "source_sha256": "20cc7049066ea8fe4f85b38e2407e0fd5bc142c44ac4bbf6933d3ca10526878b",
+      "bytes": 2713
+    },
+    {
+      "path": "hardware/probe_head_A04_DRAFT/RFCP.pretty/GCT_RFPC-SMA28-F.kicad_mod",
+      "source": "E:\\Current_Probe\\hardware\\probe_head_A04_DRAFT\\RFCP.pretty\\GCT_RFPC-SMA28-F.kicad_mod",
+      "source_sha256": "acec0efa43960908bb393d3ffc81b1e3d6240c6dcfc3b0f2900ea1b809ea3300",
+      "bytes": 4441
+    },
+    {
+      "path": "hardware/probe_head_A04_DRAFT/RFCP.pretty/MountingHole_2.8mm_NPTH.kicad_mod",
+      "source": "E:\\Current_Probe\\hardware\\probe_head_A04_DRAFT\\RFCP.pretty\\MountingHole_2.8mm_NPTH.kicad_mod",
+      "source_sha256": "296b2820cc9a7fbe8f9dac86ecd4c50ad3b952c9c9aef707753c180664b8004d",
+      "bytes": 1816
+    },
+    {
+      "path": "hardware/probe_head_A04_DRAFT/baseline/RFCP_Head_A03_DRAFT.kicad_pcb",
+      "source": "E:\\Current_Probe\\hardware\\probe_head_A04_DRAFT\\baseline\\RFCP_Head_A03_DRAFT.kicad_pcb",
+      "source_sha256": "e8fe7e9c551d78b89099443fee699feafc675fd767ea91fa858292c19d2d4c3d",
+      "bytes": 34255
+    },
+    {
+      "path": "hardware/probe_head_A04_DRAFT/baseline/RFCP_Head_A03_DRAFT.kicad_pro",
+      "source": "E:\\Current_Probe\\hardware\\probe_head_A04_DRAFT\\baseline\\RFCP_Head_A03_DRAFT.kicad_pro",
+      "source_sha256": "c3c33f6da7f225807c1c2ca2d35a3bfd8aeac4eaf52352bd1768fb58a52bde37",
+      "bytes": 1335
+    },
+    {
+      "path": "hardware/probe_head_A04_DRAFT/baseline/RFCP_Head_A03_DRAFT.kicad_sch",
+      "source": "E:\\Current_Probe\\hardware\\probe_head_A04_DRAFT\\baseline\\RFCP_Head_A03_DRAFT.kicad_sch",
+      "source_sha256": "9654f04ae9263d4e80cd624577c2eed8f4da46ee7b18b220bc4265738773d271",
+      "bytes": 6754
+    },
+    {
+      "path": "hardware/probe_head_A04_DRAFT/models/GCT_RFPC_SMA28_F_envelope.step",
+      "source": "E:\\Current_Probe\\hardware\\probe_head_A04_DRAFT\\models\\GCT_RFPC_SMA28_F_envelope.step",
+      "source_sha256": "7e80cf394ce5253b0ebbda69d2115f77c649e05e31d268ff9d3f77a7fe00b03f",
+      "bytes": 20095
+    },
+    {
+      "path": "hardware/probe_head_A04_DRAFT/review/board_only.step",
+      "source": "E:\\Current_Probe\\hardware\\probe_head_A04_DRAFT\\review\\board_only.step",
+      "source_sha256": "0defef0d7aa025e820ea9bd796bfa03ce98111c7676bd2d2083d2f861d83046f",
+      "bytes": 22442
+    },
+    {
+      "path": "hardware/probe_head_A04_DRAFT/review/commands.json",
+      "source": "E:\\Current_Probe\\hardware\\probe_head_A04_DRAFT\\review\\commands.json",
+      "source_sha256": "efb846efbd8fcbbfef5f81544a4089e737f074bd988a27cf5c60eaa0a4cdb53a",
+      "bytes": 3264
+    },
+    {
+      "path": "hardware/probe_head_A04_DRAFT/review/drc.json",
+      "source": "E:\\Current_Probe\\hardware\\probe_head_A04_DRAFT\\review\\drc.json",
+      "source_sha256": "02c235642df2f408fa07d650e6a85b2aaa66e90422310e2acd16eb26faab9a62",
+      "bytes": 415
+    },
+    {
+      "path": "hardware/probe_head_A04_DRAFT/review/drill_report.txt",
+      "source": "E:\\Current_Probe\\hardware\\probe_head_A04_DRAFT\\review\\drill_report.txt",
+      "source_sha256": "840e06822487d0f741f2fc1b8840e82046c6a2989fba3e388d6dae2064052d44",
+      "bytes": 791
+    },
+    {
+      "path": "hardware/probe_head_A04_DRAFT/review/erc.json",
+      "source": "E:\\Current_Probe\\hardware\\probe_head_A04_DRAFT\\review\\erc.json",
+      "source_sha256": "583c5f13524efa9907a15555348aa223ffb00e39c8b0260ab9b4844d6c9ebaf8",
+      "bytes": 1050
+    },
+    {
+      "path": "hardware/probe_head_A04_DRAFT/review/intentional_changes.json",
+      "source": "E:\\Current_Probe\\hardware\\probe_head_A04_DRAFT\\review\\intentional_changes.json",
+      "source_sha256": "12c186a0dc2519f00e1171cf116148f09272145c514eb6c9ad6d45d9beb2e007",
+      "bytes": 537
+    },
+    {
+      "path": "hardware/probe_head_A04_DRAFT/review/netlist.xml",
+      "source": "E:\\Current_Probe\\hardware\\probe_head_A04_DRAFT\\review\\netlist.xml",
+      "source_sha256": "d70bb53f44a6995e5112f22a68d7df40e7ec2768752f23da7b73f73461981cd8",
+      "bytes": 4214
+    },
+    {
+      "path": "hardware/probe_head_A04_DRAFT/review/revision_verification.json",
+      "source": "E:\\Current_Probe\\hardware\\probe_head_A04_DRAFT\\review\\revision_verification.json",
+      "source_sha256": "6a89ad1cfab2aeaa6516148597e7c30dc666d9d8ef80d28857acd17c54ba57c8",
+      "bytes": 1637
+    },
+    {
+      "path": "hardware/probe_head_A04_DRAFT/review/top.png",
+      "source": "E:\\Current_Probe\\hardware\\probe_head_A04_DRAFT\\review\\top.png",
+      "source_sha256": "8f75be431b9215748f697bc483d3bc02c127eeae44f0f4ab207499edab680dd5",
+      "bytes": 45969
+    },
+    {
+      "path": "hardware/probe_head_A04_DRAFT/review/top.svg",
+      "source": "E:\\Current_Probe\\hardware\\probe_head_A04_DRAFT\\review\\top.svg",
+      "source_sha256": "7a3a71a9fa61265e759d6ea9cd37f7ae84daa23d2b73f2c5e149b0cdf306e0af",
+      "bytes": 13072
+    },
+    {
+      "path": "hardware/probe_head_A04_SMA_R2_DRAFT/README.md",
+      "source": "E:\\Current_Probe\\hardware\\probe_head_A04_SMA_R2_DRAFT\\README.md",
+      "source_sha256": "b874a186d812c93a8613a69c2ad7255ef35e9616cde7f2cb91f134fa4d5e1a8d",
+      "bytes": 1852
+    },
+    {
+      "path": "hardware/probe_head_A04_SMA_R2_DRAFT/RFCP.kicad_sym",
+      "source": "E:\\Current_Probe\\hardware\\probe_head_A04_SMA_R2_DRAFT\\RFCP.kicad_sym",
+      "source_sha256": "5d9cb1ecac7edd04f4580c2cd198ec3dc8f4f72e496117e7b61768cc3635164a",
+      "bytes": 1982
+    },
+    {
+      "path": "hardware/probe_head_A04_SMA_R2_DRAFT/RFCP_Head_A04_SMA_R2_DRAFT.kicad_pcb",
+      "source": "E:\\Current_Probe\\hardware\\probe_head_A04_SMA_R2_DRAFT\\RFCP_Head_A04_SMA_R2_DRAFT.kicad_pcb",
+      "source_sha256": "a34172539b57a72cb21d980f1b6d51261449f2ccf03ada8ca7972a939c7980aa",
+      "bytes": 35122
+    },
+    {
+      "path": "hardware/probe_head_A04_SMA_R2_DRAFT/RFCP_Head_A04_SMA_R2_DRAFT.kicad_pro",
+      "source": "E:\\Current_Probe\\hardware\\probe_head_A04_SMA_R2_DRAFT\\RFCP_Head_A04_SMA_R2_DRAFT.kicad_pro",
+      "source_sha256": "c3c33f6da7f225807c1c2ca2d35a3bfd8aeac4eaf52352bd1768fb58a52bde37",
+      "bytes": 1335
+    },
+    {
+      "path": "hardware/probe_head_A04_SMA_R2_DRAFT/RFCP_Head_A04_SMA_R2_DRAFT.kicad_sch",
+      "source": "E:\\Current_Probe\\hardware\\probe_head_A04_SMA_R2_DRAFT\\RFCP_Head_A04_SMA_R2_DRAFT.kicad_sch",
+      "source_sha256": "7a35911c8ba7bdc2415557393d713fb055313cd5180d3acc03022a4f53d7662f",
+      "bytes": 6819
+    },
+    {
+      "path": "hardware/probe_head_A04_SMA_R2_DRAFT/build_revision.py",
+      "source": "E:\\Current_Probe\\hardware\\probe_head_A04_SMA_R2_DRAFT\\build_revision.py",
+      "source_sha256": "15dba3292a957c8451ea64465cd667fb01761c89522381af08a633a080860a31",
+      "bytes": 3371
+    },
+    {
+      "path": "hardware/probe_head_A04_SMA_R2_DRAFT/export_manifest.json",
+      "source": "E:\\Current_Probe\\hardware\\probe_head_A04_SMA_R2_DRAFT\\export_manifest.json",
+      "source_sha256": "f09d410db11a67e0f468273b774bd18bae2c08926ce3f61f2a743dc61cfc79f8",
+      "bytes": 1312
+    },
+    {
+      "path": "hardware/probe_head_A04_SMA_R2_DRAFT/revision.json",
+      "source": "E:\\Current_Probe\\hardware\\probe_head_A04_SMA_R2_DRAFT\\revision.json",
+      "source_sha256": "02917c95f53fb23d505936758ea197930bea07db1f9d45adda5263e64e7d29a3",
+      "bytes": 857
+    },
+    {
+      "path": "hardware/probe_head_A04_SMA_R2_DRAFT/RFCP.pretty/CoilPads_2.54mm.kicad_mod",
+      "source": "E:\\Current_Probe\\hardware\\probe_head_A04_SMA_R2_DRAFT\\RFCP.pretty\\CoilPads_2.54mm.kicad_mod",
+      "source_sha256": "20cc7049066ea8fe4f85b38e2407e0fd5bc142c44ac4bbf6933d3ca10526878b",
+      "bytes": 2713
+    },
+    {
+      "path": "hardware/probe_head_A04_SMA_R2_DRAFT/RFCP.pretty/GCT_RFPC-SMA28-F.kicad_mod",
+      "source": "E:\\Current_Probe\\hardware\\probe_head_A04_SMA_R2_DRAFT\\RFCP.pretty\\GCT_RFPC-SMA28-F.kicad_mod",
+      "source_sha256": "09be9d04def89307078a62a7ca5634a4aa8a5e1c0e8c4cb3c0c76577026d1fc3",
+      "bytes": 4382
+    },
+    {
+      "path": "hardware/probe_head_A04_SMA_R2_DRAFT/RFCP.pretty/MountingHole_2.8mm_NPTH.kicad_mod",
+      "source": "E:\\Current_Probe\\hardware\\probe_head_A04_SMA_R2_DRAFT\\RFCP.pretty\\MountingHole_2.8mm_NPTH.kicad_mod",
+      "source_sha256": "296b2820cc9a7fbe8f9dac86ecd4c50ad3b952c9c9aef707753c180664b8004d",
+      "bytes": 1816
+    },
+    {
+      "path": "hardware/probe_head_A04_SMA_R2_DRAFT/baseline/RFCP_Head_A04_DRAFT.kicad_pcb",
+      "source": "E:\\Current_Probe\\hardware\\probe_head_A04_SMA_R2_DRAFT\\baseline\\RFCP_Head_A04_DRAFT.kicad_pcb",
+      "source_sha256": "38a257380bd70205c55be3fff8bcf504889c01ce60fa83e79403088546b68808",
+      "bytes": 34299
+    },
+    {
+      "path": "hardware/probe_head_A04_SMA_R2_DRAFT/baseline/RFCP_Head_A04_DRAFT.kicad_pro",
+      "source": "E:\\Current_Probe\\hardware\\probe_head_A04_SMA_R2_DRAFT\\baseline\\RFCP_Head_A04_DRAFT.kicad_pro",
+      "source_sha256": "c3c33f6da7f225807c1c2ca2d35a3bfd8aeac4eaf52352bd1768fb58a52bde37",
+      "bytes": 1335
+    },
+    {
+      "path": "hardware/probe_head_A04_SMA_R2_DRAFT/baseline/RFCP_Head_A04_DRAFT.kicad_sch",
+      "source": "E:\\Current_Probe\\hardware\\probe_head_A04_SMA_R2_DRAFT\\baseline\\RFCP_Head_A04_DRAFT.kicad_sch",
+      "source_sha256": "7adf85517fb9fec3406711764212ece85afdcffe6a2c4e971512ba02947c33b9",
+      "bytes": 6794
+    },
+    {
+      "path": "hardware/probe_head_A04_SMA_R2_DRAFT/models/GCT_RFPC_SMA28_F_envelope.step",
+      "source": "E:\\Current_Probe\\hardware\\probe_head_A04_SMA_R2_DRAFT\\models\\GCT_RFPC_SMA28_F_envelope.step",
+      "source_sha256": "7e80cf394ce5253b0ebbda69d2115f77c649e05e31d268ff9d3f77a7fe00b03f",
+      "bytes": 20095
+    },
+    {
+      "path": "hardware/probe_head_A04_SMA_R2_DRAFT/review/board_only.step",
+      "source": "E:\\Current_Probe\\hardware\\probe_head_A04_SMA_R2_DRAFT\\review\\board_only.step",
+      "source_sha256": "b60c93e279963aebc381007ffcb341486406cde9388e9782e629af43ca0f32d4",
+      "bytes": 22454
+    },
+    {
+      "path": "hardware/probe_head_A04_SMA_R2_DRAFT/review/drc.json",
+      "source": "E:\\Current_Probe\\hardware\\probe_head_A04_SMA_R2_DRAFT\\review\\drc.json",
+      "source_sha256": "7710e0883ca5f4f1e3c584b2758248a934fa3b7a9fe78b9c0a270e5e8ea39824",
+      "bytes": 422
+    },
+    {
+      "path": "hardware/probe_head_A04_SMA_R2_DRAFT/review/drc_before_silk_clearance_fix.json",
+      "source": "E:\\Current_Probe\\hardware\\probe_head_A04_SMA_R2_DRAFT\\review\\drc_before_silk_clearance_fix.json",
+      "source_sha256": "6727d4a05bde721318a5d96fab74e1b4de02a9cedbe2852d5835036634daa61a",
+      "bytes": 6951
+    },
+    {
+      "path": "hardware/probe_head_A04_SMA_R2_DRAFT/review/drill_report.txt",
+      "source": "E:\\Current_Probe\\hardware\\probe_head_A04_SMA_R2_DRAFT\\review\\drill_report.txt",
+      "source_sha256": "b2cb919a6f4945f1ab46a6cf401aea6dd36e3172580afd204056aa99afdfd322",
+      "bytes": 812
+    },
+    {
+      "path": "hardware/probe_head_A04_SMA_R2_DRAFT/review/erc.json",
+      "source": "E:\\Current_Probe\\hardware\\probe_head_A04_SMA_R2_DRAFT\\review\\erc.json",
+      "source_sha256": "1b1e72aae57371f608621066bf1fb301721297220f788dcd4eeaec2533d3b4a1",
+      "bytes": 1057
+    },
+    {
+      "path": "hardware/probe_head_A04_SMA_R2_DRAFT/review/erc_initial_missing_symbol_library.json",
+      "source": "E:\\Current_Probe\\hardware\\probe_head_A04_SMA_R2_DRAFT\\review\\erc_initial_missing_symbol_library.json",
+      "source_sha256": "5670c94a726147b850a19d4d6397c14f7548413825df270c32961e434b63b23a",
+      "bytes": 2524
+    },
+    {
+      "path": "hardware/probe_head_A04_SMA_R2_DRAFT/review/intentional_changes.json",
+      "source": "E:\\Current_Probe\\hardware\\probe_head_A04_SMA_R2_DRAFT\\review\\intentional_changes.json",
+      "source_sha256": "4185070151ef46c6b44dfec2e269e8656beb7518333290f4c1d6dd7d67ab1495",
+      "bytes": 718
+    },
+    {
+      "path": "hardware/probe_head_A04_SMA_R2_DRAFT/review/netlist.xml",
+      "source": "E:\\Current_Probe\\hardware\\probe_head_A04_SMA_R2_DRAFT\\review\\netlist.xml",
+      "source_sha256": "aabfa41f61dc2d76706908fcf9ba4bee793f83b62523c42647ec165d61536b25",
+      "bytes": 4256
+    },
+    {
+      "path": "hardware/probe_head_A04_SMA_R2_DRAFT/review/strict_erc.json",
+      "source": "E:\\Current_Probe\\hardware\\probe_head_A04_SMA_R2_DRAFT\\review\\strict_erc.json",
+      "source_sha256": "937fed23b9fe9e559288e376cf7a938a72b75871c9c0c4aa1b5efc37f357326b",
+      "bytes": 510
+    },
+    {
+      "path": "hardware/probe_head_A04_SMA_R2_DRAFT/review/top.svg",
+      "source": "E:\\Current_Probe\\hardware\\probe_head_A04_SMA_R2_DRAFT\\review\\top.svg",
+      "source_sha256": "979b582f3c04844820adc8725957e86d8395d038cb6fa3bd20b09327631f0baf",
+      "bytes": 14471
+    },
+    {
+      "path": "hardware/calibration_fixture_PCB_A03_DRAFT/Fixture.kicad_sym",
+      "source": "E:\\Current_Probe\\hardware\\calibration_fixture_PCB_A03_DRAFT\\Fixture.kicad_sym",
+      "source_sha256": "3461deb11fe9866c7d228188df5587d1ec3edd6f4663b9c416ed056abc89f78b",
+      "bytes": 703
+    },
+    {
+      "path": "hardware/calibration_fixture_PCB_A03_DRAFT/README.md",
+      "source": "E:\\Current_Probe\\hardware\\calibration_fixture_PCB_A03_DRAFT\\README.md",
+      "source_sha256": "e97b58ce6792f29ba9d93b5a7eb94f4c0c967a38d0749f7d7be5506a05c95648",
+      "bytes": 4342
+    },
+    {
+      "path": "hardware/calibration_fixture_PCB_A03_DRAFT/RFCP_Fixture_Flat_A03_DRAFT.kicad_pcb",
+      "source": "E:\\Current_Probe\\hardware\\calibration_fixture_PCB_A03_DRAFT\\RFCP_Fixture_Flat_A03_DRAFT.kicad_pcb",
+      "source_sha256": "7452432265c55c33bbce9c3bf0bc9ea6b5220603afae941fd1c91295e04ce31f",
+      "bytes": 72786
+    },
+    {
+      "path": "hardware/calibration_fixture_PCB_A03_DRAFT/RFCP_Fixture_Flat_A03_DRAFT.kicad_pro",
+      "source": "E:\\Current_Probe\\hardware\\calibration_fixture_PCB_A03_DRAFT\\RFCP_Fixture_Flat_A03_DRAFT.kicad_pro",
+      "source_sha256": "119b81fe168347f0ce16b257a5ae85d48b550d045d8561468b0700bebdc8dd19",
+      "bytes": 9446
+    },
+    {
+      "path": "hardware/calibration_fixture_PCB_A03_DRAFT/RFCP_Fixture_Flat_A03_DRAFT.kicad_sch",
+      "source": "E:\\Current_Probe\\hardware\\calibration_fixture_PCB_A03_DRAFT\\RFCP_Fixture_Flat_A03_DRAFT.kicad_sch",
+      "source_sha256": "49f4fc4ad211b01266b445ef9c8edd8be780ccfe77705f529e97da8dff0da76f",
+      "bytes": 5125
+    },
+    {
+      "path": "hardware/calibration_fixture_PCB_A03_DRAFT/build_revision.py",
+      "source": "E:\\Current_Probe\\hardware\\calibration_fixture_PCB_A03_DRAFT\\build_revision.py",
+      "source_sha256": "91147f19235c1a245254d38e9ef726d5110906b7f2b919e9e110b9b747429752",
+      "bytes": 2184
+    },
+    {
+      "path": "hardware/calibration_fixture_PCB_A03_DRAFT/export_manifest.json",
+      "source": "E:\\Current_Probe\\hardware\\calibration_fixture_PCB_A03_DRAFT\\export_manifest.json",
+      "source_sha256": "f5888eb237cc1cccf70bb46e8d6073ab9a6798c2362e29c98b55101a76ef4bfa",
+      "bytes": 1307
+    },
+    {
+      "path": "hardware/calibration_fixture_PCB_A03_DRAFT/revision.json",
+      "source": "E:\\Current_Probe\\hardware\\calibration_fixture_PCB_A03_DRAFT\\revision.json",
+      "source_sha256": "aa8ef94521c2bac64dbadc93cdcd17739ebda6e7972abacd83451c51f85fd530",
+      "bytes": 693
+    },
+    {
+      "path": "hardware/calibration_fixture_PCB_A03_DRAFT/Fixture.pretty/GCT_RFPC_SMA28_F.kicad_mod",
+      "source": "E:\\Current_Probe\\hardware\\calibration_fixture_PCB_A03_DRAFT\\Fixture.pretty\\GCT_RFPC_SMA28_F.kicad_mod",
+      "source_sha256": "955cccfc0db03f1289cd601ab382cdbf28b7e4bd5f5d04f16f5499824369576d",
+      "bytes": 4400
+    },
+    {
+      "path": "hardware/calibration_fixture_PCB_A03_DRAFT/baseline/RFCP_Fixture_Flat_A02_DRAFT.kicad_pcb",
+      "source": "E:\\Current_Probe\\hardware\\calibration_fixture_PCB_A03_DRAFT\\baseline\\RFCP_Fixture_Flat_A02_DRAFT.kicad_pcb",
+      "source_sha256": "c148d6bf5d71da9dff32b5e93b917266076ec98e5edab353ca737e3c02134783",
+      "bytes": 72762
+    },
+    {
+      "path": "hardware/calibration_fixture_PCB_A03_DRAFT/baseline/RFCP_Fixture_Flat_A02_DRAFT.kicad_pro",
+      "source": "E:\\Current_Probe\\hardware\\calibration_fixture_PCB_A03_DRAFT\\baseline\\RFCP_Fixture_Flat_A02_DRAFT.kicad_pro",
+      "source_sha256": "29d34eb65e118cbc826de609dba467c9a6cf61547bf49b22c291ef61f51ede6a",
+      "bytes": 1458
+    },
+    {
+      "path": "hardware/calibration_fixture_PCB_A03_DRAFT/baseline/RFCP_Fixture_Flat_A02_DRAFT.kicad_sch",
+      "source": "E:\\Current_Probe\\hardware\\calibration_fixture_PCB_A03_DRAFT\\baseline\\RFCP_Fixture_Flat_A02_DRAFT.kicad_sch",
+      "source_sha256": "db094661356b8ffe788d4916f7211540988342e9262fe5e90a41c8c6b73425a8",
+      "bytes": 5125
+    },
+    {
+      "path": "hardware/calibration_fixture_PCB_A03_DRAFT/models/GCT_RFPC_SMA28_F_envelope.step",
+      "source": "E:\\Current_Probe\\hardware\\calibration_fixture_PCB_A03_DRAFT\\models\\GCT_RFPC_SMA28_F_envelope.step",
+      "source_sha256": "30bcba9e3c5b464e4d2e5b084df0c7618e235d70c90b0e42b0fd4d7b53f42604",
+      "bytes": 20095
+    },
+    {
+      "path": "hardware/calibration_fixture_PCB_A03_DRAFT/review/board_only.step",
+      "source": "E:\\Current_Probe\\hardware\\calibration_fixture_PCB_A03_DRAFT\\review\\board_only.step",
+      "source_sha256": "f2f493360fbd8892cc58a1bce38f4cb1f0d60787ea7ff48a5b21a90a330d5b8e",
+      "bytes": 59112
+    },
+    {
+      "path": "hardware/calibration_fixture_PCB_A03_DRAFT/review/commands.json",
+      "source": "E:\\Current_Probe\\hardware\\calibration_fixture_PCB_A03_DRAFT\\review\\commands.json",
+      "source_sha256": "beb2f2aa9dd96dadc27d44d17d0058d0da86d3efebbbcebbfcf8bcb323841393",
+      "bytes": 3515
+    },
+    {
+      "path": "hardware/calibration_fixture_PCB_A03_DRAFT/review/drc.json",
+      "source": "E:\\Current_Probe\\hardware\\calibration_fixture_PCB_A03_DRAFT\\review\\drc.json",
+      "source_sha256": "3d08bd1c8f5df9d9d265b4b2206d78a0f517b2e6df6732395bf6c3dbdb176bc6",
+      "bytes": 423
+    },
+    {
+      "path": "hardware/calibration_fixture_PCB_A03_DRAFT/review/drill_report.txt",
+      "source": "E:\\Current_Probe\\hardware\\calibration_fixture_PCB_A03_DRAFT\\review\\drill_report.txt",
+      "source_sha256": "1c400bdaee0f4c3d9e71025cd9114f63338578b2bc2b75fe409db314dab09804",
+      "bytes": 781
+    },
+    {
+      "path": "hardware/calibration_fixture_PCB_A03_DRAFT/review/erc.json",
+      "source": "E:\\Current_Probe\\hardware\\calibration_fixture_PCB_A03_DRAFT\\review\\erc.json",
+      "source_sha256": "4f863b17a8a531375b99f65925c3f9cefe6d1e3419d7f67013def627627a89b1",
+      "bytes": 511
+    },
+    {
+      "path": "hardware/calibration_fixture_PCB_A03_DRAFT/review/intentional_changes.json",
+      "source": "E:\\Current_Probe\\hardware\\calibration_fixture_PCB_A03_DRAFT\\review\\intentional_changes.json",
+      "source_sha256": "baeeab09e0990455d9ebf0005780f01f7d8d55e6e3160d1cbc6095ba24749862",
+      "bytes": 1022
+    },
+    {
+      "path": "hardware/calibration_fixture_PCB_A03_DRAFT/review/netlist.xml",
+      "source": "E:\\Current_Probe\\hardware\\calibration_fixture_PCB_A03_DRAFT\\review\\netlist.xml",
+      "source_sha256": "66f42e3841bc4e43a81fae4e084f859203e47ca270d50abea6af68716964068c",
+      "bytes": 3620
+    },
+    {
+      "path": "hardware/calibration_fixture_PCB_A03_DRAFT/review/revision_verification.json",
+      "source": "E:\\Current_Probe\\hardware\\calibration_fixture_PCB_A03_DRAFT\\review\\revision_verification.json",
+      "source_sha256": "694d0b6897fe1f870be11201d9f48ce57ac55c090ff74a82faba01a1d6c596b5",
+      "bytes": 2398
+    },
+    {
+      "path": "hardware/calibration_fixture_PCB_A03_DRAFT/review/top.png",
+      "source": "E:\\Current_Probe\\hardware\\calibration_fixture_PCB_A03_DRAFT\\review\\top.png",
+      "source_sha256": "abe69d83813462abf7a30c0e0bb67d2ea127d5b73c4d92575582936cfc7adc40",
+      "bytes": 42149
+    },
+    {
+      "path": "hardware/calibration_fixture_PCB_A03_DRAFT/review/top.svg",
+      "source": "E:\\Current_Probe\\hardware\\calibration_fixture_PCB_A03_DRAFT\\review\\top.svg",
+      "source_sha256": "603fd6bbfa3c700eb33575f16492d4e033753940e408cf88fbf9cc952c603fb4",
+      "bytes": 51557
+    },
+    {
+      "path": "hardware/calibration_fixture_PCB_A03_SMA_R2_DRAFT/Fixture.kicad_sym",
+      "source": "E:\\Current_Probe\\hardware\\calibration_fixture_PCB_A03_SMA_R2_DRAFT\\Fixture.kicad_sym",
+      "source_sha256": "3461deb11fe9866c7d228188df5587d1ec3edd6f4663b9c416ed056abc89f78b",
+      "bytes": 703
+    },
+    {
+      "path": "hardware/calibration_fixture_PCB_A03_SMA_R2_DRAFT/README.md",
+      "source": "E:\\Current_Probe\\hardware\\calibration_fixture_PCB_A03_SMA_R2_DRAFT\\README.md",
+      "source_sha256": "b533b3304f885ffc1cdcd7a7ce57ff3668bac46d5070158a3720c1dc2f49306d",
+      "bytes": 1897
+    },
+    {
+      "path": "hardware/calibration_fixture_PCB_A03_SMA_R2_DRAFT/RFCP_Fixture_Flat_A03_SMA_R2_DRAFT.kicad_pcb",
+      "source": "E:\\Current_Probe\\hardware\\calibration_fixture_PCB_A03_SMA_R2_DRAFT\\RFCP_Fixture_Flat_A03_SMA_R2_DRAFT.kicad_pcb",
+      "source_sha256": "2d01536193e6fa8d57d5db4e47543e7f0a3beab577a7e36164609e30abb01c54",
+      "bytes": 72931
+    },
+    {
+      "path": "hardware/calibration_fixture_PCB_A03_SMA_R2_DRAFT/RFCP_Fixture_Flat_A03_SMA_R2_DRAFT.kicad_pro",
+      "source": "E:\\Current_Probe\\hardware\\calibration_fixture_PCB_A03_SMA_R2_DRAFT\\RFCP_Fixture_Flat_A03_SMA_R2_DRAFT.kicad_pro",
+      "source_sha256": "119b81fe168347f0ce16b257a5ae85d48b550d045d8561468b0700bebdc8dd19",
+      "bytes": 9446
+    },
+    {
+      "path": "hardware/calibration_fixture_PCB_A03_SMA_R2_DRAFT/RFCP_Fixture_Flat_A03_SMA_R2_DRAFT.kicad_sch",
+      "source": "E:\\Current_Probe\\hardware\\calibration_fixture_PCB_A03_SMA_R2_DRAFT\\RFCP_Fixture_Flat_A03_SMA_R2_DRAFT.kicad_sch",
+      "source_sha256": "7b2fecbdd43d046741b21e8c11baf8bc1b88b36c0c881eea81f1c78bebe9a831",
+      "bytes": 5167
+    },
+    {
+      "path": "hardware/calibration_fixture_PCB_A03_SMA_R2_DRAFT/build_revision.py",
+      "source": "E:\\Current_Probe\\hardware\\calibration_fixture_PCB_A03_SMA_R2_DRAFT\\build_revision.py",
+      "source_sha256": "f31fea0e1444a8f6ad179429ea39ea229683afe256e2330e4abd460347a88142",
+      "bytes": 3632
+    },
+    {
+      "path": "hardware/calibration_fixture_PCB_A03_SMA_R2_DRAFT/export_manifest.json",
+      "source": "E:\\Current_Probe\\hardware\\calibration_fixture_PCB_A03_SMA_R2_DRAFT\\export_manifest.json",
+      "source_sha256": "539391c969a00295a6be2e2cd844b4c340376bbc73d0f4374c798cc30a6a93f7",
+      "bytes": 1392
+    },
+    {
+      "path": "hardware/calibration_fixture_PCB_A03_SMA_R2_DRAFT/revision.json",
+      "source": "E:\\Current_Probe\\hardware\\calibration_fixture_PCB_A03_SMA_R2_DRAFT\\revision.json",
+      "source_sha256": "67b0121ac360e41e2ac3358b00b45a48ac95fe49c565d906458186852507f67c",
+      "bytes": 904
+    },
+    {
+      "path": "hardware/calibration_fixture_PCB_A03_SMA_R2_DRAFT/Fixture.pretty/GCT_RFPC_SMA28_F.kicad_mod",
+      "source": "E:\\Current_Probe\\hardware\\calibration_fixture_PCB_A03_SMA_R2_DRAFT\\Fixture.pretty\\GCT_RFPC_SMA28_F.kicad_mod",
+      "source_sha256": "bcd04c4e56b42fafa4c85763bb05e4f4da267b4d1aca0bc9b4d9c9ef88184423",
+      "bytes": 4341
+    },
+    {
+      "path": "hardware/calibration_fixture_PCB_A03_SMA_R2_DRAFT/baseline/RFCP_Fixture_Flat_A03_DRAFT.kicad_pcb",
+      "source": "E:\\Current_Probe\\hardware\\calibration_fixture_PCB_A03_SMA_R2_DRAFT\\baseline\\RFCP_Fixture_Flat_A03_DRAFT.kicad_pcb",
+      "source_sha256": "7452432265c55c33bbce9c3bf0bc9ea6b5220603afae941fd1c91295e04ce31f",
+      "bytes": 72786
+    },
+    {
+      "path": "hardware/calibration_fixture_PCB_A03_SMA_R2_DRAFT/baseline/RFCP_Fixture_Flat_A03_DRAFT.kicad_pro",
+      "source": "E:\\Current_Probe\\hardware\\calibration_fixture_PCB_A03_SMA_R2_DRAFT\\baseline\\RFCP_Fixture_Flat_A03_DRAFT.kicad_pro",
+      "source_sha256": "119b81fe168347f0ce16b257a5ae85d48b550d045d8561468b0700bebdc8dd19",
+      "bytes": 9446
+    },
+    {
+      "path": "hardware/calibration_fixture_PCB_A03_SMA_R2_DRAFT/baseline/RFCP_Fixture_Flat_A03_DRAFT.kicad_sch",
+      "source": "E:\\Current_Probe\\hardware\\calibration_fixture_PCB_A03_SMA_R2_DRAFT\\baseline\\RFCP_Fixture_Flat_A03_DRAFT.kicad_sch",
+      "source_sha256": "49f4fc4ad211b01266b445ef9c8edd8be780ccfe77705f529e97da8dff0da76f",
+      "bytes": 5125
+    },
+    {
+      "path": "hardware/calibration_fixture_PCB_A03_SMA_R2_DRAFT/models/GCT_RFPC_SMA28_F_envelope.step",
+      "source": "E:\\Current_Probe\\hardware\\calibration_fixture_PCB_A03_SMA_R2_DRAFT\\models\\GCT_RFPC_SMA28_F_envelope.step",
+      "source_sha256": "30bcba9e3c5b464e4d2e5b084df0c7618e235d70c90b0e42b0fd4d7b53f42604",
+      "bytes": 20095
+    },
+    {
+      "path": "hardware/calibration_fixture_PCB_A03_SMA_R2_DRAFT/review/board_only.step",
+      "source": "E:\\Current_Probe\\hardware\\calibration_fixture_PCB_A03_SMA_R2_DRAFT\\review\\board_only.step",
+      "source_sha256": "7d1baa6b024c5e599ace6c4a9be4dc658079028770e4f4da203590693b8f530e",
+      "bytes": 59126
+    },
+    {
+      "path": "hardware/calibration_fixture_PCB_A03_SMA_R2_DRAFT/review/drc.json",
+      "source": "E:\\Current_Probe\\hardware\\calibration_fixture_PCB_A03_SMA_R2_DRAFT\\review\\drc.json",
+      "source_sha256": "0b1f75879484f56b966742d1e6b1d3e7f8a896353928099b8afd9cc7a2bf5824",
+      "bytes": 430
+    },
+    {
+      "path": "hardware/calibration_fixture_PCB_A03_SMA_R2_DRAFT/review/drill_report.txt",
+      "source": "E:\\Current_Probe\\hardware\\calibration_fixture_PCB_A03_SMA_R2_DRAFT\\review\\drill_report.txt",
+      "source_sha256": "c7e7e1b5afd822f71ff12cb40b982fe203608aa562f3fe345d0bcb221c08c779",
+      "bytes": 802
+    },
+    {
+      "path": "hardware/calibration_fixture_PCB_A03_SMA_R2_DRAFT/review/erc.json",
+      "source": "E:\\Current_Probe\\hardware\\calibration_fixture_PCB_A03_SMA_R2_DRAFT\\review\\erc.json",
+      "source_sha256": "42e96a71425b19c6b0c9c0737d8dd4f2369d31aa4e10e0a819a0cbe0a967fb3c",
+      "bytes": 518
+    },
+    {
+      "path": "hardware/calibration_fixture_PCB_A03_SMA_R2_DRAFT/review/intentional_changes.json",
+      "source": "E:\\Current_Probe\\hardware\\calibration_fixture_PCB_A03_SMA_R2_DRAFT\\review\\intentional_changes.json",
+      "source_sha256": "af018fab2b97da37c4bb808da5918eaaf182944eb1bebb1ff85f61d3df94cd64",
+      "bytes": 1433
+    },
+    {
+      "path": "hardware/calibration_fixture_PCB_A03_SMA_R2_DRAFT/review/netlist.xml",
+      "source": "E:\\Current_Probe\\hardware\\calibration_fixture_PCB_A03_SMA_R2_DRAFT\\review\\netlist.xml",
+      "source_sha256": "e9a25f8612b9f12a2a0836ac4f68f8fc8c456d39bfedd3f873225d7d28abeab7",
+      "bytes": 3669
+    },
+    {
+      "path": "hardware/calibration_fixture_PCB_A03_SMA_R2_DRAFT/review/strict_erc.json",
+      "source": "E:\\Current_Probe\\hardware\\calibration_fixture_PCB_A03_SMA_R2_DRAFT\\review\\strict_erc.json",
+      "source_sha256": "566aaacf1fd610e0a8c6e6d2704719845e438115df5f1d4fe74af9ba62676e35",
+      "bytes": 518
+    },
+    {
+      "path": "hardware/calibration_fixture_PCB_A03_SMA_R2_DRAFT/review/top.svg",
+      "source": "E:\\Current_Probe\\hardware\\calibration_fixture_PCB_A03_SMA_R2_DRAFT\\review\\top.svg",
+      "source_sha256": "cc4d227e733a35fe02e07e03455c40be48fcd19385fa9c6766e74041762d1fbf",
+      "bytes": 52658
+    },
+    {
+      "path": "mechanical/assembly_A17_DRAFT/README.md",
+      "source": "E:\\Current_Probe\\mechanical\\assembly_A17_DRAFT\\README.md",
+      "source_sha256": "6cd02638bde93f47a54bb7a74841274da3a6124484ad0e492aca6ce630dbcd7e",
+      "bytes": 367
+    },
+    {
+      "path": "mechanical/assembly_A17_DRAFT/RFCP_A17_Integrated_DRAFT.FCStd",
+      "source": "E:\\Current_Probe\\mechanical\\assembly_A17_DRAFT\\RFCP_A17_Integrated_DRAFT.FCStd",
+      "source_sha256": "2a16681db880fcb1abfb0241824d7b5618d99477fb55288e33bc57d1e9064d92",
+      "bytes": 926075
+    },
+    {
+      "path": "mechanical/assembly_A17_DRAFT/RFCP_A17_Integrated_DRAFT.step",
+      "source": "E:\\Current_Probe\\mechanical\\assembly_A17_DRAFT\\RFCP_A17_Integrated_DRAFT.step",
+      "source_sha256": "6b6a55d11330acde7a1530c650acbcbd0d4848800483c944a3f688df4ce23691",
+      "bytes": 4724071
+    },
+    {
+      "path": "mechanical/assembly_A17_DRAFT/build_report.json",
+      "source": "E:\\Current_Probe\\mechanical\\assembly_A17_DRAFT\\build_report.json",
+      "source_sha256": "c89a5a421672412e44fc031ea3e5e4defa79649e3682f029bcf6f8f7252131c4",
+      "bytes": 7571
+    },
+    {
+      "path": "mechanical/assembly_A17_DRAFT/parts/BaseCenter_A16_DRAFT.step",
+      "source": "E:\\Current_Probe\\mechanical\\assembly_A17_DRAFT\\parts\\BaseCenter_A16_DRAFT.step",
+      "source_sha256": "eb412963e99ef13a334359feb04b7b5f92248996620d90fb01e3490eed6ae40c",
+      "bytes": 365927
+    },
+    {
+      "path": "mechanical/assembly_A17_DRAFT/parts/BaseCenter_A16_DRAFT.stl",
+      "source": "E:\\Current_Probe\\mechanical\\assembly_A17_DRAFT\\parts\\BaseCenter_A16_DRAFT.stl",
+      "source_sha256": "62e2934ea7836a6003ca0cb7cd81388e619a5d61f9e9cb8fe3274c401354f149",
+      "bytes": 351884
+    },
+    {
+      "path": "mechanical/assembly_A17_DRAFT/parts/BaseFront_A16_DRAFT.step",
+      "source": "E:\\Current_Probe\\mechanical\\assembly_A17_DRAFT\\parts\\BaseFront_A16_DRAFT.step",
+      "source_sha256": "207298d059eabc6bc4eb11fe74f21e4741a5b10ed36556f542ccd6c82f271376",
+      "bytes": 210366
+    },
+    {
+      "path": "mechanical/assembly_A17_DRAFT/parts/BaseFront_A16_DRAFT.stl",
+      "source": "E:\\Current_Probe\\mechanical\\assembly_A17_DRAFT\\parts\\BaseFront_A16_DRAFT.stl",
+      "source_sha256": "24e4fbbfb20ac2a814a53412747a9b4f3c05f7f5e9f6b2374b9873a4c09d1030",
+      "bytes": 159284
+    },
+    {
+      "path": "mechanical/assembly_A17_DRAFT/parts/BaseRear_A15_DRAFT.step",
+      "source": "E:\\Current_Probe\\mechanical\\assembly_A17_DRAFT\\parts\\BaseRear_A15_DRAFT.step",
+      "source_sha256": "8d3cf9b70c6c49188fdb1e4b5e202ca359ba51949442c242413bd68744fedba0",
+      "bytes": 204876
+    },
+    {
+      "path": "mechanical/assembly_A17_DRAFT/parts/BaseRear_A15_DRAFT.stl",
+      "source": "E:\\Current_Probe\\mechanical\\assembly_A17_DRAFT\\parts\\BaseRear_A15_DRAFT.stl",
+      "source_sha256": "2fb6ef77b602fb1b4f2075d6ab38f99649d9cad61dcb1f8dd6d614a717cac03b",
+      "bytes": 158384
+    },
+    {
+      "path": "mechanical/assembly_A17_DRAFT/parts/C07_DriveYoke_DRAFT.step",
+      "source": "E:\\Current_Probe\\mechanical\\assembly_A17_DRAFT\\parts\\C07_DriveYoke_DRAFT.step",
+      "source_sha256": "8a8f9b8551f0eeaf5be2b45a0dd8b06d56d070f8eb6a2d8de7e7ca85dcc295cc",
+      "bytes": 66686
+    },
+    {
+      "path": "mechanical/assembly_A17_DRAFT/parts/C07_DriveYoke_DRAFT.stl",
+      "source": "E:\\Current_Probe\\mechanical\\assembly_A17_DRAFT\\parts\\C07_DriveYoke_DRAFT.stl",
+      "source_sha256": "8bed8235b55fcb8f6ffa9182ad031c43cec80a77c70bc72ccfb1fa1110a93868",
+      "bytes": 143084
+    },
+    {
+      "path": "mechanical/assembly_A17_DRAFT/parts/C07_Jaw1_DRAFT.step",
+      "source": "E:\\Current_Probe\\mechanical\\assembly_A17_DRAFT\\parts\\C07_Jaw1_DRAFT.step",
+      "source_sha256": "763a5879fc563bf0c1ab265b5cdc398ee36fded23b6a871576ac677622e80651",
+      "bytes": 24079
+    },
+    {
+      "path": "mechanical/assembly_A17_DRAFT/parts/C07_Jaw1_DRAFT.stl",
+      "source": "E:\\Current_Probe\\mechanical\\assembly_A17_DRAFT\\parts\\C07_Jaw1_DRAFT.stl",
+      "source_sha256": "49cc91a2fdbb6efb1b4a3368edf535df3927171beb0e7b3c939a4f2408cd0fe6",
+      "bytes": 27684
+    },
+    {
+      "path": "mechanical/assembly_A17_DRAFT/parts/C07_Jaw2_DRAFT.step",
+      "source": "E:\\Current_Probe\\mechanical\\assembly_A17_DRAFT\\parts\\C07_Jaw2_DRAFT.step",
+      "source_sha256": "8c5cbd8c6de368e176281cc1022813fa92c6eba1986bc8448937681f30f9e3b3",
+      "bytes": 24036
+    },
+    {
+      "path": "mechanical/assembly_A17_DRAFT/parts/C07_Jaw2_DRAFT.stl",
+      "source": "E:\\Current_Probe\\mechanical\\assembly_A17_DRAFT\\parts\\C07_Jaw2_DRAFT.stl",
+      "source_sha256": "35cd0f5320cec7596fcd31e1c385168b7d82897c6d302644b3c9afa8f23cf8b0",
+      "bytes": 27684
+    },
+    {
+      "path": "mechanical/assembly_A17_DRAFT/parts/C07_TopBridgeJaw_DRAFT.step",
+      "source": "E:\\Current_Probe\\mechanical\\assembly_A17_DRAFT\\parts\\C07_TopBridgeJaw_DRAFT.step",
+      "source_sha256": "ab741995cb28253122467ea1c4ed517efdf92d6ed1a78ca5460bbfc30532e1da",
+      "bytes": 30287
+    },
+    {
+      "path": "mechanical/assembly_A17_DRAFT/parts/C07_TopBridgeJaw_DRAFT.stl",
+      "source": "E:\\Current_Probe\\mechanical\\assembly_A17_DRAFT\\parts\\C07_TopBridgeJaw_DRAFT.stl",
+      "source_sha256": "46a284515d61f4bf7b3134a6dcedd5d5f0af36cbed1698a831445530edf38b36",
+      "bytes": 45884
+    },
+    {
+      "path": "mechanical/assembly_A17_DRAFT/parts/C10_Frame_DRAFT.step",
+      "source": "E:\\Current_Probe\\mechanical\\assembly_A17_DRAFT\\parts\\C10_Frame_DRAFT.step",
+      "source_sha256": "fe4335c5c1259b82b02ca9fa86c223e4fd0aba5530c41fb1b27e0104be21f859",
+      "bytes": 280678
+    },
+    {
+      "path": "mechanical/assembly_A17_DRAFT/parts/C10_Frame_DRAFT.stl",
+      "source": "E:\\Current_Probe\\mechanical\\assembly_A17_DRAFT\\parts\\C10_Frame_DRAFT.stl",
+      "source_sha256": "0573aa61947a964f5e2f5eb0e175b293fa1e46fd24aff2bda242d501ffefdcfe",
+      "bytes": 265884
+    },
+    {
+      "path": "mechanical/assembly_A17_DRAFT/parts/LowerArmLeft_A14_DRAFT.step",
+      "source": "E:\\Current_Probe\\mechanical\\assembly_A17_DRAFT\\parts\\LowerArmLeft_A14_DRAFT.step",
+      "source_sha256": "918336a00429016d32aa17215443a74f02de1c48c8121ee67a963d37bae6b417",
+      "bytes": 61956
+    },
+    {
+      "path": "mechanical/assembly_A17_DRAFT/parts/LowerArmLeft_A14_DRAFT.stl",
+      "source": "E:\\Current_Probe\\mechanical\\assembly_A17_DRAFT\\parts\\LowerArmLeft_A14_DRAFT.stl",
+      "source_sha256": "33c5f3c9a00b302090f6a2cd49e394cc2c4503219de38c150ce064c4c9af4449",
+      "bytes": 94984
+    },
+    {
+      "path": "mechanical/assembly_A17_DRAFT/parts/LowerArmRight_A14_DRAFT.step",
+      "source": "E:\\Current_Probe\\mechanical\\assembly_A17_DRAFT\\parts\\LowerArmRight_A14_DRAFT.step",
+      "source_sha256": "cbd49607d9eafc61f204b7d1b907b4392452119ccaa9a975aa61c93783556580",
+      "bytes": 27558
+    },
+    {
+      "path": "mechanical/assembly_A17_DRAFT/parts/LowerArmRight_A14_DRAFT.stl",
+      "source": "E:\\Current_Probe\\mechanical\\assembly_A17_DRAFT\\parts\\LowerArmRight_A14_DRAFT.stl",
+      "source_sha256": "290adebcb95725a36c461ac2f1a94c1880c141a50409dec644721598aeedb670",
+      "bytes": 87784
+    },
+    {
+      "path": "mechanical/assembly_A17_DRAFT/parts/LowerCenter_A14_DRAFT.step",
+      "source": "E:\\Current_Probe\\mechanical\\assembly_A17_DRAFT\\parts\\LowerCenter_A14_DRAFT.step",
+      "source_sha256": "db2be92b15f89c13d36ed03ebf7a19a48d33cebf2e2557cf22778300277e7ca7",
+      "bytes": 225718
+    },
+    {
+      "path": "mechanical/assembly_A17_DRAFT/parts/LowerCenter_A14_DRAFT.stl",
+      "source": "E:\\Current_Probe\\mechanical\\assembly_A17_DRAFT\\parts\\LowerCenter_A14_DRAFT.stl",
+      "source_sha256": "bfc6b32c6e7be167b0908f91b0d0fa07581f472301412f922693d503b7777353",
+      "bytes": 318384
+    },
+    {
+      "path": "mechanical/assembly_A17_DRAFT/parts/LowerKeeper_FREE_DRAFT.step",
+      "source": "E:\\Current_Probe\\mechanical\\assembly_A17_DRAFT\\parts\\LowerKeeper_FREE_DRAFT.step",
+      "source_sha256": "5e139283f8a06c4f7ba07875e7cafec660ed9f775bfb45b3f699092362dfd824",
+      "bytes": 39538
+    },
+    {
+      "path": "mechanical/assembly_A17_DRAFT/parts/LowerKeeper_FREE_DRAFT.stl",
+      "source": "E:\\Current_Probe\\mechanical\\assembly_A17_DRAFT\\parts\\LowerKeeper_FREE_DRAFT.stl",
+      "source_sha256": "178cc4b861b3578b68d134eaaa5b24c906b6e820e7283d3c8997f598a31f200c",
+      "bytes": 39484
+    },
+    {
+      "path": "mechanical/assembly_A17_DRAFT/parts/UpperKeeper_FREE_DRAFT.step",
+      "source": "E:\\Current_Probe\\mechanical\\assembly_A17_DRAFT\\parts\\UpperKeeper_FREE_DRAFT.step",
+      "source_sha256": "09b37b4423273b6fec84c00edc98bd34a63f06df6d93a80364098f237bff4981",
+      "bytes": 39557
+    },
+    {
+      "path": "mechanical/assembly_A17_DRAFT/parts/UpperKeeper_FREE_DRAFT.stl",
+      "source": "E:\\Current_Probe\\mechanical\\assembly_A17_DRAFT\\parts\\UpperKeeper_FREE_DRAFT.stl",
+      "source_sha256": "7a9238360fef5088b8bcc252fb72cfc2d20c59e782aa1c06b27c3cec39f95cad",
+      "bytes": 39484
+    },
+    {
+      "path": "mechanical/assembly_A17_DRAFT/parts/UpperLeft_A14_DRAFT.step",
+      "source": "E:\\Current_Probe\\mechanical\\assembly_A17_DRAFT\\parts\\UpperLeft_A14_DRAFT.step",
+      "source_sha256": "4a3b73f2e4caa84202cfe6e56cce8b8713b9999bffcf47a31b413adbae470408",
+      "bytes": 64498
+    },
+    {
+      "path": "mechanical/assembly_A17_DRAFT/parts/UpperLeft_A14_DRAFT.stl",
+      "source": "E:\\Current_Probe\\mechanical\\assembly_A17_DRAFT\\parts\\UpperLeft_A14_DRAFT.stl",
+      "source_sha256": "33c6917d76ab4290d491c76cbf92f39b1b000e456917197b16d9abc9e8956211",
+      "bytes": 108284
+    },
+    {
+      "path": "mechanical/assembly_A17_DRAFT/parts/UpperRight_A14_DRAFT.step",
+      "source": "E:\\Current_Probe\\mechanical\\assembly_A17_DRAFT\\parts\\UpperRight_A14_DRAFT.step",
+      "source_sha256": "1dc71ae4cb1078f30466e1de2ce09145a709c7409bfe1abb5cbc4e887ec8d6be",
+      "bytes": 61720
+    },
+    {
+      "path": "mechanical/assembly_A17_DRAFT/parts/UpperRight_A14_DRAFT.stl",
+      "source": "E:\\Current_Probe\\mechanical\\assembly_A17_DRAFT\\parts\\UpperRight_A14_DRAFT.stl",
+      "source_sha256": "a0ba5e16168e59a429124aa15f7c61df35ed67524cfe18e1442b5ab760229caa",
+      "bytes": 107884
+    },
+    {
+      "path": "mechanical/assembly_A18_DRAFT/README.md",
+      "source": "E:\\Current_Probe\\mechanical\\assembly_A18_DRAFT\\README.md",
+      "source_sha256": "da93092aa4205aa51eb0a52619d5e149d869cbc521fd57de50da20b05f78da36",
+      "bytes": 1417
+    },
+    {
+      "path": "mechanical/assembly_A18_DRAFT/RFCP_A18_Integrated_DRAFT.FCStd",
+      "source": "E:\\Current_Probe\\mechanical\\assembly_A18_DRAFT\\RFCP_A18_Integrated_DRAFT.FCStd",
+      "source_sha256": "8181b1d4b163f5d2f9607db463bf41e97acea0c9911f3464a687eb8e70664567",
+      "bytes": 940850
+    },
+    {
+      "path": "mechanical/assembly_A18_DRAFT/RFCP_A18_Integrated_DRAFT.step",
+      "source": "E:\\Current_Probe\\mechanical\\assembly_A18_DRAFT\\RFCP_A18_Integrated_DRAFT.step",
+      "source_sha256": "e925196e347b3fb18c036a9ac51858f8986474bc89ed0412f40470597ffadb76",
+      "bytes": 4782250
+    },
+    {
+      "path": "mechanical/assembly_A18_DRAFT/build_report.json",
+      "source": "E:\\Current_Probe\\mechanical\\assembly_A18_DRAFT\\build_report.json",
+      "source_sha256": "e2d72fa27f32b65544c08759708b64e65f4708e695916f793e15f7a749057ec4",
+      "bytes": 7711
+    },
+    {
+      "path": "mechanical/assembly_A18_DRAFT/parts/BaseCenter_A18_DRAFT.step",
+      "source": "E:\\Current_Probe\\mechanical\\assembly_A18_DRAFT\\parts\\BaseCenter_A18_DRAFT.step",
+      "source_sha256": "6585a1665cd29acac50fa1f5e85c11652f3ac093474665cd36ff97e507720b16",
+      "bytes": 383987
+    },
+    {
+      "path": "mechanical/assembly_A18_DRAFT/parts/BaseCenter_A18_DRAFT.stl",
+      "source": "E:\\Current_Probe\\mechanical\\assembly_A18_DRAFT\\parts\\BaseCenter_A18_DRAFT.stl",
+      "source_sha256": "a18890a30364264ce0f4cd517bc322999c4b323f6c2bdb83f50cd6779727f4c2",
+      "bytes": 354584
+    },
+    {
+      "path": "mechanical/assembly_A18_DRAFT/parts/BaseFront_A18_DRAFT.step",
+      "source": "E:\\Current_Probe\\mechanical\\assembly_A18_DRAFT\\parts\\BaseFront_A18_DRAFT.step",
+      "source_sha256": "2a5462f2bb088f46507590d15286937a3ec0727150232bb55585120acc0c512c",
+      "bytes": 230902
+    },
+    {
+      "path": "mechanical/assembly_A18_DRAFT/parts/BaseFront_A18_DRAFT.stl",
+      "source": "E:\\Current_Probe\\mechanical\\assembly_A18_DRAFT\\parts\\BaseFront_A18_DRAFT.stl",
+      "source_sha256": "933969d564ddafae4f961ae90d5c8436ce28cc2b66ec26ee26e4167430ed6067",
+      "bytes": 162484
+    },
+    {
+      "path": "mechanical/assembly_A18_DRAFT/parts/BaseRear_A18_DRAFT.step",
+      "source": "E:\\Current_Probe\\mechanical\\assembly_A18_DRAFT\\parts\\BaseRear_A18_DRAFT.step",
+      "source_sha256": "733af260d0c0d294d791824e6616c39a3f0a9d3a72e88c605f2e16effd1adb6f",
+      "bytes": 221477
+    },
+    {
+      "path": "mechanical/assembly_A18_DRAFT/parts/BaseRear_A18_DRAFT.stl",
+      "source": "E:\\Current_Probe\\mechanical\\assembly_A18_DRAFT\\parts\\BaseRear_A18_DRAFT.stl",
+      "source_sha256": "f6d2d7093b6b3d077c1d69f5a31cc0f7997359a8c14b39571e56159f4114b557",
+      "bytes": 160784
+    },
+    {
+      "path": "mechanical/assembly_A18_DRAFT/parts/C07_DriveYoke_DRAFT.step",
+      "source": "E:\\Current_Probe\\mechanical\\assembly_A18_DRAFT\\parts\\C07_DriveYoke_DRAFT.step",
+      "source_sha256": "8a8f9b8551f0eeaf5be2b45a0dd8b06d56d070f8eb6a2d8de7e7ca85dcc295cc",
+      "bytes": 66686
+    },
+    {
+      "path": "mechanical/assembly_A18_DRAFT/parts/C07_DriveYoke_DRAFT.stl",
+      "source": "E:\\Current_Probe\\mechanical\\assembly_A18_DRAFT\\parts\\C07_DriveYoke_DRAFT.stl",
+      "source_sha256": "8bed8235b55fcb8f6ffa9182ad031c43cec80a77c70bc72ccfb1fa1110a93868",
+      "bytes": 143084
+    },
+    {
+      "path": "mechanical/assembly_A18_DRAFT/parts/C07_Jaw1_DRAFT.step",
+      "source": "E:\\Current_Probe\\mechanical\\assembly_A18_DRAFT\\parts\\C07_Jaw1_DRAFT.step",
+      "source_sha256": "763a5879fc563bf0c1ab265b5cdc398ee36fded23b6a871576ac677622e80651",
+      "bytes": 24079
+    },
+    {
+      "path": "mechanical/assembly_A18_DRAFT/parts/C07_Jaw1_DRAFT.stl",
+      "source": "E:\\Current_Probe\\mechanical\\assembly_A18_DRAFT\\parts\\C07_Jaw1_DRAFT.stl",
+      "source_sha256": "49cc91a2fdbb6efb1b4a3368edf535df3927171beb0e7b3c939a4f2408cd0fe6",
+      "bytes": 27684
+    },
+    {
+      "path": "mechanical/assembly_A18_DRAFT/parts/C07_Jaw2_DRAFT.step",
+      "source": "E:\\Current_Probe\\mechanical\\assembly_A18_DRAFT\\parts\\C07_Jaw2_DRAFT.step",
+      "source_sha256": "8c5cbd8c6de368e176281cc1022813fa92c6eba1986bc8448937681f30f9e3b3",
+      "bytes": 24036
+    },
+    {
+      "path": "mechanical/assembly_A18_DRAFT/parts/C07_Jaw2_DRAFT.stl",
+      "source": "E:\\Current_Probe\\mechanical\\assembly_A18_DRAFT\\parts\\C07_Jaw2_DRAFT.stl",
+      "source_sha256": "35cd0f5320cec7596fcd31e1c385168b7d82897c6d302644b3c9afa8f23cf8b0",
+      "bytes": 27684
+    },
+    {
+      "path": "mechanical/assembly_A18_DRAFT/parts/C07_TopBridgeJaw_DRAFT.step",
+      "source": "E:\\Current_Probe\\mechanical\\assembly_A18_DRAFT\\parts\\C07_TopBridgeJaw_DRAFT.step",
+      "source_sha256": "ab741995cb28253122467ea1c4ed517efdf92d6ed1a78ca5460bbfc30532e1da",
+      "bytes": 30287
+    },
+    {
+      "path": "mechanical/assembly_A18_DRAFT/parts/C07_TopBridgeJaw_DRAFT.stl",
+      "source": "E:\\Current_Probe\\mechanical\\assembly_A18_DRAFT\\parts\\C07_TopBridgeJaw_DRAFT.stl",
+      "source_sha256": "46a284515d61f4bf7b3134a6dcedd5d5f0af36cbed1698a831445530edf38b36",
+      "bytes": 45884
+    },
+    {
+      "path": "mechanical/assembly_A18_DRAFT/parts/C10_Frame_DRAFT.step",
+      "source": "E:\\Current_Probe\\mechanical\\assembly_A18_DRAFT\\parts\\C10_Frame_DRAFT.step",
+      "source_sha256": "fe4335c5c1259b82b02ca9fa86c223e4fd0aba5530c41fb1b27e0104be21f859",
+      "bytes": 280678
+    },
+    {
+      "path": "mechanical/assembly_A18_DRAFT/parts/C10_Frame_DRAFT.stl",
+      "source": "E:\\Current_Probe\\mechanical\\assembly_A18_DRAFT\\parts\\C10_Frame_DRAFT.stl",
+      "source_sha256": "0573aa61947a964f5e2f5eb0e175b293fa1e46fd24aff2bda242d501ffefdcfe",
+      "bytes": 265884
+    },
+    {
+      "path": "mechanical/assembly_A18_DRAFT/parts/LowerArmLeft_A14_DRAFT.step",
+      "source": "E:\\Current_Probe\\mechanical\\assembly_A18_DRAFT\\parts\\LowerArmLeft_A14_DRAFT.step",
+      "source_sha256": "918336a00429016d32aa17215443a74f02de1c48c8121ee67a963d37bae6b417",
+      "bytes": 61956
+    },
+    {
+      "path": "mechanical/assembly_A18_DRAFT/parts/LowerArmLeft_A14_DRAFT.stl",
+      "source": "E:\\Current_Probe\\mechanical\\assembly_A18_DRAFT\\parts\\LowerArmLeft_A14_DRAFT.stl",
+      "source_sha256": "33c5f3c9a00b302090f6a2cd49e394cc2c4503219de38c150ce064c4c9af4449",
+      "bytes": 94984
+    },
+    {
+      "path": "mechanical/assembly_A18_DRAFT/parts/LowerArmRight_A14_DRAFT.step",
+      "source": "E:\\Current_Probe\\mechanical\\assembly_A18_DRAFT\\parts\\LowerArmRight_A14_DRAFT.step",
+      "source_sha256": "cbd49607d9eafc61f204b7d1b907b4392452119ccaa9a975aa61c93783556580",
+      "bytes": 27558
+    },
+    {
+      "path": "mechanical/assembly_A18_DRAFT/parts/LowerArmRight_A14_DRAFT.stl",
+      "source": "E:\\Current_Probe\\mechanical\\assembly_A18_DRAFT\\parts\\LowerArmRight_A14_DRAFT.stl",
+      "source_sha256": "290adebcb95725a36c461ac2f1a94c1880c141a50409dec644721598aeedb670",
+      "bytes": 87784
+    },
+    {
+      "path": "mechanical/assembly_A18_DRAFT/parts/LowerCenter_A14_DRAFT.step",
+      "source": "E:\\Current_Probe\\mechanical\\assembly_A18_DRAFT\\parts\\LowerCenter_A14_DRAFT.step",
+      "source_sha256": "db2be92b15f89c13d36ed03ebf7a19a48d33cebf2e2557cf22778300277e7ca7",
+      "bytes": 225718
+    },
+    {
+      "path": "mechanical/assembly_A18_DRAFT/parts/LowerCenter_A14_DRAFT.stl",
+      "source": "E:\\Current_Probe\\mechanical\\assembly_A18_DRAFT\\parts\\LowerCenter_A14_DRAFT.stl",
+      "source_sha256": "bfc6b32c6e7be167b0908f91b0d0fa07581f472301412f922693d503b7777353",
+      "bytes": 318384
+    },
+    {
+      "path": "mechanical/assembly_A18_DRAFT/parts/LowerKeeper_FREE_DRAFT.step",
+      "source": "E:\\Current_Probe\\mechanical\\assembly_A18_DRAFT\\parts\\LowerKeeper_FREE_DRAFT.step",
+      "source_sha256": "5e139283f8a06c4f7ba07875e7cafec660ed9f775bfb45b3f699092362dfd824",
+      "bytes": 39538
+    },
+    {
+      "path": "mechanical/assembly_A18_DRAFT/parts/LowerKeeper_FREE_DRAFT.stl",
+      "source": "E:\\Current_Probe\\mechanical\\assembly_A18_DRAFT\\parts\\LowerKeeper_FREE_DRAFT.stl",
+      "source_sha256": "178cc4b861b3578b68d134eaaa5b24c906b6e820e7283d3c8997f598a31f200c",
+      "bytes": 39484
+    },
+    {
+      "path": "mechanical/assembly_A18_DRAFT/parts/UpperKeeper_FREE_DRAFT.step",
+      "source": "E:\\Current_Probe\\mechanical\\assembly_A18_DRAFT\\parts\\UpperKeeper_FREE_DRAFT.step",
+      "source_sha256": "09b37b4423273b6fec84c00edc98bd34a63f06df6d93a80364098f237bff4981",
+      "bytes": 39557
+    },
+    {
+      "path": "mechanical/assembly_A18_DRAFT/parts/UpperKeeper_FREE_DRAFT.stl",
+      "source": "E:\\Current_Probe\\mechanical\\assembly_A18_DRAFT\\parts\\UpperKeeper_FREE_DRAFT.stl",
+      "source_sha256": "7a9238360fef5088b8bcc252fb72cfc2d20c59e782aa1c06b27c3cec39f95cad",
+      "bytes": 39484
+    },
+    {
+      "path": "mechanical/assembly_A18_DRAFT/parts/UpperLeft_A14_DRAFT.step",
+      "source": "E:\\Current_Probe\\mechanical\\assembly_A18_DRAFT\\parts\\UpperLeft_A14_DRAFT.step",
+      "source_sha256": "4a3b73f2e4caa84202cfe6e56cce8b8713b9999bffcf47a31b413adbae470408",
+      "bytes": 64498
+    },
+    {
+      "path": "mechanical/assembly_A18_DRAFT/parts/UpperLeft_A14_DRAFT.stl",
+      "source": "E:\\Current_Probe\\mechanical\\assembly_A18_DRAFT\\parts\\UpperLeft_A14_DRAFT.stl",
+      "source_sha256": "33c6917d76ab4290d491c76cbf92f39b1b000e456917197b16d9abc9e8956211",
+      "bytes": 108284
+    },
+    {
+      "path": "mechanical/assembly_A18_DRAFT/parts/UpperRight_A14_DRAFT.step",
+      "source": "E:\\Current_Probe\\mechanical\\assembly_A18_DRAFT\\parts\\UpperRight_A14_DRAFT.step",
+      "source_sha256": "1dc71ae4cb1078f30466e1de2ce09145a709c7409bfe1abb5cbc4e887ec8d6be",
+      "bytes": 61720
+    },
+    {
+      "path": "mechanical/assembly_A18_DRAFT/parts/UpperRight_A14_DRAFT.stl",
+      "source": "E:\\Current_Probe\\mechanical\\assembly_A18_DRAFT\\parts\\UpperRight_A14_DRAFT.stl",
+      "source_sha256": "a0ba5e16168e59a429124aa15f7c61df35ed67524cfe18e1442b5ab760229caa",
+      "bytes": 107884
+    },
+    {
+      "path": "mechanical/base_A19_DRAFT/RFCP_A19_CurrentHardware_Assembly_DRAFT.FCStd",
+      "source": "E:\\Current_Probe\\mechanical\\base_A19_DRAFT\\RFCP_A19_CurrentHardware_Assembly_DRAFT.FCStd",
+      "source_sha256": "8c2c9e996e1615c0c5140a90942c9da87ad4292fdfac65d39bbff3fc46ec55af",
+      "bytes": 948777
+    },
+    {
+      "path": "mechanical/base_A19_DRAFT/build_report.json",
+      "source": "E:\\Current_Probe\\mechanical\\base_A19_DRAFT\\build_report.json",
+      "source_sha256": "765b50065a42fd1427ebfa061942d72a8f0aad5d98b1d24dbabfad98fdef0780",
+      "bytes": 2088
+    },
+    {
+      "path": "mechanical/base_A19_DRAFT/comparison_mesh.json",
+      "source": "E:\\Current_Probe\\mechanical\\base_A19_DRAFT\\comparison_mesh.json",
+      "source_sha256": "462dfb7e0014f34bd8875dc927fbfd898423c57e1bc04b5dd5c00a7a2325d498",
+      "bytes": 901659
+    },
+    {
+      "path": "mechanical/base_A19_DRAFT/parts/BaseCenter_A19_DRAFT.step",
+      "source": "E:\\Current_Probe\\mechanical\\base_A19_DRAFT\\parts\\BaseCenter_A19_DRAFT.step",
+      "source_sha256": "8fbc6281d82d5b95bcfd2b3cef16d464c06743efd12ed0ce43184e55120ac491",
+      "bytes": 475683
+    },
+    {
+      "path": "mechanical/base_A19_DRAFT/parts/BaseCenter_A19_DRAFT.stl",
+      "source": "E:\\Current_Probe\\mechanical\\base_A19_DRAFT\\parts\\BaseCenter_A19_DRAFT.stl",
+      "source_sha256": "982f987314e1de008b8b52df25178f2f2f736b9c80a380d95ea5253a70261d69",
+      "bytes": 626184
+    },
+    {
+      "path": "selected-evidence/design/CURRENT_BUILD.md",
+      "source": "F:\\cms\\jobChange\\05_RF_Current_Probe\\evidence\\design\\CURRENT_BUILD.md",
+      "source_sha256": "1811cab5547324768080e42753993fe7a96838ba0ad2c79327916681ac5a8ae3",
+      "bytes": 4584
+    },
+    {
+      "path": "selected-evidence/design/CURRENT_READINESS.md",
+      "source": "F:\\cms\\jobChange\\05_RF_Current_Probe\\evidence\\design\\CURRENT_READINESS.md",
+      "source_sha256": "9bff253a173508820923f0eb5b51e016d8aec6f707affcb9c0d878bd2399a9a1",
+      "bytes": 5385
+    },
+    {
+      "path": "selected-evidence/design/RF_CURRENT_PROBE_WHITEPAPER.md",
+      "source": "F:\\cms\\jobChange\\05_RF_Current_Probe\\evidence\\design\\RF_CURRENT_PROBE_WHITEPAPER.md",
+      "source_sha256": "6828d2bd4a111a89db59ef921e1e22e0b9efc3c88b2b5f885830f96e7f492429",
+      "bytes": 71809
+    },
+    {
+      "path": "selected-evidence/measurement-handoff-20261027/AGENT_RUNBOOK.md",
+      "source": "F:\\cms\\jobChange\\05_RF_Current_Probe\\evidence\\measurement-handoff-20261027\\AGENT_RUNBOOK.md",
+      "source_sha256": "1b0fc032dec180bc58853959fc95ceff1ec047dbe0d3f247ecac51b0d8939721",
+      "bytes": 13098
+    },
+    {
+      "path": "selected-evidence/measurement-handoff-20261027/CURRENT_STATE.json",
+      "source": "F:\\cms\\jobChange\\05_RF_Current_Probe\\evidence\\measurement-handoff-20261027\\CURRENT_STATE.json",
+      "source_sha256": "f4f773b048c66e9a00a7e1635d596c2a27b37f21b725eec38e48ea42391b3882",
+      "bytes": 2069
+    },
+    {
+      "path": "selected-evidence/measurement-handoff-20261027/START_HERE.md",
+      "source": "F:\\cms\\jobChange\\05_RF_Current_Probe\\evidence\\measurement-handoff-20261027\\START_HERE.md",
+      "source_sha256": "9a5b200b3763bedd69f1ef3e0060dfd09d7532c9b4f4e81e550cb9abee3352e3",
+      "bytes": 3611
+    },
+    {
+      "path": "selected-evidence/sma-simulation/REPORT.md",
+      "source": "F:\\cms\\jobChange\\05_RF_Current_Probe\\evidence\\sma-simulation\\REPORT.md",
+      "source_sha256": "80473c9d9cb7dbceb33302aea27d30d6136494d953028de3ad9284fd64701563",
+      "bytes": 5456
+    },
+    {
+      "path": "selected-evidence/sma-simulation/VALIDATION.json",
+      "source": "F:\\cms\\jobChange\\05_RF_Current_Probe\\evidence\\sma-simulation\\VALIDATION.json",
+      "source_sha256": "f67522f52c1287f35658142bc2f14bc35a7f51c603efb8152211f5c430afa7fb",
+      "bytes": 14855
+    },
+    {
+      "path": "selected-evidence/sma-simulation/comparison.csv",
+      "source": "F:\\cms\\jobChange\\05_RF_Current_Probe\\evidence\\sma-simulation\\comparison.csv",
+      "source_sha256": "d7b2a07f9465e2608289226e0a29e517d27a850b5b65da88c083160fd2fff617",
+      "bytes": 47881
+    },
+    {
+      "path": "selected-evidence/sma-simulation/comparison.json",
+      "source": "F:\\cms\\jobChange\\05_RF_Current_Probe\\evidence\\sma-simulation\\comparison.json",
+      "source_sha256": "27055de9e8281fdb1a91738a6f24295e3888e3d9d53643bf77de853f295dda4e",
+      "bytes": 11973
+    },
+    {
+      "path": "selected-evidence/sma-simulation/comparison.png",
+      "source": "F:\\cms\\jobChange\\05_RF_Current_Probe\\evidence\\sma-simulation\\comparison.png",
+      "source_sha256": "5eeec82a3079e1fd2f75dbe2ee2d8507d530866961309bbdef38fc1b402b2220",
+      "bytes": 213297
+    },
+    {
+      "path": "AGENTS.md",
+      "source": "E:\\Current_Probe\\AGENTS.md",
+      "source_sha256": "8fa5b6e760b2668bd7dfca3609c2291897df32d18a574e3f2799cb333473884a",
+      "bytes": 6462
+    }
+  ],
+  "excluded": [
+    {
+      "path": "mechanical/assembly_A17_DRAFT/mesh.json",
+      "reason": "over_25MiB"
+    },
+    {
+      "path": "mechanical/assembly_A18_DRAFT/mesh.json",
+      "reason": "over_25MiB"
+    }
+  ],
+  "classification": "SOURCE_BACKUP_NOT_RELEASE_ACCEPTANCE"
+}

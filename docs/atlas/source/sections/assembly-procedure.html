@@ -1,0 +1,70 @@
+<section id="assembly">
+  <div class="section-heading"><span class="section-number">조립</span><div><h2>부품에서 완성 지그까지, 조립 순서</h2><p>현재 설계로 진행할 작업을 채웠습니다. 각 단계의 완료 조건을 확인한 뒤 다음 단계로 넘어갑니다.</p></div></div>
+  <div class="callout"><strong>현재는 조립 검토용 초안입니다.</strong> 아래 치수는 공칭 설계값입니다. 실제 부품·출력물 맞춤과 나사 체결은 아직 확인하지 않았습니다. 맞지 않는 부품을 힘으로 끼우거나, 금속·출력물을 직접 드릴 가공하는 것을 전제로 하지 않습니다.</div>
+  <div class="table-wrap"><table><thead><tr><th>먼저 준비할 묶음</th><th>현재 구성</th></tr></thead><tbody>
+    <tr><td>센서 헤드</td><td>Fair-Rite {{head.core}} 코어 반쪽 {{head.core_halves}}개, {{head.wire_mm}} mm 에나멜선, 헤드 PCB {{head.revision}} 1장, SMA {{head.sma}} 1개</td></tr>
+    <tr><td>집게</td><td>{{clamp.revision}} 고정·가동 트레이와 키퍼 2개, 직사각 실리콘 패드, 얇은 폴리이미드 테이프, 힌지·래치·키퍼용 나사</td></tr>
+    <tr><td>지그</td><td>평판 PCB {{fixture.revision}} 1장, 같은 SMA 2개, 기존 Base·HeadBracket, {{fixture.post_lower}} 30 mm F/F + {{fixture.post_upper}} 35 mm M/F 각 4개</td></tr>
+    <tr><td>작업 도구</td><td>인두·플럭스·납, 핀셋, 작은 드라이버, 자/캘리퍼, 커터와 받침판, DMM, 확대경. SMA 조립 시 커넥터 몸체를 지지할 도구</td></tr>
+  </tbody></table></div>
+  <p class="note">헤드와 지그의 부품 번호가 겹칩니다. <strong>HEAD.J2는 권선 납땜 패드</strong>이고, <strong>지그 J2는 OUT SMA</strong>입니다. 아래에서 항상 구분해 부릅니다. 구매 수량·최종 나사 규격은 실제 맞춤 확인 후 확정합니다.</p>
+
+  <article class="procedure-step" id="a01"><div class="step-index">A01</div><div><h3>세 가지 리비전을 한 세트로 확인합니다</h3>
+    <p>헤드 PCB {{head.revision}}, 집게 {{clamp.revision}}, 평판 지그 {{fixture.revision}}의 형상과 부품을 대조합니다. 지그는 <strong>{{fixture.size}}</strong> 한 장이며 창 2개, SMA 2개, 모서리 고정 구멍 4개가 있어야 합니다. 이전 EndPanel·점퍼·InputStand·OutputStand는 이 구성에 사용하지 않습니다.</p>
+    <p>PCB의 모서리·구멍·납땜부, 코어 맞댐면의 이물·깨짐, 출력물의 균열과 나사 홈을 검사합니다. 코어와 커넥터는 종이 사양뿐 아니라 실제 외형도 대조합니다.</p>
+    <p class="finish"><strong>완료 조건</strong> · 손상 없음, 부품·리비전 일치. 헤드 ID와 지그 ID를 정하고 조립 전 사진을 남깁니다.</p>
+    <p class="change-note">설계 변경 시 · PCB 외곽·구멍·SMA·집게가 바뀌면 맞춤 검사를 다시 합니다.</p>
+  </div></article>
+
+  <article class="procedure-step" id="a02"><div class="step-index">A02</div><div><h3>패드를 자르고, 코어가 앉을 자리를 준비합니다</h3>
+    <p>아래 직사각형을 재단해 CAD의 뒤·바깥·앞 지지 위치에 놓습니다. 패드와 플라스틱 사이에만 필요한 만큼 접착하고 먼저 건식 맞춤을 봅니다. <strong>코어 두 반쪽이 닿는 맞댐면에는 테이프·패드·접착제가 들어가지 않게 합니다.</strong></p>
+    <div class="table-wrap"><table><thead><tr><th>시트 두께</th><th>재단 크기 / 수량</th><th>위치</th></tr></thead><tbody><tr><td>2 mm</td><td>4 × 4 mm / 4개</td><td>코어 뒤 지지</td></tr><tr><td>2 mm</td><td>4 × 10 mm / 4개</td><td>코어 바깥 지지</td></tr><tr><td>1.5 mm</td><td>2.5 × 4 mm / 4개</td><td>코어 앞 지지</td></tr><tr><td>1.5 mm</td><td>12 × 12 mm / 8개</td><td>2겹씩, 바닥 받침발 4개</td></tr></tbody></table></div>
+    <p class="note">CAD의 앞 패드 1.3 mm, 바깥 패드 약 1.858 mm는 눌린 상태입니다. 시트를 그 두께로 깎는 지시가 아닙니다. 가장 작은 조각도 직선 재단만 합니다.</p>
+    <p class="finish"><strong>완료 조건</strong> · 코어가 흔들리지 않고 맞댐면이 깨끗하며 닫힘을 방해하지 않음. 실제 시트 두께·접착제와 사진을 기록합니다.</p>
+    <p class="change-note">설계 변경 시 · 코어·패드 경도/두께·출력 공차가 바뀌면 닫힘과 반복성을 재확인합니다.</p>
+  </div></article>
+
+  <article class="procedure-step" id="a03"><div class="step-index">A03</div><div><h3>고정 코어 반쪽에 {{head.turns}}턴을 감습니다</h3>
+    <p>권선이 닿는 코어 부분만 얇은 폴리이미드로 보호한 뒤, {{head.wire_mm}} mm 에나멜선을 <strong>고정 반쪽에만 {{head.turns}}턴</strong> 감습니다. 선이 코어 단면을 한 바퀴 감싸면 1턴입니다. 가동 반쪽과 힌지를 가로질러 감지 않습니다. 설계의 절연 포함 선경 가정은 0.4 mm이므로 실제 선경과 안착 여유를 확인합니다.</p>
+    <p>시작·끝을 S+ / S−로 식별하고 감는 방향을 사진으로 남깁니다. 선을 겹치거나 꺾어 에나멜을 손상시키지 않습니다. PCB까지의 리드는 짧게 배치하되 코어를 잡아당기지 않을 길이를 남기고, 납땜할 끝부분만 피복을 제거합니다.</p>
+    <p class="finish"><strong>완료 조건</strong> · 실제 턴 수·방향을 확인했고 권선이 맞댐면·힌지·래치를 피함. 선 종류·리드 길이를 기록합니다. 보호 테이프만으로 고전압 절연 정격을 부여하지 않습니다.</p>
+    <p class="change-note">설계 변경 시 · 코어·턴 수·권선 배치·리드 길이가 바뀌면 새 헤드 구성으로 교정합니다.</p>
+  </div></article>
+
+  <article class="procedure-step" id="a04"><div class="step-index">A04</div><div><h3>헤드 PCB의 SMA, 그다음 권선을 납땜합니다</h3>
+    <figure class="board-photo"><a href="assets/head-a02-pcb.png"><img src="assets/head-a02-pcb.png" width="1176" height="872" loading="lazy" alt="S+와 S− 권선 패드, SMA와 두 고정 구멍이 있는 실제 헤드 PCB A0.2 설계 이미지"></a><figcaption>헤드 PCB {{head.revision}} · {{head.size}}. KiCad에서 내보낸 설계 이미지이며 실물 사진은 아닙니다.</figcaption></figure>
+    <p>HEAD.J1에 {{head.sma}}를 수직으로 앉히고 중심 핀 1개와 외피 핀 4개를 납땜합니다. <strong>권선을 붙이기 전</strong>에는 SMA 중심–외피가 분리되어 있는지 DMM으로 확인합니다. 납땜 브리지와 냉땜을 확대 검사합니다.</p>
+    <p>권선 S+를 HEAD.J2.1, S−를 HEAD.J2.2에 납땜합니다. S+는 SMA 중심, S−는 로컬 GND와 SMA 외피로 이어집니다. 리드는 짧게 정돈하며 집게를 열어도 당겨지지 않게 합니다. 헤드에 별도 50 Ω 병렬 저항이나 임의 RC를 추가하지 않습니다.</p>
+    <p class="finish"><strong>완료 조건</strong> · 권선 접속 후 중심–외피에 낮은 DC 저항이 보이는 것은 정상입니다. 접속 전/후 저항과 극성·납땜 사진을 남깁니다. 이를 지그 중심–GND 단락과 혼동하지 않습니다.</p>
+    <p class="change-note">설계 변경 시 · footprint·stack-up·패드·출력 부품이 바뀌면 전기 연결과 교정을 재검사합니다.</p>
+  </div></article>
+
+  <article class="procedure-step" id="a05"><div class="step-index">A05</div><div><h3>코어를 집게에 넣고, 무리 없이 열리고 닫히는지 봅니다</h3>
+    <p>권선이 있는 반쪽을 고정 트레이에, 나머지를 가동 트레이에 놓고 키퍼로 잡습니다. 키퍼는 M2×20 4개와 너트를 사용하는 현재 설계입니다. 힌지는 M3×25, 래치는 M3×16 기준으로 조립하며 나일론 체결 부품을 유지합니다. 정해지지 않은 조임 토크를 임의로 수치화하지 않습니다.</p>
+    <p>닫을 때 두 맞댐면이 고르게 만나고, {{clamp.max_open_degrees}}° 열림 스토퍼가 작동하는지 확인합니다. 권선이 눌리거나 패드가 밀려 들어오면 원인을 수정합니다. 첫 저레벨 벤치 시험에는 금속 차폐를 추가하지 않습니다. 금속이나 선이 코어를 한 바퀴 감싸는 단락 턴도 만들지 않습니다.</p>
+    <p class="finish"><strong>완료 조건</strong> · 개폐 중 걸림·선 당김·코어 흔들림이 없고 반복해서 닫을 수 있음. 실제 틈·잠금 상태·와셔 사용 여부를 기록합니다.</p>
+    <p class="change-note">설계 변경 시 · 래치·힌지·패드·차폐를 바꾸면 개폐 간섭과 재장착 반복성을 다시 봅니다.</p>
+  </div></article>
+
+  <article class="procedure-step" id="a06"><div class="step-index">A06</div><div><h3>평판 지그 PCB에 SMA 2개를 직접 납땜합니다</h3>
+    <p>위의 <a href="#structure">PCB·SMA만 보기</a>와 실제 보드의 방향을 맞춥니다. 지그 J1·IN과 J2·OUT의 SMA가 둘 다 보드 위를 향하도록 설치합니다. 각각 중심 핀은 SIG, 외피 4핀은 GND에 납땜합니다. 별도 점퍼선은 없습니다.</p>
+    <p>RF 케이블과 부하를 모두 분리하고, J1 중심↔J2 중심 / J1 외피↔J2 외피는 연속, 중심↔외피는 분리인지 검사합니다. 중앙 다리는 양면 SIG이고, GND는 양옆 레일로 돌아가야 합니다.</p>
+    <p class="finish"><strong>완료 조건</strong> · 납땜·전기 경로 이상 없음. 네 모서리 구멍과 두 창이 손상되지 않음. 실제 DMM 값과 앞·뒤 사진을 기록합니다.</p>
+    <p class="change-note">설계 변경 시 · 창·동박·SMA·보드 두께가 바뀌면 CAD 전류 경로 검사와 지그 through부터 다시 수행합니다.</p>
+  </div></article>
+
+  <article class="procedure-step" id="a07"><div class="step-index">A07</div><div><h3>기둥과 브래킷을 세우고 헤드·PCB를 각각 지지합니다</h3>
+    <p>Base에 30 mm F/F 기둥 4개를 세운 뒤, 35 mm M/F 기둥을 연결해 총 {{fixture.posts_height_mm}} mm로 만듭니다. PCB 모서리 간격은 {{fixture.mount_spacing}}입니다. 상단은 M3×10 기준입니다. <strong>바닥 M3×12는 공칭 끝 여유가 0.6 mm뿐</strong>이므로, 실제 체결 깊이와 나사 끝 닿음을 먼저 확인합니다. M3×10 후보의 계산상 여유는 2.6 mm이며 실물 검증은 아직입니다.</p>
+    <p>기존 HeadBracket을 Base에 M3×12 2개와 너트로 고정합니다. 헤드 PCB의 공용 고정 구멍을 브래킷에 연결할 때는 M2×20 2개를 사용합니다. 독립 헤드용 M2×10 2개와 중복 체결하지 않습니다. <strong>집게 무게는 브래킷이 받치고, 좁은 중앙 PCB 다리는 받침대로 쓰지 않습니다.</strong></p>
+    <p>헤드를 열고 중앙 SIG 다리만 코어 안에 두어 닫습니다. 양옆 GND는 코어 밖에 둡니다. 보유 M3 금속 나사는 길이·머리·맞춤을 확인해 모서리에 사용할 수 있지만 절연 나일론 기둥은 유지합니다. M4/M5는 직접 대체하지 않습니다.</p>
+    <p class="finish"><strong>완료 조건</strong> · 보드 휨·기둥 흔들림·나사 끝 닿음 없음. 개폐 중 PCB·SMA와 간섭 없음. 실제 나사 규격과 헤드 위치를 기록합니다.</p>
+    <p class="change-note">설계 변경 시 · 기둥·나사·브래킷·SMA 플러그를 바꾸면 전체 개폐와 케이블 하중을 재확인합니다.</p>
+  </div></article>
+
+  <article class="procedure-step" id="a08"><div class="step-index">A08</div><div><h3>무전원 점검을 기록하고 테스트 문서로 넘깁니다</h3>
+    <p>기둥·브래킷·래치가 안정적인지 확인하고, 코어 안에는 중앙 SIG만 있는지 앞·뒤에서 봅니다. DMM으로 지그와 프로브의 경로를 다시 확인하고, 지그 중심 도체와 프로브 권선 사이의 의도치 않은 도통이 없는지 확인합니다. DMM 검사를 내전압 시험으로 기록하지 않습니다.</p>
+    <p>SMA 플러그를 연결할 때 커넥터 몸체를 지지하고 케이블은 별도로 받칩니다. 아직 RF를 켜지 않습니다. 조립 ID, 실제 부품·턴 수·나사·사진·저항값과 이상 유무를 저장한 뒤 테스트를 시작합니다.</p>
+    <p class="finish"><strong>인계 조건</strong> · 위 조립 점검을 통과했고 미해결 간섭·단락이 없음. 이 조건은 실험실 저레벨 시험의 시작 조건이며 현장 사용 승인은 아닙니다.</p>
+    <a class="jump" href="testing.html#preflight">문서 02 · 점검·교정·측정으로 →</a>
+  </div></article>
+</section>

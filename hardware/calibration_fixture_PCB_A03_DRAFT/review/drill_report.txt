@@ -1,0 +1,25 @@
+Drill report for RFCP_Fixture_Flat_A03_DRAFT.kicad_pcb
+Created on 2026-09-21T19:14:54
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'RFCP_Fixture_Flat_A03_DRAFT-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.300mm  0.0118"  (45 holes))
+    T2  1.700mm  0.0669"  (2 holes))
+    T3  1.900mm  0.0748"  (8 holes))
+
+    Total plated holes count 55
+
+
+Drill file 'RFCP_Fixture_Flat_A03_DRAFT-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  3.600mm  0.1417"  (4 holes))
+
+    Total unplated holes count 4

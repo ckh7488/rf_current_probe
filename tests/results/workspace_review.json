@@ -1,0 +1,24 @@
+{
+  "checked_utc": "2026-09-15T15:14:29.539417+00:00",
+  "markdown_files": 19,
+  "local_links_checked": 107,
+  "requirements_rows": 56,
+  "requirements_columns": 12,
+  "requirement_states": {
+    "VERIFIED": 5,
+    "NOT_VERIFIED": 42,
+    "PARTIAL": 9
+  },
+  "preserved_original_hashes": {
+    "AGENTS.md": "24CE532F7ACCC6F56CAEBBBC499CA28B9A3FFBCFB0FAC77C717B90D6E9C259DC",
+    "docs/history/RF_CURRENT_PROBE_WHITEPAPER_0.1.md": "A89EB1A47EED1DBF0A0005657F6BF931B5D49D811165E8C01AD13E133317919D"
+  },
+  "reference_original_hashes_verified": 7,
+  "unit_tests_passed": 66,
+  "raw_processed_release_empty": true,
+  "current_model_negative_cli": {
+    "exit_code": 2,
+    "stderr": "Rejected: Current conversion requires no_bypass_current_verified"
+  },
+  "issues": []
+}

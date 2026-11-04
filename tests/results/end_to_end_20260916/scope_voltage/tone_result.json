@@ -1,0 +1,22 @@
+{
+  "sample_rate_hz": 999999999.9999249,
+  "samples": 4096,
+  "frequency_hz": 10000000.0,
+  "fundamental_vrms_displayed": 0.0014230249470757663,
+  "harmonics_vrms_displayed": [
+    0.0014230249470757663,
+    9.334533665625833e-19,
+    0.0005692099788303085
+  ],
+  "partial_thd_ratio": 0.40000000000000135,
+  "dc_v_displayed": 0.0007000000000000005,
+  "total_vrms_displayed": 0.001685663111157878,
+  "residual_vrms": 3.3743068899465583e-17,
+  "residual_to_fundamental_ratio": 2.3712211770289504e-14,
+  "data_kind": "SYNTHETIC",
+  "current_rms_a": null,
+  "uncertainty_db": null,
+  "status": "VOLTAGE_ONLY",
+  "scope_internal_response_included": false,
+  "limitation": "Fundamental only. Partial THD/residual do not prove absence of aliasing or hardware accuracy."
+}

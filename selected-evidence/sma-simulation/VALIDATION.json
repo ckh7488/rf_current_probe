@@ -1,0 +1,425 @@
+{
+  "classification": "VERIFIED_NUMERICAL_EXECUTION_OF_APPROXIMATE_MODEL_NOT_MEASURED",
+  "passed": true,
+  "target_MHz": [
+    1,
+    150
+  ],
+  "same_full_board_mesh": true,
+  "runs": {
+    "ra_3g_12ns": {
+      "finite_windows": {
+        "classification": "NUMERICAL_FINITE_WINDOW_CHECK_NOT_MEASURED",
+        "run": "ra_3g_12ns",
+        "stop_ns": 6.48515678521,
+        "stable": true,
+        "max_output_50ohm_complex_relative_error": 0.0018489303599138408,
+        "power_fraction_max": 0.9993456112396055,
+        "windows": [
+          {
+            "trim_ns": 0.5,
+            "S11_complex_delta": 3.7518907846165555e-05,
+            "S21_change_db": 0.0009788363859856237,
+            "S21_change_deg": 0.00645088652912949,
+            "K_change_db": 0.0003440234781410611,
+            "K_change_deg": 0.001609712516313703
+          },
+          {
+            "trim_ns": 1.0,
+            "S11_complex_delta": 0.00012134056230836768,
+            "S21_change_db": 0.0018843462379842446,
+            "S21_change_deg": 0.012417047921945675,
+            "K_change_db": 0.0011579526566725588,
+            "K_change_deg": 0.0076233154224358566
+          }
+        ],
+        "anchors": [
+          {
+            "MHz": 100,
+            "S21_db": -0.0686805295187604,
+            "K_db": 0.09664334192086503,
+            "load_ohm_real": 50.00077888626876,
+            "load_ohm_imag": -0.06112012824928433
+          },
+          {
+            "MHz": 150,
+            "S21_db": -0.17482594014583006,
+            "K_db": 0.2100647527980691,
+            "load_ohm_real": 50.00003191593447,
+            "load_ohm_imag": -0.09244651248641528
+          }
+        ],
+        "budgets": {
+          "amplitude_db": 0.01,
+          "phase_deg": 0.1,
+          "S11_complex": 0.002,
+          "output_load_complex_relative": 0.01,
+          "power_fraction_max": 1.01,
+          "minimum_record_ns": 4.5,
+          "additional_confirmation_ns": 0.5
+        }
+      },
+      "raw_complex_reproduction": {
+        "S11": 1.3877787807814457e-16,
+        "S21": 0.0,
+        "K": 0.0
+      },
+      "nested_current_max_pct": 0.013358110258327368,
+      "current_contour_area_valid": true,
+      "PEC_connectivity": {
+        "signal_connected": true,
+        "ground_connected": true,
+        "signal_ground_isolated": true,
+        "core_signal_connected": true
+      },
+      "model_source_snapshot_sha256": "532989a8544cf620860b03eea4747edc18e1dfae3d93f5b5e289b4137a3876be"
+    },
+    "vertical_3g_12ns": {
+      "finite_windows": {
+        "classification": "NUMERICAL_FINITE_WINDOW_CHECK_NOT_MEASURED",
+        "run": "vertical_3g_12ns",
+        "stop_ns": 6.44358526736,
+        "stable": true,
+        "max_output_50ohm_complex_relative_error": 0.0016805044938803426,
+        "power_fraction_max": 0.9993010797686506,
+        "windows": [
+          {
+            "trim_ns": 0.5,
+            "S11_complex_delta": 8.794195957635055e-05,
+            "S21_change_db": 0.0013550197705122337,
+            "S21_change_deg": 0.008884499813002602,
+            "K_change_db": 0.0003772591815248758,
+            "K_change_deg": 0.0016652016601388852
+          },
+          {
+            "trim_ns": 1.0,
+            "S11_complex_delta": 0.00012583864257907718,
+            "S21_change_db": 0.0020017690061363332,
+            "S21_change_deg": 0.01315017960756058,
+            "K_change_db": 0.0014304753980436146,
+            "K_change_deg": 0.009351103077361648
+          }
+        ],
+        "anchors": [
+          {
+            "MHz": 100,
+            "S21_db": -0.06670661464122316,
+            "K_db": 0.10162245288910826,
+            "load_ohm_real": 50.001538219741875,
+            "load_ohm_imag": -0.05499946980529976
+          },
+          {
+            "MHz": 150,
+            "S21_db": -0.17200648430336707,
+            "K_db": 0.2206921684695157,
+            "load_ohm_real": 49.99991086291863,
+            "load_ohm_imag": -0.08402517741403936
+          }
+        ],
+        "budgets": {
+          "amplitude_db": 0.01,
+          "phase_deg": 0.1,
+          "S11_complex": 0.002,
+          "output_load_complex_relative": 0.01,
+          "power_fraction_max": 1.01,
+          "minimum_record_ns": 4.5,
+          "additional_confirmation_ns": 0.5
+        }
+      },
+      "raw_complex_reproduction": {
+        "S11": 1.1443916996305594e-16,
+        "S21": 0.0,
+        "K": 0.0
+      },
+      "nested_current_max_pct": 0.013265223906462663,
+      "current_contour_area_valid": true,
+      "PEC_connectivity": {
+        "signal_connected": true,
+        "ground_connected": true,
+        "signal_ground_isolated": true,
+        "core_signal_connected": true
+      },
+      "model_source_snapshot_sha256": "532989a8544cf620860b03eea4747edc18e1dfae3d93f5b5e289b4137a3876be"
+    },
+    "control_3g_10ns": {
+      "finite_windows": {
+        "classification": "NUMERICAL_FINITE_WINDOW_CHECK_NOT_MEASURED",
+        "run": "control_3g_10ns",
+        "stop_ns": 5.32509918237,
+        "stable": true,
+        "max_output_50ohm_complex_relative_error": 0.0012922838522788614,
+        "power_fraction_max": 1.0000448912218103,
+        "windows": [
+          {
+            "trim_ns": 0.5,
+            "S11_complex_delta": 3.430799727016756e-07,
+            "S21_change_db": 2.4048297825160986e-07,
+            "S21_change_deg": 1.5371643217469396e-06,
+            "K_change_db": 1.0789807896583958e-06,
+            "K_change_deg": 7.021987069876014e-06
+          },
+          {
+            "trim_ns": 1.0,
+            "S11_complex_delta": 6.923637176813219e-07,
+            "S21_change_db": 6.258438341373777e-06,
+            "S21_change_deg": 4.1166824936125674e-05,
+            "K_change_db": 2.5559435951546752e-06,
+            "K_change_deg": 1.6596576638607162e-05
+          }
+        ],
+        "anchors": [
+          {
+            "MHz": 100,
+            "S21_db": -0.0004397243636249231,
+            "K_db": -0.005221507376151513,
+            "load_ohm_real": 49.9999850686136,
+            "load_ohm_imag": -0.04307246580115271
+          },
+          {
+            "MHz": 150,
+            "S21_db": -0.0012016683323027506,
+            "K_db": -0.011707023402932,
+            "load_ohm_real": 49.99999858952229,
+            "load_ohm_imag": -0.06461419259854825
+          }
+        ],
+        "budgets": {
+          "amplitude_db": 0.01,
+          "phase_deg": 0.1,
+          "S11_complex": 0.002,
+          "output_load_complex_relative": 0.01,
+          "power_fraction_max": 1.01,
+          "minimum_record_ns": 4.5,
+          "additional_confirmation_ns": 0.5
+        }
+      },
+      "raw_complex_reproduction": {
+        "S11": 1.0287656145845605e-16,
+        "S21": 0.0,
+        "K": 0.0
+      },
+      "nested_current_max_pct": 7.502147945803024e-05,
+      "current_contour_area_valid": true,
+      "PEC_connectivity": {
+        "signal_connected": true,
+        "ground_connected": true,
+        "signal_ground_isolated": true
+      },
+      "model_source_snapshot_sha256": "532989a8544cf620860b03eea4747edc18e1dfae3d93f5b5e289b4137a3876be"
+    },
+    "control_1g_10ns": {
+      "finite_windows": {
+        "classification": "NUMERICAL_FINITE_WINDOW_CHECK_NOT_MEASURED",
+        "run": "control_1g_10ns",
+        "stop_ns": 6.3712196713,
+        "stable": true,
+        "max_output_50ohm_complex_relative_error": 0.0012923333005991809,
+        "power_fraction_max": 1.0000481578848903,
+        "windows": [
+          {
+            "trim_ns": 0.5,
+            "S11_complex_delta": 6.517563230080574e-09,
+            "S21_change_db": 7.47473962371554e-07,
+            "S21_change_deg": 4.721529817657858e-06,
+            "K_change_db": 1.2156054893786036e-06,
+            "K_change_deg": 7.793655734861499e-06
+          },
+          {
+            "trim_ns": 1.0,
+            "S11_complex_delta": 2.596806166983377e-07,
+            "S21_change_db": 9.992395523021771e-07,
+            "S21_change_deg": 5.446164018168665e-06,
+            "K_change_db": 3.906900640668911e-06,
+            "K_change_deg": 2.389219671524881e-05
+          }
+        ],
+        "anchors": [
+          {
+            "MHz": 100,
+            "S21_db": -0.0005002528447108848,
+            "K_db": -0.005227852171253423,
+            "load_ohm_real": 49.99998868018941,
+            "load_ohm_imag": -0.04306316499954982
+          },
+          {
+            "MHz": 150,
+            "S21_db": -0.0013420121310674066,
+            "K_db": -0.011709337276069723,
+            "load_ohm_real": 49.99998811918636,
+            "load_ohm_imag": -0.06461666393771964
+          }
+        ],
+        "budgets": {
+          "amplitude_db": 0.01,
+          "phase_deg": 0.1,
+          "S11_complex": 0.002,
+          "output_load_complex_relative": 0.01,
+          "power_fraction_max": 1.01,
+          "minimum_record_ns": 5.5,
+          "additional_confirmation_ns": 0.5
+        }
+      },
+      "raw_complex_reproduction": {
+        "S11": 1.097135458930219e-16,
+        "S21": 0.0,
+        "K": 0.0
+      },
+      "nested_current_max_pct": 5.40275677013117e-05,
+      "current_contour_area_valid": true,
+      "PEC_connectivity": {
+        "signal_connected": true,
+        "ground_connected": true,
+        "signal_ground_isolated": true
+      },
+      "model_source_snapshot_sha256": "532989a8544cf620860b03eea4747edc18e1dfae3d93f5b5e289b4137a3876be"
+    },
+    "control_finer_3g_10ns": {
+      "finite_windows": {
+        "classification": "NUMERICAL_FINITE_WINDOW_CHECK_NOT_MEASURED",
+        "run": "control_finer_3g_10ns",
+        "stop_ns": 5.2025039701499995,
+        "stable": true,
+        "max_output_50ohm_complex_relative_error": 0.0013266290212743984,
+        "power_fraction_max": 1.000047687280998,
+        "windows": [
+          {
+            "trim_ns": 0.5,
+            "S11_complex_delta": 5.21598667862457e-08,
+            "S21_change_db": 7.964493547449948e-07,
+            "S21_change_deg": 5.100681658149602e-06,
+            "K_change_db": 3.847941820123888e-06,
+            "K_change_deg": 2.5329868366474766e-05
+          },
+          {
+            "trim_ns": 1.0,
+            "S11_complex_delta": 8.637808046240554e-08,
+            "S21_change_db": 3.7267328036937144e-06,
+            "S21_change_deg": 2.4547966793065164e-05,
+            "K_change_db": 4.193869467509435e-06,
+            "K_change_deg": 2.7492039308630878e-05
+          }
+        ],
+        "anchors": [
+          {
+            "MHz": 100,
+            "S21_db": -4.529378711218942e-05,
+            "K_db": -0.0033527728650188443,
+            "load_ohm_real": 49.99999920466518,
+            "load_ohm_imag": -0.044236558922723886
+          },
+          {
+            "MHz": 150,
+            "S21_db": -0.0003426985235324451,
+            "K_db": -0.00749254681842451,
+            "load_ohm_real": 49.99995996078426,
+            "load_ohm_imag": -0.06633143897941514
+          }
+        ],
+        "budgets": {
+          "amplitude_db": 0.01,
+          "phase_deg": 0.1,
+          "S11_complex": 0.002,
+          "output_load_complex_relative": 0.01,
+          "power_fraction_max": 1.01,
+          "minimum_record_ns": 4.5,
+          "additional_confirmation_ns": 0.5
+        }
+      },
+      "raw_complex_reproduction": {
+        "S11": 1.0852966642402198e-16,
+        "S21": 0.0,
+        "K": 0.0
+      },
+      "nested_current_max_pct": 4.444667113125725e-05,
+      "current_contour_area_valid": true,
+      "PEC_connectivity": {
+        "signal_connected": true,
+        "ground_connected": true,
+        "signal_ground_isolated": true
+      },
+      "model_source_snapshot_sha256": "532989a8544cf620860b03eea4747edc18e1dfae3d93f5b5e289b4137a3876be"
+    }
+  },
+  "pulse_bandwidth_invariance": {
+    "S21": {
+      "magnitude_db": 0.00014020916993525543,
+      "phase_deg": 1.981548246443596e-05
+    },
+    "K": {
+      "magnitude_db": 1.5088304438182373e-05,
+      "phase_deg": 0.00048545747214225814
+    }
+  },
+  "coax_port_mesh_refinement": {
+    "S21": {
+      "magnitude_db": 0.0008589019079473697,
+      "phase_deg": 0.5690213991860686
+    },
+    "K": {
+      "magnitude_db": 0.0042150538636210625,
+      "phase_deg": 0.08680102425372947
+    }
+  },
+  "coax_150MHz": [
+    {
+      "run": "control_3g_10ns",
+      "S21_db": -0.0012016545639619684,
+      "S21_phase_deg": -17.357279667085034,
+      "ideal_line_phase_deg": -15.243881054133462,
+      "K_db": -0.011707157065292092,
+      "K_phase_deg": 8.15200235726062
+    },
+    {
+      "run": "control_1g_10ns",
+      "S21_db": -0.0013418637338977004,
+      "S21_phase_deg": -17.35725985160257,
+      "ideal_line_phase_deg": -15.243881054133462,
+      "K_db": -0.011709500202586945,
+      "K_phase_deg": 8.151516899788477
+    },
+    {
+      "run": "control_finer_3g_10ns",
+      "S21_db": -0.0003427526560141963,
+      "S21_phase_deg": -16.788258267898964,
+      "ideal_line_phase_deg": -15.243881054133462,
+      "K_db": -0.007492103201672306,
+      "K_phase_deg": 8.06520133300689
+    }
+  ],
+  "anchors": [
+    {
+      "frequency_Hz": 100000000.0,
+      "vertical_S11_db": -18.420058627000746,
+      "right_angle_S11_db": -18.301617456734924,
+      "vertical_S21_db": -0.0666864668196061,
+      "right_angle_S21_db": -0.068644570252016,
+      "delta_S21_db": -0.0019581034324083987,
+      "delta_S21_phase_deg": -2.769910575569498,
+      "vertical_K_db": 0.1012260942040074,
+      "right_angle_K_db": 0.09637175024150016,
+      "delta_K_db": -0.004854343962505024,
+      "delta_K_phase_deg": 1.3301415513153487
+    },
+    {
+      "frequency_Hz": 150000000.0,
+      "vertical_S11_db": -14.21715870804054,
+      "right_angle_S11_db": -14.145561769369037,
+      "vertical_S21_db": -0.17189190560350756,
+      "right_angle_S21_db": -0.17478894563498343,
+      "delta_S21_db": -0.002897040031476535,
+      "delta_S21_phase_deg": -4.13842981254916,
+      "vertical_K_db": 0.22074044230554343,
+      "right_angle_K_db": 0.21011074303974256,
+      "delta_K_db": -0.010629699265799274,
+      "delta_K_phase_deg": 2.008998023156292
+    }
+  ],
+  "protected_design_files_unchanged": 43,
+  "limitations": [
+    "Internal connector bore/bend and board seating remain drawing-based assumptions.",
+    "Mesh refinement above checks coax ports, not convergence of the entire PCB.",
+    "Discrete-port absolute phase differs from an ideal coax; phase is approximate.",
+    "No actual SMA, PCB, ferrite, winding or RF bench performance is certified.",
+    "Only computed forward S11/S21 are used; no reverse matrix is invented."
+  ]
+}

@@ -1,0 +1,225 @@
+(footprint "GCT_RFPC-SMA28-F"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "GCT RFPC-SMA28-F; RFCP clearance revision: centre 1.70, ground 1.90, 5.08 pitch. First-article dry fit required.")
+	(property "Reference" "J1"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b5e2ffa7-a1d8-40ca-859c-678713fbd186")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Value" "RFPC-SMA28-F"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4379946e-1f57-4f54-92b9-6d69548fcddd")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.tme.com/Document/1c95feb1da661cbfe6e78e2fd3e8e209/RFPC-SMA28-F.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "449f22c5-bc8a-4e98-8879-acdd13de7bde")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cb893983-7673-48f8-a477-b4efc511900c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -4.099999 -4.099999)
+		(end 4.099999 -4.099999)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fd1b1b52-a17c-444b-baba-d5edf8997b3d")
+	)
+	(fp_line
+		(start -4.099999 4.099999)
+		(end -4.099999 -4.099999)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8e30b8cf-5214-438f-97b4-ff3f62fa5077")
+	)
+	(fp_line
+		(start 4.099999 -4.099999)
+		(end 4.099999 4.099999)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "446f84ea-6d77-4530-8df1-0cfaa683ace4")
+	)
+	(fp_line
+		(start 4.099999 4.099999)
+		(end -4.099999 4.099999)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6aa22e5e-834d-4796-8d95-6fe9d53bd378")
+	)
+	(fp_line
+		(start -4.15 -4.15)
+		(end 4.15 -4.15)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "2e5b478f-aa0e-476e-a160-b3b2a5932c97")
+	)
+	(fp_line
+		(start -4.15 4.15)
+		(end -4.15 -4.15)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "81360bf4-5ddb-4f07-bbf5-67588339c77e")
+	)
+	(fp_line
+		(start 4.15 -4.15)
+		(end 4.15 4.15)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "8ceacc0b-0bda-4840-806e-232b9a35dc94")
+	)
+	(fp_line
+		(start 4.15 4.15)
+		(end -4.15 4.15)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "65ad87dc-1e4e-47f7-98fa-7eba7ca01960")
+	)
+	(fp_line
+		(start -3.5 -3.5)
+		(end 3.5 -3.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "cada8c69-f3e5-489c-be67-16fcf2733d11")
+	)
+	(fp_line
+		(start -3.5 3.5)
+		(end -3.5 -3.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "9be14f8c-26d7-43cf-a55e-5d406a334685")
+	)
+	(fp_line
+		(start 3.5 -3.5)
+		(end 3.5 3.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "949659ba-01b4-4b53-a19b-15be1eb0c588")
+	)
+	(fp_line
+		(start 3.5 3.5)
+		(end -3.5 3.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "640f7665-64b6-4b59-b225-3f9715621d7d")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.5 2.5)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1790a131-27ef-46db-b915-6385f00f71e1")
+	)
+	(pad "2" thru_hole circle
+		(at -2.54 -2.54)
+		(size 2.8 2.8)
+		(drill 1.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "552b1c34-9596-4408-88ed-7fdc7cb2ce57")
+	)
+	(pad "2" thru_hole circle
+		(at -2.54 2.54)
+		(size 2.8 2.8)
+		(drill 1.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5e3e6509-69ae-4cd4-b040-50242fc18cf2")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 -2.54)
+		(size 2.8 2.8)
+		(drill 1.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f7cd9b9b-0441-431f-869c-e84107324242")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 2.54)
+		(size 2.8 2.8)
+		(drill 1.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2b2e8c56-bd1e-4ede-a061-51dbccec876f")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/models/GCT_RFPC_SMA28_F_envelope.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

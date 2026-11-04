@@ -1,0 +1,13 @@
+{
+  "data_kind": "CALCULATED",
+  "timestamp_utc": "2026-09-15T16:28:34.470732+00:00",
+  "markdown_files": 22,
+  "local_links": 163,
+  "reference_hashes_verified": 8,
+  "original_hashes_verified": 2,
+  "requirements_data_rows": 56,
+  "native_kicad_hashes_current": true,
+  "native_cad_stl_hashes_current": true,
+  "actual_measurements_and_release_empty": true,
+  "errors": []
+}

@@ -1,0 +1,115 @@
+[
+  {
+    "command": [
+      "C:\\Program Files\\KiCad\\10.0\\bin\\kicad-cli.exe",
+      "sch",
+      "erc",
+      "--format",
+      "json",
+      "--severity-all",
+      "--exit-code-violations",
+      "-o",
+      "E:\\Current_Probe\\hardware\\calibration_fixture_PCB_A03_DRAFT\\review\\erc.json",
+      "E:\\Current_Probe\\hardware\\calibration_fixture_PCB_A03_DRAFT\\RFCP_Fixture_Flat_A03_DRAFT.kicad_sch"
+    ],
+    "returncode": 0
+  },
+  {
+    "command": [
+      "C:\\Program Files\\KiCad\\10.0\\bin\\kicad-cli.exe",
+      "pcb",
+      "drc",
+      "--refill-zones",
+      "--save-board",
+      "--schematic-parity",
+      "--format",
+      "json",
+      "--severity-all",
+      "--exit-code-violations",
+      "-o",
+      "E:\\Current_Probe\\hardware\\calibration_fixture_PCB_A03_DRAFT\\review\\drc.json",
+      "E:\\Current_Probe\\hardware\\calibration_fixture_PCB_A03_DRAFT\\RFCP_Fixture_Flat_A03_DRAFT.kicad_pcb"
+    ],
+    "returncode": 0
+  },
+  {
+    "command": [
+      "C:\\Program Files\\KiCad\\10.0\\bin\\kicad-cli.exe",
+      "sch",
+      "export",
+      "netlist",
+      "--format",
+      "kicadxml",
+      "-o",
+      "E:\\Current_Probe\\hardware\\calibration_fixture_PCB_A03_DRAFT\\review\\netlist.xml",
+      "E:\\Current_Probe\\hardware\\calibration_fixture_PCB_A03_DRAFT\\RFCP_Fixture_Flat_A03_DRAFT.kicad_sch"
+    ],
+    "returncode": 0
+  },
+  {
+    "command": [
+      "C:\\Program Files\\KiCad\\10.0\\bin\\kicad-cli.exe",
+      "pcb",
+      "export",
+      "gerbers",
+      "--layers",
+      "F.Cu,B.Cu,F.Mask,B.Mask,F.Silkscreen,B.Silkscreen,Edge.Cuts",
+      "--subtract-soldermask",
+      "-o",
+      "E:\\Current_Probe\\hardware\\calibration_fixture_PCB_A03_DRAFT\\gerbers_DRAFT",
+      "E:\\Current_Probe\\hardware\\calibration_fixture_PCB_A03_DRAFT\\RFCP_Fixture_Flat_A03_DRAFT.kicad_pcb"
+    ],
+    "returncode": 0
+  },
+  {
+    "command": [
+      "C:\\Program Files\\KiCad\\10.0\\bin\\kicad-cli.exe",
+      "pcb",
+      "export",
+      "drill",
+      "--excellon-separate-th",
+      "--excellon-oval-format",
+      "route",
+      "--generate-report",
+      "--report-path",
+      "E:\\Current_Probe\\hardware\\calibration_fixture_PCB_A03_DRAFT\\review\\drill_report.txt",
+      "-o",
+      "E:\\Current_Probe\\hardware\\calibration_fixture_PCB_A03_DRAFT\\gerbers_DRAFT",
+      "E:\\Current_Probe\\hardware\\calibration_fixture_PCB_A03_DRAFT\\RFCP_Fixture_Flat_A03_DRAFT.kicad_pcb"
+    ],
+    "returncode": 0
+  },
+  {
+    "command": [
+      "C:\\Program Files\\KiCad\\10.0\\bin\\kicad-cli.exe",
+      "pcb",
+      "export",
+      "step",
+      "--force",
+      "--board-only",
+      "--user-origin",
+      "0x0mm",
+      "-o",
+      "E:\\Current_Probe\\hardware\\calibration_fixture_PCB_A03_DRAFT\\review\\board_only.step",
+      "E:\\Current_Probe\\hardware\\calibration_fixture_PCB_A03_DRAFT\\RFCP_Fixture_Flat_A03_DRAFT.kicad_pcb"
+    ],
+    "returncode": 0
+  },
+  {
+    "command": [
+      "C:\\Program Files\\KiCad\\10.0\\bin\\kicad-cli.exe",
+      "pcb",
+      "export",
+      "svg",
+      "--mode-single",
+      "--fit-page-to-board",
+      "--exclude-drawing-sheet",
+      "--layers",
+      "F.Cu,F.Silkscreen,Edge.Cuts",
+      "-o",
+      "E:\\Current_Probe\\hardware\\calibration_fixture_PCB_A03_DRAFT\\review\\top.svg",
+      "E:\\Current_Probe\\hardware\\calibration_fixture_PCB_A03_DRAFT\\RFCP_Fixture_Flat_A03_DRAFT.kicad_pcb"
+    ],
+    "returncode": 0
+  }
+]

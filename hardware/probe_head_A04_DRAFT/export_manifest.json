@@ -1,0 +1,16 @@
+{
+  "status": "DRAFT - NOT FOR FABRICATION",
+  "zip_sha256": "16f426064c1f2fde5fc03e98f7b80252a491f7d155a4cef00b44b4ef9fad8c81",
+  "files": {
+    "RFCP_Head_A04_DRAFT-B_Cu.gbl": "6b8bab5a44fb9754d36a1a8f7ba41df824656fd64b16900daedd0e634fe6964c",
+    "RFCP_Head_A04_DRAFT-B_Mask.gbs": "b2fcf9195bd1dc4be6e646cbbe4433be32e2b51e138acbeaa83a6524678592b4",
+    "RFCP_Head_A04_DRAFT-B_Silkscreen.gbo": "7aad8e6efb9a60f5be588f33053308091b776f7fd9e99641f8031b5701499514",
+    "RFCP_Head_A04_DRAFT-Edge_Cuts.gm1": "f4eb852a3eb88589b0d4bb50b7d63ebf99e00ad7b80b0dedeb16728a81e0c9b7",
+    "RFCP_Head_A04_DRAFT-F_Cu.gtl": "fba07cde7f34c40aae6755e736baae29af3dd0551ad9723a41bcf0c25e788ccb",
+    "RFCP_Head_A04_DRAFT-F_Mask.gts": "89b8de058a42035fc268a61eefb61adb7cfcabc887c0dd79bd77017e3465abd9",
+    "RFCP_Head_A04_DRAFT-F_Silkscreen.gto": "1fbd642dca577d7043f36d60bb28ca1ae2ebabeb4ba3620d34a100605839a6cb",
+    "RFCP_Head_A04_DRAFT-job.gbrjob": "d9a696888b45458878033f080f044f16cf12afe7f50dcdae59b7bec118e5e877",
+    "RFCP_Head_A04_DRAFT-NPTH.drl": "4baf6b4dd1aa89d320f4e337fb0110f05bcc37c757415a5b8ebeeb2b4c0b7861",
+    "RFCP_Head_A04_DRAFT-PTH.drl": "58c693b68997336661531eeb98bd6001254770f515d2ea9c43d60f68afaba154"
+  }
+}

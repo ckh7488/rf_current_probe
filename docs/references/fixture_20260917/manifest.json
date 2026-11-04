@@ -1,0 +1,24 @@
+{
+  "retrieved_date": "2026-09-17",
+  "source_kind": "manufacturer catalog distributed by Farnell",
+  "files": [
+    {
+      "file": "amphenol_catalog_distributor.pdf",
+      "sha256": "6d77e1f8d53433b36f25bab076c9cef7ce693c911bd7572481caf390dd4ab23e",
+      "bytes": 7964266,
+      "source": "https://my.element14.com/site/binaries/content/assets/common/storefront-pdfs/amphenol-rf/pdf/amphenol_connex_catalog.pdf"
+    },
+    {
+      "file": "132139_catalog_page38.png",
+      "sha256": "d3fa3ba6b12ade5568f9ecc32c020d2d758abfc4e8f7599441411e1cad7319cb",
+      "bytes": 331634,
+      "source": "pdftoppm: PDF page 39 rendered locally"
+    }
+  ],
+  "unavailable": [
+    {
+      "url": "https://www.amphenolrf.com/en-us/assets/file/4065786252/",
+      "result": "HTTP 403 in direct download; current production drawing not retrieved"
+    }
+  ]
+}

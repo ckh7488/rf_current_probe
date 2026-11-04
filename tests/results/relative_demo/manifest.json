@@ -1,0 +1,75 @@
+{
+  "created_utc": "2026-09-15T15:05:43.607283+00:00",
+  "python": "3.12.6",
+  "scikit_rf": "2.1.0",
+  "numpy": "2.4.4",
+  "metadata": {
+    "schema_version": 1,
+    "measurement_id": "SYN-FIXTURE-001",
+    "head_id": "SYN-IDEAL-5OHM",
+    "head_revision": "SYNTHETIC",
+    "core_part": "NONE-ANALYTIC",
+    "turns": 5,
+    "shield_revision": "NONE",
+    "fixture_id": "SYN-L30nH-C3pF-R52",
+    "calibration_id": "SYN-CAL-001",
+    "cable_ids": [],
+    "receiver_model": "IDEAL-50OHM",
+    "termination": "receiver_single_50_ohm",
+    "attenuation_profile": "NONE",
+    "source_level": "NORMALIZED-POWER-WAVES",
+    "frequency_range": [
+      100000.0,
+      500000000.0
+    ],
+    "if_bandwidth": "NOT_APPLICABLE_SYNTHETIC",
+    "averaging": "NOT_APPLICABLE_SYNTHETIC",
+    "temperature": "NOT_APPLICABLE_SYNTHETIC",
+    "conductor_position": "ANALYTIC-BRANCH",
+    "timestamp": "2026-09-16T00:00:00+09:00",
+    "data_kind": "SYNTHETIC",
+    "clipped": false,
+    "phase_validated": true,
+    "phase_evidence": "analysis/fixture_model.py: exact analytic reference; not hardware",
+    "uncertainty_db": null,
+    "minimum_zt_ohm": 1e-06,
+    "included_chain_ids": [
+      "SYN-IDEAL-RECEIVER"
+    ],
+    "additional_correction_ids": [],
+    "valid_frequency_bands_hz": [
+      [
+        100000.0,
+        500000000.0
+      ]
+    ],
+    "invalid_frequency_bands_hz": [],
+    "quality_review": {
+      "snr": true,
+      "linearity": true,
+      "repeatability": true,
+      "leakage": true,
+      "position": true,
+      "evidence": "Exact SYNTHETIC data by construction; no real quality assessment"
+    },
+    "current_model": {
+      "mode": "relative"
+    },
+    "synthetic_parameters": {
+      "series_l_h": 3e-08,
+      "bypass_c_f": 3e-12,
+      "branch_r_ohm": 52,
+      "zt_ohm": 5
+    },
+    "limitations": "S12/S22 placeholders. This is not a full reciprocal or fitted RF sensor simulation."
+  },
+  "inputs": {
+    "E:\\Current_Probe\\tests\\synthetic\\bypass_fixture.s2p": "c9d6c0164972aa035a25260b01458b826eb2beab478b8b757359121037853ccb",
+    "E:\\Current_Probe\\tests\\synthetic\\relative.json": "c520bd9969f8f4aa1f0728d0ee8352618b625145e9d5ccddbc8b84a2979e5597"
+  },
+  "code_sha256": "79cd187c11be4f8961bd4e1b978addc5f33fde07df5ccb3e4a2b83765bacc548",
+  "rows": 301,
+  "eligible_rows": 0,
+  "scope_internal_response_included": false,
+  "meaning": "Conditional extraction, not proof of hardware performance or uncertainty."
+}

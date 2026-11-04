@@ -1,0 +1,7 @@
+<section id="changes">
+  <div class="section-heading"><span class="section-number">변경</span><div><h2>설계가 바뀌면, 바뀐 부분부터 다시 확인합니다</h2><p>설명은 공정별로, 숫자·부품·포트 위치는 공통 설계 데이터로 관리합니다.</p></div></div>
+  <p>현재 기준은 <strong>지그 {{fixture.revision}} · 헤드 {{head.revision}} · 집게 {{clamp.revision}} · {{head.turns}}턴</strong>입니다. 이 조합을 한 개의 설계 ID로 묶고 조립·시험 기록에도 같은 ID를 남깁니다. 새 형상으로 바꿀 때 이전 그림만 교체하거나 이전 교정표를 그대로 사용하지 않습니다.</p>
+  <div class="table-wrap"><table><thead><tr><th>바뀐 항목</th><th>문서에서 고칠 곳</th><th>다시 확인할 것</th></tr></thead><tbody><tr><td>PCB 외곽·창·동박·SMA 위치</td><td>공통 설계값, 실제 CAD/PCB 그림, 조립 A01·A06·A07, 포트 좌표</td><td>ERC/DRC·구경 안 전류 경로·개폐 간섭 → 지그 단독/헤드 장착 through → 전달·누설·반복성</td></tr><tr><td>코어·턴 수·리드·차폐</td><td>부품/권선 정보, 조립 A02–A05, 측정 메타데이터</td><td>닫힘·출력 연결 → 전달 응답·선형성·위치 민감도·반복성·직접 픽업</td></tr><tr><td>기둥·나사·출력물·패드</td><td>조립 A02·A05·A07, 실제 부품 기록</td><td>맞춤·끝 닿음·케이블 하중·개폐·코어 틈 → 재장착 반복성, 전류 경로 영향 시 RF 비교</td></tr><tr><td>케이블·감쇠기·부하·장비 설정</td><td>시험 설정, 체인 ID, 기준면·원시 데이터</td><td>새 기준면으로 VNA 교정·검증, 수신기 종단, 교정표 재사용 여부</td></tr><tr><td>설명/오탈자만 수정</td><td>해당 절차 문단·문서 리비전</td><td>기술 의미·링크·표시 확인. 설계나 시험이 바뀐 것으로 기록하지 않음</td></tr></tbody></table></div>
+  <p>변경 전 원본과 측정은 보존합니다. 새 리비전은 변경 이유, 영향을 받는 단계, 다시 실행한 검사와 아직 하지 않은 시험을 함께 남깁니다. 지금 기록된 CAD·DRC 결과는 <strong>검사 당시 원본 해시</strong>에만 해당합니다.</p>
+  <p class="source-note">공통 기준: <a href="records/design.json">설계·시험 설정 JSON</a> · <a href="records/evidence.json">원본 식별/해시</a> · <a href="records/source-notes.md">근거와 미검증 범위</a>. 문서 수정·재생성 방법은 로컬 원본의 docs/atlas/README.md에 정리했습니다.</p>
+</section>

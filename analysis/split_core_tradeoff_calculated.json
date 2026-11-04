@@ -1,0 +1,100 @@
+{
+  "classification": "CALCULATED",
+  "python_version": "3.12.6",
+  "burden_ohm": 50.0,
+  "source": "https://fair-rite.com/wp-content/uploads/2023/10/FR_IndentifyingUnknownFair-RiteRoundCableSnapIts_R02.pdf",
+  "source_access_date": "2026-09-15",
+  "model": "Constant relative AL, ideal coupling; no loss, gap, leakage, capacitance or winding resistance. No upper-bandwidth prediction.",
+  "results": [
+    {
+      "part": "2644181281",
+      "turns": 3,
+      "AL_relative_uH_per_turn_squared": 1.1,
+      "Lm_uH": 9.9,
+      "ZT_ideal_plateau_ohm": 16.666666666666668,
+      "ideal_reflected_resistance_ohm": 5.555555555555555,
+      "fL_Hz": 803812.8438984613,
+      "gain_at_1MHz_relative_to_plateau_dB": -2.1646019560471492
+    },
+    {
+      "part": "2644181281",
+      "turns": 5,
+      "AL_relative_uH_per_turn_squared": 1.1,
+      "Lm_uH": 27.5,
+      "ZT_ideal_plateau_ohm": 10.0,
+      "ideal_reflected_resistance_ohm": 2.0,
+      "fL_Hz": 289372.62380344607,
+      "gain_at_1MHz_relative_to_plateau_dB": -0.3492370672803893
+    },
+    {
+      "part": "2644181281",
+      "turns": 7,
+      "AL_relative_uH_per_turn_squared": 1.1,
+      "Lm_uH": 53.900000000000006,
+      "ZT_ideal_plateau_ohm": 7.142857142857143,
+      "ideal_reflected_resistance_ohm": 1.0204081632653061,
+      "fL_Hz": 147639.0937772684,
+      "gain_at_1MHz_relative_to_plateau_dB": -0.0936475162171948
+    },
+    {
+      "part": "2631181381",
+      "turns": 3,
+      "AL_relative_uH_per_turn_squared": 9.1,
+      "Lm_uH": 81.89999999999999,
+      "ZT_ideal_plateau_ohm": 16.666666666666668,
+      "ideal_reflected_resistance_ohm": 5.555555555555555,
+      "fL_Hz": 97164.18992179203,
+      "gain_at_1MHz_relative_to_plateau_dB": -0.04080888582167236
+    },
+    {
+      "part": "2631181381",
+      "turns": 5,
+      "AL_relative_uH_per_turn_squared": 9.1,
+      "Lm_uH": 227.49999999999997,
+      "ZT_ideal_plateau_ohm": 10.0,
+      "ideal_reflected_resistance_ohm": 2.0,
+      "fL_Hz": 34979.108371845134,
+      "gain_at_1MHz_relative_to_plateau_dB": -0.005310509972324971
+    },
+    {
+      "part": "2631181381",
+      "turns": 7,
+      "AL_relative_uH_per_turn_squared": 9.1,
+      "Lm_uH": 445.8999999999999,
+      "ZT_ideal_plateau_ohm": 7.142857142857143,
+      "ideal_reflected_resistance_ohm": 1.0204081632653061,
+      "fL_Hz": 17846.483863186295,
+      "gain_at_1MHz_relative_to_plateau_dB": -0.0013829946083198101
+    },
+    {
+      "part": "0431177081",
+      "turns": 3,
+      "AL_relative_uH_per_turn_squared": 6.2,
+      "Lm_uH": 55.800000000000004,
+      "ZT_ideal_plateau_ohm": 16.666666666666668,
+      "ideal_reflected_resistance_ohm": 5.555555555555555,
+      "fL_Hz": 142611.95617553347,
+      "gain_at_1MHz_relative_to_plateau_dB": -0.08744133569472227
+    },
+    {
+      "part": "0431177081",
+      "turns": 5,
+      "AL_relative_uH_per_turn_squared": 6.2,
+      "Lm_uH": 155.0,
+      "ZT_ideal_plateau_ohm": 10.0,
+      "ideal_reflected_resistance_ohm": 2.0,
+      "fL_Hz": 51340.30422319205,
+      "gain_at_1MHz_relative_to_plateau_dB": -0.011432190481676175
+    },
+    {
+      "part": "0431177081",
+      "turns": 7,
+      "AL_relative_uH_per_turn_squared": 6.2,
+      "Lm_uH": 303.8,
+      "ZT_ideal_plateau_ohm": 7.142857142857143,
+      "ideal_reflected_resistance_ohm": 1.0204081632653061,
+      "fL_Hz": 26194.032766934717,
+      "gain_at_1MHz_relative_to_plateau_dB": -0.002978791432831065
+    }
+  ]
+}

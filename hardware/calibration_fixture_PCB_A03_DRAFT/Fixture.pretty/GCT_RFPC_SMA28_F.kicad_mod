@@ -1,0 +1,225 @@
+(footprint "GCT_RFPC_SMA28_F"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "GCT RFPC-SMA28-F; RFCP clearance revision: centre 1.70, ground 1.90, 5.08 pitch. First-article dry fit required.")
+	(property "Reference" "J2"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d4ff2ac5-f7f6-4d8e-ab2c-8871fed4dcd1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Value" "RFPC-SMA28-F"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b2adc102-4487-43c2-a0fc-eec5730ee9a8")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" "https://gct.co/connector/rfpc-sma28-f"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "127f539d-3a86-4d25-9f79-ea9875f53e05")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "03bb1ce5-b544-4d28-9646-f70c891d6bd4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -4.099999 -4.099999)
+		(end 4.099999 -4.099999)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "703c6a10-1916-4382-815f-5aa25b5ca4df")
+	)
+	(fp_line
+		(start -4.099999 4.099999)
+		(end -4.099999 -4.099999)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "147607e6-d27d-4599-846b-98a45ee31b5c")
+	)
+	(fp_line
+		(start 4.099999 -4.099999)
+		(end 4.099999 4.099999)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0d50b497-b51e-4b65-ae59-d3ecffe8e4e6")
+	)
+	(fp_line
+		(start 4.099999 4.099999)
+		(end -4.099999 4.099999)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6aa3b951-5965-43f2-bf59-07e506ed3c81")
+	)
+	(fp_line
+		(start -4.15 -4.15)
+		(end 4.15 -4.15)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "560de4cb-4b17-426c-955f-5eeda88a1302")
+	)
+	(fp_line
+		(start -4.15 4.15)
+		(end -4.15 -4.15)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "0065fbbe-64a3-4167-9c99-4b4d941316c4")
+	)
+	(fp_line
+		(start 4.15 -4.15)
+		(end 4.15 4.15)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "b1e932f2-ee1c-43bd-a6ec-89e06ca236ab")
+	)
+	(fp_line
+		(start 4.15 4.15)
+		(end -4.15 4.15)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "b7287fb3-161d-48c6-90ff-d8430727fce4")
+	)
+	(fp_line
+		(start -3.5 -3.5)
+		(end 3.5 -3.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "35fab0e1-dad3-4c7a-9d27-c63f0a63d4b3")
+	)
+	(fp_line
+		(start -3.5 3.5)
+		(end -3.5 -3.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "12d63e14-0f1b-476f-ac64-c5c94f126a75")
+	)
+	(fp_line
+		(start 3.5 -3.5)
+		(end 3.5 3.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "4a030072-6523-4161-bb1e-6b98eb6b13ea")
+	)
+	(fp_line
+		(start 3.5 3.5)
+		(end -3.5 3.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "5affe449-c9fd-402a-9ad2-8836073b40b6")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.5 2.5)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "307acb33-08c9-4d12-a90a-26b751ee3246")
+	)
+	(pad "2" thru_hole circle
+		(at -2.54 -2.54)
+		(size 2.8 2.8)
+		(drill 1.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fddf2646-8b77-4a26-9886-89ebb7e0878f")
+	)
+	(pad "2" thru_hole circle
+		(at -2.54 2.54)
+		(size 2.8 2.8)
+		(drill 1.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "016ae568-248f-4c02-a069-5012e2c82957")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 -2.54)
+		(size 2.8 2.8)
+		(drill 1.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2c67c323-0f40-4b72-bd82-c9436b99f991")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 2.54)
+		(size 2.8 2.8)
+		(drill 1.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "47693255-186b-4e05-9626-7ac8e508d948")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/models/GCT_RFPC_SMA28_F_envelope.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

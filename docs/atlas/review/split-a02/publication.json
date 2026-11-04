@@ -1,0 +1,26 @@
+{
+  "commit": "5120ede5ad406411a41447bf3b5d7f01d82429e0",
+  "workflow_run": 35208671109,
+  "status": "completed",
+  "conclusion": "success",
+  "assembly_url": "https://ckh7488.github.io/showcase/reports/rf-current-probe/",
+  "testing_url": "https://ckh7488.github.io/showcase/reports/rf-current-probe/testing.html",
+  "local_browser_checks": "browser-checks.json",
+  "live_browser_checks": "../split-a02-live/browser-checks.json",
+  "final_live_files": {
+    "index.html": {
+      "live_matches_local_normalized_newlines": true,
+      "live_sha256": "0081b1751e4210f34d2fe0ecb0367f22fe53d52f1f20b10f2b5d24872d7ae32c",
+      "image_space_reserved": true
+    },
+    "testing.html": {
+      "live_matches_local_normalized_newlines": true,
+      "live_sha256": "0bb7fb1c532cc982ad12acce02f267fa478947247948bce1d088af94c621efb1"
+    },
+    "records/evidence.json": {
+      "live_matches_local_normalized_newlines": true,
+      "live_sha256": "61fc9784abfbfa1c41a0875689e241a34b1bb7f5a6daaed7c0b67e7af39e37c9"
+    }
+  },
+  "verified_at": "2026-09-17T10:08:59.509575+00:00"
+}

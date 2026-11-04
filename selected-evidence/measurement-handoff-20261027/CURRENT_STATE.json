@@ -1,0 +1,50 @@
+{
+  "as_of_kst": "2026-10-27",
+  "scope": "RF current probe, Samtec right-angle SMA fixture, first 1–150 MHz measurements",
+  "classification": "HANDOFF_PREPARATION_NOT_MEASURED_RF_ACCEPTANCE",
+  "selected_design": "Head A04 SMA R2 / Fixture A03 SMA R2 / central A19 + other A18 + C10",
+  "turns_baseline": 5,
+  "turns_optional": 3,
+  "primary_band_hz": [
+    1000000,
+    150000000
+  ],
+  "overall_characterization_hz": [
+    1000000,
+    500000000
+  ],
+  "head_connection": {
+    "status": "UNRESOLVED",
+    "last_user_report_ohm": 3000000,
+    "where_measured": "User reports enamel-wire-connected +/−; exact contact surfaces not independently verified",
+    "next_action": "Meter short-lead baseline, actual solder pad metal to pad metal, then head SMA center to shell; record numeric ohms and motion stability",
+    "not_proven": [
+      "continuity after repair",
+      "absence of solder bridge",
+      "absence of shorted turn"
+    ]
+  },
+  "clamp": {
+    "status": "HOLD_USER_REPORTED_UNUSABLE",
+    "locations": [
+      "C04B large knob shaft",
+      "F12 around black jaws"
+    ],
+    "evidence": "project/reviews/clamp_fit_failure_20261026/REPORT.md"
+  },
+  "sma": {
+    "selected": "Samtec SMA-J-P-H-RA-TH1 pair, user-owned leftovers",
+    "status": "USE_FOR_1_TO_150_MHZ_WITH_ACTUAL_ASSEMBLY_CALIBRATION",
+    "new_calculation": "project/reviews/sma_port_repair_20261027/REPORT.md",
+    "old_failed_evidence": "project/reviews/sma_right_angle_20261026/REJECTED_FULL_WAVE.json",
+    "measured_performance_verified": false
+  },
+  "instruments": {
+    "vna": "LibreVNA, actual HW/FW/GUI and calibration kit not yet identified",
+    "scope": "Tektronix MSO4054 tentative user identification; verify nameplate"
+  },
+  "rf_measurements_in_source_raw_folder": 0,
+  "public_assembly_guide": "KEEP_UNCHANGED; root handoff supersedes old labels and observations for next actions",
+  "first_step": "R00_DMM",
+  "measurement_control_software": "Official LibreVNA GUI bundled; no untested instrument automation"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://ckh7488.github.io/showcase/reports/rf-current-probe/",
+  "commit": "74d3dd003de6cc9013d16762778324065396af95",
+  "workflow_url": "https://github.com/ckh7488/showcase/actions/runs/35201165903",
+  "status": "completed",
+  "conclusion": "success",
+  "verified_at": "2026-09-17T17:45:57.9393495+09:00",
+  "browser_checks": "docs/atlas/review/live/browser-checks.json",
+  "actual_rf_measurement_performed": false
+}

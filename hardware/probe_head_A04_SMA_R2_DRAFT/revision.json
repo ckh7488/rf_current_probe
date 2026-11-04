@@ -1,0 +1,20 @@
+{
+  "source_directory": "probe_head_A04_DRAFT",
+  "directory": "probe_head_A04_SMA_R2_DRAFT",
+  "old_name": "RFCP_Head_A04_DRAFT",
+  "new_name": "RFCP_Head_A04_SMA_R2_DRAFT",
+  "library": "RFCP.pretty",
+  "sma_count": 1,
+  "revision": "A0.4-SMA-R2",
+  "old_board_label": "A04 DRAFT",
+  "new_board_label": "A04R2 DRAFT",
+  "old_title_label": "HEAD A0.4",
+  "new_title_label": "HEAD A0.4-R2",
+  "baseline_hashes": {
+    "RFCP_Head_A04_DRAFT.kicad_pcb": "38a257380bd70205c55be3fff8bcf504889c01ce60fa83e79403088546b68808",
+    "RFCP_Head_A04_DRAFT.kicad_pro": "c3c33f6da7f225807c1c2ca2d35a3bfd8aeac4eaf52352bd1768fb58a52bde37",
+    "RFCP_Head_A04_DRAFT.kicad_sch": "7adf85517fb9fec3406711764212ece85afdcffe6a2c4e971512ba02947c33b9"
+  },
+  "status": "DRAFT - NOT FOR FABRICATION; NOT SUBMITTED",
+  "classification": "CALCULATED_NOT_MEASURED"
+}

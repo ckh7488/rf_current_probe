@@ -1,0 +1,68 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-28T13:56:07",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.0",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/5a97990b-c78b-5aa2-aa00-14baac02de61",
+            "violations": [
+                {
+                    "description": "심볼 라이브러리 'RFCP'을(를) 'E:\\Current_Probe\\hardware\\probe_head_A04_SMA_R2_DRAFT/RFCP.kicad_sym'에서 찾을 수 없습니다",
+                    "items": [
+                        {
+                            "description": "심볼 J2 [CoilPads]",
+                            "pos": {
+                                "x": 0.889,
+                                "y": 0.8128
+                            },
+                            "uuid": "404d1445-90e6-5344-8092-0968db7a2bb6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "심볼 라이브러리 'RFCP'을(를) 'E:\\Current_Probe\\hardware\\probe_head_A04_SMA_R2_DRAFT/RFCP.kicad_sym'에서 찾을 수 없습니다",
+                    "items": [
+                        {
+                            "description": "심볼 J1 [SMAJack]",
+                            "pos": {
+                                "x": 1.4224,
+                                "y": 0.8128
+                            },
+                            "uuid": "be8d60e1-29ee-5722-bd06-816d47290b55"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                }
+            ]
+        }
+    ],
+    "source": "RFCP_Head_A04_SMA_R2_DRAFT.kicad_sch"
+}

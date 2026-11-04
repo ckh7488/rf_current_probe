@@ -1,0 +1,88 @@
+{
+  "classification": "CALCULATED_SUBTRACTIVE_DFM_CANDIDATE_NOT_WARP_SIMULATION",
+  "freecad": [
+    "1",
+    "0",
+    "2",
+    "39319 (Git)",
+    "https://github.com/FreeCAD/FreeCAD",
+    "2025/08/05 20:19:07",
+    "(HEAD detached at 1.0.2)",
+    "256fc7eff3379911ab5daf88e10182c509aa8052"
+  ],
+  "source": "reviews\\base_dfm_fix_20260928\\RFCP_A18_CurrentHardware_Assembly_DRAFT.FCStd",
+  "source_sha256": "67829f7a524d8b958b5be427cf04ca1c725a494f1633a9e74bc166e044da6c40",
+  "windows_xz_mm": [
+    [
+      -75,
+      -59.2,
+      -59,
+      -48
+    ],
+    [
+      -33,
+      -59.2,
+      -4,
+      -40
+    ],
+    [
+      4,
+      -59.2,
+      33,
+      -40
+    ],
+    [
+      57,
+      -59.2,
+      77,
+      -48
+    ],
+    [
+      83,
+      -59.2,
+      97,
+      -40
+    ],
+    [
+      -56,
+      92,
+      -4,
+      103.2
+    ],
+    [
+      4,
+      92,
+      56,
+      103.2
+    ],
+    [
+      80,
+      92,
+      97,
+      103.2
+    ]
+  ],
+  "window_corner_radius_mm": 4,
+  "old_volume_mm3": 294095.27043516666,
+  "new_volume_mm3": 275909.72727720987,
+  "volume_reduction_percent": 6.183555121797102,
+  "added_volume_mm3": 0.0,
+  "removed_volume_mm3": 18185.543157957076,
+  "additional_fasteners": 0,
+  "changed_print_types": 1,
+  "changed_pieces": 1,
+  "unchanged_print_types": 14,
+  "print_types_total": 15,
+  "print_pieces_total": 20,
+  "material": "9600 Resin",
+  "files": {
+    "RFCP_A19_CurrentHardware_Assembly_DRAFT.FCStd": "8c2c9e996e1615c0c5140a90942c9da87ad4292fdfac65d39bbff3fc46ec55af",
+    "parts\\BaseCenter_A19_DRAFT.step": "8fbc6281d82d5b95bcfd2b3cef16d464c06743efd12ed0ce43184e55120ac491",
+    "parts\\BaseCenter_A19_DRAFT.stl": "982f987314e1de008b8b52df25178f2f2f736b9c80a380d95ea5253a70261d69"
+  },
+  "limits": [
+    "No supplier quote/approval or physical fit established by this builder.",
+    "Broad lap face area is intentionally reduced; hole seats and required contact areas must be verified.",
+    "Existing strength results do not automatically apply to A19."
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "data_kind": "CALCULATED",
+  "holes": [
+    {
+      "ref": "J1",
+      "pad": "1",
+      "old_mm": 1.5,
+      "new_mm": 1.7
+    },
+    {
+      "ref": "J1",
+      "pad": "2",
+      "old_mm": 1.7,
+      "new_mm": 1.9
+    },
+    {
+      "ref": "J1",
+      "pad": "2",
+      "old_mm": 1.7,
+      "new_mm": 1.9
+    },
+    {
+      "ref": "J1",
+      "pad": "2",
+      "old_mm": 1.7,
+      "new_mm": 1.9
+    },
+    {
+      "ref": "J1",
+      "pad": "2",
+      "old_mm": 1.7,
+      "new_mm": 1.9
+    }
+  ]
+}
