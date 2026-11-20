@@ -5,6 +5,8 @@
 
 ## 측정 PC 준비
 
+비교 도구는 Windows · Python 3.12.6 환경에서 확인했습니다.
+
 ```sh
 git clone https://github.com/ckh7488/rf_current_probe.git
 cd rf_current_probe

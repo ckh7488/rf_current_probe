@@ -10,7 +10,7 @@
 - `run.py`·`analyze.py`·`network.py`와 JSON: 형상 생성, 파형 추출, 회로 결합 코드와 주요 설정. 고정 입력의 원본 해시는 [input-freeze-v3/manifest.json](input-freeze-v3/manifest.json)에 있습니다.
 - `runs/nominal-finite-v1-p01`부터 `p24`: 각 구동의 `results.npz`, 모델·격자·개별 검사. 원시 파형은 완료한 한 세트입니다.
 - `prediction-v1/`: PCB 24단자 응답, 세 구성의 SMA S4P, 네 관측량의 복소 CSV, 입력 변화 범위와 시간창 대조, 수치 검토와 원래 출력 영수증.
-- [RETENTION.json](RETENTION.json): 남긴 파일의 해시와 재생성 가능한 파생 파일의 정리 목록.
+- [RETENTION.json](RETENTION.json): 남긴 파일의 해시와 재생성 가능한 파생 파일의 정리 목록. [정리 기록](CLEANUP.json)에 이전 작업 폴더의 정리 수량을 남겼습니다.
 
 중복 실행본·실패 구동·일시 상태·중복 파형 텍스트·생성 XML은 정리했습니다. 원래 출력 영수증은 당시 전체 목록을 보존합니다. 그중 12개 단일 변수 CSV는 최종 변화 범위를 남기고 정리했으며, `RETENTION.json`에 해당 이름과 원래 해시를 기록했습니다.
 
