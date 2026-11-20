@@ -1,0 +1,41 @@
+{
+  "classification": "AUTHORIZED_ARTIFACT_CLEANUP",
+  "completed_on": "2026-11-20",
+  "retained_waveform_sets": 1,
+  "retained_drives": 24,
+  "retained_immutable_files": 137,
+  "original_input_manifest_sha256": "c32f552001013efe648bb1f30f2df84d11ccaa6134cf6a27eea3bd92459ee884",
+  "original_output_receipt_sha256": "2ec95c6e19e83989b33bbf77db13d401752d074461f99439d59595703562eee4",
+  "verified_before_removal": true,
+  "retired_workspace_directories": [
+    {
+      "source_directory": "reviews/ethernet_sma_prediction_20261113",
+      "files": 2435,
+      "bytes": 337369581
+    },
+    {
+      "source_directory": "reviews/ethernet_board_review_20261113",
+      "files": 78,
+      "bytes": 25303999
+    }
+  ],
+  "obsolete_publication_assets": [
+    "app.js",
+    "boards.js",
+    "boards.json",
+    "bom-common.csv",
+    "bom-data.js",
+    "bom-llc.csv",
+    "bom-m12.csv",
+    "bom-molex.csv",
+    "bom-per-board.csv",
+    "bom-view.js",
+    "bom.json",
+    "prebuild-data.js",
+    "prebuild.css",
+    "prebuild.js",
+    "rf-evidence.zip",
+    "rf-results.csv"
+  ],
+  "new_rf_measurements_used": false
+}
