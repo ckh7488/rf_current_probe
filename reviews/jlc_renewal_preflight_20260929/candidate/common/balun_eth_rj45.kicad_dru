@@ -1,0 +1,93 @@
+(version 1)
+
+# JLCPCB 4-layer standard impedance stack:
+# JLC04161H-7628, order as 1.6 mm, finished stack nominal 1.5862 mm.
+# Outer-layer structures are non-coplanar microstrip referenced to L2/L3.
+
+(rule "Controlled traces isolated from other controlled signals"
+    (condition "(A.Type == 'Track' || A.Type == 'Via') && (B.Type == 'Track' || B.Type == 'Via') && (A.hasNetclass('ETH100') || A.hasNetclass('RF50')) && (B.hasNetclass('ETH100') || B.hasNetclass('RF50')) && !AB.isCoupledDiffPair() && !A.intersectsCourtyard('J1') && !B.intersectsCourtyard('J1') && !A.intersectsCourtyard('T?') && !B.intersectsCourtyard('T?')")
+    # 0.60 mm is over 2.5 trace widths and almost 3x the 0.2104 mm plane
+    # spacing.  Keep more where placement permits, but do not force long
+    # uncoupled detours at the RJ45 fanout.
+    (constraint clearance (min 0.60mm))
+)
+
+(rule "Copper to board edge"
+    (constraint edge_clearance (min 0.30mm))
+)
+
+(rule "No routing on solid inner GND planes"
+    (layer inner)
+    (constraint disallow track)
+)
+
+(rule "Only GND zones on inner copper"
+    (layer inner)
+    (condition "A.Type == 'Zone' && A.NetName != '/GND'")
+    (constraint disallow zone)
+)
+
+(rule "JLC 50 ohm outer geometry"
+    (layer outer)
+    (condition "A.Type == 'Track' && A.hasNetclass('RF50')")
+    (constraint track_width (min 0.356mm) (opt 0.357mm) (max 0.358mm))
+)
+
+(rule "JLC 100 ohm differential trace width"
+    (layer outer)
+    (condition "A.Type == 'Track' && A.hasNetclass('ETH100')")
+    (constraint track_width (min 0.233mm) (opt 0.234mm) (max 0.235mm))
+)
+
+(rule "JLC 100 ohm differential coupled gap"
+    (layer outer)
+    (condition "A.Type == 'Track' && A.hasNetclass('ETH100') && !A.intersectsCourtyard('J1') && !A.intersectsCourtyard('T?')")
+    # The pair intentionally opens at connector/transformer fanouts.  A
+    # maximum here creates false errors after KiCad reclassifies those short
+    # sections; the uncoupled-length rules below limit how far that can extend.
+    (constraint diff_pair_gap (min 0.21mm) (opt 0.216mm))
+)
+
+(rule "Ethernet pair topology"
+    (condition "A.hasNetclass('ETH100')")
+    # Offset bends create about 0.52 mm of local inside/outside path delta;
+    # the transformer-end compensation restores zero end-to-end pair skew.
+    (constraint skew (max 0.55mm) (within_diff_pairs))
+    (constraint via_count (max 1))
+)
+
+(rule "Ethernet ordinary-pair uncoupled allowance"
+    (condition "A.hasNetclass('ETH100') && A.NetName != '/DB_P' && A.NetName != '/DB_N'")
+    (constraint diff_pair_uncoupled (max 16.00mm))
+)
+
+# 1000BASE-T pair B uses split RJ45 pins 3 and 6, with pins 4/5 between them.
+(rule "Ethernet split-pair B uncoupled allowance"
+    (condition "A.NetName == '/DB_P' || A.NetName == '/DB_N'")
+    (constraint diff_pair_uncoupled (max 16.50mm))
+)
+
+(rule "Ethernet signal via geometry"
+    (condition "A.Type == 'Via' && A.hasNetclass('ETH100')")
+    (constraint via_diameter (min 0.60mm) (opt 0.60mm) (max 0.60mm))
+    (constraint hole_size (min 0.30mm) (opt 0.30mm) (max 0.30mm))
+)
+
+# J1 uses 1.30/0.90 mm PTH pads (0.20 mm annular ring).  The short 0.15 mm
+# pin-field escape keeps at least 0.295 mm copper clearance to adjacent PTHs.
+(rule "RJ45 pin-field neckdown"
+    (condition "A.Type == 'Track' && A.hasNetclass('ETH100') && A.intersectsCourtyard('J1')")
+    (constraint track_width (min 0.14mm) (opt 0.15mm) (max 0.235mm))
+)
+
+(rule "RJ45 PTH to signal escape clearance"
+    (condition "A.memberOfFootprint('J1') && A.Type == 'Pad' && B.hasNetclass('ETH100') && A.Net != B.Net")
+    (constraint clearance (min 0.28mm))
+)
+
+(rule "RJ45 local signal fanout clearance"
+    (condition "A.Type == 'Track' && B.Type == 'Track' && A.hasNetclass('ETH100') && B.hasNetclass('ETH100') && A.intersectsCourtyard('J1') && B.intersectsCourtyard('J1')")
+    (constraint clearance (min 0.18mm))
+)
+
+# SMA B-SMA1 is THT; no board-edge clearance exception.
