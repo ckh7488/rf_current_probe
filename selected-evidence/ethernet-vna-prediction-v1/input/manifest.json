@@ -1,0 +1,36 @@
+{
+  "classification": "USER_PHOTOGRAPH",
+  "date_received": "2026-11-13",
+  "files": [
+    {
+      "source": "C:\\Users\\artzy\\Documents\\카카오톡 받은 파일\\KakaoTalk_20261113_170948821.jpg",
+      "local": "reviews\\ethernet_board_review_20261113\\fixture-photos\\KakaoTalk_20261113_170948821.jpg",
+      "sha256": "9168e4b9a2f9003a469377ea1d6229fca91d654f25c0d4e9c132aec3dd6da0fe",
+      "role": "Orange pair resistor solder joint"
+    },
+    {
+      "source": "C:\\Users\\artzy\\Documents\\카카오톡 받은 파일\\KakaoTalk_20261113_170948821_01.jpg",
+      "local": "reviews\\ethernet_board_review_20261113\\fixture-photos\\KakaoTalk_20261113_170948821_01.jpg",
+      "sha256": "24dcc42d88b3d11f68dfe560c31ce48a3b930d0a02eb63d87789b25940f81c2f",
+      "role": "Cable preparation before resistor soldering"
+    },
+    {
+      "source": "C:\\Users\\artzy\\Documents\\카카오톡 받은 파일\\KakaoTalk_20261113_170948821_02.jpg",
+      "local": "reviews\\ethernet_board_review_20261113\\fixture-photos\\KakaoTalk_20261113_170948821_02.jpg",
+      "sha256": "180acab30727861bbf1598518cd4568f35ad7f7537cbb3d4afa83090a4924a27",
+      "role": "Standalone resistor DC measurement"
+    },
+    {
+      "source": "C:\\Users\\artzy\\Documents\\카카오톡 받은 파일\\KakaoTalk_20261113_170948821_03.jpg",
+      "local": "reviews\\ethernet_board_review_20261113\\fixture-photos\\KakaoTalk_20261113_170948821_03.jpg",
+      "sha256": "9a948d918898c8ffc512da03f3bab27fb749d0533390675ebc29abe93cf69575",
+      "role": "Assembly equipment photograph"
+    },
+    {
+      "source": "C:\\Users\\artzy\\AppData\\Local\\Temp\\codex-clipboard-18585e9f-52c0-4a7f-b447-8e05089c4016.png",
+      "local": "reviews\\ethernet_board_review_20261113\\fixture-photos\\fixture-pair-ruler.png",
+      "sha256": "36d9c1229fa5ad6fc8a37f564c969d074b97f20b9b1682b0fd089e1a8cee4b7e",
+      "role": "Completed loopback (left) and resistive load (right) alongside a millimetre ruler"
+    }
+  ]
+}

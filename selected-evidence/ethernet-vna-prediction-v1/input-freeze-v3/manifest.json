@@ -1,0 +1,130 @@
+{
+  "created_at_kst": "2026-11-13T18:58:51.281433+09:00",
+  "purpose": "Independent forward-model inputs before new RF measurements",
+  "new_rf_measurements_used": false,
+  "files": [
+    {
+      "file": "analyze.py",
+      "sha256": "f864ce2d24e5348a866ef8a11a049ef5e0c99963712634c0b40b8a9b0005e3c4",
+      "bytes": 10488
+    },
+    {
+      "file": "batch.py",
+      "sha256": "384cb3dad9a2987f7dc0fdda06d3a379e2019b21358dd207bb512f6de1d67a61",
+      "bytes": 7119
+    },
+    {
+      "file": "check_mesh.py",
+      "sha256": "3352ea61dffce0110412ff0f6f2983beff411967579203e7d547153efb610b37",
+      "bytes": 4398
+    },
+    {
+      "file": "check_pipeline.py",
+      "sha256": "765b3a6833ace9caa62ce8d5a9e1e706be9357bb3a387697ffa8c7a2d36729bf",
+      "bytes": 3621
+    },
+    {
+      "file": "check_run.py",
+      "sha256": "40001572c9c4984fbe225d1e7afa3d90a05c6ad57d984d5f4a8e00e1eda19268",
+      "bytes": 1847
+    },
+    {
+      "file": "compute-plan.json",
+      "sha256": "de4462fc3d0ee17bb529d95b728b2dec3f01b4ab0665c78ec437cce9563fedf6",
+      "bytes": 1372
+    },
+    {
+      "file": "electrical-assumptions.json",
+      "sha256": "9a60ad34b853454307f38c6b87834ffd7cea02eae305ae4ec005579d1d309431",
+      "bytes": 4549
+    },
+    {
+      "file": "freeze.py",
+      "sha256": "2858cb36b1055a0568f0722ef5655073498339b993689be29f144219fb0b1026",
+      "bytes": 2381
+    },
+    {
+      "file": "input/ADT2-1T+___Plus25degC.s4p",
+      "sha256": "748cd6bf580952760b19cdc121f8c5c11b5f95c0c221b1e7a2a960f521b671f7",
+      "bytes": 784271
+    },
+    {
+      "file": "input/ADT2-1T-datasheet.pdf",
+      "sha256": "3e6fab86348b033bd9fc681018cb57671649e2e512b50cd8424536ebba982e48",
+      "bytes": 1073616
+    },
+    {
+      "file": "input/balun_eth_rj45.kicad_pcb",
+      "sha256": "975e27c6593b1bdd81aed159409a7450afdd58b910fae45834afb5ff24f37933",
+      "bytes": 213286
+    },
+    {
+      "file": "input/brj2-pcb-model.json",
+      "sha256": "b09a49a2939715100c32aef64a3234ff693ff19c9055b656de46ba7adc242f38",
+      "bytes": 669061
+    },
+    {
+      "file": "input/fixture-geometry.json",
+      "sha256": "edd1b5dd5acda4f00a08209c0be063970a16e2a4189592121de9c2bc496d4a6c",
+      "bytes": 2379
+    },
+    {
+      "file": "input/fixture-pair-ruler.png",
+      "sha256": "36d9c1229fa5ad6fc8a37f564c969d074b97f20b9b1682b0fd089e1a8cee4b7e",
+      "bytes": 1268955
+    },
+    {
+      "file": "input/manifest.json",
+      "sha256": "e982e48ee519313a3f26633b8a7eeacfa791ef7b74de1a3597b3287aaca01671",
+      "bytes": 2018
+    },
+    {
+      "file": "input/single-board-test-plan.json",
+      "sha256": "7438970a3a5139e5d74b58cf2fd352d886a1bbfc648cdb4037581af3674dcb14",
+      "bytes": 7636
+    },
+    {
+      "file": "input/TB-430-schematic.png",
+      "sha256": "ae6a39cc41240ac58eda3f7a8097bcf1bd38b0417fe9100e19d75c68b1c98a8d",
+      "bytes": 102043
+    },
+    {
+      "file": "input/TB-430.zip",
+      "sha256": "365cee0c88dc7b14a4f65c0dbaddbcacbb10fdffaa362aedb2ff4e1f2788bb5e",
+      "bytes": 15768
+    },
+    {
+      "file": "network.py",
+      "sha256": "913544b1f00f052db51b710f390efce2088f0f506cf24c59002ad5351093c2bb",
+      "bytes": 5360
+    },
+    {
+      "file": "prediction-plan.json",
+      "sha256": "3931c6f833841318158b40f2f20771b896452ebd41abd2817cdb7eace886b4c4",
+      "bytes": 2819
+    },
+    {
+      "file": "prepare.py",
+      "sha256": "e9e05c8a3a736177ad08d59dbe1a59aeee98bc5fd14c428f20bbc81c61ba2541",
+      "bytes": 7474
+    },
+    {
+      "file": "run.py",
+      "sha256": "75717b5b0511955dfcf3f08b6306c44add4e9c96bc76ad856c43396de9ae3b1e",
+      "bytes": 11229
+    }
+  ],
+  "runtime": [
+    {
+      "path": "E:\\Current_Probe\\tools\\openems\\v0.37.0-rc2\\runtime\\openEMS\\openEMS.exe",
+      "sha256": "7f276559ad381144e673d4086f48318515ec25c8f3c74dc03c1966a2a4e24813",
+      "bytes": 16896
+    },
+    {
+      "path": "E:\\Current_Probe\\tools\\openems\\v0.37.0-rc2\\runtime\\openEMS\\CSXCAD.dll",
+      "sha256": "086037b08a7597fc8cc5ab67d92d4b5ff4518f24cd32f66be0bad7a775448e5f",
+      "bytes": 573952
+    }
+  ],
+  "changes": "Any later numerical/model revision gets a separate receipt; this folder is not overwritten."
+}

@@ -1,0 +1,1525 @@
+{
+  "args": {
+    "name": "nominal-finite-v1-p07",
+    "drive": 7,
+    "step": 0.16,
+    "time_ns": 5,
+    "steps": 1000000,
+    "threads": 8,
+    "metal": "finite-pec",
+    "setup_only": false
+  },
+  "pcb_sha256": "975e27c6593b1bdd81aed159409a7450afdd58b910fae45834afb5ff24f37933",
+  "input_sha256": "b09a49a2939715100c32aef64a3234ff693ff19c9055b656de46ba7adc242f38",
+  "builder_sha256": "75717b5b0511955dfcf3f08b6306c44add4e9c96bc76ad856c43396de9ae3b1e",
+  "grid": {
+    "x": 550,
+    "y": 538,
+    "z": 29
+  },
+  "cells": 8254764,
+  "min_spacing_mm": {
+    "x": 0.03999999999999204,
+    "y": 0.03999999999999915,
+    "z": 0.035
+  },
+  "ports": [
+    {
+      "number": 1,
+      "name": "SMA_A",
+      "ref": "J2",
+      "pin": "1",
+      "net": "Net-(J2-In)",
+      "start": [
+        75.84,
+        8.9693,
+        0.2454
+      ],
+      "stop": [
+        75.52,
+        8.9693,
+        0.2454
+      ],
+      "direction": "x",
+      "reference_layer": "In1.Cu",
+      "signal_layer": "In1.Cu",
+      "reference_ohm": 50,
+      "original_start": [
+        76.05,
+        8.9693,
+        0.2454
+      ],
+      "original_stop": [
+        75.48,
+        8.9693,
+        0.2454
+      ],
+      "excite": 0,
+      "edge_audit": [
+        {
+          "edge": 524,
+          "material": "barrel_PEC"
+        },
+        {
+          "edge": 525,
+          "material": "core_Dk4.36_lossless"
+        },
+        {
+          "edge": 526,
+          "material": "core_Dk4.36_lossless"
+        },
+        {
+          "edge": 527,
+          "material": "barrel_PEC"
+        },
+        {
+          "edge": 528,
+          "material": "barrel_PEC"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "name": "SMA_B",
+      "ref": "J3",
+      "pin": "1",
+      "net": "Net-(J3-In)",
+      "start": [
+        75.84,
+        26.9693,
+        0.2454
+      ],
+      "stop": [
+        75.52,
+        26.9693,
+        0.2454
+      ],
+      "direction": "x",
+      "reference_layer": "In1.Cu",
+      "signal_layer": "In1.Cu",
+      "reference_ohm": 50,
+      "original_start": [
+        76.05,
+        26.9693,
+        0.2454
+      ],
+      "original_stop": [
+        75.48,
+        26.9693,
+        0.2454
+      ],
+      "excite": 0,
+      "edge_audit": [
+        {
+          "edge": 524,
+          "material": "barrel_PEC"
+        },
+        {
+          "edge": 525,
+          "material": "core_Dk4.36_lossless"
+        },
+        {
+          "edge": 526,
+          "material": "core_Dk4.36_lossless"
+        },
+        {
+          "edge": 527,
+          "material": "barrel_PEC"
+        },
+        {
+          "edge": 528,
+          "material": "barrel_PEC"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "name": "SMA_C",
+      "ref": "J4",
+      "pin": "1",
+      "net": "Net-(J4-In)",
+      "start": [
+        75.84,
+        44.9693,
+        0.2454
+      ],
+      "stop": [
+        75.52,
+        44.9693,
+        0.2454
+      ],
+      "direction": "x",
+      "reference_layer": "In1.Cu",
+      "signal_layer": "In1.Cu",
+      "reference_ohm": 50,
+      "original_start": [
+        76.05,
+        44.9693,
+        0.2454
+      ],
+      "original_stop": [
+        75.48,
+        44.9693,
+        0.2454
+      ],
+      "excite": 0,
+      "edge_audit": [
+        {
+          "edge": 524,
+          "material": "barrel_PEC"
+        },
+        {
+          "edge": 525,
+          "material": "core_Dk4.36_lossless"
+        },
+        {
+          "edge": 526,
+          "material": "core_Dk4.36_lossless"
+        },
+        {
+          "edge": 527,
+          "material": "barrel_PEC"
+        },
+        {
+          "edge": 528,
+          "material": "barrel_PEC"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "name": "SMA_D",
+      "ref": "J5",
+      "pin": "1",
+      "net": "Net-(J5-In)",
+      "start": [
+        75.84,
+        62.9693,
+        0.2454
+      ],
+      "stop": [
+        75.52,
+        62.9693,
+        0.2454
+      ],
+      "direction": "x",
+      "reference_layer": "In1.Cu",
+      "signal_layer": "In1.Cu",
+      "reference_ohm": 50,
+      "original_start": [
+        76.05,
+        62.9693,
+        0.2454
+      ],
+      "original_stop": [
+        75.48,
+        62.9693,
+        0.2454
+      ],
+      "excite": 0,
+      "edge_audit": [
+        {
+          "edge": 524,
+          "material": "barrel_PEC"
+        },
+        {
+          "edge": 525,
+          "material": "core_Dk4.36_lossless"
+        },
+        {
+          "edge": 526,
+          "material": "core_Dk4.36_lossless"
+        },
+        {
+          "edge": 527,
+          "material": "barrel_PEC"
+        },
+        {
+          "edge": 528,
+          "material": "barrel_PEC"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "name": "T1_3",
+      "ref": "T1",
+      "pin": "3",
+      "net": "Net-(J2-In)",
+      "start": [
+        48.04,
+        6.4293,
+        0.2454
+      ],
+      "stop": [
+        48.04,
+        6.4293,
+        0.035
+      ],
+      "direction": "z",
+      "reference_layer": "In1.Cu",
+      "signal_layer": "F.Cu",
+      "reference_ohm": 50,
+      "original_start": [
+        48.04,
+        6.4293,
+        0.2454
+      ],
+      "original_stop": [
+        48.04,
+        6.4293,
+        0.035
+      ],
+      "excite": 0,
+      "edge_audit": [
+        {
+          "edge": 9,
+          "material": "prepreg_Dk4.4_lossless"
+        },
+        {
+          "edge": 10,
+          "material": "prepreg_Dk4.4_lossless"
+        },
+        {
+          "edge": 11,
+          "material": "prepreg_Dk4.4_lossless"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "name": "T1_4",
+      "ref": "T1",
+      "pin": "4",
+      "net": "/DA_P",
+      "start": [
+        42.96,
+        6.4293,
+        0.2454
+      ],
+      "stop": [
+        42.96,
+        6.4293,
+        0.035
+      ],
+      "direction": "z",
+      "reference_layer": "In1.Cu",
+      "signal_layer": "F.Cu",
+      "reference_ohm": 50,
+      "original_start": [
+        42.96,
+        6.4293,
+        0.2454
+      ],
+      "original_stop": [
+        42.96,
+        6.4293,
+        0.035
+      ],
+      "excite": 0,
+      "edge_audit": [
+        {
+          "edge": 9,
+          "material": "prepreg_Dk4.4_lossless"
+        },
+        {
+          "edge": 10,
+          "material": "prepreg_Dk4.4_lossless"
+        },
+        {
+          "edge": 11,
+          "material": "prepreg_Dk4.4_lossless"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "name": "T1_6",
+      "ref": "T1",
+      "pin": "6",
+      "net": "/DA_N",
+      "start": [
+        42.96,
+        11.54,
+        0.2454
+      ],
+      "stop": [
+        42.96,
+        11.54,
+        0.035
+      ],
+      "direction": "z",
+      "reference_layer": "In1.Cu",
+      "signal_layer": "F.Cu",
+      "reference_ohm": 50,
+      "original_start": [
+        42.96,
+        11.54,
+        0.2454
+      ],
+      "original_stop": [
+        42.96,
+        11.54,
+        0.035
+      ],
+      "excite": 1,
+      "edge_audit": [
+        {
+          "edge": 9,
+          "material": "prepreg_Dk4.4_lossless"
+        },
+        {
+          "edge": 10,
+          "material": "prepreg_Dk4.4_lossless"
+        },
+        {
+          "edge": 11,
+          "material": "prepreg_Dk4.4_lossless"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "name": "T2_3",
+      "ref": "T2",
+      "pin": "3",
+      "net": "Net-(J3-In)",
+      "start": [
+        48.04,
+        24.4293,
+        0.2454
+      ],
+      "stop": [
+        48.04,
+        24.4293,
+        0.035
+      ],
+      "direction": "z",
+      "reference_layer": "In1.Cu",
+      "signal_layer": "F.Cu",
+      "reference_ohm": 50,
+      "original_start": [
+        48.04,
+        24.4293,
+        0.2454
+      ],
+      "original_stop": [
+        48.04,
+        24.4293,
+        0.035
+      ],
+      "excite": 0,
+      "edge_audit": [
+        {
+          "edge": 9,
+          "material": "prepreg_Dk4.4_lossless"
+        },
+        {
+          "edge": 10,
+          "material": "prepreg_Dk4.4_lossless"
+        },
+        {
+          "edge": 11,
+          "material": "prepreg_Dk4.4_lossless"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "name": "T2_4",
+      "ref": "T2",
+      "pin": "4",
+      "net": "/DB_P",
+      "start": [
+        42.96,
+        24.4293,
+        0.2454
+      ],
+      "stop": [
+        42.96,
+        24.4293,
+        0.035
+      ],
+      "direction": "z",
+      "reference_layer": "In1.Cu",
+      "signal_layer": "F.Cu",
+      "reference_ohm": 50,
+      "original_start": [
+        42.96,
+        24.4293,
+        0.2454
+      ],
+      "original_stop": [
+        42.96,
+        24.4293,
+        0.035
+      ],
+      "excite": 0,
+      "edge_audit": [
+        {
+          "edge": 9,
+          "material": "prepreg_Dk4.4_lossless"
+        },
+        {
+          "edge": 10,
+          "material": "prepreg_Dk4.4_lossless"
+        },
+        {
+          "edge": 11,
+          "material": "prepreg_Dk4.4_lossless"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "name": "T2_6",
+      "ref": "T2",
+      "pin": "6",
+      "net": "/DB_N",
+      "start": [
+        42.96,
+        29.54,
+        0.2454
+      ],
+      "stop": [
+        42.96,
+        29.54,
+        0.035
+      ],
+      "direction": "z",
+      "reference_layer": "In1.Cu",
+      "signal_layer": "F.Cu",
+      "reference_ohm": 50,
+      "original_start": [
+        42.96,
+        29.54,
+        0.2454
+      ],
+      "original_stop": [
+        42.96,
+        29.54,
+        0.035
+      ],
+      "excite": 0,
+      "edge_audit": [
+        {
+          "edge": 9,
+          "material": "prepreg_Dk4.4_lossless"
+        },
+        {
+          "edge": 10,
+          "material": "prepreg_Dk4.4_lossless"
+        },
+        {
+          "edge": 11,
+          "material": "prepreg_Dk4.4_lossless"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "name": "T3_3",
+      "ref": "T3",
+      "pin": "3",
+      "net": "Net-(J4-In)",
+      "start": [
+        48.04,
+        42.4907,
+        0.2454
+      ],
+      "stop": [
+        48.04,
+        42.4907,
+        0.035
+      ],
+      "direction": "z",
+      "reference_layer": "In1.Cu",
+      "signal_layer": "F.Cu",
+      "reference_ohm": 50,
+      "original_start": [
+        48.04,
+        42.4907,
+        0.2454
+      ],
+      "original_stop": [
+        48.04,
+        42.4907,
+        0.035
+      ],
+      "excite": 0,
+      "edge_audit": [
+        {
+          "edge": 9,
+          "material": "prepreg_Dk4.4_lossless"
+        },
+        {
+          "edge": 10,
+          "material": "prepreg_Dk4.4_lossless"
+        },
+        {
+          "edge": 11,
+          "material": "prepreg_Dk4.4_lossless"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "name": "T3_4",
+      "ref": "T3",
+      "pin": "4",
+      "net": "/DC_P",
+      "start": [
+        42.96,
+        42.4907,
+        0.2454
+      ],
+      "stop": [
+        42.96,
+        42.4907,
+        0.035
+      ],
+      "direction": "z",
+      "reference_layer": "In1.Cu",
+      "signal_layer": "F.Cu",
+      "reference_ohm": 50,
+      "original_start": [
+        42.96,
+        42.4907,
+        0.2454
+      ],
+      "original_stop": [
+        42.96,
+        42.4907,
+        0.035
+      ],
+      "excite": 0,
+      "edge_audit": [
+        {
+          "edge": 9,
+          "material": "prepreg_Dk4.4_lossless"
+        },
+        {
+          "edge": 10,
+          "material": "prepreg_Dk4.4_lossless"
+        },
+        {
+          "edge": 11,
+          "material": "prepreg_Dk4.4_lossless"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "name": "T3_6",
+      "ref": "T3",
+      "pin": "6",
+      "net": "/DC_N",
+      "start": [
+        42.96,
+        47.54,
+        0.2454
+      ],
+      "stop": [
+        42.96,
+        47.54,
+        0.035
+      ],
+      "direction": "z",
+      "reference_layer": "In1.Cu",
+      "signal_layer": "F.Cu",
+      "reference_ohm": 50,
+      "original_start": [
+        42.96,
+        47.54,
+        0.2454
+      ],
+      "original_stop": [
+        42.96,
+        47.54,
+        0.035
+      ],
+      "excite": 0,
+      "edge_audit": [
+        {
+          "edge": 9,
+          "material": "prepreg_Dk4.4_lossless"
+        },
+        {
+          "edge": 10,
+          "material": "prepreg_Dk4.4_lossless"
+        },
+        {
+          "edge": 11,
+          "material": "prepreg_Dk4.4_lossless"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "name": "T4_3",
+      "ref": "T4",
+      "pin": "3",
+      "net": "Net-(J5-In)",
+      "start": [
+        48.04,
+        60.4907,
+        0.2454
+      ],
+      "stop": [
+        48.04,
+        60.4907,
+        0.035
+      ],
+      "direction": "z",
+      "reference_layer": "In1.Cu",
+      "signal_layer": "F.Cu",
+      "reference_ohm": 50,
+      "original_start": [
+        48.04,
+        60.4907,
+        0.2454
+      ],
+      "original_stop": [
+        48.04,
+        60.4907,
+        0.035
+      ],
+      "excite": 0,
+      "edge_audit": [
+        {
+          "edge": 9,
+          "material": "prepreg_Dk4.4_lossless"
+        },
+        {
+          "edge": 10,
+          "material": "prepreg_Dk4.4_lossless"
+        },
+        {
+          "edge": 11,
+          "material": "prepreg_Dk4.4_lossless"
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "name": "T4_4",
+      "ref": "T4",
+      "pin": "4",
+      "net": "/DD_P",
+      "start": [
+        42.96,
+        60.4907,
+        0.2454
+      ],
+      "stop": [
+        42.96,
+        60.4907,
+        0.035
+      ],
+      "direction": "z",
+      "reference_layer": "In1.Cu",
+      "signal_layer": "F.Cu",
+      "reference_ohm": 50,
+      "original_start": [
+        42.96,
+        60.4907,
+        0.2454
+      ],
+      "original_stop": [
+        42.96,
+        60.4907,
+        0.035
+      ],
+      "excite": 0,
+      "edge_audit": [
+        {
+          "edge": 9,
+          "material": "prepreg_Dk4.4_lossless"
+        },
+        {
+          "edge": 10,
+          "material": "prepreg_Dk4.4_lossless"
+        },
+        {
+          "edge": 11,
+          "material": "prepreg_Dk4.4_lossless"
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "name": "T4_6",
+      "ref": "T4",
+      "pin": "6",
+      "net": "/DD_N",
+      "start": [
+        42.96,
+        65.54,
+        0.2454
+      ],
+      "stop": [
+        42.96,
+        65.54,
+        0.035
+      ],
+      "direction": "z",
+      "reference_layer": "In1.Cu",
+      "signal_layer": "F.Cu",
+      "reference_ohm": 50,
+      "original_start": [
+        42.96,
+        65.54,
+        0.2454
+      ],
+      "original_stop": [
+        42.96,
+        65.54,
+        0.035
+      ],
+      "excite": 0,
+      "edge_audit": [
+        {
+          "edge": 9,
+          "material": "prepreg_Dk4.4_lossless"
+        },
+        {
+          "edge": 10,
+          "material": "prepreg_Dk4.4_lossless"
+        },
+        {
+          "edge": 11,
+          "material": "prepreg_Dk4.4_lossless"
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "name": "RJ_1",
+      "ref": "J1",
+      "pin": "1",
+      "net": "/DA_P",
+      "start": [
+        16.32,
+        33.39,
+        0.2454
+      ],
+      "stop": [
+        16.0,
+        33.39,
+        0.2454
+      ],
+      "direction": "x",
+      "reference_layer": "In1.Cu",
+      "signal_layer": "In1.Cu",
+      "reference_ohm": 50,
+      "original_start": [
+        16.53,
+        33.39,
+        0.2454
+      ],
+      "original_stop": [
+        15.96,
+        33.39,
+        0.2454
+      ],
+      "excite": 0,
+      "edge_audit": [
+        {
+          "edge": 111,
+          "material": "barrel_PEC"
+        },
+        {
+          "edge": 112,
+          "material": "core_Dk4.36_lossless"
+        },
+        {
+          "edge": 113,
+          "material": "core_Dk4.36_lossless"
+        },
+        {
+          "edge": 114,
+          "material": "barrel_PEC"
+        },
+        {
+          "edge": 115,
+          "material": "barrel_PEC"
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "name": "RJ_2",
+      "ref": "J1",
+      "pin": "2",
+      "net": "/DA_N",
+      "start": [
+        18.4,
+        34.41,
+        0.2454
+      ],
+      "stop": [
+        18.1,
+        34.41,
+        0.2454
+      ],
+      "direction": "x",
+      "reference_layer": "In1.Cu",
+      "signal_layer": "In1.Cu",
+      "reference_ohm": 50,
+      "original_start": [
+        18.56,
+        34.41,
+        0.2454
+      ],
+      "original_stop": [
+        17.99,
+        34.41,
+        0.2454
+      ],
+      "excite": 0,
+      "edge_audit": [
+        {
+          "edge": 126,
+          "material": "barrel_PEC"
+        },
+        {
+          "edge": 127,
+          "material": "core_Dk4.36_lossless"
+        },
+        {
+          "edge": 128,
+          "material": "core_Dk4.36_lossless"
+        },
+        {
+          "edge": 129,
+          "material": "barrel_PEC"
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "name": "RJ_3",
+      "ref": "J1",
+      "pin": "3",
+      "net": "/DB_P",
+      "start": [
+        16.32,
+        35.43,
+        0.2454
+      ],
+      "stop": [
+        16.0,
+        35.43,
+        0.2454
+      ],
+      "direction": "x",
+      "reference_layer": "In1.Cu",
+      "signal_layer": "In1.Cu",
+      "reference_ohm": 50,
+      "original_start": [
+        16.53,
+        35.43,
+        0.2454
+      ],
+      "original_stop": [
+        15.96,
+        35.43,
+        0.2454
+      ],
+      "excite": 0,
+      "edge_audit": [
+        {
+          "edge": 111,
+          "material": "barrel_PEC"
+        },
+        {
+          "edge": 112,
+          "material": "core_Dk4.36_lossless"
+        },
+        {
+          "edge": 113,
+          "material": "core_Dk4.36_lossless"
+        },
+        {
+          "edge": 114,
+          "material": "barrel_PEC"
+        },
+        {
+          "edge": 115,
+          "material": "barrel_PEC"
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "name": "RJ_4",
+      "ref": "J1",
+      "pin": "4",
+      "net": "/DC_P",
+      "start": [
+        18.4,
+        36.45,
+        0.2454
+      ],
+      "stop": [
+        18.1,
+        36.45,
+        0.2454
+      ],
+      "direction": "x",
+      "reference_layer": "In1.Cu",
+      "signal_layer": "In1.Cu",
+      "reference_ohm": 50,
+      "original_start": [
+        18.56,
+        36.45,
+        0.2454
+      ],
+      "original_stop": [
+        17.99,
+        36.45,
+        0.2454
+      ],
+      "excite": 0,
+      "edge_audit": [
+        {
+          "edge": 126,
+          "material": "barrel_PEC"
+        },
+        {
+          "edge": 127,
+          "material": "core_Dk4.36_lossless"
+        },
+        {
+          "edge": 128,
+          "material": "core_Dk4.36_lossless"
+        },
+        {
+          "edge": 129,
+          "material": "barrel_PEC"
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "name": "RJ_5",
+      "ref": "J1",
+      "pin": "5",
+      "net": "/DC_N",
+      "start": [
+        16.32,
+        37.47,
+        0.2454
+      ],
+      "stop": [
+        16.0,
+        37.47,
+        0.2454
+      ],
+      "direction": "x",
+      "reference_layer": "In1.Cu",
+      "signal_layer": "In1.Cu",
+      "reference_ohm": 50,
+      "original_start": [
+        16.53,
+        37.47,
+        0.2454
+      ],
+      "original_stop": [
+        15.96,
+        37.47,
+        0.2454
+      ],
+      "excite": 0,
+      "edge_audit": [
+        {
+          "edge": 111,
+          "material": "barrel_PEC"
+        },
+        {
+          "edge": 112,
+          "material": "core_Dk4.36_lossless"
+        },
+        {
+          "edge": 113,
+          "material": "core_Dk4.36_lossless"
+        },
+        {
+          "edge": 114,
+          "material": "barrel_PEC"
+        },
+        {
+          "edge": 115,
+          "material": "barrel_PEC"
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "name": "RJ_6",
+      "ref": "J1",
+      "pin": "6",
+      "net": "/DB_N",
+      "start": [
+        18.4,
+        38.49,
+        0.2454
+      ],
+      "stop": [
+        18.1,
+        38.49,
+        0.2454
+      ],
+      "direction": "x",
+      "reference_layer": "In1.Cu",
+      "signal_layer": "In1.Cu",
+      "reference_ohm": 50,
+      "original_start": [
+        18.56,
+        38.49,
+        0.2454
+      ],
+      "original_stop": [
+        17.99,
+        38.49,
+        0.2454
+      ],
+      "excite": 0,
+      "edge_audit": [
+        {
+          "edge": 126,
+          "material": "barrel_PEC"
+        },
+        {
+          "edge": 127,
+          "material": "core_Dk4.36_lossless"
+        },
+        {
+          "edge": 128,
+          "material": "core_Dk4.36_lossless"
+        },
+        {
+          "edge": 129,
+          "material": "barrel_PEC"
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "name": "RJ_7",
+      "ref": "J1",
+      "pin": "7",
+      "net": "/DD_P",
+      "start": [
+        16.32,
+        39.51,
+        0.2454
+      ],
+      "stop": [
+        16.0,
+        39.51,
+        0.2454
+      ],
+      "direction": "x",
+      "reference_layer": "In1.Cu",
+      "signal_layer": "In1.Cu",
+      "reference_ohm": 50,
+      "original_start": [
+        16.53,
+        39.51,
+        0.2454
+      ],
+      "original_stop": [
+        15.96,
+        39.51,
+        0.2454
+      ],
+      "excite": 0,
+      "edge_audit": [
+        {
+          "edge": 111,
+          "material": "barrel_PEC"
+        },
+        {
+          "edge": 112,
+          "material": "core_Dk4.36_lossless"
+        },
+        {
+          "edge": 113,
+          "material": "core_Dk4.36_lossless"
+        },
+        {
+          "edge": 114,
+          "material": "barrel_PEC"
+        },
+        {
+          "edge": 115,
+          "material": "barrel_PEC"
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "name": "RJ_8",
+      "ref": "J1",
+      "pin": "8",
+      "net": "/DD_N",
+      "start": [
+        18.4,
+        40.53,
+        0.2454
+      ],
+      "stop": [
+        18.1,
+        40.53,
+        0.2454
+      ],
+      "direction": "x",
+      "reference_layer": "In1.Cu",
+      "signal_layer": "In1.Cu",
+      "reference_ohm": 50,
+      "original_start": [
+        18.56,
+        40.53,
+        0.2454
+      ],
+      "original_stop": [
+        17.99,
+        40.53,
+        0.2454
+      ],
+      "excite": 0,
+      "edge_audit": [
+        {
+          "edge": 126,
+          "material": "barrel_PEC"
+        },
+        {
+          "edge": 127,
+          "material": "core_Dk4.36_lossless"
+        },
+        {
+          "edge": 128,
+          "material": "core_Dk4.36_lossless"
+        },
+        {
+          "edge": 129,
+          "material": "barrel_PEC"
+        }
+      ]
+    }
+  ],
+  "via_audit": [
+    {
+      "net": "/GND",
+      "distance_mm": 0.0,
+      "radius_mm": 0.175
+    },
+    {
+      "net": "/GND",
+      "distance_mm": 0.0,
+      "radius_mm": 0.175
+    },
+    {
+      "net": "/GND",
+      "distance_mm": 0.0,
+      "radius_mm": 0.175
+    },
+    {
+      "net": "/GND",
+      "distance_mm": 0.0,
+      "radius_mm": 0.175
+    },
+    {
+      "net": "/GND",
+      "distance_mm": 0.0,
+      "radius_mm": 0.175
+    },
+    {
+      "net": "/GND",
+      "distance_mm": 0.0,
+      "radius_mm": 0.175
+    },
+    {
+      "net": "/GND",
+      "distance_mm": 0.0,
+      "radius_mm": 0.175
+    },
+    {
+      "net": "/GND",
+      "distance_mm": 0.0,
+      "radius_mm": 0.175
+    },
+    {
+      "net": "/GND",
+      "distance_mm": 0.030700000000003058,
+      "radius_mm": 0.175
+    },
+    {
+      "net": "/GND",
+      "distance_mm": 0.0,
+      "radius_mm": 0.175
+    },
+    {
+      "net": "/GND",
+      "distance_mm": 0.0,
+      "radius_mm": 0.175
+    },
+    {
+      "net": "/GND",
+      "distance_mm": 0.0,
+      "radius_mm": 0.175
+    },
+    {
+      "net": "/GND",
+      "distance_mm": 0.0,
+      "radius_mm": 0.175
+    },
+    {
+      "net": "/GND",
+      "distance_mm": 0.0,
+      "radius_mm": 0.175
+    },
+    {
+      "net": "/GND",
+      "distance_mm": 0.0,
+      "radius_mm": 0.175
+    },
+    {
+      "net": "/GND",
+      "distance_mm": 0.0,
+      "radius_mm": 0.175
+    },
+    {
+      "net": "/GND",
+      "distance_mm": 0.0,
+      "radius_mm": 0.175
+    },
+    {
+      "net": "/GND",
+      "distance_mm": 0.030700000000003058,
+      "radius_mm": 0.175
+    },
+    {
+      "net": "/GND",
+      "distance_mm": 0.0,
+      "radius_mm": 0.175
+    },
+    {
+      "net": "/GND",
+      "distance_mm": 0.0,
+      "radius_mm": 0.175
+    },
+    {
+      "net": "/GND",
+      "distance_mm": 0.0,
+      "radius_mm": 0.175
+    },
+    {
+      "net": "/GND",
+      "distance_mm": 0.0,
+      "radius_mm": 0.175
+    },
+    {
+      "net": "/GND",
+      "distance_mm": 0.0,
+      "radius_mm": 0.175
+    },
+    {
+      "net": "/GND",
+      "distance_mm": 0.0,
+      "radius_mm": 0.175
+    },
+    {
+      "net": "/GND",
+      "distance_mm": 0.0,
+      "radius_mm": 0.175
+    },
+    {
+      "net": "/GND",
+      "distance_mm": 0.0,
+      "radius_mm": 0.175
+    },
+    {
+      "net": "/GND",
+      "distance_mm": 0.0,
+      "radius_mm": 0.175
+    },
+    {
+      "net": "/GND",
+      "distance_mm": 0.010000000000001563,
+      "radius_mm": 0.175
+    },
+    {
+      "net": "/GND",
+      "distance_mm": 0.0,
+      "radius_mm": 0.175
+    },
+    {
+      "net": "/GND",
+      "distance_mm": 0.0,
+      "radius_mm": 0.175
+    },
+    {
+      "net": "/GND",
+      "distance_mm": 0.0,
+      "radius_mm": 0.175
+    },
+    {
+      "net": "/GND",
+      "distance_mm": 0.0,
+      "radius_mm": 0.175
+    },
+    {
+      "net": "/GND",
+      "distance_mm": 0.0,
+      "radius_mm": 0.175
+    },
+    {
+      "net": "/GND",
+      "distance_mm": 0.0,
+      "radius_mm": 0.175
+    },
+    {
+      "net": "/GND",
+      "distance_mm": 0.0,
+      "radius_mm": 0.175
+    },
+    {
+      "net": "/GND",
+      "distance_mm": 0.0,
+      "radius_mm": 0.175
+    },
+    {
+      "net": "/GND",
+      "distance_mm": 0.0,
+      "radius_mm": 0.175
+    },
+    {
+      "net": "/GND",
+      "distance_mm": 0.010000000000001563,
+      "radius_mm": 0.175
+    },
+    {
+      "net": "/GND",
+      "distance_mm": 0.0,
+      "radius_mm": 0.175
+    },
+    {
+      "net": "/GND",
+      "distance_mm": 0.0,
+      "radius_mm": 0.175
+    },
+    {
+      "net": "/GND",
+      "distance_mm": 0.0,
+      "radius_mm": 0.175
+    },
+    {
+      "net": "/GND",
+      "distance_mm": 0.0,
+      "radius_mm": 0.175
+    },
+    {
+      "net": "/GND",
+      "distance_mm": 0.0,
+      "radius_mm": 0.175
+    },
+    {
+      "net": "/GND",
+      "distance_mm": 0.0,
+      "radius_mm": 0.175
+    },
+    {
+      "net": "/GND",
+      "distance_mm": 0.0,
+      "radius_mm": 0.175
+    },
+    {
+      "net": "/GND",
+      "distance_mm": 0.030699999999999505,
+      "radius_mm": 0.175
+    },
+    {
+      "net": "/GND",
+      "distance_mm": 0.0,
+      "radius_mm": 0.175
+    },
+    {
+      "net": "/GND",
+      "distance_mm": 0.0,
+      "radius_mm": 0.175
+    },
+    {
+      "net": "/GND",
+      "distance_mm": 0.0,
+      "radius_mm": 0.175
+    },
+    {
+      "net": "/GND",
+      "distance_mm": 0.0,
+      "radius_mm": 0.175
+    },
+    {
+      "net": "/GND",
+      "distance_mm": 0.0,
+      "radius_mm": 0.175
+    },
+    {
+      "net": "/GND",
+      "distance_mm": 0.0,
+      "radius_mm": 0.175
+    },
+    {
+      "net": "/GND",
+      "distance_mm": 0.0,
+      "radius_mm": 0.175
+    },
+    {
+      "net": "/GND",
+      "distance_mm": 0.0,
+      "radius_mm": 0.175
+    },
+    {
+      "net": "/GND",
+      "distance_mm": 0.030699999999999505,
+      "radius_mm": 0.175
+    },
+    {
+      "net": "/GND",
+      "distance_mm": 0.0,
+      "radius_mm": 0.175
+    },
+    {
+      "net": "/DB_P",
+      "distance_mm": 0.030699999999999505,
+      "radius_mm": 0.175
+    },
+    {
+      "net": "/DB_N",
+      "distance_mm": 0.0,
+      "radius_mm": 0.175
+    },
+    {
+      "net": "Net-(RCT4-Pad2)",
+      "distance_mm": 0.0,
+      "radius_mm": 0.175
+    },
+    {
+      "net": "Net-(RCT3-Pad2)",
+      "distance_mm": 0.0,
+      "radius_mm": 0.175
+    },
+    {
+      "net": "Net-(RCT1-Pad2)",
+      "distance_mm": 0.0,
+      "radius_mm": 0.175
+    }
+  ],
+  "model": "CAD copper and pad polygons, all plated barrels and GND planes; no external connector bodies or balun inside EM domain.",
+  "dielectric": "CAD nominal Dk, lossless; no soldermask",
+  "copper": "finite-pec",
+  "boundary": "MUR, 10 mm air margin",
+  "new_rf_measurements_used": false,
+  "wall_seconds": 3351.5435683999967
+}

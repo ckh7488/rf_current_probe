@@ -16,4 +16,8 @@
 - [공개 ATLAS · 구조, 교정 연결과 조립 안내](https://ckh7488.github.io/showcase/reports/rf-current-probe/)
 - [PCB·기구 CAD의 제작 검토 구성](docs/CURRENT_BUILD.md) · [오프라인 분석](analysis/README.md) · [문서 색인](docs/DOCUMENT_INDEX.md)
 
-이 저장소는 2026년 11월 4일의 소스 보관본입니다. [파일 목록](SYNC_CHECKPOINT_20261104.json)과 [추가 보관 목록](SYNC_SUPPLEMENT_20261104.json)에 당시 파일 경로와 원본 해시를 기록했습니다.
+## Ethernet 발룬 보드 · 예측에서 실측으로
+
+[B-RJ2의 openEMS 모델·설정·완료 원시 파형 한 세트](selected-evidence/ethernet-vna-prediction-v1/README.md)와 [측정 PC 준비·네 결선·비교 실행](measurements/ethernet-vna/README.md)을 함께 보관합니다. 2026-11-17에 계산한 사전 예측은 그대로 두고, 측정 세션별 Touchstone 원본과 비교 결과를 추가합니다.
+
+기본 소스 보관본의 기준일은 2026년 11월 4일입니다. [파일 목록](SYNC_CHECKPOINT_20261104.json)과 [추가 보관 목록](SYNC_SUPPLEMENT_20261104.json)에 당시 파일 경로와 원본 해시를 기록했습니다. Ethernet 사전 예측 보존 묶음은 2026년 11월 20일 추가했습니다.

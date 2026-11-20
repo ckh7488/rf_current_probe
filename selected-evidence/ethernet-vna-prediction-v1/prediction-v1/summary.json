@@ -1,0 +1,188 @@
+{
+  "classification": "SIMULATED",
+  "new_rf_measurements_used": false,
+  "prediction_status": "NUMERICAL_REVIEW_REQUIRED",
+  "samples_mhz": {
+    "1": {
+      "open_b_s11": {
+        "db": -2.2749941091405224,
+        "phase_deg": 14.250551619718525
+      },
+      "open_d_to_c_s21": {
+        "db": -106.00671693543164,
+        "phase_deg": -80.36765750459546
+      },
+      "matched_a_s11": {
+        "db": -22.065722857373032,
+        "phase_deg": 121.53713558675786
+      },
+      "loopback_d_to_c_s21": {
+        "db": -1.4523834059943208,
+        "phase_deg": 4.643720305332579
+      }
+    },
+    "10": {
+      "open_b_s11": {
+        "db": -1.2523117607691157,
+        "phase_deg": -3.534685190577417
+      },
+      "open_d_to_c_s21": {
+        "db": -84.80529963556336,
+        "phase_deg": -94.17693950809156
+      },
+      "matched_a_s11": {
+        "db": -32.545444698520576,
+        "phase_deg": 116.83502564642009
+      },
+      "loopback_d_to_c_s21": {
+        "db": -0.8691187757456209,
+        "phase_deg": -7.786825099120691
+      }
+    },
+    "50": {
+      "open_b_s11": {
+        "db": -1.2858115388270162,
+        "phase_deg": -30.623456872413445
+      },
+      "open_d_to_c_s21": {
+        "db": -70.75196807121687,
+        "phase_deg": -121.58378040499609
+      },
+      "matched_a_s11": {
+        "db": -29.077107357108,
+        "phase_deg": 79.5584676828486
+      },
+      "loopback_d_to_c_s21": {
+        "db": -0.9676432533845687,
+        "phase_deg": -43.4883160558493
+      }
+    },
+    "100": {
+      "open_b_s11": {
+        "db": -1.3325353043500143,
+        "phase_deg": -61.622259204096665
+      },
+      "open_d_to_c_s21": {
+        "db": -64.46889732487969,
+        "phase_deg": -153.67256700655437
+      },
+      "matched_a_s11": {
+        "db": -24.314186657019935,
+        "phase_deg": 45.86734339275956
+      },
+      "loopback_d_to_c_s21": {
+        "db": -1.0788532338766252,
+        "phase_deg": -86.01355936383604
+      }
+    },
+    "150": {
+      "open_b_s11": {
+        "db": -1.379024033216022,
+        "phase_deg": -93.6191315454153
+      },
+      "open_d_to_c_s21": {
+        "db": -60.52780502337731,
+        "phase_deg": 172.91584640966343
+      },
+      "matched_a_s11": {
+        "db": -21.770054452325912,
+        "phase_deg": 20.358016861881
+      },
+      "loopback_d_to_c_s21": {
+        "db": -1.1313510409631524,
+        "phase_deg": -128.3405170771218
+      }
+    },
+    "200": {
+      "open_b_s11": {
+        "db": -1.4542897774767358,
+        "phase_deg": -127.83430771144964
+      },
+      "open_d_to_c_s21": {
+        "db": -57.55916214019954,
+        "phase_deg": 137.15512651091254
+      },
+      "matched_a_s11": {
+        "db": -20.369080742876893,
+        "phase_deg": 0.844332949689779
+      },
+      "loopback_d_to_c_s21": {
+        "db": -1.1599703675666568,
+        "phase_deg": -171.4457963256594
+      }
+    }
+  },
+  "checks": {
+    "max_incident_matrix_condition": 1.0000978742995497,
+    "max_unscaled_incident_matrix_condition": 4.493755354793446,
+    "pcb_max_singular_value": 1.0008587143539818,
+    "pcb_max_reciprocity_error_linear": 2.65877480300585e-06,
+    "time_windows": {
+      "3ns": {
+        "open_b_s11": {
+          "max_complex_difference": 7.165819511365875e-05,
+          "difference_at_100mhz_db": -84.08618654852786
+        },
+        "open_d_to_c_s21": {
+          "max_complex_difference": 1.369746694623106e-06,
+          "difference_at_100mhz_db": -122.42352117364666
+        },
+        "matched_a_s11": {
+          "max_complex_difference": 1.9353314093742846e-06,
+          "difference_at_100mhz_db": -115.04961303609024
+        },
+        "loopback_d_to_c_s21": {
+          "max_complex_difference": 1.5441535080100425e-06,
+          "difference_at_100mhz_db": -117.79236835655973
+        }
+      },
+      "4ns": {
+        "open_b_s11": {
+          "max_complex_difference": 6.250604986811487e-05,
+          "difference_at_100mhz_db": -86.18457301283587
+        },
+        "open_d_to_c_s21": {
+          "max_complex_difference": 1.0093126641551853e-06,
+          "difference_at_100mhz_db": -122.56810850740486
+        },
+        "matched_a_s11": {
+          "max_complex_difference": 2.8985619482966474e-07,
+          "difference_at_100mhz_db": -131.72531857369958
+        },
+        "loopback_d_to_c_s21": {
+          "max_complex_difference": 6.594084709832e-07,
+          "difference_at_100mhz_db": -125.75720958955004
+        }
+      }
+    }
+  },
+  "parameters_sha256": "9a60ad34b853454307f38c6b87834ffd7cea02eae305ae4ec005579d1d309431",
+  "run_folders": [
+    "runs\\nominal-finite-v1-p01",
+    "runs\\nominal-finite-v1-p02",
+    "runs\\nominal-finite-v1-p03",
+    "runs\\nominal-finite-v1-p04",
+    "runs\\nominal-finite-v1-p05",
+    "runs\\nominal-finite-v1-p06",
+    "runs\\nominal-finite-v1-p07",
+    "runs\\nominal-finite-v1-p08",
+    "runs\\nominal-finite-v1-p09",
+    "runs\\nominal-finite-v1-p10",
+    "runs\\nominal-finite-v1-p11",
+    "runs\\nominal-finite-v1-p12",
+    "runs\\nominal-finite-v1-p13",
+    "runs\\nominal-finite-v1-p14",
+    "runs\\nominal-finite-v1-p15",
+    "runs\\nominal-finite-v1-p16",
+    "runs\\nominal-finite-v1-p17",
+    "runs\\nominal-finite-v1-p18",
+    "runs\\nominal-finite-v1-p19",
+    "runs\\nominal-finite-v1-p20",
+    "runs\\nominal-finite-v1-p21",
+    "runs\\nominal-finite-v1-p22",
+    "runs\\nominal-finite-v1-p23",
+    "runs\\nominal-finite-v1-p24"
+  ],
+  "sensitivity": "Twelve one-at-a-time input variations plus nominal; not statistical confidence bounds",
+  "numerical_floor": "Complex change between full record and 3 ns / 4 ns truncations, not a measurement noise floor"
+}

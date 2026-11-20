@@ -1,0 +1,63 @@
+{
+  "date": "2026-11-13",
+  "created_at_kst": "2026-11-13T17:59:03.077378+09:00",
+  "status": "MODEL_PREPARATION_BEFORE_RF_MEASUREMENT",
+  "files": [
+    {
+      "source": "E:\\Current_Probe\\reviews\\jlc_renewal_preflight_20260929\\candidate\\common\\balun_eth_rj45.kicad_pcb",
+      "snapshot": "balun_eth_rj45.kicad_pcb",
+      "sha256": "975e27c6593b1bdd81aed159409a7450afdd58b910fae45834afb5ff24f37933"
+    },
+    {
+      "source": "E:\\Current_Probe\\reviews\\ethernet_board_review_20261113\\prediction-inputs\\ADT2-1T+___Plus25degC.s4p",
+      "snapshot": "ADT2-1T+___Plus25degC.s4p",
+      "sha256": "748cd6bf580952760b19cdc121f8c5c11b5f95c0c221b1e7a2a960f521b671f7"
+    },
+    {
+      "source": "E:\\Current_Probe\\reviews\\ethernet_board_review_20261113\\single-board-test-plan.json",
+      "snapshot": "single-board-test-plan.json",
+      "sha256": "7438970a3a5139e5d74b58cf2fd352d886a1bbfc648cdb4037581af3674dcb14"
+    },
+    {
+      "source": "E:\\Current_Probe\\reviews\\ethernet_board_review_20261113\\fixture-geometry.json",
+      "snapshot": "fixture-geometry.json",
+      "sha256": "edd1b5dd5acda4f00a08209c0be063970a16e2a4189592121de9c2bc496d4a6c"
+    },
+    {
+      "source": "E:\\Current_Probe\\reviews\\ethernet_board_review_20261113\\fixture-photos\\manifest.json",
+      "snapshot": "manifest.json",
+      "sha256": "e982e48ee519313a3f26633b8a7eeacfa791ef7b74de1a3597b3287aaca01671"
+    },
+    {
+      "source": "E:\\Current_Probe\\reviews\\ethernet_board_review_20261113\\fixture-photos\\fixture-pair-ruler.png",
+      "snapshot": "fixture-pair-ruler.png",
+      "sha256": "36d9c1229fa5ad6fc8a37f564c969d074b97f20b9b1682b0fd089e1a8cee4b7e"
+    }
+  ],
+  "population": {
+    "RCT1_RCT4": "DNP, confirmed by user",
+    "RSH1": "DNP, confirmed by user",
+    "CSH1": "DNP, confirmed by user"
+  },
+  "observables": [
+    "Open RJ45, SMA B input S11",
+    "Open RJ45, SMA D to C S21",
+    "A/J2 with orange-pair resistive load S11",
+    "D/J5 to C/J4 with physical loopback S21"
+  ],
+  "frequency_hz": {
+    "start": 1000000,
+    "stop": 200000000,
+    "points": 1601
+  },
+  "independent_inputs": "Selected CAD, fabrication stackup, manufacturer component data, user DC resistor reading and fixture ruler photographs.",
+  "new_rf_measurements_used": false,
+  "method": "PCB electromagnetic multiport extraction followed by manufacturer balun network and declared connector/fixture electrical blocks.",
+  "numerical_checks_before_freeze": [
+    "Port-to-copper ownership",
+    "Mesh continuity and no signal shorts",
+    "Incident-wave matrix conditioning",
+    "Reciprocity/passivity and time-window stability"
+  ],
+  "prediction_release": "Write a separate input/code manifest and prediction hash before receiving the new VNA traces."
+}

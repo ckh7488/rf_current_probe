@@ -1,0 +1,57 @@
+{
+  "revision": "premeasurement-forward-model-v3",
+  "new_rf_measurements_used": false,
+  "population": {"RCT1": "DNP", "RCT2": "DNP", "RCT3": "DNP", "RCT4": "DNP", "RSH1": "DNP", "CSH1": "DNP", "source": "User confirmation, 2026-11-13"},
+  "balun": {
+    "part": "Mini-Circuits ADT2-1T+",
+    "source_file": "input/ADT2-1T+___Plus25degC.s4p",
+    "vendor_port_pins": [1, 3, 6, 4],
+    "primary_pin1": "Ideal ground in circuit reduction",
+    "secondary_center_tap": "Open, matching the DNP physical board",
+    "construction": "Retain the vendor primary-to-secondary differential two-port after grounding primary pin 1. Rebuild a balanced floating-secondary three-terminal model with common-mode reflection +1 and zero differential/common conversion.",
+    "reason": "The vendor S4P header does not specify CT termination. TB-430 drawing grounds CT; raw S4P secondary common-mode response is low-impedance at low frequency. A floating CT cannot be represented by applying that common-mode response unchanged.",
+    "scope": "Vendor differential insertion loss, phase and match are retained; individual balun imbalance, CT lead/stub loading and finite primary-ground connection are not represented."
+  },
+  "pcb": {
+    "source": "Final fabrication B-RJ2 CAD 975e27c6593b1bdd81aed159409a7450afdd58b910fae45834afb5ff24f37933",
+    "dielectric": "Nominal CAD Dk 4.4 / 4.36, lossless in the first extraction; soldermask omitted",
+    "copper": "Finite 35 um outer PEC copper geometry for the complete 24-port model; inner reference planes at facing surfaces, PEC plated barrels",
+    "conductivity_control": "Separate matching excitations with 58 MS/m conducting sheets, outer 35 um / inner 15.2 um, check the change in PCB terminal responses. These columns are not mixed into the PEC network.",
+    "baseline_choice": "The complete model retains the actual 35 um etched outer-copper cross section. Zero-thickness PEC and conducting-sheet runs remain separate numerical controls. The update is based on geometric fidelity before new RF measurement.",
+    "note": "The CAD loss tangent 0.02 is recorded but is not an RF-fitted loss correction."
+  },
+  "sma": {
+    "part": "Samtec SMA-J-P-H-RA-TH1",
+    "representation": "Uncoupled matched 50-ohm line between connector mating plane and PCB terminal",
+    "nominal_length_mm": 15.1,
+    "velocity_factor": 0.69,
+    "length_source": "Manufacturer overall connector length, used as a declared electrical-path estimate",
+    "omitted": "Connector launch mismatch and interconnector coupling"
+  },
+  "rj45": {
+    "part": "Amphenol RJE591885401",
+    "representation": "Eight uncoupled 50-ohm single-ended lines, equivalent differential impedance 100 ohms",
+    "jack_contact_path_mm": 20.0,
+    "velocity_factor": 0.70,
+    "source": "Declared contact-path estimate from 21.49 mm manufacturer envelope, not a measured contact length",
+    "omitted": "Internal compensation and interpair coupling; shell/fixture common-mode coupling"
+  },
+  "plug": {
+    "pinout": "T568B as declared by user; continuity check remains a bench step",
+    "internal_path_mm": 40.0,
+    "internal_velocity_factor": 0.67,
+    "path_source": "Approximate front-contact-to-boot-rear axial span in the ruler photo, used as a declared internal wire-path estimate",
+    "unused_wires": "Open at boot rear, retaining the estimated internal wire length",
+    "matched_pair": {"pins": [1, 2], "channel": "A", "sma": "J2", "resistance_ohm": 99.9, "resistance_source": "User DMM photo of loose resistor", "external_path_per_leg_mm": 8.0, "external_velocity_factor": 0.80, "series_inductance_nh": 10.0, "parallel_capacitance_pf": 0.20, "geometry_source": "Photo axial exterior extent about 11 mm; wire path and axial-resistor parasitics are explicit initial estimates"},
+    "loopback": {"connections": [[7, 4], [8, 5]], "channels": ["D", "C"], "external_path_per_leg_mm": 4.0, "external_velocity_factor": 0.80, "series_inductance_per_join_nh": 3.0, "series_resistance_per_join_ohm": 0.02, "geometry_source": "Photo axial exterior extent about 4 mm; lead inductance is an initial estimate"}
+  },
+  "sensitivity_ranges": {
+    "interpretation": "Predeclared model variations, not measured tolerances or statistical confidence intervals",
+    "rj45_contact_path_mm": [10.0, 30.0],
+    "plug_internal_path_mm": [32.0, 48.0],
+    "plug_internal_velocity_factor": [0.55, 0.80],
+    "matched_series_inductance_nh": [4.0, 20.0],
+    "matched_parallel_capacitance_pf": [0.0, 0.40],
+    "loopback_series_inductance_per_join_nh": [1.0, 6.0]
+  }
+}

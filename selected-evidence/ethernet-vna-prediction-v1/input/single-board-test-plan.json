@@ -1,0 +1,193 @@
+{
+  "status": "TEST_DEFINITION_MODEL_NOT_RUN",
+  "revision": "B-RJ2",
+  "pcb_sha256": "975e27c6593b1bdd81aed159409a7450afdd58b910fae45834afb5ff24f37933",
+  "purpose": "Predict and measure one board in two suites: matched-configuration responses first, then representative operating-load matching and transmission.",
+  "suites": [
+    {
+      "id": "baseline",
+      "title": "동일 조건의 해석·실측 비교",
+      "tests": [
+        "OPEN_INPUT_REFLECTION",
+        "OPEN_SAME_BOARD_D_TO_C"
+      ],
+      "sequence": "Predict first, measure the same configuration, compare."
+    },
+    {
+      "id": "operating",
+      "title": "100 Ω 정합·루프백 전달 시험",
+      "tests": [
+        "MATCHED_LOAD_REFLECTION",
+        "LOOPBACK_TRANSMISSION"
+      ],
+      "sequence": "Build and record fixtures, include their electrical response, predict and measure."
+    }
+  ],
+  "common": {
+    "board_count": 1,
+    "rj45_state": "Defined independently for each test.",
+    "sma_reference_ohm": 50,
+    "planned_frequency_hz": {
+      "start": 1000000,
+      "stop": 200000000,
+      "basis": "Same range as the 2026-10-22 chain measurements; this is the new test plan, not an executed response."
+    },
+    "model_components": [
+      "Latest PCB copper and reference planes",
+      "SMA launch geometry",
+      "Mounted RJ45 contacts with externally open terminals",
+      "Balun electrical models with verified terminal and reference definitions"
+    ],
+    "balun_component_input": {
+      "status": "ACQUIRED_TERMINAL_MAPPING_CHECKED",
+      "path": "prediction-inputs/ADT2-1T+___Plus25degC.s4p",
+      "vendor_port_pins": [
+        1,
+        3,
+        6,
+        4
+      ],
+      "reference_ohm": 50,
+      "frequency_hz": [
+        300000,
+        1000000000
+      ],
+      "temperature_c": 25,
+      "check": "prediction-inputs/component-check.json",
+      "whole_board_response": "NOT_YET_CALCULATED"
+    },
+    "physical_rct_rsh_csh_state": null,
+    "prediction": null,
+    "measurement": null,
+    "fixture_geometry_record": "fixture-geometry.json"
+  },
+  "tests": [
+    {
+      "id": "OPEN_INPUT_REFLECTION",
+      "suite": "baseline",
+      "rj45_state": "All eight signal contacts externally open.",
+      "source": "VNA P1 to J3/B; subsequently repeat at J2/A, J4/C, J5/D",
+      "unused_sma_terminations": "Other three SMA connectors each 50 ohm",
+      "observables": [
+        "S11 complex response"
+      ],
+      "scope": "Open-secondary input response of the assembled channel"
+    },
+    {
+      "id": "OPEN_SAME_BOARD_D_TO_C",
+      "suite": "baseline",
+      "rj45_state": "All eight signal contacts externally open.",
+      "source": "VNA P1 to J5/D",
+      "receiver": "VNA P2 to J4/C on the same PCB",
+      "unused_sma_terminations": "J2/A and J3/B each 50 ohm",
+      "observables": [
+        "S21 complex coupling",
+        "S11, S12, S22 for the same two-port connection"
+      ],
+      "scope": "Same-board coupling with all RJ45 contacts externally open"
+    },
+    {
+      "id": "MATCHED_LOAD_REFLECTION",
+      "suite": "operating",
+      "source": "VNA P1 to J2/A",
+      "rj45_state": "100-ohm nominal resistor between pins 1 (white-orange) and 2 (orange), T568B; all other contacts externally open.",
+      "unused_sma_terminations": "J3/B, J4/C and J5/D each 50 ohm",
+      "observables": [
+        "S11 complex response"
+      ],
+      "scope": "Input matching of the assembled A channel with the photographed orange-pair nominal 100-ohm load.",
+      "fixture": {
+        "status": "SOLDERED_ASSEMBLY_PHOTO_RECEIVED",
+        "nominal_resistance_ohm": 100,
+        "actual_resistance_ohm": 99.9,
+        "geometry": {
+          "source": "fixture-geometry.json",
+          "classification": "CALCULATED_FROM_USER_RULER_PHOTOGRAPH",
+          "boot_rear_y_px": 746,
+          "assembly_tip_y_px": 849,
+          "description": "Right-hand orange-pair resistor assembly",
+          "external_axial_projection_mm": 11.123110151187905,
+          "display_approx_mm": 11,
+          "endpoint_method": "Manually identified boot rear and furthest assembly tip in the original image.",
+          "scope": "Image-plane axial extent outside each black boot, including the visible wire/lead/joint/resistor structure. This is not total conductor length or an electrical reference-plane delay."
+        },
+        "model": null,
+        "resistance_measurement_context": "Standalone resistor DMM display in the user photograph before soldering.",
+        "connector_pin_resistance_ohm": null,
+        "pin_connections": [
+          1,
+          2
+        ],
+        "wire_colors": [
+          "white-orange",
+          "orange"
+        ],
+        "wiring_standard": "T568B identified from the reported contact-row color order",
+        "photo_manifest": "fixture-photos/manifest.json",
+        "boot_to_joint_wire_lengths_mm": null,
+        "pin_continuity_verified": false
+      }
+    },
+    {
+      "id": "LOOPBACK_TRANSMISSION",
+      "suite": "operating",
+      "source": "VNA P1 to J5/D",
+      "receiver": "VNA P2 to J4/C on the same PCB",
+      "rj45_state": "Pin 7 to 4 and pin 8 to 5; all other contacts externally open.",
+      "unused_sma_terminations": "J2/A and J3/B each 50 ohm",
+      "active_pair_termination": "Receiver VNA 50-ohm input through C balun; no additional 100-ohm resistors on active D/C pairs.",
+      "observables": [
+        "S21 magnitude and phase",
+        "S11, S12, S22 for the same two-port connection"
+      ],
+      "scope": "Composite transmission through two assembled channels and the physical loopback fixture.",
+      "fixture": {
+        "status": "SOLDERED_ASSEMBLY_PHOTO_RECEIVED",
+        "connections": [
+          [
+            7,
+            4
+          ],
+          [
+            8,
+            5
+          ]
+        ],
+        "geometry": {
+          "source": "fixture-geometry.json",
+          "classification": "CALCULATED_FROM_USER_RULER_PHOTOGRAPH",
+          "boot_rear_y_px": 744,
+          "assembly_tip_y_px": 783,
+          "description": "Left-hand direct loopback assembly",
+          "external_axial_projection_mm": 4.211663066954643,
+          "display_approx_mm": 4,
+          "endpoint_method": "Manually identified boot rear and furthest assembly tip in the original image.",
+          "scope": "Image-plane axial extent outside each black boot, including the visible wire/lead/joint/resistor structure. This is not total conductor length or an electrical reference-plane delay."
+        },
+        "model": null,
+        "photo_manifest": "fixture-photos/manifest.json",
+        "pin_continuity_verified": false
+      }
+    }
+  ],
+  "supplementary_diagnostics": [
+    {
+      "id": "OPEN_SHORT_LOAD_RESPONSE",
+      "source": "Same selected SMA",
+      "output_states": [
+        "open",
+        "short only between the two selected pair contacts",
+        "100-ohm balanced load"
+      ],
+      "scope": "Prediction of response changes with output termination; separate from VNA calibration."
+    }
+  ],
+  "historical_result": {
+    "source": "2026-09-29 common_em_v2 com_old B odd/even",
+    "scope": "RJ45-to-balun-pad PCB subnetwork with nominal 50-ohm single-ended terminals",
+    "relation_to_new_tests": "Reusable geometry and numerical checks; all four new SMA-reference responses require model reconstruction and additional runs."
+  },
+  "references": [
+    "https://docs.openems.de/en/latest/concepts/ports.html"
+  ]
+}

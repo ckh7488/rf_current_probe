@@ -1,0 +1,15 @@
+{
+  "created_at_kst": "2026-11-17T20:56:25.078891+09:00",
+  "scope": "Numerical consistency of the frozen prediction, declared before the last two full runs finish; not a tolerance for physical sim-to-real agreement",
+  "max_normalized_incident_condition": 1.05,
+  "max_pcb_singular_value": 1.005,
+  "max_pcb_reciprocity_error_linear": 0.005,
+  "max_assembled_singular_value": 1.005,
+  "time_windows_ns": [
+    3,
+    4,
+    5
+  ],
+  "resolved_complex_relative_change": 0.1,
+  "time_window_rule": "Mark a frequency resolved when the largest complex difference from 3/4 ns truncations is at most 10 percent of the full-record response. Report unresolved bands rather than modifying the predicted curve."
+}

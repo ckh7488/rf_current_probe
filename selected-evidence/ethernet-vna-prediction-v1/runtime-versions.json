@@ -1,0 +1,462 @@
+{
+  "classification": "RUNTIME_RECEIPT",
+  "primary_input_manifest_sha256": "c32f552001013efe648bb1f30f2df84d11ccaa6134cf6a27eea3bd92459ee884",
+  "files": [
+    {
+      "file": "boost_program_options-vc145-mt-x64-1_91.dll",
+      "bytes": 360448,
+      "sha256": "142e115cbb5f5139694eeee517a09e5e9242701f397be0d7b66d3a7aa634e366"
+    },
+    {
+      "file": "boost_thread-vc145-mt-x64-1_91.dll",
+      "bytes": 73216,
+      "sha256": "9364823ab37797d9632745af7c0338b173725d1ad2f3972a2b84b09542232c89"
+    },
+    {
+      "file": "brotlicommon.dll",
+      "bytes": 137728,
+      "sha256": "a5118266f2e3710b98033cba0855903a039195eda92fb7fff54100d06b078bc5"
+    },
+    {
+      "file": "brotlidec.dll",
+      "bytes": 52224,
+      "sha256": "4d60f37b0f838d02baba4f169e993370d38bb606891ab162ceec38ff321f9b66"
+    },
+    {
+      "file": "bz2.dll",
+      "bytes": 75776,
+      "sha256": "ce6c53f0ea45cb76681bf5fe854f499b826103656ebe0cd2b973d8b51bc2dd62"
+    },
+    {
+      "file": "CSXCAD.dll",
+      "bytes": 573952,
+      "sha256": "086037b08a7597fc8cc5ab67d92d4b5ff4518f24cd32f66be0bad7a775448e5f"
+    },
+    {
+      "file": "double-conversion.dll",
+      "bytes": 73728,
+      "sha256": "e8080aba3df3ab2b173883d42679d14115bb299515b8127ccfa5e801a2932c1c"
+    },
+    {
+      "file": "fmt.dll",
+      "bytes": 130048,
+      "sha256": "bfa0304d6bc59a3a5aadf5bb89023be2a91dec13f70e32ddc3b033cc3a926ccf"
+    },
+    {
+      "file": "fparser.dll",
+      "bytes": 724480,
+      "sha256": "a4376a288154ba99d28e54bff8111bc85811a8fd99bf693ff31db2dc244bd8c6"
+    },
+    {
+      "file": "freetype.dll",
+      "bytes": 707072,
+      "sha256": "9590976fc0ab30a8a44d52471c8b98bd13e2ebbd11b284372f8d334e456e8d77"
+    },
+    {
+      "file": "glew32.dll",
+      "bytes": 509952,
+      "sha256": "1fcadf7521a9248bbf36e99a0fa58cfa0f45e5faac36829d0773810d2f88e34c"
+    },
+    {
+      "file": "harfbuzz.dll",
+      "bytes": 1203200,
+      "sha256": "48120e80cad6ba996e4c7e580ff9cbe6356307b6cc338be6d96d152e86371041"
+    },
+    {
+      "file": "hdf5.dll",
+      "bytes": 4165120,
+      "sha256": "e95713a7969bb7787dfe5afb685f634be54288fa13aa1f9f3f276f12d73a8a98"
+    },
+    {
+      "file": "hdf5_hl.dll",
+      "bytes": 128512,
+      "sha256": "bfe8a81b1cb25f057253e40b632e81899ddcfc022afd30f7c3601ef29ab1e2a2"
+    },
+    {
+      "file": "icudt78.dll",
+      "bytes": 33110528,
+      "sha256": "6ee37005eb35e72dbc4324839239af92c107fb662376a98b3c81080dccd4df75"
+    },
+    {
+      "file": "icuin78.dll",
+      "bytes": 2807296,
+      "sha256": "3862d4e076da71225c130ef8084a12a50f14e6bcb11652c58ce36e82fda9b67f"
+    },
+    {
+      "file": "icuuc78.dll",
+      "bytes": 1845248,
+      "sha256": "b13c7a4982b6cb2f59ef42af7def3d4817a749c94282d15342d20bd5e43e2db7"
+    },
+    {
+      "file": "jpeg62.dll",
+      "bytes": 722944,
+      "sha256": "db275668b60f9e5255c9406c92b45e7cf7ce3d8784f9bb3888d0d49573866111"
+    },
+    {
+      "file": "libexpat.dll",
+      "bytes": 166912,
+      "sha256": "753a031bd88c0f1da292237023a5fb767dfc1d9905d3baf6d3a145e91a58adf3"
+    },
+    {
+      "file": "liblzma.dll",
+      "bytes": 189952,
+      "sha256": "4655808625cc145fa11c5dee348bdfe0782ce2f43ce703b0e24bb04721d8ccef"
+    },
+    {
+      "file": "libpng16.dll",
+      "bytes": 197632,
+      "sha256": "71dfa455cec7359fe336b719c1c8175416a47abd24452b448c9aa336d619f4a4"
+    },
+    {
+      "file": "lz4.dll",
+      "bytes": 130048,
+      "sha256": "08a2929b499136ac6a75d872bb1eae9f522b7fb8e5af80d23c0057cb7ca5df15"
+    },
+    {
+      "file": "md4c.dll",
+      "bytes": 64512,
+      "sha256": "046b98fcaf976986fdbe6b7306a5277036bdacf188487401d1b5de3a79ffc24b"
+    },
+    {
+      "file": "nf2ff.dll",
+      "bytes": 213504,
+      "sha256": "c601026eebe5a0ffd7936a94e53386a126e307f6cc599c49c3b98cfbaa3dc556"
+    },
+    {
+      "file": "openEMS.dll",
+      "bytes": 806400,
+      "sha256": "78dabddbe11c3da3ee58d769e872e1ffd822814e1b4982056ea83f7537f3a97f"
+    },
+    {
+      "file": "pcre2-16.dll",
+      "bytes": 571904,
+      "sha256": "6564e8dc167d5daf56e8c5b3fd34770e4a8a876426c3903c79dbdc9e8ae0d674"
+    },
+    {
+      "file": "pugixml.dll",
+      "bytes": 201216,
+      "sha256": "f925596cfb23a4f6ee2925a95945dbccad1125a50ad015a2f8f56bfb89df097d"
+    },
+    {
+      "file": "QCSXCAD.dll",
+      "bytes": 908288,
+      "sha256": "e175a44a9da2c3299415837d32dacba0a5d1e731ef652c5b87f3a2b77e99683b"
+    },
+    {
+      "file": "Qt6Core.dll",
+      "bytes": 5313024,
+      "sha256": "098ef78375a17c23138af2baaf1bb53ed0049761f2792267410045507fc5dcc9"
+    },
+    {
+      "file": "Qt6Core5Compat.dll",
+      "bytes": 339456,
+      "sha256": "f9daa7fff0734a8442ef15eb8b5e94ccf3eafeffc6d597c78a0df62240746092"
+    },
+    {
+      "file": "Qt6Gui.dll",
+      "bytes": 6998016,
+      "sha256": "9a32bc73a0c6ea191fe6e23b55a2d97fff4077e127c121ab1951a9b897eb8f15"
+    },
+    {
+      "file": "Qt6OpenGL.dll",
+      "bytes": 1931776,
+      "sha256": "ad8ec752fe718011a8da5a9351443984a17ae5ab52aefa39d7e48f19097131c6"
+    },
+    {
+      "file": "Qt6OpenGLWidgets.dll",
+      "bytes": 51200,
+      "sha256": "39d2c3862c5e004259d8a8d33a24588b233ef36f07bd1e4360372895274cc43b"
+    },
+    {
+      "file": "Qt6Widgets.dll",
+      "bytes": 6157824,
+      "sha256": "21cc1005b3747fe1dd8519e80f7fda4bd14b92489ebba08af22311d9dc1fe1dd"
+    },
+    {
+      "file": "Qt6Xml.dll",
+      "bytes": 132096,
+      "sha256": "26dcfa8f6f89fd0aedf36138d51056506542dd87fde3923f201c77d2dddb2be5"
+    },
+    {
+      "file": "szip.dll",
+      "bytes": 33792,
+      "sha256": "02686939a1433c5c34674a134349dd0fa1fd507575359db495a1ad15c638da32"
+    },
+    {
+      "file": "tiff.dll",
+      "bytes": 495104,
+      "sha256": "d8cc73eae3805d9714f6e01a12ca62e3d54d2736812fd226159e53b852de1034"
+    },
+    {
+      "file": "verdict.dll",
+      "bytes": 236544,
+      "sha256": "f812ec67223596c9742be8b62613871a5f597fdc3d570f6f4e03779150a6bb42"
+    },
+    {
+      "file": "vtkCommonColor-9.3.dll",
+      "bytes": 113152,
+      "sha256": "42721602215efa01bfa2435b0850cbf7d59cdfd68c8ab8a5dcd70a47173cad3f"
+    },
+    {
+      "file": "vtkCommonComputationalGeometry-9.3.dll",
+      "bytes": 171520,
+      "sha256": "bc2bf56587e48cd8ad55f4803dab3cdb04d74d0e6382f2a107ada3f83a944236"
+    },
+    {
+      "file": "vtkCommonCore-9.3.dll",
+      "bytes": 12204032,
+      "sha256": "c7b9c5fdb8db9e645581cf81423d6d1960b75cf7a104790e1c509cd1e61bad6d"
+    },
+    {
+      "file": "vtkCommonDataModel-9.3.dll",
+      "bytes": 4335104,
+      "sha256": "387ef98f28f91dc0b6c24eec0fd1acc9c6fb4532e1da76772e9264720654d6d5"
+    },
+    {
+      "file": "vtkCommonExecutionModel-9.3.dll",
+      "bytes": 845824,
+      "sha256": "72ab4837661376da86be66ad26e1b889949fe16fcb21c2f63c9d53dcbbeca989"
+    },
+    {
+      "file": "vtkCommonMath-9.3.dll",
+      "bytes": 150016,
+      "sha256": "d3f97f29bcf27ae747973b395c1f7746d3306dbd1dc42a6bf8ca0e6289901173"
+    },
+    {
+      "file": "vtkCommonMisc-9.3.dll",
+      "bytes": 2869760,
+      "sha256": "4d89fcf0ee4ad3ad6c3f0d643d13a932a8e75bab91523e7419049d2493fb19f4"
+    },
+    {
+      "file": "vtkCommonSystem-9.3.dll",
+      "bytes": 122368,
+      "sha256": "42ced51fabccab24ee8302892d199d262d4192627a7ca52ab06b7b7ce17c5b92"
+    },
+    {
+      "file": "vtkCommonTransforms-9.3.dll",
+      "bytes": 205824,
+      "sha256": "cec0d97b9b100c66c422da6dfd3a46cfab172518e514ab6092e0151e2b1bff7d"
+    },
+    {
+      "file": "vtkDICOMParser-9.3.dll",
+      "bytes": 96256,
+      "sha256": "648119b4980673f7914980440dbb30d0f628638c78d950f021c447c2d05fd264"
+    },
+    {
+      "file": "vtkFiltersCore-9.3.dll",
+      "bytes": 6096896,
+      "sha256": "f098d9dabdd7e418fc17aad31df11011cd4447260f2d52cac8b8a84b7d916bf0"
+    },
+    {
+      "file": "vtkFiltersExtraction-9.3.dll",
+      "bytes": 1177600,
+      "sha256": "745dd9c400bfcbf37b7c2c24ad3e199f637be4a4b0dffbe82f28d7029cf97c55"
+    },
+    {
+      "file": "vtkFiltersGeneral-9.3.dll",
+      "bytes": 3509248,
+      "sha256": "1144ff5db6b2c90122c1d54c963eeb70f833ad62ce76bc34d4121146c3c016eb"
+    },
+    {
+      "file": "vtkFiltersGeometry-9.3.dll",
+      "bytes": 951808,
+      "sha256": "975bed4edab77a27c67e9c85ff085e40821c2a917b715e28ef3390282a8fefbd"
+    },
+    {
+      "file": "vtkFiltersHybrid-9.3.dll",
+      "bytes": 799232,
+      "sha256": "11294e4b1b4d394300d2fb33a0e6adaa0e7ebac22a4ba0e7d04c020c27832074"
+    },
+    {
+      "file": "vtkFiltersHyperTree-9.3.dll",
+      "bytes": 290816,
+      "sha256": "db10bb1dbe291f6dc141d60f597500b9417292f6d6904e8162b178c7ea020933"
+    },
+    {
+      "file": "vtkFiltersModeling-9.3.dll",
+      "bytes": 709120,
+      "sha256": "831c1bb0b3ba5ce67460429359acaf59e02ecb092547b669137add6a14201bef"
+    },
+    {
+      "file": "vtkFiltersSources-9.3.dll",
+      "bytes": 678400,
+      "sha256": "dd204cb7d4cde9241f89d1e1770931d89e3ce826f0b53e09b4fa32eb1719909a"
+    },
+    {
+      "file": "vtkFiltersStatistics-9.3.dll",
+      "bytes": 830464,
+      "sha256": "6545dcce1d60abe3b1597e83100e98c9284f48d9ff710d22c6b59daf822c4d72"
+    },
+    {
+      "file": "vtkFiltersTexture-9.3.dll",
+      "bytes": 98816,
+      "sha256": "a94b435b0e109e0b80aed76c864f6741fd533a867b55a19c1f979bf71d2c3df6"
+    },
+    {
+      "file": "vtkFiltersVerdict-9.3.dll",
+      "bytes": 190464,
+      "sha256": "c19a5c4d57c644cb027d91db844ad6c600940ef89bd21407a9cece1812e7589e"
+    },
+    {
+      "file": "vtkGUISupportQt-9.3.dll",
+      "bytes": 387584,
+      "sha256": "cf338ec7f700f3eeee23ec7b6065a24b62285ccda77c3f79ed3827bedd6a9d17"
+    },
+    {
+      "file": "vtkImagingColor-9.3.dll",
+      "bytes": 240640,
+      "sha256": "c2719d5dd0ab59fca68efb0b2ce9919d3aa8150be70dcf1671f66cf3cc3a995d"
+    },
+    {
+      "file": "vtkImagingCore-9.3.dll",
+      "bytes": 1674752,
+      "sha256": "ade5671521e655aad87d7b4c3efbca04b69b9f8ad1487c99548032166333ff11"
+    },
+    {
+      "file": "vtkImagingGeneral-9.3.dll",
+      "bytes": 656896,
+      "sha256": "96b962c8254c64558f38b6d2d52f3557fc523241356a866e8cb2787d1499d45a"
+    },
+    {
+      "file": "vtkImagingHybrid-9.3.dll",
+      "bytes": 388608,
+      "sha256": "1589bc2ac72762f4d35fb2f450d219853df8b4ce16c6949cc3e17527bafe8f55"
+    },
+    {
+      "file": "vtkImagingSources-9.3.dll",
+      "bytes": 184320,
+      "sha256": "dbc5677deb255b9a867cd35723a38ec6b68b2e169f13ce5dfaf81ba7dbabd811"
+    },
+    {
+      "file": "vtkInteractionStyle-9.3.dll",
+      "bytes": 220160,
+      "sha256": "96e9843ea93a6854133471b5d05b4029863ab6147213fe2040e7a729c571b7e6"
+    },
+    {
+      "file": "vtkInteractionWidgets-9.3.dll",
+      "bytes": 2191872,
+      "sha256": "b277ccdacaf0155b69b53f0bb8b79454618ea2821e5c4266a5024ff5cccd95bf"
+    },
+    {
+      "file": "vtkIOCore-9.3.dll",
+      "bytes": 450048,
+      "sha256": "6f723c6353e764e1f0535cda43fd0aa097a2e0bd0370735e2f96f62f10e696dc"
+    },
+    {
+      "file": "vtkIOGeometry-9.3.dll",
+      "bytes": 1625088,
+      "sha256": "54ff445560d8245a43f48d597b992b282aa80f3a75e5cee9cb2998036f47c04d"
+    },
+    {
+      "file": "vtkIOImage-9.3.dll",
+      "bytes": 1060864,
+      "sha256": "bd57060868ee68cf59211b5b9bf6520f54a8138f331437c07812e2a1c8461f29"
+    },
+    {
+      "file": "vtkIOLegacy-9.3.dll",
+      "bytes": 567296,
+      "sha256": "fa1449cf3270c1ed0f8179494803940dbf66a3ce0fa7ec102df7fa83e18768ca"
+    },
+    {
+      "file": "vtkIOPLY-9.3.dll",
+      "bytes": 123392,
+      "sha256": "e7b0ab1f420c7d3f6f20f22a0766242f373cfd7531304db6f27f44eac94f1386"
+    },
+    {
+      "file": "vtkIOXML-9.3.dll",
+      "bytes": 837632,
+      "sha256": "5e66c719d634b9ddeb01f578ba11c8b89cf0fddab863a0b672861d4bd6197838"
+    },
+    {
+      "file": "vtkIOXMLParser-9.3.dll",
+      "bytes": 109568,
+      "sha256": "b2ed45a03cff82b733b020a6bce46ab89e49a25ab864fe911f22016c90d25a82"
+    },
+    {
+      "file": "vtkkissfft-9.3.dll",
+      "bytes": 21504,
+      "sha256": "248b5d655e30b4f751ec80a316c831cd1378bafe6fe0bf6711bb2cba129f37e6"
+    },
+    {
+      "file": "vtkloguru-9.3.dll",
+      "bytes": 74240,
+      "sha256": "a5c6ab40d856cda445e66b567ec6d9083bc56246fa4d7af61004452569fb04ce"
+    },
+    {
+      "file": "vtkmetaio-9.3.dll",
+      "bytes": 553472,
+      "sha256": "038b2f2d126da55a38addb1260a6fe22552c01f75be7d986720cf2653641dc2e"
+    },
+    {
+      "file": "vtkParallelCore-9.3.dll",
+      "bytes": 380928,
+      "sha256": "69205682b997677bf4d2e5842025bceeac37115801627bbd00654b81a47390cf"
+    },
+    {
+      "file": "vtkParallelDIY-9.3.dll",
+      "bytes": 731136,
+      "sha256": "ea36e0a2efee1eadc5f1c7f5dcb52264213f81fb611695b0d2e54e6ae8968c5d"
+    },
+    {
+      "file": "vtkRenderingAnnotation-9.3.dll",
+      "bytes": 793088,
+      "sha256": "7c6a6f9fb2e52a63e26c8a66e56dfeb1c301933e4e53a0d9ad46922e7f6348e3"
+    },
+    {
+      "file": "vtkRenderingContext2D-9.3.dll",
+      "bytes": 242688,
+      "sha256": "5b0be987fd2ea9e75848a34a87013e05ab0fb88a70dfdda99c60af7a3d744447"
+    },
+    {
+      "file": "vtkRenderingCore-9.3.dll",
+      "bytes": 1911296,
+      "sha256": "d4eb44274c379c0fa2f3a96f917ce6f9fc259c315c40110797b6c6bdd4c2861b"
+    },
+    {
+      "file": "vtkRenderingFreeType-9.3.dll",
+      "bytes": 662016,
+      "sha256": "831e84323fb5080ffb9dde64975b7e7fba3a55aa6ed12c23f825fbbf0b20824c"
+    },
+    {
+      "file": "vtkRenderingHyperTreeGrid-9.3.dll",
+      "bytes": 39936,
+      "sha256": "d092407b3bea853a39674dabfeca43dbb4fa810b2dce44d72b412e85b5f73c6f"
+    },
+    {
+      "file": "vtkRenderingLOD-9.3.dll",
+      "bytes": 50176,
+      "sha256": "c91a1df9642329ecb9549e9e5630b88d01a68e54ab0bb9494faf24abb0ba9c9a"
+    },
+    {
+      "file": "vtkRenderingOpenGL2-9.3.dll",
+      "bytes": 2362368,
+      "sha256": "cdcfa386c3928c6b506969adf1764b02bdd2690d99d300943d2ab26125e2bcfa"
+    },
+    {
+      "file": "vtkRenderingUI-9.3.dll",
+      "bytes": 79872,
+      "sha256": "760817a74d06219a42eb10d81dfe9b164146acea2a89579fabb7947cfa6ef7c7"
+    },
+    {
+      "file": "vtksys-9.3.dll",
+      "bytes": 333312,
+      "sha256": "bbed1ca9de20f788336f359f1ceb129dec4ea913906c6b550e894a12f007c68e"
+    },
+    {
+      "file": "vtktoken-9.3.dll",
+      "bytes": 100352,
+      "sha256": "4a523ea2cf19a00069a2492ac2ac58d7e7b8ed9f24c48a156145c6eaa5410616"
+    },
+    {
+      "file": "z.dll",
+      "bytes": 91648,
+      "sha256": "862ca5dd4d843e516c971f8e593f7075aad14afaafa82692bc96dc148ea60f1b"
+    },
+    {
+      "file": "zstd.dll",
+      "bytes": 657920,
+      "sha256": "c810a9118302f0fc122158dad5b444bc5e905c035186e1f3a51c7c000a28906e"
+    }
+  ],
+  "previous_input_manifest_sha256": "53229ef420b487cf8ca40993d9b8bbf00c742a9453b2bfe2d9c5c2af5e22f211"
+}

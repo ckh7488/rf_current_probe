@@ -1,0 +1,40 @@
+{
+  "revision": "overnight-final-copper-geometry-v3",
+  "new_rf_measurements_used": false,
+  "primary_run_prefix": "nominal-finite-v1-p",
+  "metal": "finite-pec",
+  "copper_conductivity_controls": [
+    "conductivity-control-p15"
+  ],
+  "solver": "openEMS v0.37.0-rc2, Python 3.13",
+  "threads_per_job": 8,
+  "concurrent_primary_jobs": 2,
+  "max_time_ns": 5.0,
+  "end_criteria_energy_db": -80,
+  "excitation": "Gaussian, center 0 Hz, cutoff 2 GHz",
+  "time_step": "Automatic CFL step from the saved grid",
+  "grid": {
+    "x": 550,
+    "y": 538,
+    "z": 29,
+    "xy_background_step_mm": 0.16,
+    "signal_edges": "Symmetric edge sampling",
+    "min_xy_mm": 0.04,
+    "min_z_mm": 0.035
+  },
+  "boundary": "MUR with 10 mm air margin",
+  "postprocessing": "24 independent excitations; recover S=B inverse(A), then attach declared circuit blocks",
+  "checks": [
+    "12 CAD net paths connected and no sampled shorts",
+    "Each run: same-net transmission and total outgoing/incident power",
+    "Full matrix: conditioning, reciprocity, passivity",
+    "Truncation to 3 and 4 ns",
+    "Twelve independent parameter variations"
+  ],
+  "publication": "Local prediction files only, pending review before ATLAS upload",
+  "geometry_control_runs": [
+    "nominal-pec-v1-p01",
+    "nominal-pec-v1-p15"
+  ],
+  "outer_copper_geometry_um": 35
+}

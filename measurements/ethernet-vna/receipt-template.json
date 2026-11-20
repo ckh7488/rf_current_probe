@@ -1,0 +1,11 @@
+{
+  "classification": "MEASUREMENT_RECORD",
+  "board_revision": "B-RJ2",
+  "board_unit_id": null,
+  "acquired_at_kst": null,
+  "instrument": null,
+  "calibration": {"method": null, "reference_plane": "SMA cable ends at the board", "record": null},
+  "sweep": {"start_hz": 1000000, "stop_hz": 200000000, "points": 1601, "spacing": "linear", "source_power_dbm": null, "ifbw_hz": null, "averages": null},
+  "population": {"RCT1_RCT4": "DNP", "RSH1": "DNP", "CSH1": "DNP"},
+  "fixtures": {"matched_pin_continuity": null, "matched_pin1_pin2_dc_ohm": null, "loopback_pin7_pin4_continuity": null, "loopback_pin8_pin5_continuity": null}
+}

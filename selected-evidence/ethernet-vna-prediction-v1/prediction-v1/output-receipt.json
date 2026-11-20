@@ -1,0 +1,206 @@
+{
+  "classification": "SIMULATED_OUTPUT_RECEIPT",
+  "new_rf_measurements_used": false,
+  "created_at_kst": "2026-11-17T21:57:05.801201+09:00",
+  "input_manifest_sha256": "c32f552001013efe648bb1f30f2df84d11ccaa6134cf6a27eea3bd92459ee884",
+  "files": [
+    {
+      "file": "prediction-v1\\load_capacitance_high.csv",
+      "sha256": "41f944e2573a925ed97cdad73dd52d303840efbe30c80e08c6d229f71e171ce6"
+    },
+    {
+      "file": "prediction-v1\\load_capacitance_low.csv",
+      "sha256": "320a857dcf853534338a889290a9beb9a25022b7d3e231908d49c64e0f23fe65"
+    },
+    {
+      "file": "prediction-v1\\load_inductance_high.csv",
+      "sha256": "d67d321d2baa855234dbdd427d4e0ea6af69913a151cf48b79bd2b84ab826848"
+    },
+    {
+      "file": "prediction-v1\\load_inductance_low.csv",
+      "sha256": "6737c62b30ea5bf45ae74f8d01e7926f41d8187d2194804832679ab7c281a64a"
+    },
+    {
+      "file": "prediction-v1\\loop_inductance_high.csv",
+      "sha256": "a67ed9f4c0c94e4c9522bd22d3815f9ffa640bcfeaf1a8ed0ba7c2336994fcfc"
+    },
+    {
+      "file": "prediction-v1\\loop_inductance_low.csv",
+      "sha256": "4cccc2dbd37571b0c3b05045b47956d64231ddb10e24b9d3f70d096a98899493"
+    },
+    {
+      "file": "prediction-v1\\loopback-sma.s4p",
+      "sha256": "c4cccaee545d051600288f107d88b0a62942042d7d07e92bff1953b97209c6b1"
+    },
+    {
+      "file": "prediction-v1\\match-sma.s4p",
+      "sha256": "e5c33cbaf59ae36e5ec8f9499a8ed3e31a70447cf63a51bb564ce99d865326a0"
+    },
+    {
+      "file": "prediction-v1\\open-sma.s4p",
+      "sha256": "85c6ba5bcb81f56c7b52742b4f8adeac6191079eb98372a2e6aaef8764c4f833"
+    },
+    {
+      "file": "prediction-v1\\pcb-network.npz",
+      "sha256": "3d760a63f64aecccf1403ab85e0553c6c1dc136b4066fa7e3dfb5e629cfade6a"
+    },
+    {
+      "file": "prediction-v1\\plug_path_high.csv",
+      "sha256": "5e2a5386b57255c2cb67a32cb8ef1fa91c282804724930312411e8e8a94b2cf9"
+    },
+    {
+      "file": "prediction-v1\\plug_path_low.csv",
+      "sha256": "b45a8b2dc6c254cd268a59f44b7f812e00536bfb690a100d39bd764b3fa9e554"
+    },
+    {
+      "file": "prediction-v1\\plug_velocity_high.csv",
+      "sha256": "c12b72270bf01dc02e523ec6aa282b595e08b43cc71dc546f11dd45b3381915b"
+    },
+    {
+      "file": "prediction-v1\\plug_velocity_low.csv",
+      "sha256": "924a945b19e1aac1c033d6bec015340310d891d6c41dbc6ed4e90c2562c81c95"
+    },
+    {
+      "file": "prediction-v1\\predicted-observables.csv",
+      "sha256": "6d7afe8c9670c1d0f9848cd04b38c6bdde6734c09aff3c5a73fc03b6601f3f09"
+    },
+    {
+      "file": "prediction-v1\\rj_contact_high.csv",
+      "sha256": "b018f28e8175929cac9ce491c6e6ddf304464b8fdd1e7a826b7ef6bbc99a129a"
+    },
+    {
+      "file": "prediction-v1\\rj_contact_low.csv",
+      "sha256": "57cce96884de4f381fd24df6392aba4d18147d3aee2c4e05b50c2649eeb19c13"
+    },
+    {
+      "file": "prediction-v1\\sensitivity-and-numerical-floor.csv",
+      "sha256": "061e8ab9840030083584d4ad7943234e7d02ede60b49392ee0edf3929ae51c47"
+    },
+    {
+      "file": "prediction-v1\\summary.json",
+      "sha256": "cf5ef0a2886b50400742bcbcf74eb2ae88049f8106d230c97436a91a23c5aa01"
+    }
+  ],
+  "raw_results": [
+    {
+      "folder": "runs\\nominal-finite-v1-p01",
+      "results_sha256": "ca40283bd56ba4d9603efc62a988193c6d371a9415aaf5b2a731ff836e618689",
+      "model_sha256": "2d9a1d4546371eebd640088d39204cb4216cccc4553c15ca959df38abe61519d"
+    },
+    {
+      "folder": "runs\\nominal-finite-v1-p02",
+      "results_sha256": "6377eacecf95fbb35ad1efef3334b7d3351cab99ff3ef9eb1c2a258fe7b74346",
+      "model_sha256": "f4da813cb5228636b0b5d80f8ee3ff1af5c4520f2810824aff0da9230d240ce2"
+    },
+    {
+      "folder": "runs\\nominal-finite-v1-p03",
+      "results_sha256": "0e2aef92f74928e79e903819d06bc726f1e999c45e59cd06a60034c41c9fa985",
+      "model_sha256": "e02cee640e49627963f9b58b82156698a74d4c061727a2c959d01d73eed77c0e"
+    },
+    {
+      "folder": "runs\\nominal-finite-v1-p04",
+      "results_sha256": "c9ba0b79c7af3262c35ed6090c7038fb83479b4c55971804bec17070af84a310",
+      "model_sha256": "d5e3138ff88f59b8d7c89c87f50df6e3a1619ffb33ae6c61d32e1576a1d8c3be"
+    },
+    {
+      "folder": "runs\\nominal-finite-v1-p05",
+      "results_sha256": "a478eb74de200a750c81fd51565d1f59bcc55aff541964f962419f4b4d0e8eeb",
+      "model_sha256": "d62fde8cacaabea20fb7d100e11e7f363f3bce53434411cfc85e6ba8a2cdd220"
+    },
+    {
+      "folder": "runs\\nominal-finite-v1-p06",
+      "results_sha256": "cab1b420725d0e147676a0d34cee17040c12e4ee69b9051f726d3a7b88feed1d",
+      "model_sha256": "c9a131fe86bb3581a1857a171dfdddf3701fa9c592f14112e4e16a9bac1fce84"
+    },
+    {
+      "folder": "runs\\nominal-finite-v1-p07",
+      "results_sha256": "4961abddf3dbd7e7c29cbc8490156bb4207c80febc600d244cdf84b5df0c644d",
+      "model_sha256": "3d81ae211f1d72c2a85e99cd4355beb6f170bdfb84a6030ab7746ff6b88357f8"
+    },
+    {
+      "folder": "runs\\nominal-finite-v1-p08",
+      "results_sha256": "b3f0fd6bf9e9608ab64922b27ee357ec54470e06aca4777220829b29800d1b70",
+      "model_sha256": "f88d339f7efe4cffa31e03c73569187fad9ed6719cc80cb60711c35803011ead"
+    },
+    {
+      "folder": "runs\\nominal-finite-v1-p09",
+      "results_sha256": "71cd5677f44ffb21c0cc7843c5167afe4a76f56bd569031b1b4d62ec551d0141",
+      "model_sha256": "5397ff52007e948e214fb3eb3a0d86f931240063f082d01527eae7bf9ab14b16"
+    },
+    {
+      "folder": "runs\\nominal-finite-v1-p10",
+      "results_sha256": "ba4745f158ee8e4de17107bdfc58e79458a06eee5acb603d6e1da6bfc6fd5f9a",
+      "model_sha256": "bf378e7663cbc59371ea89238d606479d0745a644047b2c33c1a1ce749ffd12f"
+    },
+    {
+      "folder": "runs\\nominal-finite-v1-p11",
+      "results_sha256": "b1fdbe90bfa39d9754c6a044151e3bb8a8d71735d4433ddaf76feab4baee77dc",
+      "model_sha256": "a8810c98489228de15bc9877f4b8335da1417b9afca8f333468b988e25515684"
+    },
+    {
+      "folder": "runs\\nominal-finite-v1-p12",
+      "results_sha256": "1506da91634d4d8def106fbffea0fb2ed052b0b96b5d08c771ee25a4eb881c35",
+      "model_sha256": "daa8dedd88163efb2081adff94be98e9659b9e4262e06c5ae318a1936b04aa7d"
+    },
+    {
+      "folder": "runs\\nominal-finite-v1-p13",
+      "results_sha256": "3b5ec1eb3fc6f0fb2ce7f50e57ea90cb64fe4eb29b7f64648e9027ddd34820d6",
+      "model_sha256": "0e017aafcbdc09f9acdd12262b90a89284271c79b6f63972537b3ce9225b29c8"
+    },
+    {
+      "folder": "runs\\nominal-finite-v1-p14",
+      "results_sha256": "a1fe77a27257ef54b88a717ceb18ebb1a526dc0234c9a97a0f00d28854d15bdb",
+      "model_sha256": "28b5943e1f7935a15596bd50bac5f65b1573028fa0bdceb2ec16045cb6aa06c6"
+    },
+    {
+      "folder": "runs\\nominal-finite-v1-p15",
+      "results_sha256": "4dabd2cb84b070d06d37c8bf652ce8090b8797ff1a3ae00bdbd65846f1430737",
+      "model_sha256": "6dd2c36c5a95e9152336117539c29baf984447d8f2b247c95b611b78b9796e4b"
+    },
+    {
+      "folder": "runs\\nominal-finite-v1-p16",
+      "results_sha256": "e6059f404308f22fb35e940e69e0d03fa72c68a955a4de80072e50e7663a5038",
+      "model_sha256": "5120788a4a9b8f44ea07830147d8c1a272959df9f4665207580994451f4f94b6"
+    },
+    {
+      "folder": "runs\\nominal-finite-v1-p17",
+      "results_sha256": "bddc29781aed63771c262823b9f47b7ca9db9d83e32b4277a38a952aae1eee33",
+      "model_sha256": "017b9fe0981798c0245639c01a4755d5b723c315271113daa18ad8aeae6fde69"
+    },
+    {
+      "folder": "runs\\nominal-finite-v1-p18",
+      "results_sha256": "5ff32345634be4c4330747873c88f8ebfb46386ec8d9d50153aab0202b93169b",
+      "model_sha256": "a81b65f44cd0c2fdc7f9fa3a81b714a86eb4df6641d8f638c6136bfe194b0816"
+    },
+    {
+      "folder": "runs\\nominal-finite-v1-p19",
+      "results_sha256": "3da79b4750f639dd6ac9eda78adc73481e0221f0b71225d1ceb67d1439525f12",
+      "model_sha256": "6ffaa9cb18e7f166e4a06e754bcef77ef6a073ec53a26739c52f86a34b53dd2c"
+    },
+    {
+      "folder": "runs\\nominal-finite-v1-p20",
+      "results_sha256": "c3175d953ffff7a948ec9744522358c3d64b8b0046bfe5526056c8e11fc0de8f",
+      "model_sha256": "f8eedd308c7656f723ca844b24aed0c0bc3b226af9ebf0018d346b639c288b9a"
+    },
+    {
+      "folder": "runs\\nominal-finite-v1-p21",
+      "results_sha256": "2b1d4f2b2b9b6e6686deb56cea498b192593ed4b1be880b8383a6b6481690f86",
+      "model_sha256": "9d73335d64391cef46ef16d0ad81874ce1674184d7fb359bcd9b01b509ce358d"
+    },
+    {
+      "folder": "runs\\nominal-finite-v1-p22",
+      "results_sha256": "a2d6b2db614530fa05075662c506df99e841f4d05a84cc7a9e356f417c77068d",
+      "model_sha256": "7074ab031ed7cdff9e92cf3360f5d3cfb7909cd5ec177a777b929c0eae55f11d"
+    },
+    {
+      "folder": "runs\\nominal-finite-v1-p23",
+      "results_sha256": "08fe4581dce09a58bf9cb1307a771768adf7047504e5968b735226557670fd97",
+      "model_sha256": "caab81751769135917d1db06590026a5c7fe58e71105072997db7a9af8502dca"
+    },
+    {
+      "folder": "runs\\nominal-finite-v1-p24",
+      "results_sha256": "06f25b600aec04901c4055d1c9b8b20e6ae3177277e944641a8631c83a1c4cbf",
+      "model_sha256": "c75671a5efe40302d4e20938715e09eb9e74d10912296ec2ccfe99a9488037d1"
+    }
+  ]
+}

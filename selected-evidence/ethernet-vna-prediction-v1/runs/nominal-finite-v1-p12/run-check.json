@@ -1,0 +1,9 @@
+{
+  "driven_port": 12,
+  "same_net_output": 20,
+  "same_net_transmission_at_1mhz_linear": 1.000039706171243,
+  "max_total_outgoing_to_incident_power": 1.0000795078419324,
+  "max_passive_incident_relative_to_source": 0.00011870990397092362,
+  "recorded_duration_ns": 4.99290644563,
+  "pass": true
+}

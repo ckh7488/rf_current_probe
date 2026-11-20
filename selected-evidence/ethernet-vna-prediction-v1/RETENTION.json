@@ -1,0 +1,900 @@
+{
+  "classification": "SIMULATED_RETENTION_MANIFEST",
+  "packaged_on": "2026-11-20",
+  "completed_drives": 24,
+  "raw_waveform_sets": 1,
+  "new_rf_measurements_used": false,
+  "original_input_manifest_sha256": "c32f552001013efe648bb1f30f2df84d11ccaa6134cf6a27eea3bd92459ee884",
+  "original_output_receipt_sha256": "2ec95c6e19e83989b33bbf77db13d401752d074461f99439d59595703562eee4",
+  "retained_files": [
+    {
+      "file": "analyze.py",
+      "sha256": "f864ce2d24e5348a866ef8a11a049ef5e0c99963712634c0b40b8a9b0005e3c4",
+      "bytes": 10488,
+      "role": "frozen-input-or-code"
+    },
+    {
+      "file": "batch.py",
+      "sha256": "384cb3dad9a2987f7dc0fdda06d3a379e2019b21358dd207bb512f6de1d67a61",
+      "bytes": 7119,
+      "role": "frozen-input-or-code"
+    },
+    {
+      "file": "check_mesh.py",
+      "sha256": "3352ea61dffce0110412ff0f6f2983beff411967579203e7d547153efb610b37",
+      "bytes": 4398,
+      "role": "frozen-input-or-code"
+    },
+    {
+      "file": "check_pipeline.py",
+      "sha256": "765b3a6833ace9caa62ce8d5a9e1e706be9357bb3a387697ffa8c7a2d36729bf",
+      "bytes": 3621,
+      "role": "frozen-input-or-code"
+    },
+    {
+      "file": "check_run.py",
+      "sha256": "40001572c9c4984fbe225d1e7afa3d90a05c6ad57d984d5f4a8e00e1eda19268",
+      "bytes": 1847,
+      "role": "frozen-input-or-code"
+    },
+    {
+      "file": "compute-plan.json",
+      "sha256": "de4462fc3d0ee17bb529d95b728b2dec3f01b4ab0665c78ec437cce9563fedf6",
+      "bytes": 1372,
+      "role": "frozen-input-or-code"
+    },
+    {
+      "file": "electrical-assumptions.json",
+      "sha256": "9a60ad34b853454307f38c6b87834ffd7cea02eae305ae4ec005579d1d309431",
+      "bytes": 4549,
+      "role": "frozen-input-or-code"
+    },
+    {
+      "file": "freeze.py",
+      "sha256": "2858cb36b1055a0568f0722ef5655073498339b993689be29f144219fb0b1026",
+      "bytes": 2381,
+      "role": "frozen-input-or-code"
+    },
+    {
+      "file": "input/ADT2-1T+___Plus25degC.s4p",
+      "sha256": "748cd6bf580952760b19cdc121f8c5c11b5f95c0c221b1e7a2a960f521b671f7",
+      "bytes": 784271,
+      "role": "frozen-input-or-code"
+    },
+    {
+      "file": "input/ADT2-1T-datasheet.pdf",
+      "sha256": "3e6fab86348b033bd9fc681018cb57671649e2e512b50cd8424536ebba982e48",
+      "bytes": 1073616,
+      "role": "frozen-input-or-code"
+    },
+    {
+      "file": "input/balun_eth_rj45.kicad_pcb",
+      "sha256": "975e27c6593b1bdd81aed159409a7450afdd58b910fae45834afb5ff24f37933",
+      "bytes": 213286,
+      "role": "frozen-input-or-code"
+    },
+    {
+      "file": "input/brj2-pcb-model.json",
+      "sha256": "b09a49a2939715100c32aef64a3234ff693ff19c9055b656de46ba7adc242f38",
+      "bytes": 669061,
+      "role": "frozen-input-or-code"
+    },
+    {
+      "file": "input/fixture-geometry.json",
+      "sha256": "edd1b5dd5acda4f00a08209c0be063970a16e2a4189592121de9c2bc496d4a6c",
+      "bytes": 2379,
+      "role": "frozen-input-or-code"
+    },
+    {
+      "file": "input/fixture-pair-ruler.png",
+      "sha256": "36d9c1229fa5ad6fc8a37f564c969d074b97f20b9b1682b0fd089e1a8cee4b7e",
+      "bytes": 1268955,
+      "role": "frozen-input-or-code"
+    },
+    {
+      "file": "input/manifest.json",
+      "sha256": "e982e48ee519313a3f26633b8a7eeacfa791ef7b74de1a3597b3287aaca01671",
+      "bytes": 2018,
+      "role": "frozen-input-or-code"
+    },
+    {
+      "file": "input/single-board-test-plan.json",
+      "sha256": "7438970a3a5139e5d74b58cf2fd352d886a1bbfc648cdb4037581af3674dcb14",
+      "bytes": 7636,
+      "role": "frozen-input-or-code"
+    },
+    {
+      "file": "input/TB-430-schematic.png",
+      "sha256": "ae6a39cc41240ac58eda3f7a8097bcf1bd38b0417fe9100e19d75c68b1c98a8d",
+      "bytes": 102043,
+      "role": "frozen-input-or-code"
+    },
+    {
+      "file": "input/TB-430.zip",
+      "sha256": "365cee0c88dc7b14a4f65c0dbaddbcacbb10fdffaa362aedb2ff4e1f2788bb5e",
+      "bytes": 15768,
+      "role": "frozen-input-or-code"
+    },
+    {
+      "file": "network.py",
+      "sha256": "913544b1f00f052db51b710f390efce2088f0f506cf24c59002ad5351093c2bb",
+      "bytes": 5360,
+      "role": "frozen-input-or-code"
+    },
+    {
+      "file": "prediction-plan.json",
+      "sha256": "3931c6f833841318158b40f2f20771b896452ebd41abd2817cdb7eace886b4c4",
+      "bytes": 2819,
+      "role": "frozen-input-or-code"
+    },
+    {
+      "file": "prepare.py",
+      "sha256": "e9e05c8a3a736177ad08d59dbe1a59aeee98bc5fd14c428f20bbc81c61ba2541",
+      "bytes": 7474,
+      "role": "frozen-input-or-code"
+    },
+    {
+      "file": "run.py",
+      "sha256": "75717b5b0511955dfcf3f08b6306c44add4e9c96bc76ad856c43396de9ae3b1e",
+      "bytes": 11229,
+      "role": "frozen-input-or-code"
+    },
+    {
+      "file": "input-freeze-v3/manifest.json",
+      "sha256": "c32f552001013efe648bb1f30f2df84d11ccaa6134cf6a27eea3bd92459ee884",
+      "bytes": 4280,
+      "role": "original-input-receipt"
+    },
+    {
+      "file": "input-freeze-v3/SHA256.txt",
+      "sha256": "fc066b49395de515dca865ecb116a511de4799f41856f2769472b8550a955bee",
+      "bytes": 81,
+      "role": "original-input-receipt"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p01/results.npz",
+      "sha256": "ca40283bd56ba4d9603efc62a988193c6d371a9415aaf5b2a731ff836e618689",
+      "bytes": 2674446,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p01/model.json",
+      "sha256": "2d9a1d4546371eebd640088d39204cb4216cccc4553c15ca959df38abe61519d",
+      "bytes": 29750,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p01/grid.npz",
+      "sha256": "e179f8377ad4270e07895f2f132c6d7ee8ff5b38f3d2c946fcf6f4b9e55663a5",
+      "bytes": 9660,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p01/run-check.json",
+      "sha256": "10eb3a5bf5e53876b87d6243241e2a5a39af8cf4bdc598675f68bf4465bae0f9",
+      "bytes": 303,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p02/results.npz",
+      "sha256": "6377eacecf95fbb35ad1efef3334b7d3351cab99ff3ef9eb1c2a258fe7b74346",
+      "bytes": 2674446,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p02/model.json",
+      "sha256": "f4da813cb5228636b0b5d80f8ee3ff1af5c4520f2810824aff0da9230d240ce2",
+      "bytes": 29750,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p02/grid.npz",
+      "sha256": "e179f8377ad4270e07895f2f132c6d7ee8ff5b38f3d2c946fcf6f4b9e55663a5",
+      "bytes": 9660,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p02/run-check.json",
+      "sha256": "3bcf52b69d37f7f5607b9929f9ce7f0c011a60e9dd0252fded5afd9ff2205f30",
+      "bytes": 304,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p03/results.npz",
+      "sha256": "0e2aef92f74928e79e903819d06bc726f1e999c45e59cd06a60034c41c9fa985",
+      "bytes": 2674446,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p03/model.json",
+      "sha256": "e02cee640e49627963f9b58b82156698a74d4c061727a2c959d01d73eed77c0e",
+      "bytes": 29751,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p03/grid.npz",
+      "sha256": "e179f8377ad4270e07895f2f132c6d7ee8ff5b38f3d2c946fcf6f4b9e55663a5",
+      "bytes": 9660,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p03/run-check.json",
+      "sha256": "7c52542dfe0c9bbc5203f356eeb7a1306e6056abdd52abd922c5b41848e9434e",
+      "bytes": 307,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p04/results.npz",
+      "sha256": "c9ba0b79c7af3262c35ed6090c7038fb83479b4c55971804bec17070af84a310",
+      "bytes": 2674446,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p04/model.json",
+      "sha256": "d5e3138ff88f59b8d7c89c87f50df6e3a1619ffb33ae6c61d32e1576a1d8c3be",
+      "bytes": 29750,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p04/grid.npz",
+      "sha256": "e179f8377ad4270e07895f2f132c6d7ee8ff5b38f3d2c946fcf6f4b9e55663a5",
+      "bytes": 9660,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p04/run-check.json",
+      "sha256": "091fb508c12efbce73e88b3a901e14d353cfefe6176ca9f8f75a40f76fcf6947",
+      "bytes": 307,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p05/results.npz",
+      "sha256": "a478eb74de200a750c81fd51565d1f59bcc55aff541964f962419f4b4d0e8eeb",
+      "bytes": 2674446,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p05/model.json",
+      "sha256": "d62fde8cacaabea20fb7d100e11e7f363f3bce53434411cfc85e6ba8a2cdd220",
+      "bytes": 29751,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p05/grid.npz",
+      "sha256": "e179f8377ad4270e07895f2f132c6d7ee8ff5b38f3d2c946fcf6f4b9e55663a5",
+      "bytes": 9660,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p05/run-check.json",
+      "sha256": "36d3f61b6ccf2fbe79ac9ac24e39186581e568e0d6539df45a0ec82046af97da",
+      "bytes": 305,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p06/results.npz",
+      "sha256": "cab1b420725d0e147676a0d34cee17040c12e4ee69b9051f726d3a7b88feed1d",
+      "bytes": 2674446,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p06/model.json",
+      "sha256": "c9a131fe86bb3581a1857a171dfdddf3701fa9c592f14112e4e16a9bac1fce84",
+      "bytes": 29751,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p06/grid.npz",
+      "sha256": "e179f8377ad4270e07895f2f132c6d7ee8ff5b38f3d2c946fcf6f4b9e55663a5",
+      "bytes": 9660,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p06/run-check.json",
+      "sha256": "ba73c5bc26d9cdf0c74dda2633dc3d5b61f6d568c1673167a72273a06f0ae995",
+      "bytes": 307,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p07/results.npz",
+      "sha256": "4961abddf3dbd7e7c29cbc8490156bb4207c80febc600d244cdf84b5df0c644d",
+      "bytes": 2674446,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p07/model.json",
+      "sha256": "3d81ae211f1d72c2a85e99cd4355beb6f170bdfb84a6030ab7746ff6b88357f8",
+      "bytes": 29751,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p07/grid.npz",
+      "sha256": "e179f8377ad4270e07895f2f132c6d7ee8ff5b38f3d2c946fcf6f4b9e55663a5",
+      "bytes": 9660,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p07/run-check.json",
+      "sha256": "bb14f2d0fd68ba775a9fc371b3274c9f62a41bf8e65ab8d06d6d7402cebec8cb",
+      "bytes": 306,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p08/results.npz",
+      "sha256": "b3f0fd6bf9e9608ab64922b27ee357ec54470e06aca4777220829b29800d1b70",
+      "bytes": 2674446,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p08/model.json",
+      "sha256": "f88d339f7efe4cffa31e03c73569187fad9ed6719cc80cb60711c35803011ead",
+      "bytes": 29751,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p08/grid.npz",
+      "sha256": "e179f8377ad4270e07895f2f132c6d7ee8ff5b38f3d2c946fcf6f4b9e55663a5",
+      "bytes": 9660,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p08/run-check.json",
+      "sha256": "5b57ec09a8ce964683b3e4dd8b9056bcd26fff3cb3226385f6f9d279bb2b13fe",
+      "bytes": 305,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p09/results.npz",
+      "sha256": "71cd5677f44ffb21c0cc7843c5167afe4a76f56bd569031b1b4d62ec551d0141",
+      "bytes": 2674446,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p09/model.json",
+      "sha256": "5397ff52007e948e214fb3eb3a0d86f931240063f082d01527eae7bf9ab14b16",
+      "bytes": 29750,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p09/grid.npz",
+      "sha256": "e179f8377ad4270e07895f2f132c6d7ee8ff5b38f3d2c946fcf6f4b9e55663a5",
+      "bytes": 9660,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p09/run-check.json",
+      "sha256": "b5cf4ea9c5e4b62e86598fde9159a76f7d508b5ad1a6d828876f07e7fa0bd270",
+      "bytes": 306,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p10/results.npz",
+      "sha256": "ba4745f158ee8e4de17107bdfc58e79458a06eee5acb603d6e1da6bfc6fd5f9a",
+      "bytes": 2674446,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p10/model.json",
+      "sha256": "bf378e7663cbc59371ea89238d606479d0745a644047b2c33c1a1ce749ffd12f",
+      "bytes": 29752,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p10/grid.npz",
+      "sha256": "e179f8377ad4270e07895f2f132c6d7ee8ff5b38f3d2c946fcf6f4b9e55663a5",
+      "bytes": 9660,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p10/run-check.json",
+      "sha256": "0f944fcec3b37495f7e24fafcce94d5613881216e77b2449bc1fd91d26db34e6",
+      "bytes": 307,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p11/results.npz",
+      "sha256": "b1fdbe90bfa39d9754c6a044151e3bb8a8d71735d4433ddaf76feab4baee77dc",
+      "bytes": 2674446,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p11/model.json",
+      "sha256": "a8810c98489228de15bc9877f4b8335da1417b9afca8f333468b988e25515684",
+      "bytes": 29751,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p11/grid.npz",
+      "sha256": "e179f8377ad4270e07895f2f132c6d7ee8ff5b38f3d2c946fcf6f4b9e55663a5",
+      "bytes": 9660,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p11/run-check.json",
+      "sha256": "9da731f18cdb0827bb53103cacb7c6f292f7edd9099ddb9f8737edb7164cd197",
+      "bytes": 306,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p12/results.npz",
+      "sha256": "1506da91634d4d8def106fbffea0fb2ed052b0b96b5d08c771ee25a4eb881c35",
+      "bytes": 2674446,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p12/model.json",
+      "sha256": "daa8dedd88163efb2081adff94be98e9659b9e4262e06c5ae318a1936b04aa7d",
+      "bytes": 29752,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p12/grid.npz",
+      "sha256": "e179f8377ad4270e07895f2f132c6d7ee8ff5b38f3d2c946fcf6f4b9e55663a5",
+      "bytes": 9660,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p12/run-check.json",
+      "sha256": "6cad9a144c81ccb8750162e153f04dd62c6b5677b482eafb352d2f172dfb6d4c",
+      "bytes": 307,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p13/results.npz",
+      "sha256": "3b5ec1eb3fc6f0fb2ce7f50e57ea90cb64fe4eb29b7f64648e9027ddd34820d6",
+      "bytes": 2674446,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p13/model.json",
+      "sha256": "0e017aafcbdc09f9acdd12262b90a89284271c79b6f63972537b3ce9225b29c8",
+      "bytes": 29752,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p13/grid.npz",
+      "sha256": "e179f8377ad4270e07895f2f132c6d7ee8ff5b38f3d2c946fcf6f4b9e55663a5",
+      "bytes": 9660,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p13/run-check.json",
+      "sha256": "2767e237a0684a2fad8ca67751333bca01985ee784d94ab2bd86a17a2b723159",
+      "bytes": 303,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p14/results.npz",
+      "sha256": "a1fe77a27257ef54b88a717ceb18ebb1a526dc0234c9a97a0f00d28854d15bdb",
+      "bytes": 2674446,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p14/model.json",
+      "sha256": "28b5943e1f7935a15596bd50bac5f65b1573028fa0bdceb2ec16045cb6aa06c6",
+      "bytes": 29751,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p14/grid.npz",
+      "sha256": "e179f8377ad4270e07895f2f132c6d7ee8ff5b38f3d2c946fcf6f4b9e55663a5",
+      "bytes": 9660,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p14/run-check.json",
+      "sha256": "0aceec0718e2897d76a2b5147d6efa4e74b97045949049f132001cd6dd472651",
+      "bytes": 306,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p15/results.npz",
+      "sha256": "4dabd2cb84b070d06d37c8bf652ce8090b8797ff1a3ae00bdbd65846f1430737",
+      "bytes": 2674446,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p15/model.json",
+      "sha256": "6dd2c36c5a95e9152336117539c29baf984447d8f2b247c95b611b78b9796e4b",
+      "bytes": 29751,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p15/grid.npz",
+      "sha256": "e179f8377ad4270e07895f2f132c6d7ee8ff5b38f3d2c946fcf6f4b9e55663a5",
+      "bytes": 9660,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p15/run-check.json",
+      "sha256": "93af037c445793ec5c46cba13766e040f60940dd2b25dd0de8b1c5b14db3c5a5",
+      "bytes": 307,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p16/results.npz",
+      "sha256": "e6059f404308f22fb35e940e69e0d03fa72c68a955a4de80072e50e7663a5038",
+      "bytes": 2674446,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p16/model.json",
+      "sha256": "5120788a4a9b8f44ea07830147d8c1a272959df9f4665207580994451f4f94b6",
+      "bytes": 29752,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p16/grid.npz",
+      "sha256": "e179f8377ad4270e07895f2f132c6d7ee8ff5b38f3d2c946fcf6f4b9e55663a5",
+      "bytes": 9660,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p16/run-check.json",
+      "sha256": "55866035ae8a3e8544dbd7676cd8b135ec8bf1fcdb699c2a32ac947d074c51f2",
+      "bytes": 306,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p17/results.npz",
+      "sha256": "bddc29781aed63771c262823b9f47b7ca9db9d83e32b4277a38a952aae1eee33",
+      "bytes": 2674446,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p17/model.json",
+      "sha256": "017b9fe0981798c0245639c01a4755d5b723c315271113daa18ad8aeae6fde69",
+      "bytes": 29751,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p17/grid.npz",
+      "sha256": "e179f8377ad4270e07895f2f132c6d7ee8ff5b38f3d2c946fcf6f4b9e55663a5",
+      "bytes": 9660,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p17/run-check.json",
+      "sha256": "d49c74486785fe2f4936d6dcd99bc8332884119d5c82251b1226dca27f04565a",
+      "bytes": 307,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p18/results.npz",
+      "sha256": "5ff32345634be4c4330747873c88f8ebfb46386ec8d9d50153aab0202b93169b",
+      "bytes": 2674446,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p18/model.json",
+      "sha256": "a81b65f44cd0c2fdc7f9fa3a81b714a86eb4df6641d8f638c6136bfe194b0816",
+      "bytes": 29752,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p18/grid.npz",
+      "sha256": "e179f8377ad4270e07895f2f132c6d7ee8ff5b38f3d2c946fcf6f4b9e55663a5",
+      "bytes": 9660,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p18/run-check.json",
+      "sha256": "df5eeacac4dca1c2a7d147ab42b1f80b5c887aebcbb9327b17dca6c22794ee64",
+      "bytes": 307,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p19/results.npz",
+      "sha256": "3da79b4750f639dd6ac9eda78adc73481e0221f0b71225d1ceb67d1439525f12",
+      "bytes": 2674446,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p19/model.json",
+      "sha256": "6ffaa9cb18e7f166e4a06e754bcef77ef6a073ec53a26739c52f86a34b53dd2c",
+      "bytes": 29752,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p19/grid.npz",
+      "sha256": "e179f8377ad4270e07895f2f132c6d7ee8ff5b38f3d2c946fcf6f4b9e55663a5",
+      "bytes": 9660,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p19/run-check.json",
+      "sha256": "2f2ad344ba70518478217047c30405a9ab7b1a037d0464aff41b1503938f32d4",
+      "bytes": 306,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p20/results.npz",
+      "sha256": "c3175d953ffff7a948ec9744522358c3d64b8b0046bfe5526056c8e11fc0de8f",
+      "bytes": 2674446,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p20/model.json",
+      "sha256": "f8eedd308c7656f723ca844b24aed0c0bc3b226af9ebf0018d346b639c288b9a",
+      "bytes": 29752,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p20/grid.npz",
+      "sha256": "e179f8377ad4270e07895f2f132c6d7ee8ff5b38f3d2c946fcf6f4b9e55663a5",
+      "bytes": 9660,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p20/run-check.json",
+      "sha256": "394466f41aebb231427b2d50f9d8bb7bd6fabb852de30d638b7d0234eb4a8eba",
+      "bytes": 306,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p21/results.npz",
+      "sha256": "2b1d4f2b2b9b6e6686deb56cea498b192593ed4b1be880b8383a6b6481690f86",
+      "bytes": 2674446,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p21/model.json",
+      "sha256": "9d73335d64391cef46ef16d0ad81874ce1674184d7fb359bcd9b01b509ce358d",
+      "bytes": 29752,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p21/grid.npz",
+      "sha256": "e179f8377ad4270e07895f2f132c6d7ee8ff5b38f3d2c946fcf6f4b9e55663a5",
+      "bytes": 9660,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p21/run-check.json",
+      "sha256": "2f2e93d4aa5560e71491549c8c48a0fee28b687c05ae325558697fad226c12ad",
+      "bytes": 306,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p22/results.npz",
+      "sha256": "a2d6b2db614530fa05075662c506df99e841f4d05a84cc7a9e356f417c77068d",
+      "bytes": 2674446,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p22/model.json",
+      "sha256": "7074ab031ed7cdff9e92cf3360f5d3cfb7909cd5ec177a777b929c0eae55f11d",
+      "bytes": 29751,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p22/grid.npz",
+      "sha256": "e179f8377ad4270e07895f2f132c6d7ee8ff5b38f3d2c946fcf6f4b9e55663a5",
+      "bytes": 9660,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p22/run-check.json",
+      "sha256": "1a5d097b1dc4f0fdb89be140e4f20682a63ea5a318cd517046597181e17be527",
+      "bytes": 307,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p23/results.npz",
+      "sha256": "08fe4581dce09a58bf9cb1307a771768adf7047504e5968b735226557670fd97",
+      "bytes": 2674446,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p23/model.json",
+      "sha256": "caab81751769135917d1db06590026a5c7fe58e71105072997db7a9af8502dca",
+      "bytes": 29752,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p23/grid.npz",
+      "sha256": "e179f8377ad4270e07895f2f132c6d7ee8ff5b38f3d2c946fcf6f4b9e55663a5",
+      "bytes": 9660,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p23/run-check.json",
+      "sha256": "e81f9853b3097c77f805bc54ff8135c8f4dd45e11b90360d6f9c8e6f87bdd43a",
+      "bytes": 307,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p24/results.npz",
+      "sha256": "06f25b600aec04901c4055d1c9b8b20e6ae3177277e944641a8631c83a1c4cbf",
+      "bytes": 2674446,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p24/model.json",
+      "sha256": "c75671a5efe40302d4e20938715e09eb9e74d10912296ec2ccfe99a9488037d1",
+      "bytes": 29751,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p24/grid.npz",
+      "sha256": "e179f8377ad4270e07895f2f132c6d7ee8ff5b38f3d2c946fcf6f4b9e55663a5",
+      "bytes": 9660,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "runs/nominal-finite-v1-p24/run-check.json",
+      "sha256": "6f4d40ee23e186bac5e7973519dfa7d4afa7f6013455ce6d661b011f35181730",
+      "bytes": 306,
+      "role": "completed-waveform-set"
+    },
+    {
+      "file": "prediction-v1/loopback-sma.s4p",
+      "sha256": "c4cccaee545d051600288f107d88b0a62942042d7d07e92bff1953b97209c6b1",
+      "bytes": 1149808,
+      "role": "final-result-or-review"
+    },
+    {
+      "file": "prediction-v1/match-sma.s4p",
+      "sha256": "e5c33cbaf59ae36e5ec8f9499a8ed3e31a70447cf63a51bb564ce99d865326a0",
+      "bytes": 1169167,
+      "role": "final-result-or-review"
+    },
+    {
+      "file": "prediction-v1/numerical-review.json",
+      "sha256": "643496e9e02391534715ea78760094cc89b28eec5a772bfbed0ad4a8506a8235",
+      "bytes": 14795,
+      "role": "final-result-or-review"
+    },
+    {
+      "file": "prediction-v1/open-sma.s4p",
+      "sha256": "85c6ba5bcb81f56c7b52742b4f8adeac6191079eb98372a2e6aaef8764c4f833",
+      "bytes": 1168629,
+      "role": "final-result-or-review"
+    },
+    {
+      "file": "prediction-v1/output-receipt.json",
+      "sha256": "2ec95c6e19e83989b33bbf77db13d401752d074461f99439d59595703562eee4",
+      "bytes": 9106,
+      "role": "final-result-or-review"
+    },
+    {
+      "file": "prediction-v1/pcb-network.npz",
+      "sha256": "3d760a63f64aecccf1403ab85e0553c6c1dc136b4066fa7e3dfb5e629cfade6a",
+      "bytes": 14768136,
+      "role": "final-result-or-review"
+    },
+    {
+      "file": "prediction-v1/predicted-observables.csv",
+      "sha256": "6d7afe8c9670c1d0f9848cd04b38c6bdde6734c09aff3c5a73fc03b6601f3f09",
+      "bytes": 534434,
+      "role": "final-result-or-review"
+    },
+    {
+      "file": "prediction-v1/prediction-overview.png",
+      "sha256": "bdd60637e5d0e34531599684c1bf281f4ec6cdcc88cdeef3dc4150817902fbc0",
+      "bytes": 167119,
+      "role": "final-result-or-review"
+    },
+    {
+      "file": "prediction-v1/sensitivity-and-numerical-floor.csv",
+      "sha256": "061e8ab9840030083584d4ad7943234e7d02ede60b49392ee0edf3929ae51c47",
+      "bytes": 395908,
+      "role": "final-result-or-review"
+    },
+    {
+      "file": "prediction-v1/SHA256.txt",
+      "sha256": "c5af8fdc8f2a5a1cb762bfd9b53fae41ba50fad7091dcad00d776a131a2a864e",
+      "bytes": 87,
+      "role": "final-result-or-review"
+    },
+    {
+      "file": "prediction-v1/summary.json",
+      "sha256": "cf5ef0a2886b50400742bcbcf74eb2ae88049f8106d230c97436a91a23c5aa01",
+      "bytes": 5823,
+      "role": "final-result-or-review"
+    },
+    {
+      "file": "prediction-v1/time-window-review.csv",
+      "sha256": "dbb6f4b4b28ce818e3baa57a48cf92edadc8c7eb7c18e345df5b4df566c2c8c8",
+      "bytes": 549928,
+      "role": "final-result-or-review"
+    },
+    {
+      "file": "numerical-review-policy.json",
+      "sha256": "7c0d6b4d8e79ccca79355c404079ca39035f39cded88472bc70c426b5c9b442d",
+      "bytes": 720,
+      "role": "numerical-review-source"
+    },
+    {
+      "file": "review_numerics.py",
+      "sha256": "b12ac05a85bfe03a33b62fdce044d19578a9ef63542589034f1ff32633adf48d",
+      "bytes": 6987,
+      "role": "numerical-review-source"
+    },
+    {
+      "file": "check_review_helpers.py",
+      "sha256": "01a439745339c24227a94ca6ce7da30d4b246310abc75221521aec31e968065a",
+      "bytes": 1109,
+      "role": "numerical-review-source"
+    },
+    {
+      "file": "runtime-versions.json",
+      "sha256": "eae140d8eac99f454d96a23e83fd516affad0d6a4961a6b6a6312d80b713fd60",
+      "bytes": 14904,
+      "role": "runtime-binary-hashes"
+    },
+    {
+      "file": "provenance/resistor-dmm.jpg",
+      "sha256": "180acab30727861bbf1598518cd4568f35ad7f7537cbb3d4afa83090a4924a27",
+      "bytes": 410730,
+      "role": "measured-loose-resistor-photograph"
+    }
+  ],
+  "omitted_derived_files": [
+    {
+      "file": "prediction-v1/load_capacitance_high.csv",
+      "sha256": "41f944e2573a925ed97cdad73dd52d303840efbe30c80e08c6d229f71e171ce6",
+      "reason": "Recreatable one-at-a-time variant; final bounds retained"
+    },
+    {
+      "file": "prediction-v1/load_capacitance_low.csv",
+      "sha256": "320a857dcf853534338a889290a9beb9a25022b7d3e231908d49c64e0f23fe65",
+      "reason": "Recreatable one-at-a-time variant; final bounds retained"
+    },
+    {
+      "file": "prediction-v1/load_inductance_high.csv",
+      "sha256": "d67d321d2baa855234dbdd427d4e0ea6af69913a151cf48b79bd2b84ab826848",
+      "reason": "Recreatable one-at-a-time variant; final bounds retained"
+    },
+    {
+      "file": "prediction-v1/load_inductance_low.csv",
+      "sha256": "6737c62b30ea5bf45ae74f8d01e7926f41d8187d2194804832679ab7c281a64a",
+      "reason": "Recreatable one-at-a-time variant; final bounds retained"
+    },
+    {
+      "file": "prediction-v1/loop_inductance_high.csv",
+      "sha256": "a67ed9f4c0c94e4c9522bd22d3815f9ffa640bcfeaf1a8ed0ba7c2336994fcfc",
+      "reason": "Recreatable one-at-a-time variant; final bounds retained"
+    },
+    {
+      "file": "prediction-v1/loop_inductance_low.csv",
+      "sha256": "4cccc2dbd37571b0c3b05045b47956d64231ddb10e24b9d3f70d096a98899493",
+      "reason": "Recreatable one-at-a-time variant; final bounds retained"
+    },
+    {
+      "file": "prediction-v1/plug_path_high.csv",
+      "sha256": "5e2a5386b57255c2cb67a32cb8ef1fa91c282804724930312411e8e8a94b2cf9",
+      "reason": "Recreatable one-at-a-time variant; final bounds retained"
+    },
+    {
+      "file": "prediction-v1/plug_path_low.csv",
+      "sha256": "b45a8b2dc6c254cd268a59f44b7f812e00536bfb690a100d39bd764b3fa9e554",
+      "reason": "Recreatable one-at-a-time variant; final bounds retained"
+    },
+    {
+      "file": "prediction-v1/plug_velocity_high.csv",
+      "sha256": "c12b72270bf01dc02e523ec6aa282b595e08b43cc71dc546f11dd45b3381915b",
+      "reason": "Recreatable one-at-a-time variant; final bounds retained"
+    },
+    {
+      "file": "prediction-v1/plug_velocity_low.csv",
+      "sha256": "924a945b19e1aac1c033d6bec015340310d891d6c41dbc6ed4e90c2562c81c95",
+      "reason": "Recreatable one-at-a-time variant; final bounds retained"
+    },
+    {
+      "file": "prediction-v1/prediction-overview.svg",
+      "sha256": "a26fae54e3e43989b36d39cf28fa0ada58cbec0bda615471df18c1339986eb75",
+      "reason": "Duplicate plot format; numerical curves and PNG retained"
+    },
+    {
+      "file": "prediction-v1/rj_contact_high.csv",
+      "sha256": "b018f28e8175929cac9ce491c6e6ddf304464b8fdd1e7a826b7ef6bbc99a129a",
+      "reason": "Recreatable one-at-a-time variant; final bounds retained"
+    },
+    {
+      "file": "prediction-v1/rj_contact_low.csv",
+      "sha256": "57cce96884de4f381fd24df6392aba4d18147d3aee2c4e05b50c2649eeb19c13",
+      "reason": "Recreatable one-at-a-time variant; final bounds retained"
+    }
+  ]
+}

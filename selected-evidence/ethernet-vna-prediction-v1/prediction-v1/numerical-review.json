@@ -1,0 +1,416 @@
+{
+  "classification": "NUMERICAL_REVIEW",
+  "reviewed": true,
+  "reviewed_at_kst": "2026-11-17T21:57:31.030415+09:00",
+  "matrix_checks_passed": true,
+  "matrix_checks": {
+    "normalized_incident": true,
+    "pcb_passivity": true,
+    "pcb_reciprocity": true,
+    "open_passivity": true,
+    "match_passivity": true,
+    "loopback_passivity": true
+  },
+  "assembly": {
+    "open": {
+      "max_singular_value": 0.8680069156880401,
+      "passivity_check": true,
+      "max_reciprocity_error_linear": 5.13436160664027e-06,
+      "d_c_relative_reciprocity_error": {
+        "max": 0.003150191441484821,
+        "at_100mhz": 0.00016967056673243823
+      }
+    },
+    "match": {
+      "max_singular_value": 0.8680577962390446,
+      "passivity_check": true,
+      "max_reciprocity_error_linear": 4.65652261260261e-06
+    },
+    "loopback": {
+      "max_singular_value": 0.9462040720032864,
+      "passivity_check": true,
+      "max_reciprocity_error_linear": 4.142027644476385e-06,
+      "d_c_relative_reciprocity_error": {
+        "max": 2.723807982014922e-07,
+        "at_100mhz": 2.2485896183193978e-07
+      }
+    }
+  },
+  "traces": {
+    "open_b_s11": {
+      "resolved_fraction": 1.0,
+      "resolved_bands_mhz": [
+        [
+          1.0,
+          200.0
+        ]
+      ],
+      "unresolved_bands_mhz": [],
+      "at_100mhz": {
+        "db": -1.3325353043500143,
+        "phase_deg": -61.622259204096665,
+        "max_time_window_magnitude_change_db": 0.00039250142019033735,
+        "max_time_window_phase_change_deg": 0.004016362482050697,
+        "resolved": true
+      },
+      "samples": {
+        "1": {
+          "db": -2.2749941091405224,
+          "phase_deg": 14.250551619718525,
+          "max_time_window_magnitude_change_db": 0.0006954207904828698,
+          "max_time_window_phase_change_deg": 0.00024178415028967303,
+          "resolved": true
+        },
+        "10": {
+          "db": -1.2523117607691157,
+          "phase_deg": -3.534685190577417,
+          "max_time_window_magnitude_change_db": 0.0007054292754212217,
+          "max_time_window_phase_change_deg": 0.0008690403853403658,
+          "resolved": true
+        },
+        "50": {
+          "db": -1.2858115388270162,
+          "phase_deg": -30.623456872413445,
+          "max_time_window_magnitude_change_db": 0.0004214551605141695,
+          "max_time_window_phase_change_deg": 0.0036692583993966515,
+          "resolved": true
+        },
+        "100": {
+          "db": -1.3325353043500143,
+          "phase_deg": -61.622259204096665,
+          "max_time_window_magnitude_change_db": 0.00039250142019033735,
+          "max_time_window_phase_change_deg": 0.004016362482050697,
+          "resolved": true
+        },
+        "150": {
+          "db": -1.379024033216022,
+          "phase_deg": -93.6191315454153,
+          "max_time_window_magnitude_change_db": 0.0004801290701280691,
+          "max_time_window_phase_change_deg": 0.001945338944451045,
+          "resolved": true
+        },
+        "200": {
+          "db": -1.4542897774767358,
+          "phase_deg": -127.83430771144964,
+          "max_time_window_magnitude_change_db": 0.0002997806539334444,
+          "max_time_window_phase_change_deg": 0.004166930521067633,
+          "resolved": true
+        }
+      }
+    },
+    "open_d_to_c_s21": {
+      "resolved_fraction": 0.9993753903810119,
+      "resolved_bands_mhz": [
+        [
+          1.124375,
+          200.0
+        ]
+      ],
+      "unresolved_bands_mhz": [
+        [
+          1.0,
+          1.0
+        ]
+      ],
+      "at_100mhz": {
+        "db": -64.46889732487969,
+        "phase_deg": -153.67256700655437,
+        "max_time_window_magnitude_change_db": 0.010825356449303028,
+        "max_time_window_phase_change_deg": 0.02388115443095161,
+        "resolved": true
+      },
+      "samples": {
+        "1": {
+          "db": -106.00671693543164,
+          "phase_deg": -80.36765750459546,
+          "max_time_window_magnitude_change_db": 0.5346042252156494,
+          "max_time_window_phase_change_deg": 6.007905026624281,
+          "resolved": false
+        },
+        "10": {
+          "db": -84.80529963556336,
+          "phase_deg": -94.17693950809156,
+          "max_time_window_magnitude_change_db": 0.00866271949646672,
+          "max_time_window_phase_change_deg": 0.5287660248529259,
+          "resolved": true
+        },
+        "50": {
+          "db": -70.75196807121687,
+          "phase_deg": -121.58378040499609,
+          "max_time_window_magnitude_change_db": 0.0121378371278216,
+          "max_time_window_phase_change_deg": 0.10203485614783853,
+          "resolved": true
+        },
+        "100": {
+          "db": -64.46889732487969,
+          "phase_deg": -153.67256700655437,
+          "max_time_window_magnitude_change_db": 0.010825356449303028,
+          "max_time_window_phase_change_deg": 0.02388115443095161,
+          "resolved": true
+        },
+        "150": {
+          "db": -60.52780502337731,
+          "phase_deg": 172.91584640966343,
+          "max_time_window_magnitude_change_db": 0.007324888816286963,
+          "max_time_window_phase_change_deg": 0.05030520832023165,
+          "resolved": true
+        },
+        "200": {
+          "db": -57.55916214019954,
+          "phase_deg": 137.15512651091254,
+          "max_time_window_magnitude_change_db": 0.001254338322116479,
+          "max_time_window_phase_change_deg": 0.059081465498745066,
+          "resolved": true
+        }
+      }
+    },
+    "matched_a_s11": {
+      "resolved_fraction": 1.0,
+      "resolved_bands_mhz": [
+        [
+          1.0,
+          200.0
+        ]
+      ],
+      "unresolved_bands_mhz": [],
+      "at_100mhz": {
+        "db": -24.314186657019935,
+        "phase_deg": 45.86734339275956,
+        "max_time_window_magnitude_change_db": 0.00023474093283593658,
+        "max_time_window_phase_change_deg": 0.0006113915851509424,
+        "resolved": true
+      },
+      "samples": {
+        "1": {
+          "db": -22.065722857373032,
+          "phase_deg": 121.53713558675786,
+          "max_time_window_magnitude_change_db": 0.0001268541392587555,
+          "max_time_window_phase_change_deg": 0.0011306136042666048,
+          "resolved": true
+        },
+        "10": {
+          "db": -32.545444698520576,
+          "phase_deg": 116.83502564642009,
+          "max_time_window_magnitude_change_db": 0.0004223859980327524,
+          "max_time_window_phase_change_deg": 0.003460945202335006,
+          "resolved": true
+        },
+        "50": {
+          "db": -29.077107357108,
+          "phase_deg": 79.5584676828486,
+          "max_time_window_magnitude_change_db": 0.0003229485544014105,
+          "max_time_window_phase_change_deg": 0.0020175929736536264,
+          "resolved": true
+        },
+        "100": {
+          "db": -24.314186657019935,
+          "phase_deg": 45.86734339275956,
+          "max_time_window_magnitude_change_db": 0.00023474093283593658,
+          "max_time_window_phase_change_deg": 0.0006113915851509424,
+          "resolved": true
+        },
+        "150": {
+          "db": -21.770054452325912,
+          "phase_deg": 20.358016861881,
+          "max_time_window_magnitude_change_db": 0.00018479547371563749,
+          "max_time_window_phase_change_deg": 0.0001788310891620753,
+          "resolved": true
+        },
+        "200": {
+          "db": -20.369080742876893,
+          "phase_deg": 0.844332949689779,
+          "max_time_window_magnitude_change_db": 0.00011229348449876342,
+          "max_time_window_phase_change_deg": 0.00074570887717896,
+          "resolved": true
+        }
+      }
+    },
+    "loopback_d_to_c_s21": {
+      "resolved_fraction": 1.0,
+      "resolved_bands_mhz": [
+        [
+          1.0,
+          200.0
+        ]
+      ],
+      "unresolved_bands_mhz": [],
+      "at_100mhz": {
+        "db": -1.0788532338766252,
+        "phase_deg": -86.01355936383604,
+        "max_time_window_magnitude_change_db": 4.849780662878704e-06,
+        "max_time_window_phase_change_deg": 8.281618244922623e-05,
+        "resolved": true
+      },
+      "samples": {
+        "1": {
+          "db": -1.4523834059943208,
+          "phase_deg": 4.643720305332579,
+          "max_time_window_magnitude_change_db": 4.3430752690061265e-06,
+          "max_time_window_phase_change_deg": 2.0764619575618583e-05,
+          "resolved": true
+        },
+        "10": {
+          "db": -0.8691187757456209,
+          "phase_deg": -7.786825099120691,
+          "max_time_window_magnitude_change_db": 6.896205062659373e-06,
+          "max_time_window_phase_change_deg": 6.633506546940371e-06,
+          "resolved": true
+        },
+        "50": {
+          "db": -0.9676432533845687,
+          "phase_deg": -43.4883160558493,
+          "max_time_window_magnitude_change_db": 5.539493491400885e-06,
+          "max_time_window_phase_change_deg": 4.478700109818735e-05,
+          "resolved": true
+        },
+        "100": {
+          "db": -1.0788532338766252,
+          "phase_deg": -86.01355936383604,
+          "max_time_window_magnitude_change_db": 4.849780662878704e-06,
+          "max_time_window_phase_change_deg": 8.281618244922623e-05,
+          "resolved": true
+        },
+        "150": {
+          "db": -1.1313510409631524,
+          "phase_deg": -128.3405170771218,
+          "max_time_window_magnitude_change_db": 1.177177583717715e-05,
+          "max_time_window_phase_change_deg": 6.339281830594893e-05,
+          "resolved": true
+        },
+        "200": {
+          "db": -1.1599703675666568,
+          "phase_deg": -171.4457963256594,
+          "max_time_window_magnitude_change_db": 1.401602123975658e-05,
+          "max_time_window_phase_change_deg": 3.898493921611958e-05,
+          "resolved": true
+        }
+      }
+    }
+  },
+  "port_waveform_tail_diagnostics": [
+    {
+      "drive": 1,
+      "u_last_half_ns_peak_relative_to_driven_peak": 1.5591183689046043e-06,
+      "i_last_half_ns_peak_relative_to_driven_peak": 1.3644154553275977e-06
+    },
+    {
+      "drive": 2,
+      "u_last_half_ns_peak_relative_to_driven_peak": 1.1476930743972113e-06,
+      "i_last_half_ns_peak_relative_to_driven_peak": 1.0075915545528397e-06
+    },
+    {
+      "drive": 3,
+      "u_last_half_ns_peak_relative_to_driven_peak": 2.265052029506188e-06,
+      "i_last_half_ns_peak_relative_to_driven_peak": 1.9874245580586314e-06
+    },
+    {
+      "drive": 4,
+      "u_last_half_ns_peak_relative_to_driven_peak": 2.8036442776444376e-06,
+      "i_last_half_ns_peak_relative_to_driven_peak": 2.4822043595302807e-06
+    },
+    {
+      "drive": 5,
+      "u_last_half_ns_peak_relative_to_driven_peak": 1.6851875783891293e-06,
+      "i_last_half_ns_peak_relative_to_driven_peak": 1.4679600061706472e-06
+    },
+    {
+      "drive": 6,
+      "u_last_half_ns_peak_relative_to_driven_peak": 0.0009111452482504544,
+      "i_last_half_ns_peak_relative_to_driven_peak": 0.000986962785971785
+    },
+    {
+      "drive": 7,
+      "u_last_half_ns_peak_relative_to_driven_peak": 0.0009432420107936012,
+      "i_last_half_ns_peak_relative_to_driven_peak": 0.001025274848529506
+    },
+    {
+      "drive": 8,
+      "u_last_half_ns_peak_relative_to_driven_peak": 1.80093911633711e-06,
+      "i_last_half_ns_peak_relative_to_driven_peak": 1.6206123432443268e-06
+    },
+    {
+      "drive": 9,
+      "u_last_half_ns_peak_relative_to_driven_peak": 0.003517543880145046,
+      "i_last_half_ns_peak_relative_to_driven_peak": 0.0038430317695438984
+    },
+    {
+      "drive": 10,
+      "u_last_half_ns_peak_relative_to_driven_peak": 0.003908857243479333,
+      "i_last_half_ns_peak_relative_to_driven_peak": 0.004242025626912193
+    },
+    {
+      "drive": 11,
+      "u_last_half_ns_peak_relative_to_driven_peak": 2.3136541877314124e-06,
+      "i_last_half_ns_peak_relative_to_driven_peak": 2.073749071003959e-06
+    },
+    {
+      "drive": 12,
+      "u_last_half_ns_peak_relative_to_driven_peak": 0.0008067420504055268,
+      "i_last_half_ns_peak_relative_to_driven_peak": 0.0008575450537422894
+    },
+    {
+      "drive": 13,
+      "u_last_half_ns_peak_relative_to_driven_peak": 0.0008249976278390776,
+      "i_last_half_ns_peak_relative_to_driven_peak": 0.0009018886537482277
+    },
+    {
+      "drive": 14,
+      "u_last_half_ns_peak_relative_to_driven_peak": 2.336036907062291e-06,
+      "i_last_half_ns_peak_relative_to_driven_peak": 2.130801358553016e-06
+    },
+    {
+      "drive": 15,
+      "u_last_half_ns_peak_relative_to_driven_peak": 0.0009652127475796395,
+      "i_last_half_ns_peak_relative_to_driven_peak": 0.0010496922848552428
+    },
+    {
+      "drive": 16,
+      "u_last_half_ns_peak_relative_to_driven_peak": 0.0009968500949052049,
+      "i_last_half_ns_peak_relative_to_driven_peak": 0.0010645234153998278
+    },
+    {
+      "drive": 17,
+      "u_last_half_ns_peak_relative_to_driven_peak": 0.0005703412570688702,
+      "i_last_half_ns_peak_relative_to_driven_peak": 0.000640359615485319
+    },
+    {
+      "drive": 18,
+      "u_last_half_ns_peak_relative_to_driven_peak": 0.0005953517567160142,
+      "i_last_half_ns_peak_relative_to_driven_peak": 0.0006640747699592856
+    },
+    {
+      "drive": 19,
+      "u_last_half_ns_peak_relative_to_driven_peak": 0.0036711645078678513,
+      "i_last_half_ns_peak_relative_to_driven_peak": 0.004248439938241962
+    },
+    {
+      "drive": 20,
+      "u_last_half_ns_peak_relative_to_driven_peak": 0.0011973033127751773,
+      "i_last_half_ns_peak_relative_to_driven_peak": 0.0013035890808188808
+    },
+    {
+      "drive": 21,
+      "u_last_half_ns_peak_relative_to_driven_peak": 0.001190935712613204,
+      "i_last_half_ns_peak_relative_to_driven_peak": 0.0013474368008772704
+    },
+    {
+      "drive": 22,
+      "u_last_half_ns_peak_relative_to_driven_peak": 0.004319169843424774,
+      "i_last_half_ns_peak_relative_to_driven_peak": 0.004942045851306443
+    },
+    {
+      "drive": 23,
+      "u_last_half_ns_peak_relative_to_driven_peak": 0.0006032410330694003,
+      "i_last_half_ns_peak_relative_to_driven_peak": 0.0006840406570633461
+    },
+    {
+      "drive": 24,
+      "u_last_half_ns_peak_relative_to_driven_peak": 0.0005936793654233749,
+      "i_last_half_ns_peak_relative_to_driven_peak": 0.0006582370235178584
+    }
+  ],
+  "source_receipt_sha256": "2ec95c6e19e83989b33bbf77db13d401752d074461f99439d59595703562eee4",
+  "policy_sha256": "7c0d6b4d8e79ccca79355c404079ca39035f39cded88472bc70c426b5c9b442d",
+  "new_rf_measurements_used": false,
+  "status": "REVIEWED"
+}
