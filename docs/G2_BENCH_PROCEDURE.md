@@ -1,8 +1,8 @@
 # 첫 조립·교정·측정 절차
 
-**9/28 후속 국부 보강(DEC-063): 다음 제작 검토본은 Head A04 SMA R2 + Fixture A03 SMA R2 + A17/C10이다.** C09 가이드 뒤 받침과R2.5/R0.75 뿌리만 보강해 프레임 P06 한 종류 두 개를 변경했다. 같은27.5 MPa 기준에서 최대24.084 MPa, 저장 CAD·가동/공구·재생성 검사를 통과했다(CALCULATED/SIMULATED). 재질·총15종20개·체결품은 유지한다. [수정·검증 기록](../reviews/c10_guide_fix_20260928/REPORT.md), [현재 파일 선택](3D_PRINT_RELEASE_A17_C10.md). 아래 A16/C09 동결·HOLD·제작 선택은 이전 버전 이력이며 원본 판정은 소급 변경하지 않는다. 실물/RF T01–T12는 미검증, 업체 제출·생산승인 전이다. 현재 후보 확인: `python reviews/c10_guide_fix_20260928/verify_candidate.py --mutations`.
+**9/28 후속 국부 보강(DEC-063): 다음 제작 검토본은 Head A04 SMA R2 + Fixture A03 SMA R2 + A17/C10이다.** C09 가이드 뒤 받침과R2.5/R0.75 뿌리만 보강해 프레임 P06 한 종류 두 개를 변경했다. 같은27.5 MPa 기준에서 최대24.084 MPa, 저장 CAD·가동/공구·재생성 검사를 통과했다(CALCULATED/SIMULATED). 재질·총15종20개·체결품은 유지한다. 수정·검증 기록 (공개본 미포함), [현재 파일 선택](3D_PRINT_RELEASE_A17_C10.md). 아래 A16/C09 동결·HOLD·제작 선택은 이전 버전 이력이며 원본 판정은 소급 변경하지 않는다. 실물/RF T01–T12는 미검증, 업체 제출·생산승인 전이다. 현재 후보 확인: `python reviews/c10_guide_fix_20260928/verify_candidate.py --mutations`.
 
-[9/28 검수](../reviews/full_reinspection_20260928/REPORT.md)에서 로드 반사 연결을 수정했다. [첫 납품품 인수·실측 파일 계획](../reviews/full_reinspection_20260928/ACCEPTANCE_PLAN.md)을 함께 사용한다. 9/28 후속에서 출력 기준 계산 mode를 구현·합성 시험했다([입력·실행 안내](../analysis/OUTPUT_REFERENCE.md), DEC-058). 실물 시험 완료로 표시하지 않는다.
+9/28 검수 (공개본 미포함)에서 로드 반사 연결을 수정했다. 첫 납품품 인수·실측 파일 계획 (공개본 미포함)을 함께 사용한다. 9/28 후속에서 출력 기준 계산 mode를 구현·합성 시험했다([입력·실행 안내](../analysis/OUTPUT_REFERENCE.md), DEC-058). 실물 시험 완료로 표시하지 않는다.
 
 
 2026-09-28 · **준비된 절차 / 미실행** · Head A04: 2644181281·5턴 기본(3턴 선택) · 기구 A16·C09 / PCB SMA R2 · 교정지그 Fixture A03 · 출력 포트 기준 교정([DEC-053](DECISIONS.md))

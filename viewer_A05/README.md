@@ -23,8 +23,8 @@
 
 `build_purchase_handoff.py`는 폐기된 구매/지그 판정을 재생성하지 않도록 실행을 막았다. 원문은 정리 기록에 보존하며, 현재 설치·구매 기준은 `docs/BOM_DRAFT.md`와 날짜가 있는 조달 기록을 사용한다.
 
-현재 CAD의 build_report와 원본 해시가 일치해야 한다. `build.py`, `build_clamp_site.py` 등 구형 생성기는 현행 공개 빌드 명령이 아니다. [A14 소스 재생성 검증](../reviews/document_full_audit_20260922/cad_reproduction.json)은125객체 형상·15종 STL 일치를 확인했다.
+현재 CAD의 build_report와 원본 해시가 일치해야 한다. `build.py`, `build_clamp_site.py` 등 구형 생성기는 현행 공개 빌드 명령이 아니다. A14 소스 재생성 검증 (공개본 미포함)은125객체 형상·15종 STL 일치를 확인했다.
 
 ATLAS 복사는 `publish_atlas_showcase.py --repo 검토한_격리_체크아웃`을 사용한다. 기존 공개 파일 중 생성 대상 밖의 파일은 삭제하지 않는다. 별도 지그 페이지의 수정 소스는 `fixture_reference/`에 보존한다. 복사와 게시 완료는 다르다. ATLAS 저장소의 검증·브라우저 확인·배포 후 확인을 거친다. 공개 파일 manifest와 BOM/조립 검사는 `set_sources/`에 기록한다. 제조 파일은 이 문서 작업으로 바꾸지 않는다.
 
-이전 안내는 [보존본](../reviews/document_full_audit_20260922/before/viewer_A05/README.md)에 있다. 실물 조립·RF 유효 대역·정확도·보호 정격은 검증 전이다.
+이전 안내는 보존본 (공개본 미포함)에 있다. 실물 조립·RF 유효 대역·정확도·보호 정격은 검증 전이다.

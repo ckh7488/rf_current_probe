@@ -6,13 +6,13 @@
 
 사용자가 승인한 저비용 계획을 실행해 **중앙 베이스 P05 하나만 A19로 수정**했다. 9600 Resin, 수량1, 나머지14종/전체20개와 구매 나사는 유지한다. PCB와 RF 교정 구조는 수정하지 않았다. A19 STL·비교 PNG·검토 메모를 **16:19 Elinor(elinor@jlcpcb.com)에게 발송**했고 발송 메시지의 수신자·시각·첨부3개를 확인했다. 사이트의 현재 P05는 여전히 A18/Pending이다. 담당자가 이메일 첨부로 교체하거나 Replace File 기능을 열도록 요청했으며 **사이트 반영/제조사 승인/새 가격은 미확인**이다.
 
-[현재 출력 명세](PRINT_MANIFEST.json) · [제작 안내](../../docs/3D_PRINT_RELEASE_A19.md) · [업체 메모](../../outputs/jlc-base-a19-20260930/REVIEW_NOTES.txt)
+[현재 출력 명세](PRINT_MANIFEST.json) · [제작 안내](../../docs/3D_PRINT_RELEASE_A19.md) · 업체 메모 (공개본 미포함)
 
 ## 수정 이유와 형상
 
 9/30 14:39 업체 회신은 형상 때문에 휨·조립 적합성·표준 공차를 보장하지 못한다는 내용이며, 특정 위치를 표시한 새 불량 분석은 아니었다. 폭넓은 판과 두께 변화가 레진 출력 변형에 영향을 줄 수 있다는 일반 설계 원칙을 적용해, 기능상 필요한 접촉부 주변을 보호하면서 앞뒤 이음판의 연속 면적을 줄였다. [제조 설계 자료](https://ameralabs.com/blog/3d-design-parts-sla-3d-printing/)와 [JLC 9600 Resin 일차자료](https://jlc3dp.com/help/article/photosensitive-9600-resin)를 참고했다. 출력 방향/지지/후경화는 업체의 실제 공정 조건으로 검토하도록 요청했다.
 
-![실제 A18와 A19 저장 CAD 비교](A18_A19_comparison.png)
+실제 A18와 A19 저장 CAD 비교 (공개본 미포함)
 
 모서리 반지름4 mm인 관통 개구부8개를 추가했다. 원래 바닥 격자와 보강대, 기둥은 유지한다. 외곽 치수는186×86×174.4 mm(STL 축)로 동일하다. 솔리드 체적294095.270→275909.727 mm³, **6.1836% 감소**. 이는 제조 가격이나 휨이 같은 비율로 줄어든다는 뜻이 아니다. 전체를 더 얇게 만들거나 새 부품으로 분할하지 않았다.
 
@@ -31,7 +31,7 @@
 | 유한 두께 선별 |187654점, 누락0, 최소2.232 mm, 2 mm 미만0 | 전 삼각형 중심+가장자리 근처6점+면적가중100000점. 연속 최솟값 증명은 아님 |
 | 재생성 | 별도 tmp 경로에서 생성한 STL SHA256 동일 | 원래A18 입력 해시 유지. CAD/STEP 포맷의 저장시각 바이트는 동일성 기준으로 쓰지 않음 |
 
-[형상 검사 원자료](geometry_verification.json) · [유한 두께 결과](thickness_screen.json) · [생성 기록](../../mechanical/base_A19_DRAFT/build_report.json) · [검사 요약](engineering_summary.json)
+형상 검사 원자료 (공개본 미포함) · 유한 두께 결과 (공개본 미포함) · [생성 기록](../../mechanical/base_A19_DRAFT/build_report.json) · 검사 요약 (공개본 미포함)
 
 **실패 후보 보존:** 첫 후보는 뒤 개구부가 LowerCenter의 일부 받침 영역을 침범했다. `attempt01/geometry_verification.json`의 `support_footprints_preserved=false`를 보존했다. 이를 검출한 동일 검사에서 후면 개구부 시작점을 CAD Z92로 옮긴 최종 후보는 손실0으로 통과했다. 실패를 삭제하거나 기준을 완화하지 않았다.
 
@@ -51,7 +51,7 @@ FreeCAD1.0.2 저장 STEP → gmsh4.15.2 C3D10 → CalculiX2.22. 단위mm/N/MPa, 
 
 두 메쉬 모두 양의 야코비안, 하중/반력 합 오차0.001 N 미만, 종전 명목 인장 선별값55/2=27.5 MPa 이내다. 다만 메쉬를4→3 mm로 줄일 때 최대응력이 구속/형상 모서리 부근에서 상승하므로 **응력 수렴이나 정격하중 인증으로 해석하지 않는다.** 변위는약1.8–4.6% 변화했다. 이번 결과는 출력 재심사에 보낼 형상으로 채택하는 구조 선별 근거이며 경화 수축·휨·크리프·피로·충격·실물 내구성을 입증하지 않는다.
 
-[4 mm 원시 결과](fea/A19_BaseCenter_4_quality_v3/result.json) · [3 mm 원시 결과](fea/A19_BaseCenter_3_quality_v3/result.json) · [해석 코드 변경 출처](solver_provenance.json)
+4 mm 원시 결과 (공개본 미포함) · 3 mm 원시 결과 (공개본 미포함) · 해석 코드 변경 출처 (공개본 미포함)
 
 ## 업체 절차 및 비용
 
@@ -60,16 +60,18 @@ FreeCAD1.0.2 저장 STEP → gmsh4.15.2 C3D10 → CalculiX2.22. 단위mm/N/MPa, 
 - 16:19: 첨부3개와 함께 A19 한 항목 교체·재심사 요청. JLC 엔지니어에게 출력 방향/지지/후경화와 남은 위험 위치 검토 요청. 가격이 조금 증가해도 기능을 우선하되 실제 새 가격을 결제 전에 제시하도록 요청.
 - 기존 RF $218.13 + VNA $226.22 = $444.35, 쿠폰 전. **A19 변경 견적은 아직 미확정.** 부품 수/나사 추가는 없지만 절감액을 확정하지 않았다.
 
-메일 [발송 대화](https://mail.google.com/mail/u/0/#all/FMfcgzQhWfVZClBdxMqXlrDRJDWltplV). 결제·생산승인이나 조립 불량까지 수락하는 포괄적 면책 동의는 하지 않았다. 제조사 최종 승인과 실물 입고 맞춤 검사는 별도다.
+메일 발송 대화 (내부 자료). 결제·생산승인이나 조립 불량까지 수락하는 포괄적 면책 동의는 하지 않았다. 제조사 최종 승인과 실물 입고 맞춤 검사는 별도다.
 
 ## 재실행과 문서 보존
 
+당시 명령에서는 FreeCAD 설치본의 실행 파일을 `FREECAD_PYTHON` 환경 변수로 지정합니다. 일부 검증 스크립트는 원 프로젝트에 있는 자료입니다.
+
 ```powershell
-& 'C:/Program Files/FreeCAD 1.0/bin/python.exe' mechanical/build_base_A19.py --out E:/Current_Probe/tmp/base_a19_reproduction
-& 'C:/Program Files/FreeCAD 1.0/bin/python.exe' reviews/base_a19_20260930/verify_geometry.py
+& $env:FREECAD_PYTHON mechanical/build_base_A19.py --out tmp/base_a19_reproduction
+& $env:FREECAD_PYTHON reviews/base_a19_20260930/verify_geometry.py
 & .venv/Scripts/python.exe -X utf8 reviews/base_a19_20260930/verify_release.py
 ```
 
-해석 완료 폴더 덮어쓰기는 해석 코드가 차단한다. 새 해석은 별도 폴더에서 수행해 원시 실패/성공 이력을 보존한다. [문서 변경 원장](document_changes.json)은 편집 전 사본과 전후 해시를 연결한다. 9/29 검사/9/22 계약의 과거 잠금값은 수정하지 않았으며, 과거 기준에 대한 실행 결과와 새 현행 검증은 구별한다.
+해석 완료 폴더 덮어쓰기는 해석 코드가 차단한다. 새 해석은 별도 폴더에서 수행해 원시 실패/성공 이력을 보존한다. 문서 변경 원장 (공개본 미포함)은 편집 전 사본과 전후 해시를 연결한다. 9/29 검사/9/22 계약의 과거 잠금값은 수정하지 않았으며, 과거 기준에 대한 실행 결과와 새 현행 검증은 구별한다.
 
 남은 작업은 담당자의 파일 반영·재심사/가격/가조립 처리 답변이며, 해당 피드백으로 형상이 바뀌면 변경 영향 검사를 다시 한다. 실물 입고 후 자유 맞댐·PCB 홀·기둥 평면·볼트 체결·가동을 확인하고 사진/치수를 `measurements/raw/mechanical/A19_<개체번호>/`에 기록한다. RF T01–T12도 미실행이다.

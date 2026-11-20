@@ -1,10 +1,10 @@
 # 조립 → VNA → 오실로스코프 연결·환산 절차
 
-**9/28 후속 국부 보강(DEC-063): 다음 제작 검토본은 Head A04 SMA R2 + Fixture A03 SMA R2 + A17/C10이다.** C09 가이드 뒤 받침과R2.5/R0.75 뿌리만 보강해 프레임 P06 한 종류 두 개를 변경했다. 같은27.5 MPa 기준에서 최대24.084 MPa, 저장 CAD·가동/공구·재생성 검사를 통과했다(CALCULATED/SIMULATED). 재질·총15종20개·체결품은 유지한다. [수정·검증 기록](../reviews/c10_guide_fix_20260928/REPORT.md), [현재 파일 선택](3D_PRINT_RELEASE_A17_C10.md). 아래 A16/C09 동결·HOLD·제작 선택은 이전 버전 이력이며 원본 판정은 소급 변경하지 않는다. 실물/RF T01–T12는 미검증, 업체 제출·생산승인 전이다. 현재 후보 확인: `python reviews/c10_guide_fix_20260928/verify_candidate.py --mutations`.
+**9/28 후속 국부 보강(DEC-063): 다음 제작 검토본은 Head A04 SMA R2 + Fixture A03 SMA R2 + A17/C10이다.** C09 가이드 뒤 받침과R2.5/R0.75 뿌리만 보강해 프레임 P06 한 종류 두 개를 변경했다. 같은27.5 MPa 기준에서 최대24.084 MPa, 저장 CAD·가동/공구·재생성 검사를 통과했다(CALCULATED/SIMULATED). 재질·총15종20개·체결품은 유지한다. 수정·검증 기록 (공개본 미포함), [현재 파일 선택](3D_PRINT_RELEASE_A17_C10.md). 아래 A16/C09 동결·HOLD·제작 선택은 이전 버전 이력이며 원본 판정은 소급 변경하지 않는다. 실물/RF T01–T12는 미검증, 업체 제출·생산승인 전이다. 현재 후보 확인: `python reviews/c10_guide_fix_20260928/verify_candidate.py --mutations`.
 
-**9/28 연결 오류 수정:** 로드 반사 단계5a의 수–수 접속 오류를 바로잡았다. [검수](../reviews/full_reinspection_20260928/REPORT.md) · [인수·측정 계획](../reviews/full_reinspection_20260928/ACCEPTANCE_PLAN.md). 보유 교정키트의 실제 성별·모델은 첫 벤치에서 확인한다. 공개/로컬 로드 기준면 UI는 DEC-058에서 동기화했다. 제작 파일은 [R2+A16 인계](../reviews/fresh_system_audit_20260928/BUILD_CONFIGURATION.md)를 따른다.
+**9/28 연결 오류 수정:** 로드 반사 단계5a의 수–수 접속 오류를 바로잡았다. 검수 (공개본 미포함) · 인수·측정 계획 (공개본 미포함). 보유 교정키트의 실제 성별·모델은 첫 벤치에서 확인한다. 공개/로컬 로드 기준면 UI는 DEC-058에서 동기화했다. 제작 파일은 R2+A16 인계 (공개본 미포함)를 따른다.
 
-2026-09-28 갱신. Head A04 SMA R2 / A16·C09. **실물 연결·측정 미실행.** 교정지그는 Fixture A03이며 출력 포트 기준으로 교정한다([DEC-053](DECISIONS.md)). F-A는 연결도의 일반 지그 별칭이다. 6절의 합성 실행 기록은2026-09-16 이력이며 현재 기구 검증과 구분한다. 구형 A0.1 비교표는 [원문 보존본](../reviews/document_full_audit_20260922/before/docs/END_TO_END_REHEARSAL.md)에 있다.
+2026-09-28 갱신. Head A04 SMA R2 / A16·C09. **실물 연결·측정 미실행.** 교정지그는 Fixture A03이며 출력 포트 기준으로 교정한다([DEC-053](DECISIONS.md)). F-A는 연결도의 일반 지그 별칭이다. 6절의 합성 실행 기록은2026-09-16 이력이며 현재 기구 검증과 구분한다. 구형 A0.1 비교표는 원문 보존본 (공개본 미포함)에 있다.
 
 > **초안 — 실물 도착 후 시험별 문서로 다시 작성한다([DEC-055](DECISIONS.md)).** 스코프 쪽은 BNC 어댑터(R07) 없이 LibreVNA CW 출력으로 응답을 확인한다(3.2절). 기본 출력 연결은 맨 프로브이며 첫 측정은 R05 10 dB로 최대값을 확인한다(강력 권고).
 
@@ -110,7 +110,7 @@ LibreVNA 공식 매뉴얼은 발생기 모드의 출력 레벨 정확도와 고�
 # 현행 기구는 G3_PROTOTYPE_PACKAGE.md의 원본/검증 경로를 따른다.
 ```
 
-저장 결과: [전체 실행 보고서](../tests/results/process_rehearsal_final_20260916/report.json), [선언한 연결표](../tests/results/process_rehearsal_final_20260916/connection_plan.json), [입력 S2P/파형/메타데이터](../tests/results/process_rehearsal_final_20260916/inputs), [조건부 기본파 환산](../tests/results/process_rehearsal_final_20260916/scope_current/tone_result.json), [CAD 접속 공간 검사](../mechanical/clamp_A01_DRAFT/connection_access_review.json).
+저장 결과: [전체 실행 보고서](../tests/results/process_rehearsal_final_20260916/report.json), [선언한 연결표](../tests/results/process_rehearsal_final_20260916/connection_plan.json), [입력 S2P/파형/메타데이터](../tests/results/process_rehearsal_final_20260916/inputs), [조건부 기본파 환산](../tests/results/process_rehearsal_final_20260916/scope_current/tone_result.json), CAD 접속 공간 검사 (공개본 미포함).
 
 - 기존 66개와 추가 44개를 포함한 [자동시험 110개](../tests/results/process_review_tests.xml) 통과.
 - 연결 8종을 대조하고 기존 어댑터의 수–수 충돌을 거부: **9개 예상 결과 일치**.

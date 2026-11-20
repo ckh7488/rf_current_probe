@@ -11,10 +11,10 @@
 | P06 프레임 | C10_Frame_DRAFT.stl | 2 | 기존 Approved 항목 유지 |
 | 나머지11종 | 아래 전체 명세의 파일 | 15 | 기존 재질·수량·옵션 유지 |
 
-- [교체용 중앙 STL](../mechanical/base_A19_DRAFT/parts/BaseCenter_A19_DRAFT.stl) · [중앙만 ZIP](../outputs/jlc-base-a19-20260930/A19_CENTER_1TYPE_1PC_REVIEW.zip)
-- [전체15종20개 보관 ZIP](../outputs/jlc-base-a19-20260930/A19_A18_C10_ALL_15TYPES_20PCS_REVIEW.zip) · [전체 수량·재질·해시](../reviews/base_a19_20260930/PRINT_MANIFEST.json)
+- [교체용 중앙 STL](../mechanical/base_A19_DRAFT/parts/BaseCenter_A19_DRAFT.stl) · 중앙만 ZIP (공개본 미포함)
+- 전체15종20개 보관 ZIP (공개본 미포함) · [전체 수량·재질·해시](../reviews/base_a19_20260930/PRINT_MANIFEST.json)
 - [현재 조립 CAD](../mechanical/base_A19_DRAFT/RFCP_A19_CurrentHardware_Assembly_DRAFT.FCStd) · [중앙 STEP](../mechanical/base_A19_DRAFT/parts/BaseCenter_A19_DRAFT.step) · [재생성 코드](../mechanical/build_base_A19.py)
-- [수정·검증·발송 기록](../reviews/base_a19_20260930/REPORT.md) · [업체 전달 메모](../outputs/jlc-base-a19-20260930/REVIEW_NOTES.txt)
+- [수정·검증·발송 기록](../reviews/base_a19_20260930/REPORT.md) · 업체 전달 메모 (공개본 미포함)
 
 **현재 주문에는 중앙1개만 교체한다. 전체 ZIP을 새 주문으로 추가하지 않는다.** A19 중앙은 SLA/9600 Resin/White/No Surface Finish/No thread/100%/mm/Standard이며 현재 사이트상 파일은 아직 A18이다. 담당자에게9/30 16:19 STL·PNG·TXT를 발송했고 수동 교체 또는 Replace File 기능 활성화를 요청했다. A19 새 가격은 미확정이며 기존 중앙 $26.76와 총액 $444.35는 이전 견적이다.
 

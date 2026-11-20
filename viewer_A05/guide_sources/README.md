@@ -8,4 +8,4 @@ H05는 SMA만 선납땜하고 권선 끝선을 분리한 상태에서 PCB를 넣
 
 `geometry_supplements_a14.json`은 출처 해시를 포함한다. `current_static_verification.json`과 공개 검증의 현재 생성 시각/입력 해시를 확인한다. `animation_path_review.json`, `pcb_insertion_review.json`, `static_verification.json`의 A13/36단계/30° 기록은 이력이며 현재 경로의 증거가 아니다.
 
-현행 최대 PCB/SMA 경로 근거는 [제출 전 검토](../../reviews/pre_jlc_review_20260922/README.md), 재생성 근거는 [전수 조사](../../reviews/document_full_audit_20260922/README.md)다. 강체 CAD 경로와 실제 손·유연한 권선·조임력 검증은 구별한다. 주석은 전역으로 숨길 수 있고 단계별 검증 범위는 펼쳐 볼 수 있다.
+현행 최대 PCB/SMA 경로 근거는 제출 전 검토 (공개본 미포함), 재생성 근거는 전수 조사 (공개본 미포함)다. 강체 CAD 경로와 실제 손·유연한 권선·조임력 검증은 구별한다. 주석은 전역으로 숨길 수 있고 단계별 검증 범위는 펼쳐 볼 수 있다.

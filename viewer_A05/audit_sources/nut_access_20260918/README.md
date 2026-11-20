@@ -40,10 +40,10 @@ M6 구동 너트 홈의 **공칭 1 mm 방향 전환 여유**는 위의 고정용
 - [기구 변경 BOM](BOM_DELTA.md)
 - [최종 실제 검사 수치](VERIFICATION.md)
 - [검토 기준과 제조사 출처](DFM_BASIS.md)
-- [A12 원본·검사](../../mechanical/assembly_A12_DRAFT/README.md)
-- [C06 원본·검사](../../mechanical/cable_clamp_C06_DRAFT/README.md)
-- [독립 검토](../independent_a12_20260918/README.md)
-- [선택형 작은 출력 샘플](optional_fit_sample/README.md)
+- A12 원본·검사 (공개본 미포함)
+- C06 원본·검사 (공개본 미포함)
+- 독립 검토 (공개본 미포함)
+- 선택형 작은 출력 샘플 (공개본 미포함)
 
 ## 검증 범위
 

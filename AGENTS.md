@@ -31,7 +31,7 @@
 
 변경 모델/코드에는 단위·부호 검산과 관련 합성 시험을 한다. 원시 측정과 실패 구간은 보존한다. 설계 변경은 DECISIONS에 이유·영향·재시험을 기록한다. 실물 접근 없이 가능한 일을 계속하고 새 후보 선정이나 G0–G3를 반복해서 시작하지 않는다.
 
-현행 파일 검사: `python -X utf8 reviews/base_a19_20260930/verify_release.py`. 9/29 보존 검사 `python -X utf8 reviews/independent_current_audit_20260929/verify_current_project.py`의 과거 기준은 보존하며, A19 의도된 문서 변경은 새 전후 해시 원장으로 별도 확인한다. [9/29 독립 재검토](reviews/independent_current_audit_20260929/REPORT.md)는 원본 대조와 의도된 문서 수정 전후 해시를 함께 보존한다. 이전 정리 기준은 재잠금하지 않는다. 이는 선정된 원본/제조파일/수량/실장면 참조의 보존 검사이며 RF 성능 시험은 아니다.
+현행 파일 검사: `python -X utf8 reviews/base_a19_20260930/verify_release.py`. 9/29 보존 검사 `python -X utf8 reviews/independent_current_audit_20260929/verify_current_project.py`의 과거 기준은 보존하며, A19 의도된 문서 변경은 새 전후 해시 원장으로 별도 확인한다. 9/29 독립 재검토 (공개본 미포함)는 원본 대조와 의도된 문서 수정 전후 해시를 함께 보존한다. 이전 정리 기준은 재잠금하지 않는다. 이는 선정된 원본/제조파일/수량/실장면 참조의 보존 검사이며 RF 성능 시험은 아니다.
 
 과거 문서 계약: `python -X utf8 reviews/document_full_audit_20260922/verify_document_contract.py --mutations`. 시작 시 기존 원본 변경을 확인한다. 9/29 정리 전에도 AGENTS/CURRENT_READINESS/DECISIONS/STATUS 후속 변경과 A18 안내 갱신이 과거 해시에 걸렸다. 새 정리 근거와 별도 현행 명세를 유지하며 `--lock`으로 오류를 지우지 않는다. 실패하면 변경 원문과 영향을 읽고 실제 원본을 확인한다.
 

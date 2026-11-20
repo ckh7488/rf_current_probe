@@ -1,14 +1,19 @@
-# RF 전류 프로브 소스 보관
+# 집게형 RF 전류 프로브
 
-2026-11-04 시점에 보존한 설계·분석 소스와 선택된 결과입니다.
+산업용 Ethernet에서 간헐 오류가 날 때 케이블의 고주파 전류도 함께 변하는지 관측하기 위해 설계한 프로브입니다. 연결된 케이블을 코어로 감싸고, SMA 출력에서 계측기로 전압을 읽습니다. 교정 지그는 주파수별로 그 전압을 전류로 환산할 기준을 구하는 데 씁니다.
 
-- [원 프로젝트의 현재 구성 문서](docs/CURRENT_BUILD.md), [설계 명세](docs/current_build.json)
-- hardware/: 프로브 헤드·교정지그의 KiCad 및 CAD 원본. VNA 보드 4종은 reviews/jlc_renewal_preflight_20260929/candidate/에 있습니다.
-- analysis/: RF 분석 및 시뮬레이션 코드와 requirements.txt.
-- mechanical/: A17·A18·A19 CAD, 부품 STEP/STL, 생성 스크립트. A19 builder가 읽는 기준 CAD는 reviews/base_dfm_fix_20260928/에 포함했습니다.
-- viewer_A05/: 안내·조립 화면의 소스와 정적 의존성. dist는 재생성 대상입니다.
-- selected-evidence/: 경력 문서에 연결한 저장 결과. 시뮬레이션과 실측을 구분해 읽습니다.
+![열린 집게와 아래쪽 교정 지그의 초기 CAD](docs/atlas/review/cad-live/structure-open.png)
 
-전체 FEM 출력·반복 mesh.json·설치 런타임·제조 ZIP·구매 전달 파일은 제외했습니다. 원 프로젝트 문서의 이들 경로는 이 소스 보관본에 없을 수 있습니다. A17/A18 이전 버전부터 모든 CAD를 연속 재생성하는 묶음이 아니며, 포함된 CAD를 기준으로 검토합니다. 전체 과거 자료는 SYNC_CHECKPOINT_20261104.json의 원본 경로에 남아 있습니다.
+*구조를 설명하는 초기 CAD입니다. 위의 집게가 케이블을 감싸고 아래의 PCB 지그는 교정에 사용합니다.*
 
-최신 실측 sweep의 경력 문서 연결은 아직 남아 있습니다. 이 저장소 업로드를 새 계측·제조 승인으로 해석하지 않습니다. 원본 위치·해시는 SYNC_CHECKPOINT_20261104.json 및 SYNC_SUPPLEMENT_20261104.json에 기록했습니다.
+## 확인한 범위
+
+- **시뮬레이션.** 직각 SMA 교정 지그 모델의 **1–150 MHz 계산**에서 마지막 시간 구간을 빼고 다시 비교해 전달 응답과 전류 환산 계수의 안정성을 확인했습니다. [계산 결과와 조건](selected-evidence/sma-simulation/REPORT.md)
+- **실물 조립.** 2026년 10월 26일 조립품에서 클램프 유격이 관찰돼 사용을 보류했습니다. RF 유효 대역과 정확도를 판정하려면 개체별 교정과 실측 원자료가 필요합니다. [조립 관찰과 남은 검증](docs/CURRENT_READINESS.md)
+
+## 설계와 분석 자료
+
+- [공개 ATLAS · 구조, 교정 연결과 조립 안내](https://ckh7488.github.io/showcase/reports/rf-current-probe/)
+- [PCB·기구 CAD의 제작 검토 구성](docs/CURRENT_BUILD.md) · [오프라인 분석](analysis/README.md) · [문서 색인](docs/DOCUMENT_INDEX.md)
+
+이 저장소는 2026년 11월 4일의 소스 보관본입니다. [파일 목록](SYNC_CHECKPOINT_20261104.json)과 [추가 보관 목록](SYNC_SUPPLEMENT_20261104.json)에 당시 파일 경로와 원본 해시를 기록했습니다.

@@ -5,8 +5,8 @@
 | 파일 | 출처 / 역할 |
 |---|---|
 | [2644181281_catalog.pdf](2644181281_catalog.pdf) | [Fair-Rite 직접 배포 도면](https://docs.fair-rite.com/part-models/2644181281~cat.pdf), 도면 날짜 2020-03-03. 치수·접합면 시각 확인에 사용 |
-| [2644181281_model.zip](2644181281_model.zip) | [Fair-Rite 직접 배포 CAD](https://docs.fair-rite.com/part-models/2644181281~cat~.zip) |
-| [2644181281.STEP](2644181281.STEP) | 위 ZIP의 동일 이름 단일 항목을 내용 변경 없이 추출 |
+| 2644181281_model.zip (공개본 미포함) | [Fair-Rite 직접 배포 CAD](https://docs.fair-rite.com/part-models/2644181281~cat~.zip) |
+| 2644181281.STEP (공개본 미포함) | 위 ZIP의 동일 이름 단일 항목을 내용 변경 없이 추출 |
 | [core_official.html](core_official.html) | [제조사 제품 페이지](https://www.fair-rite.com/product/round-cable-snap-its-2644181281/)의 다운로드 사본. PDF/STEP 링크 출처 |
 | [core_farnell.pdf](core_farnell.pdf) | [Farnell이 배포하는 제조사 구형 PDF](https://www.farnell.com/datasheets/2700033.pdf), 2018년 생성. 형상 비교용; 최신치와 혼용하지 않음 |
 | [VAT-10A_plus.pdf](VAT-10A_plus.pdf) | [Mini-Circuits 직접 PDF](https://www.minicircuits.com/pdfs/VAT-10A%2B.pdf), Rev.C 2026-06-30, RF 정격·단자 확인 |

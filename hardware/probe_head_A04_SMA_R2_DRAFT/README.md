@@ -5,8 +5,8 @@
 기존 probe_head_A04_DRAFT 원본을 보존한 별도 수정본이다. 중심/접지 완성홀1.90/2.10 mm, 패드2.80/3.10 mm. 중심 핀 계산 여유0.1189 mm, 추가 편심0.03 mm 후0.0889 mm. 실제5핀 무응력 삽입·평평한 안착·납땜 검사와 RF 검증은 미실행이다.
 
 - [PCB 원본](RFCP_Head_A04_SMA_R2_DRAFT.kicad_pcb), [회로도](RFCP_Head_A04_SMA_R2_DRAFT.kicad_sch), [프로젝트](RFCP_Head_A04_SMA_R2_DRAFT.kicad_pro)
-- [Gerber/드릴 검토 ZIP](RFCP_Head_A04_SMA_R2_DRAFT_REVIEW_ONLY.zip) · SHA-256 `f38d4e177e991fbe681871b09888b5cdb60bd6ed33f7cd93776eb3872421ed73`
-- [전체 수정 근거와 실제 검증](../../reviews/sma_clearance_r2_20260928/REPORT.md)
+- Gerber/드릴 검토 ZIP (공개본 미포함) · SHA-256 `f38d4e177e991fbe681871b09888b5cdb60bd6ed33f7cd93776eb3872421ed73`
+- 전체 수정 근거와 실제 검증 (공개본 미포함)
 - [재생성 코드](build_revision.py), [baseline 식별](revision.json), [의도된 변경](review/intentional_changes.json)
 - [ERC](review/erc.json), [기본 무시 항목 포함 ERC](review/strict_erc.json), [DRC](review/drc.json), [board STEP](review/board_only.step), [상면 SVG](review/top.svg)
 

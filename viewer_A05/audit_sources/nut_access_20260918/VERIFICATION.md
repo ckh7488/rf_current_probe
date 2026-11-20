@@ -22,10 +22,10 @@ SMO-3(N) 날개 너트는 제조사 치수의 외접 모델이다. 삽입 가능
 
 - A12 native SHA256: `3d9cef1eade42c457e162061210bea1b19844fb87dfb96775ae762f5ac00ed96`
 - C06 native SHA256: `aed64915133eddd4fa319ee235b393f2e08870ff29928b210f35cdabdd16fb22`
-- [A12 기본/치수 검사](../../mechanical/assembly_A12_DRAFT/verification.json)
-- [A12 국소 조립 검사](../a12_20260918/targeted_verification.json)
-- [독립 검토와 조건](../independent_a12_20260918/README.md)
-- [독립 검사 원본 연결](../independent_a12_20260918/audit_manifest.json)
-- [C06 검사와 남은 조건](../c06_20260918/README.md)
+- A12 기본/치수 검사 (공개본 미포함)
+- A12 국소 조립 검사 (공개본 미포함)
+- 독립 검토와 조건 (공개본 미포함)
+- 독립 검사 원본 연결 (공개본 미포함)
+- C06 검사와 남은 조건 (공개본 미포함)
 
 PCB 설계를 이번에 변경하지 않았으며, 과거 ERC/DRC 결과를 이번에 재실행했다고 보고하지 않는다. 새로운 RF 측정·전기 성능 시험은 수행하지 않았다.

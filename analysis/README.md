@@ -40,7 +40,7 @@ python -m venv .venv
 
 [../tests/synthetic/input_current.json](../tests/synthetic/input_current.json)은 의도적인 잘못된 조건 예제다. CLI가 `no_bypass_current_verified` 오류로 거부해야 한다. 동일 입력에 [relative.json](../tests/synthetic/relative.json)을 쓰면 S21 진단은 가능하나 ZT는 비워 둔다.
 
-9/28 출력 기준 구현·새 전체 시험은 [검증 기록](../reviews/output_reference_20260928/REPORT.md)을 따른다. 이전 실행 근거: [9/22 시험110개](../reviews/document_full_audit_20260922/software_tests.xml), [자동시험 원본](../tests/test_rfcp.py). [초기 시험 보고서](../docs/G2_VERIFICATION.md)는 당시 기록이다. 공식 포맷 출처는 [IBIS Touchstone 사양](https://ibis.org/touchstone_ver2.1/touchstone_ver2_1.pdf), 라이브러리 근거는 [scikit-rf 공식 저장소](https://github.com/scikit-rf/scikit-rf)와 실제 설치 소스다. 2.1 사양을 참고한 사실과 이 도구의 지원 범위를 구분한다.
+출력 기준 구현은 [자동시험 원본](../tests/test_rfcp.py)과 위 재현 명령에서 확인할 수 있다. 9/28 검증 보고서와 9/22 시험 결과 파일은 원 프로젝트의 기록이다. [초기 시험 보고서](../docs/G2_VERIFICATION.md)는 당시 기록이다. 공식 포맷 출처는 [IBIS Touchstone 사양](https://ibis.org/touchstone_ver2.1/touchstone_ver2_1.pdf), 라이브러리 근거는 [scikit-rf 공식 저장소](https://github.com/scikit-rf/scikit-rf)와 실제 설치 소스다. 2.1 사양을 참고한 사실과 이 도구의 지원 범위를 구분한다.
 
 ## 스코프 CW 분석과 전체 리허설 — 후속 추가
 

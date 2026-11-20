@@ -21,24 +21,26 @@
 | 합성 HI 모드 CLI | 301행, 조건부 환산 가능 301행, ZT=5 Ω 복원 | [CSV](../tests/results/hi_model_reviewed/zt.csv), [manifest](../tests/results/hi_model_reviewed/manifest.json) |
 | 같은 합성 입력의 relative CLI | 301행, 환산 가능 0행, ZT 빈 값 | [CSV](../tests/results/relative_reviewed/zt.csv), [manifest](../tests/results/relative_reviewed/manifest.json) |
 | 그래프 시각 검토 | SYNTHETIC/헤드/교정 ID/축·단위/불확도 미평가/범위 표기 확인. relative의 ZT 없음 설명 표시 | [HI 그래프](../tests/results/hi_model_reviewed/response.png), [relative 그래프](../tests/results/relative_reviewed/response.png) |
-| 제조사 STEP | valid solid 1개; 원본 해시 보존 | [형상 검사](../mechanical/manufacturer_step_inspection.json) |
-| 공칭 코어 2개+30 mm 게이지 | 겹침 체적 0 mm³, 최소 간격 3.6055 mm | [배치 계산](../mechanical/layout_check_calculated.json) |
+| 제조사 STEP | valid solid 1개; 원본 해시 보존 | 형상 검사 (공개본 미포함) |
+| 공칭 코어 2개+30 mm 게이지 | 겹침 체적 0 mm³, 최소 간격 3.6055 mm | 배치 계산 (공개본 미포함) |
 | 가정한 권선 공간+30 mm 게이지 | 겹침 체적 0 mm³, 간격 1.3 mm | 같은 계산. 실제 권선 배치 검증 아님 |
 | 분석 의존성 | `pip check`: No broken requirements found | [환경 버전 기록](../tests/results/environment.json) |
-| 저장된 CAD 재열기 | 7개 객체·형상 유효성·DRAFT 표시·게이지 비간섭 재확인 | [저장 파일 검사](../mechanical/saved_layout_verification.json) |
+| 저장된 CAD 재열기 | 7개 객체·형상 유효성·DRAFT 표시·게이지 비간섭 재확인 | 저장 파일 검사 (공개본 미포함) |
 | 작업 폴더 정합성 | 요구사항 56행/12열, 당시 내부 링크 107개 이상 없음, 원문 2개 및 참조 원본 7개 해시 보존, 실측/release 폴더 비어 있음 | [작업 폴더 검사 기록](../tests/results/workspace_review.json) |
 
 초기 `hi_model_demo`/`relative_demo`는 그래프 검토 전 출력 이력이다. 최종 문서 링크는 설명을 보완한 `*_reviewed`를 사용한다. 모든 예제는 `tests/`에 있으며 실측 폴더에 넣지 않았다.
 
 ## 실제 실행 명령
 
+당시 명령에서는 FreeCAD 설치본의 실행 파일을 `FREECAD_CMD` 환경 변수로 지정합니다.
+
 ```powershell
 .\.venv\Scripts\python.exe -m pytest tests -q --junitxml=tests/results/unit_tests.xml
 .\.venv\Scripts\python.exe -m tests.generate_synthetic
 .\.venv\Scripts\python.exe -m analysis.rfcp tests/synthetic/bypass_fixture.s2p --metadata tests/synthetic/bypass_fixture.json --out tests/results/hi_model_reviewed
 .\.venv\Scripts\python.exe -m analysis.rfcp tests/synthetic/bypass_fixture.s2p --metadata tests/synthetic/relative.json --out tests/results/relative_reviewed
-& 'C:\Program Files\FreeCAD 1.0\bin\freecadcmd.exe' mechanical/inspect_manufacturer_step.py
-& 'C:\Program Files\FreeCAD 1.0\bin\freecadcmd.exe' mechanical/build_layout.py
+& $env:FREECAD_CMD mechanical/inspect_manufacturer_step.py
+& $env:FREECAD_CMD mechanical/build_layout.py
 .\.venv\Scripts\python.exe mechanical/render_layout.py
 .\.venv\Scripts\python.exe -m pip check
 ```

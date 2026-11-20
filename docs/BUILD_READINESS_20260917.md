@@ -7,7 +7,7 @@
 
 **JLC A0.3 교체·재심사 접수 완료:** FixedTray/MovingTray 보강본을 기존 주문의 같은 접수번호에 반영했다. 주문에서 다시 내려받은 두 STL의 SHA256이 검증된 원본과 일치한다. 기존 검사 지점은 0.448mm→2.241mm로 보강하고 FixedTray의 별도 0.2mm 벽을 제거했다. 14품목·합배송을 유지하며 총액은 **$262.10**(기존 대비 +$0.04, 배송 $9.59 포함)이다. 현재 두 트레이를 포함한 기구 5개가 심사 중이다. 교체 후 목록에는 이전 경고 아이콘이 보이지 않지만 최종 DFM 승인은 아직이다. 공급사 PDF와 구매 안내는 갱신했으며 심사 완료 전까지 구매 보류다.
 
-**후속 견적 갱신:** [BOM 0.12](BOM_DRAFT.md), [전체 견적](../procurement/20260917/FULL_BOM_REVIEW.md). 필수 기구 9개 SLS 나일론/체결 MPN/원재료까지 선정·가격 확인·장바구니 저장. 259,336원+미확정 비용으로 예산 초과. 기존 형상 변경 없이 최대 나사 머리/와셔 닫힘 공칭 19곳 검사 통과. 아래 이전 미견적 표기는 당시 이력이며, 실물·제조·보호 보류 조건은 계속 적용한다.
+**후속 견적 갱신:** [BOM 0.12](BOM_DRAFT.md), 전체 견적 (공개본 미포함). 필수 기구 9개 SLS 나일론/체결 MPN/원재료까지 선정·가격 확인·장바구니 저장. 259,336원+미확정 비용으로 예산 초과. 기존 형상 변경 없이 최대 나사 머리/와셔 닫힘 공칭 19곳 검사 통과. 아래 이전 미견적 표기는 당시 이력이며, 실물·제조·보호 보류 조건은 계속 적용한다.
 
 **DRAFT — NOT FOR FABRICATION. 구매·제조 승인본이 아니다.**
 
@@ -15,9 +15,9 @@
 
 | 항목 | 산출물 / 결과 |
 |---|---|
-| 집게 A0.2 | [FreeCAD·STEP·STL](../mechanical/clamp_A02_DRAFT/README.md). 고정 트레이에 90° 스토퍼 추가. 기존 A0.1 보존 |
-| F-A 지그 A0.1 | [전체 조립 CAD와 안내](../hardware/calibration_fixture/README.md). 벌크헤드 SMA 2개, 중심 도체, 외부 귀환 2개, 양끝 판, 절연 지지대·베이스·헤드 브래킷 |
-| PCB A0.2 | [KiCad와 제작 검토 파일](../hardware/probe_head_A02/README.md). 실크 0.8→1.0 mm, 획 0.12→0.15 mm. 회로·패드·배선·비아·홀·외곽·공칭 두께 유지 |
+| 집게 A0.2 | FreeCAD·STEP·STL (공개본 미포함). 고정 트레이에 90° 스토퍼 추가. 기존 A0.1 보존 |
+| F-A 지그 A0.1 | 전체 조립 CAD와 안내 (공개본 미포함). 벌크헤드 SMA 2개, 중심 도체, 외부 귀환 2개, 양끝 판, 절연 지지대·베이스·헤드 브래킷 |
+| PCB A0.2 | KiCad와 제작 검토 파일 (공개본 미포함). 실크 0.8→1.0 mm, 획 0.12→0.15 mm. 회로·패드·배선·비아·홀·외곽·공칭 두께 유지 |
 | 구매 준비 | 지그 SMA를 Amphenol 132139 후보로 구체화하고 지그 부속 수량 등록. 전체 실견적은 보유품·배송·세금 미확인으로 아직 계산 불가 |
 
 도면과 공칭 간섭 계산을 진행했다. 전자기장 시뮬레이션, 출력·조립, 장비 연결, 구매, 실측은 실행하지 않았다. 100 MHz나 300 MHz 달성 여부는 여전히 미확인이다.
@@ -30,7 +30,7 @@
 - **KiCad 10.0.0:** 새 PCB의 ERC/DRC·미연결·회로도 일치 위반 모두 0, 제외 검사 0. 실제 Gerber 7개, PTH 13홀, NPTH 2홀 생성. Excellon 홀 좌표를 저장 PCB와 대조했다. 독립 CAM/제작사 DFM 승인은 남아 있다.
 - **기존 110개 소프트웨어 시험:** 2026-09-16 실행 결과를 유지한다. 이번에는 분석 코드를 변경하지 않았고 동일 시험을 다시 실행하지 않았다.
 
-검증 원본: [집게](../mechanical/clamp_A02_DRAFT/mechanical_checks.json), [집게 저장 검사](../mechanical/clamp_A02_DRAFT/saved_assembly_verification.json), [지그](../hardware/calibration_fixture/F_A_A01_DRAFT/fixture_checks.json), [지그 저장 검사](../hardware/calibration_fixture/F_A_A01_DRAFT/saved_fixture_verification.json), [PCB](../hardware/probe_head_A02/review/saved_board_verification.json), [드릴·리비전 대조](../hardware/probe_head_A02/review/fabrication_verification.json).
+검증 원본: 집게 (공개본 미포함), 집게 저장 검사 (공개본 미포함), 지그 (공개본 미포함), 지그 저장 검사 (공개본 미포함), PCB (공개본 미포함), 드릴·리비전 대조 (공개본 미포함).
 
 [패키지 최종 점검](../tests/results/build_readiness_20260917.json): 문서 링크, 원본/참조 해시, 기존·신규 CAD/검사 기록 일치, 측정·release 폴더 비어 있음 확인.
 

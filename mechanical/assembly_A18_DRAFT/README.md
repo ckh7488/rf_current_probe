@@ -6,8 +6,10 @@
 
 프로젝트 루트에서, 기존 결과를 덮어쓰지 않는 새 출력 경로로 실행한다:
 
+당시 명령에서는 FreeCAD 설치본의 실행 파일을 `FREECAD_PYTHON` 환경 변수로 지정합니다. 일부 검증 스크립트는 원 프로젝트에 있는 자료입니다.
+
 ```powershell
-& 'C:/Program Files/FreeCAD 1.0/bin/python.exe' -X utf8 mechanical/build_assembly_A18.py --out reviews/base_dfm_fix_20260928/rebuild_user
+& $env:FREECAD_PYTHON -X utf8 mechanical/build_assembly_A18.py --out reviews/base_dfm_fix_20260928/rebuild_user
 python -X utf8 reviews/project_cleanup_20260929/verify_current_project.py
 ```
 

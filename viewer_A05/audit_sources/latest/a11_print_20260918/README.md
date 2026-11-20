@@ -19,7 +19,7 @@
 | LowerKeeper / UpperKeeper FREE | 각각 1 | 2.000 mm |
 | UpperLid FREE | 1 | 2.400 mm |
 
-최종 표본에서 **1.5 mm 미만은 0개**다. UpperKeeper의 원시 `below_2mm_samples` 123개는 모두 부동소수점 값 `1.9999999999999998 mm`이며, 2 mm 형상의 계산 반올림이다. 결과: [wall_scan_A11/summary.json](wall_scan_A11/summary.json).
+최종 표본에서 **1.5 mm 미만은 0개**다. UpperKeeper의 원시 `below_2mm_samples` 123개는 모두 부동소수점 값 `1.9999999999999998 mm`이며, 2 mm 형상의 계산 반올림이다. 결과: wall_scan_A11/summary.json (공개본 미포함).
 
 **이 검사는 전체 형상의 최소 두께를 보증하는 검사가 아니다.** 작은 면적은 표본에 잡히지 않을 수 있으며 모서리·곡면의 법선 거리도 해석이 필요하다. 출력 업체 DFM, 재료 강도·뒤틀림·크리프, 나사 조임과 실제 조립 검증은 별도다. 기계 최대 출력 영역 안에 들어간다는 계산 또한 업체 승인이나 평탄도 보증이 아니다.
 
@@ -27,7 +27,7 @@
 
 첫 표본 검사에서 LowerBody에 1.0 mm 거리가 한 번 나왔다. CAD 단면을 확인하니 A10에도 있던 **X −6…6 mm, Y −35…−34 mm, Z 4.75…4.9 mm의 작은 잔여 턱**이었다. 앞뒤 폭은 0.15 mm이며, 큰 하중을 받는 벽으로 판정한 것은 아니다. Z 4.74 mm 단면은 두께 3 mm이고 Z 4.76–4.89 mm에서만 1 mm로 줄었다. 서로 어긋난 PCB 여유 가공이 남긴 형상이므로 A11 담당자가 불필요한 중앙 덮개 영역을 제거했다.
 
-초기 결과는 [before_roof_cleanup](before_roof_cleanup/manifest.json)에 보존했다. [inherited_lip_extent.json](inherited_lip_extent.json)은 A10 원본에서 위치·단면을 확인한 기록이고, [low_chord_inspection.json](low_chord_inspection.json)은 같은 위치를 최종 A11과 비교한 기록이다. 수정 후 저장된 STL 10종을 다시 같은 40,000개 표본으로 검사했다.
+초기 결과는 before_roof_cleanup (공개본 미포함)에 보존했다. [inherited_lip_extent.json](inherited_lip_extent.json)은 A10 원본에서 위치·단면을 확인한 기록이고, [low_chord_inspection.json](low_chord_inspection.json)은 같은 위치를 최종 A11과 비교한 기록이다. 수정 후 저장된 STL 10종을 다시 같은 40,000개 표본으로 검사했다.
 
 ## 출력할 파일 구분
 
